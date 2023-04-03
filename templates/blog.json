@@ -1,0 +1,185 @@
+{
+  "sections": {
+    "03767880-2868-4ac4-9e12-dbac414ba50c": {
+      "type": "newsletter",
+      "settings": {
+        "full_width": true,
+        "show_icon": true,
+        "title": "Newsletter",
+        "content": "<p>Write something about what your customers will receive by subscribing to your newsletter.<\/p>",
+        "button_text": "Subscribe",
+        "subtext": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "blocks": {
+        "444adc07-18c3-437c-a25b-f847404b33f2": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Newsletter",
+            "content": "<p>Write something about what your customers will receive by subscribing to your newsletter.<\/p>",
+            "button_text": "Subscribe",
+            "subtext": "",
+            "position": 5,
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "444adc07-18c3-437c-a25b-f847404b33f2"
+      ],
+      "settings": {
+        "allow_transparent_header": false,
+        "content": "<p>Get access to our latest news by signing up for our newsletter.<\/p>",
+        "show_newsletter_form": true,
+        "show_tags": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "button_background": "",
+        "button_text_color": "",
+        "articles_per_page": 6,
+        "feature_first_article": true,
+        "feature_article_background": "",
+        "feature_article_text_color": "",
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true
+      }
+    },
+    "e348c9df-2b1e-459f-9181-e4c0f2c9ab50": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16668368830706__e348c9df-2b1e-459f-9181-e4c0f2c9ab50-1679560171f5c2c48f-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--16668368830706__e348c9df-2b1e-459f-9181-e4c0f2c9ab50-1679560171f5c2c48f-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--16668368830706__e348c9df-2b1e-459f-9181-e4c0f2c9ab50-1679560171f5c2c48f-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16668368830706__e348c9df-2b1e-459f-9181-e4c0f2c9ab50-1679560171f5c2c48f-0",
+        "template--16668368830706__e348c9df-2b1e-459f-9181-e4c0f2c9ab50-1679560171f5c2c48f-1",
+        "template--16668368830706__e348c9df-2b1e-459f-9181-e4c0f2c9ab50-1679560171f5c2c48f-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "ff418985-86ed-492b-b240-c9e233a40dae": {
+      "type": "blog-posts",
+      "blocks": {
+        "template--16668368830706__ff418985-86ed-492b-b240-c9e233a40dae-1679560192e050e694-0": {
+          "type": "blog",
+          "settings": {
+            "blog": "news",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16668368830706__ff418985-86ed-492b-b240-c9e233a40dae-1679560192e050e694-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "Blog posts",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "3e72b86d-640a-4abb-abec-8c8eed378390": {
+      "type": "tabs",
+      "blocks": {
+        "template--16668368830706__3e72b86d-640a-4abb-abec-8c8eed378390-1679560247db6c0895-0": {
+          "type": "tab",
+          "settings": {
+            "title": "News",
+            "content": "<p>Use this text to share information about your brand with your customers.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16668368830706__3e72b86d-640a-4abb-abec-8c8eed378390-1679560247db6c0895-1": {
+          "type": "tab",
+          "settings": {
+            "title": "Trending",
+            "content": "<p>Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16668368830706__3e72b86d-640a-4abb-abec-8c8eed378390-1679560247db6c0895-2": {
+          "type": "tab",
+          "settings": {
+            "title": "Inspire",
+            "content": "<p>Share information about your shipping rates, return policy or contact information.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16668368830706__3e72b86d-640a-4abb-abec-8c8eed378390-1679560247db6c0895-0",
+        "template--16668368830706__3e72b86d-640a-4abb-abec-8c8eed378390-1679560247db6c0895-1",
+        "template--16668368830706__3e72b86d-640a-4abb-abec-8c8eed378390-1679560247db6c0895-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_size": "small",
+        "subheading": "Subheading",
+        "title": "Heading",
+        "first_tab_open": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "03767880-2868-4ac4-9e12-dbac414ba50c",
+    "main",
+    "e348c9df-2b1e-459f-9181-e4c0f2c9ab50",
+    "ff418985-86ed-492b-b240-c9e233a40dae",
+    "3e72b86d-640a-4abb-abec-8c8eed378390"
+  ]
+}
