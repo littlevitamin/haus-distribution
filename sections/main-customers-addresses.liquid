@@ -15,6 +15,28 @@
         </div>
       </div>
     {%- else -%}
+      {% if customer %}
+      <div class="centered">
+        <div class="page-spacer">
+          <h1 class="account-heading">Account Information</h1>
+        </div>
+        {% if customer.current_company.name %}
+        <div class="page-spacer">
+          <p class="account-details-heading">Company Name</p>
+          <p class="account-company-name-text">{{ customer.current_company.name }}</p>
+        </div>
+        {% endif %}
+        <p class="account-profile-heading">Profile:</p>
+        <p class="account-details-heading">Name</p>
+        <p class="account-details-text">{{ customer.name }}</p>
+        <p class="account-details-heading">Email</p>
+        <p class="account-details-text">{{ customer.email }}</p>
+        {% if customer.phone %}
+          <p class="account-details-heading">Phone Number</p>
+          <p class="account-details-text">{{ customer.phone }}</p>
+        {% endif %}
+      </div>
+      {% endif %}
       <div class="page-spacer">
         <div class="account">
           <div class="account-header">
@@ -23,7 +45,6 @@
               <span class="count-bubble count-bubble--lg">{{ customer.addresses_count }}</span>
             </div>
           </div>
-
           <div class="v-stack gap-6 sm:gap-12">
             <div class="addresses-list">
               {%- for address in customer.addresses -%}
@@ -37,12 +58,18 @@
                   {{- address | format_address -}}
 
                   <div class="address__actions">
-                    <button type="button" aria-controls="customer-address-{{ address.id }}" aria-expanded="false">
+                    <button
+                      type="button"
+                      aria-controls="customer-address-{{ address.id }}"
+                      aria-expanded="false">
                       <span class="link text-sm text-subdued">{{ 'customer.addresses.edit' | t }}</span>
                     </button>
 
                     <form method="post" action="{{ address.url }}">
-                      <input type="hidden" name="_method" value="delete">
+                      <input
+                        type="hidden"
+                        name="_method"
+                        value="delete">
                       <button is="confirm-button" data-message="{{ 'customer.addresses.delete_confirm' | t | escape }}">
                         <span class="link text-sm text-subdued">{{ 'customer.addresses.delete' | t }}</span>
                       </button>
@@ -71,14 +98,12 @@
   {%- endpaginate -%}
 </div>
 
-<div class="article">
-
-</div>
+<div class="article"></div>
 
 {% schema %}
-{
-  "name": "Customer addresses",
-  "class": "shopify-section--main-customers-addresses",
-  "tag": "section"
-}
+  {
+    "name": "Customer addresses",
+    "class": "shopify-section--main-customers-addresses",
+    "tag": "section"
+  }
 {% endschema %}

@@ -9856,3 +9856,69 @@ split-lines {
   display: -webkit-box;
   overflow: hidden;
 }
+
+.account-details-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  /* or 150% */
+  display: flex;
+  align-items: center;
+  color: #707070;
+}
+
+.account-details-text {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  /* or 150% */
+  display: flex;
+  align-items: center;
+  /* Navy */
+  color: #1D2F50;
+}
+
+.account-company-name-text {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 26px;
+  /* or 150% */
+  display: flex;
+  align-items: center;
+  /* Navy */
+  color: #1D2F50;
+}
+
+.account-profile-heading {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 20px;
+  /* or 120% */
+  display: flex;
+  align-items: center;
+  color: #1D2F50;
+}
+
+.account-heading {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  /* or 120% */
+  display: flex;
+  align-items: center;
+  color: #1D2F50;
+}
+
+.centered {
+  margin-left: 40%;
+}
