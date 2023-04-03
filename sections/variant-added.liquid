@@ -41,6 +41,13 @@ by the theme and is not meant to be included directly into a page.
     </div>
   </div>
 
+  <p style="float: none; clear: both; margin: 10px 0;">
+    <input style="float:none; vertical-align: middle;" type="checkbox" id="agree">
+    <label style="display:inline; float:none" for="agree">
+      I agree with the <a href="/pages/terms-and-conditions" target="_blank">terms and conditions</a>.
+    </label>
+  </p>
+
   <form action="{{ routes.cart_url }}" method="post" class="buy-buttons buy-buttons--compact">
     {%- assign view_cart_label = 'cart.general.view_cart' | t -%}
     {%- assign checkout_label = 'cart.general.checkout' | t -%}
