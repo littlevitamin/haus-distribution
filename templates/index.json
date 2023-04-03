@@ -175,33 +175,6 @@
         "product_card_text_color": ""
       }
     },
-    "0db34970-fe3a-4948-a701-bee8c3e46852": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "",
-        "products": [
-
-        ],
-        "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_count": 12,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "subheading": "",
-        "title": "Best Sellers",
-        "content": "",
-        "link_url": "",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
     "scrolling-text": {
       "type": "scrolling-text",
       "settings": {
@@ -453,33 +426,6 @@
         "heading_gradient": ""
       }
     },
-    "featured-collection": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "toys",
-        "products": [
-
-        ],
-        "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_count": 12,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "subheading": "",
-        "title": "Featured collection",
-        "content": "<p>We can have some text here for customers to read<\/p>",
-        "link_url": "shopify:\/\/collections\/toys",
-        "link_text": "View all Toys",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
     "image-with-text-overlay": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -721,12 +667,10 @@
     "slideshow",
     "image-link-blocks",
     "3e3d8d39-3146-4d21-92db-a3e9f8bc5567",
-    "0db34970-fe3a-4948-a701-bee8c3e46852",
     "scrolling-text",
     "e00c1c80-a1dc-4c90-87cb-2b4d1b988352",
     "050f02a8-0b0f-46a2-b917-2fa3205569d1",
     "collection-list",
-    "featured-collection",
     "image-with-text-overlay",
     "press",
     "faq",
