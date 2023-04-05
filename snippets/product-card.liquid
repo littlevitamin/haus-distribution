@@ -82,7 +82,7 @@ Supported variables
           {{- next_media | image_url: width: next_media.width | image_tag: class: 'product-card__image product-card__image--secondary object-fill', loading: 'lazy', fetchpriority: 'low', sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800' -}}
         {%- endif -%}
       </a>
-
+    {% comment %}
       {%- if show_quick_buy and product.available -%}
         <div class="product-card__quick-buy">
           {%- assign quick_add_label = 'product.general.quick_add' | t -%}
@@ -120,6 +120,7 @@ Supported variables
           {%- endif -%}
         </div>
       {%- endif -%}
+    {% endcomment %}
     </div>
   {%- endif -%}
 
@@ -222,4 +223,29 @@ Supported variables
       {%- endfor -%}
     {%- endif -%}
   </div>
+
+  {% if product.available %}
+    <div class="product-info__quantity-selector {{ block.shopify_attributes }}">
+      <div class="form-control">
+        <quantity-selector class="quantity-selector">
+          <button type="button" class="quantity-selector__button" aria-label="{{ 'product.quantity.decrease_quantity' | t }}">{% render 'icon' with 'minus', width: 10, height: 2 %}</button>
+          <input id="{{ product_form_id }}-quantity" type="text" is="quantity-input" inputmode="numeric" class="quantity-selector__input" name="quantity" form="{{ product_form_id }}" size="2" value="1" autocomplete="off">
+          <button type="button" class="quantity-selector__button" aria-label="{{ 'product.quantity.increase_quantity' | t }}">{% render 'icon' with 'plus', width: 10, height: 10 %}</button>
+        </quantity-selector>
+      </div>
+    </div>
+    {%- form 'product', product, is: 'product-form' -%}
+      <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+      <div class="pointer-fine:hidden">
+        <button type="submit" is="custom-button" class="product-card__mobile-quick-buy-button" aria-label="{{ quick_add_label | escape }}">
+          {%- render 'icon' with 'quick-buy-cart' -%}
+        </button>
+      </div>
+
+      <div class="pointer-coarse:hidden">
+        {%- render 'button', type: 'submit', content: "Add to cart", value: 'product_form_id' -%}
+      </div>
+    {%- endform -%}
+  {% endif %}
+
 </product-card>
