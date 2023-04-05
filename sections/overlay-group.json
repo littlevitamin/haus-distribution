@@ -30,7 +30,9 @@
         "show_checkout_button": true,
         "recommendations_title": "Trending this month",
         "products": [
-
+          "120525-little-dutch-paint-book",
+          "120526-little-dutch-craft-apron-sailors-bay",
+          "120563-little-dutch-craft-apron-flowers-butterflies"
         ],
         "product_card_background": "#ffffff",
         "product_card_text_color": ""
