@@ -232,30 +232,18 @@ Supported variables
   </div>
 
   {% if product.available %}
-  <div class="cart-buttons-flex">
-    <div class="product-info__quantity-selector {{ block.shopify_attributes }}">
-      <div class="form-control">
-        <quantity-selector class="quantity-selector">
-          <button type="button" class="quantity-selector__button" aria-label="{{ 'product.quantity.decrease_quantity' | t }}">{% render 'icon' with 'minus', width: 10, height: 2 %}</button>
-          <input id="{{ product_form_id }}-quantity" type="text" is="quantity-input" inputmode="numeric" class="quantity-selector__input" name="quantity" form="{{ product_form_id }}" size="2" value="1" autocomplete="off">
-          <button type="button" class="quantity-selector__button" aria-label="{{ 'product.quantity.increase_quantity' | t }}">{% render 'icon' with 'plus', width: 10, height: 10 %}</button>
-        </quantity-selector>
-      </div>
-    </div>
-    {%- form 'product', product, is: 'product-form' -%}
-
-      <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
-      <div class="pointer-fine:hidden">
-        <button type="submit" is="custom-button" class="product-card__mobile-quick-buy-button" aria-label="{{ quick_add_label | escape }}">
-          {%- render 'icon' with 'quick-buy-cart' -%}
-        </button>
-      </div>
-
-      <div class="pointer-coarse:hidden">
-        {%- render 'button', type: 'submit', content: "Buy Now", value: 'product_form_id' -%}
-      </div>
-    {%- endform -%}
-    </div>
+      {%- form 'product', product, is: 'product-form' -%}
+        <div class="cart-buttons-flex">
+        <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+        <div class="pointer-fine:hidden">
+          <input type="text" name="quantity" min="1" value="1">
+            {%- render 'button', type: 'submit', content: "Buy Now", value: 'product_form_id' -%}
+        </div>
+          <div class="pointer-coarse:hidden cart-buttons-flex">
+            <input type="text" name="quantity" min="1" value="1">
+            {%- render 'button', type: 'submit', content: "Buy Now", value: 'product_form_id' -%}
+          </div>
+        </div>
+      {%- endform -%}
   {% endif %}
-
 </product-card>
