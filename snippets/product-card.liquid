@@ -140,7 +140,14 @@ Supported variables
           {%- render 'product-rating', product: product, class: rating_class, display_mode: settings.product_rating_mode -%}
         </div>
       {%- else -%}
-        {%- render 'vendor' with product.vendor, class: 'text-xs' -%}
+        {% assign current_variant = product.selected_or_first_available_variant %}
+        <div style="width: 90%;">
+          {%- render 'vendor' with product.vendor, class: 'text-xs' -%}
+          <div style="float: right;">
+            <span class="variant-sku text-xs link-faded">SKU:</span>
+            <span class="variant-sku text-xs link-faded">{{ current_variant.sku }}</span>
+          </div>
+        </div>
       {%- endif -%}
     {%- endif -%}
 
