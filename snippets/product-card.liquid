@@ -225,6 +225,7 @@ Supported variables
   </div>
 
   {% if product.available %}
+  <div class="cart-buttons-flex">
     <div class="product-info__quantity-selector {{ block.shopify_attributes }}">
       <div class="form-control">
         <quantity-selector class="quantity-selector">
@@ -235,6 +236,7 @@ Supported variables
       </div>
     </div>
     {%- form 'product', product, is: 'product-form' -%}
+
       <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
       <div class="pointer-fine:hidden">
         <button type="submit" is="custom-button" class="product-card__mobile-quick-buy-button" aria-label="{{ quick_add_label | escape }}">
@@ -243,9 +245,10 @@ Supported variables
       </div>
 
       <div class="pointer-coarse:hidden">
-        {%- render 'button', type: 'submit', content: "Add to cart", value: 'product_form_id' -%}
+        {%- render 'button', type: 'submit', content: "Buy Now", value: 'product_form_id' -%}
       </div>
     {%- endform -%}
+    </div>
   {% endif %}
 
 </product-card>

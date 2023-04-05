@@ -9922,3 +9922,8 @@ split-lines {
 .centered {
   margin-left: 40%;
 }
+
+.cart-buttons-flex {
+  display: flex;
+  flex-direction: row;
+}
