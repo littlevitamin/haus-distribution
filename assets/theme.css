@@ -9949,9 +9949,9 @@ split-lines {
 }
 
 .pointer-coarse\:hidden .button > div {
-  font-family: 'Gilroy';
+  font-family: 'Gilroy-Regular', sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 300;
   font-size: 14px;
   line-height: 26px;
 }
