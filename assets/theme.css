@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Gilroy-Regular';
+  url('{{ 'Gilroy-Regular.ttf' | asset_url }}') format('truetype');
+}
+
 *, :before, :after {
   box-sizing: border-box;
   border-style: solid;
