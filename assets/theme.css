@@ -9956,6 +9956,11 @@ split-lines {
   line-height: 26px;
 }
 
+.pointer-coarse\:hidden > input {
+  border: 1px solid #1D2F50;
+  border-radius: 5px;
+}
+
 @media screen and (max-width: 500px) {
   .product-list {
     display: block;
@@ -9974,4 +9979,29 @@ split-lines {
   .shopify-section--main-collection {
     --product-list-items-per-row: 3!important;
   }
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 14px;
+  padding-bottom: 8px;
+}
+
+.in-stock {
+  font-family: 'Gilroy-Regular', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #1D2F50;
+}
+
+.out-of-stock {
+  font-family: 'Gilroy-Regular', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #E21D13;
 }

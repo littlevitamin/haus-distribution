@@ -164,8 +164,14 @@ Supported variables
       {%- else -%}
         <span class="product-card__title"><a href="{{ product.url }}" class="bold" data-instant>{{ product.title }}</a></span>
       {%- endif -%}
-
-      {%- render 'price-list', product: product, text_alignment: text_alignment -%}
+      <div class="flex">
+        {%- render 'price-list', product: product, text_alignment: text_alignment -%}
+        {% if product.available %}
+          <p class="in-stock">In Stock</p>
+        {% else %}
+          <p class="out-of-stock">Out of Stock</p>
+        {% endif %}
+      </div>
     </div>
 
     {%- if show_rating and mobile_reduced or text_alignment == 'center' -%}
@@ -240,7 +246,7 @@ Supported variables
             {%- render 'button', type: 'submit', content: "Buy Now", value: 'product_form_id' -%}
         </div> {% endcomment %}
           <div class="pointer-coarse:hidden cart-buttons-flex">
-            <input type="number" id="quantity" name="quantity" min="1" value="1" style="max-width: 92px;">
+            <input type="number" id="quantity" name="quantity" min="1" value="1" style="max-width: 72px;">
             {%- render 'button', type: 'submit', content: "Buy Now", value: 'product_form_id' -%}
           </div>
         </div>
