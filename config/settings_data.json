@@ -30,7 +30,7 @@
     "heading_apparition": "split_fade",
     "color_swatch_style": "square",
     "show_vendor": true,
-    "show_sold_out_badge": true,
+    "show_sold_out_badge": false,
     "discount_mode": "percentage",
     "product_color_display": "swatch",
     "product_info_alignment": "start",
