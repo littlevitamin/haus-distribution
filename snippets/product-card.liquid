@@ -240,7 +240,7 @@ Supported variables
             {%- render 'button', type: 'submit', content: "Buy Now", value: 'product_form_id' -%}
         </div> {% endcomment %}
           <div class="pointer-coarse:hidden cart-buttons-flex">
-            <input type="text" name="quantity" min="1" value="1" style="max-width: 100px;">
+            <input type="number" id="quantity" name="quantity" min="1" value="1" style="max-width: 92px;">
             {%- render 'button', type: 'submit', content: "Buy Now", value: 'product_form_id' -%}
           </div>
         </div>

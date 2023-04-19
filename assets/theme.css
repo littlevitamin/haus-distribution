@@ -5889,6 +5889,12 @@ split-lines {
   display: flex;
 }
 
+@media screen and (min-width: 1150px) {
+  .header__icon-list {
+    justify-content: center;
+  }
+}
+
 .header__cart-count {
   top: -.3125rem;
   position: absolute;
@@ -9926,4 +9932,41 @@ split-lines {
 .cart-buttons-flex {
   display: flex;
   flex-direction: row;
+}
+
+.pointer-coarse\:hidden .button {
+  margin-left: 13px;
+  padding: 11px 47px;
+  background: #1D2F50;
+/* Navy */
+  border: 1px solid #1D2F50;
+  border-radius: 5px;
+}
+
+.pointer-coarse\:hidden .button > div {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+@media screen and (max-width: 500px) {
+  .product-list {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+  .pointer-coarse\:hidden > input {
+    max-width: 50px!important;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+  .shopify-section--main-collection {
+    --product-list-items-per-row: 3!important;
+  }
 }
