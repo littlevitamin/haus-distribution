@@ -8,7 +8,7 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "Display upsell prompts here",
+            "text": "Announce Something Here",
             "url": ""
           }
         }
