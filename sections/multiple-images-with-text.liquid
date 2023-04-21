@@ -92,11 +92,12 @@ LIQUID
     <div class="multiple-images-with-text__content-with-nav">
       <multiple-images-with-text-content-list swipeable="false" class="multiple-images-with-text__content-list">
         {%- assign outputted_text_count = 0 -%}
+
+        {%- for block in section.blocks -%}
+          <div class="flex-multiple-images-with-text">
           {%- if block.settings.logo != blank -%}
             {{- block.settings.logo | image_url: width: 250 | image_tag: loading: 'lazy', class: 'logo-list__image' -}}
           {%- endif -%}
-
-        {%- for block in section.blocks -%}
           {%- if block.settings.subheading != blank or block.settings.title != blank or block.settings.content != blank -%}
             <div class="prose {% if outputted_text_count == 0 %}is-selected{% else %}reveal-invisible{% endif %}" {% if block.settings.image != blank %}image-id="image-{{ block.id }}"{% endif %} {{ block.shopify_attributes }}>
               {%- if block.settings.subheading != blank -%}
@@ -118,6 +119,7 @@ LIQUID
 
             {%- assign outputted_text_count = outputted_text_count | plus: 1 -%}
           {%- endif -%}
+          </div>
         {%- endfor -%}
       </multiple-images-with-text-content-list>
 
