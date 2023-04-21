@@ -5506,6 +5506,10 @@ split-lines {
   color: white;
 }
 
+.footer h3, .footer .bold {
+  color: #F4A6A2;
+}
+
 .footer__wrapper {
   gap: var(--footer-part-gap);
   display: grid;
