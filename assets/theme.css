@@ -5516,6 +5516,11 @@ split-lines {
   color: #1D2F50;
 }
 
+.footer .form-control {
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
 .footer__wrapper {
   gap: var(--footer-part-gap);
   display: grid;
