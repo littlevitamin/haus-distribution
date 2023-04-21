@@ -60,7 +60,7 @@
 
           {%- if block.settings.brand_name != blank -%}
             <p class="brand-name">
-              {{- block_content -}}
+              {{ block.settings.brand_name }}
             </p>
           {%- else -%}
             <div {{ item_attribute }} {{ block.shopify_attributes }}>
