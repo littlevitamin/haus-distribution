@@ -10010,3 +10010,7 @@ split-lines {
   font-weight: 600;
   text-align: center;
 }
+
+.brand-name-block > img {  
+  --logo-list-image-max-width: unset;
+}
