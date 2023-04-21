@@ -68,6 +68,7 @@
         "template--16674772058354__5f812be6-aa51-42f1-9240-6cb6aebdc369-1682066499456772f8-0": {
           "type": "logo",
           "settings": {
+            "logo": "shopify:\/\/shop_images\/oyoy-logo-e1520366804656_1_1.png",
             "brand_name": "OYOY",
             "link": "https:\/\/oyoylivingdesign.com\/"
           }
@@ -75,13 +76,15 @@
         "template--16674772058354__5f812be6-aa51-42f1-9240-6cb6aebdc369-1682066499456772f8-1": {
           "type": "logo",
           "settings": {
+            "logo": "shopify:\/\/shop_images\/a_3.png",
             "brand_name": "LITTLE DUTCH",
-            "link": ""
+            "link": "https:\/\/www.little-dutch.com\/en"
           }
         },
         "template--16674772058354__5f812be6-aa51-42f1-9240-6cb6aebdc369-1682066499456772f8-2": {
           "type": "logo",
           "settings": {
+            "logo": "shopify:\/\/shop_images\/a.png",
             "brand_name": "DRAWIN' TABLE",
             "link": ""
           }
@@ -89,15 +92,17 @@
         "template--16674772058354__5f812be6-aa51-42f1-9240-6cb6aebdc369-1682066499456772f8-3": {
           "type": "logo",
           "settings": {
+            "logo": "shopify:\/\/shop_images\/a_1.png",
             "brand_name": "LARISA & PUMPKIN",
-            "link": ""
+            "link": "https:\/\/larisaandpumpkin.com\/en\/"
           }
         },
         "template--16674772058354__5f812be6-aa51-42f1-9240-6cb6aebdc369-1682066499456772f8-4": {
           "type": "logo",
           "settings": {
+            "logo": "shopify:\/\/shop_images\/a_2.png",
             "brand_name": "HELLO HOSSY",
-            "link": ""
+            "link": "https:\/\/en.hello-hossy.com\/"
           }
         }
       },
