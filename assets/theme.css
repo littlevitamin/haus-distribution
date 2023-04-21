@@ -5498,6 +5498,8 @@ split-lines {
   padding-block-start: var(--footer-padding-block);
   padding-block-end: var(--footer-padding-block);
   background: url('https://cdn.shopify.com/s/files/1/0549/1156/6066/files/background.png?v=1682081591');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .footer__wrapper {
