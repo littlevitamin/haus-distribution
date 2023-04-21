@@ -5502,7 +5502,8 @@ split-lines {
   background-repeat: no-repeat;
 }
 
-.footer .container {
+.footer .container,
+.footer .text-subdued {
   color: white;
 }
 
