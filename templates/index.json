@@ -271,27 +271,12 @@
             "overlay_color": "#000000",
             "overlay_opacity": 30
           }
-        },
-        "a9964436-7469-4c4e-86fa-04dfac5b52d0": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
         }
       },
       "block_order": [
         "collection-1",
         "collection-2",
-        "collection-3",
-        "a9964436-7469-4c4e-86fa-04dfac5b52d0"
+        "collection-3"
       ],
       "settings": {
         "full_width": true,
