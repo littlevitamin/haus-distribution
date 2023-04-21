@@ -9975,6 +9975,12 @@ split-lines {
   }
 }
 
+@media (min-width: 990px) and (max-width: 1400px) {
+  .pointer-coarse\:hidden .button {
+    padding: unset;
+  }
+}
+
 @media (min-width: 1400px) and (max-width: 1600px) {
   .shopify-section--main-collection {
     --product-list-items-per-row: 3!important;
