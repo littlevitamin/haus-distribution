@@ -10011,6 +10011,6 @@ split-lines {
   text-align: center;
 }
 
-.brand-name-block > img {  
+.brand-name-block > a {  
   --logo-list-image-max-width: unset!important;
 }
