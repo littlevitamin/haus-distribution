@@ -374,6 +374,113 @@
         "product_card_text_color": ""
       }
     },
+    "6d07f598-35e8-4886-a458-85778b7d6b59": {
+      "type": "media-grid",
+      "blocks": {
+        "b96037d5-2489-4729-b07e-b410cf0857f6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-03-29_at_13.21_1.png",
+            "title": "Clothing",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--16674772058354__6d07f598-35e8-4886-a458-85778b7d6b59-16820749020d88538e-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-03-29_at_14.58_1.png",
+            "title": "Sleeping bags & swaddles",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--16674772058354__6d07f598-35e8-4886-a458-85778b7d6b59-16820749020d88538e-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-03-29_at_13.26_1.png",
+            "title": "Little Dutch | Summer Essentials",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "3fba5d45-2594-4f11-9579-8cc8e102db96": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-03-29_at_13.30_1.png",
+            "title": "Bedroom",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "b96037d5-2489-4729-b07e-b410cf0857f6",
+        "template--16674772058354__6d07f598-35e8-4886-a458-85778b7d6b59-16820749020d88538e-1",
+        "template--16674772058354__6d07f598-35e8-4886-a458-85778b7d6b59-16820749020d88538e-2",
+        "3fba5d45-2594-4f11-9579-8cc8e102db96"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
     "f0206c56-488d-41a9-bab8-bcb27fec4a82": {
       "type": "featured-collection",
       "settings": {
@@ -411,6 +518,7 @@
     "collection-list",
     "f97036d1-abc4-4f4d-9d58-c8d6806c3717",
     "958fd2ba-605f-48ae-b321-13924898af81",
+    "6d07f598-35e8-4886-a458-85778b7d6b59",
     "f0206c56-488d-41a9-bab8-bcb27fec4a82"
   ]
 }
