@@ -305,6 +305,47 @@
         "overlay_color": "#000000",
         "overlay_opacity": 30
       }
+    },
+    "f97036d1-abc4-4f4d-9d58-c8d6806c3717": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--16674772058354__f97036d1-abc4-4f4d-9d58-c8d6806c3717-1682073974e95cab2d-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--16674772058354__f97036d1-abc4-4f4d-9d58-c8d6806c3717-1682073974e95cab2d-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Toys",
+            "heading_tag": "h1"
+          }
+        },
+        "template--16674772058354__f97036d1-abc4-4f4d-9d58-c8d6806c3717-1682073974e95cab2d-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16674772058354__f97036d1-abc4-4f4d-9d58-c8d6806c3717-1682073974e95cab2d-0",
+        "template--16674772058354__f97036d1-abc4-4f4d-9d58-c8d6806c3717-1682073974e95cab2d-1",
+        "template--16674772058354__f97036d1-abc4-4f4d-9d58-c8d6806c3717-1682073974e95cab2d-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/pseudo.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
     }
   },
   "order": [
@@ -313,6 +354,7 @@
     "3e3d8d39-3146-4d21-92db-a3e9f8bc5567",
     "159b1d2e-65ee-4a87-a76f-f13a627b3da1",
     "collection-list",
-    "image-with-text-overlay"
+    "image-with-text-overlay",
+    "f97036d1-abc4-4f4d-9d58-c8d6806c3717"
   ]
 }
