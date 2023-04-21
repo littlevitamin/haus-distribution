@@ -5506,7 +5506,9 @@ split-lines {
   color: white;
 }
 
-.footer .h3, .footer .bold {
+.footer .h3, 
+.footer .bold,
+.footer .circle-chevron {
   color: #F4A6A2;
 }
 
