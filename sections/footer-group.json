@@ -14,6 +14,13 @@
             "content": ""
           }
         },
+        "b2951a97-5eed-4b63-8ed6-377b78e70d96": {
+          "type": "links",
+          "settings": {
+            "menu": "information",
+            "show_menu_title": true
+          }
+        },
         "links": {
           "type": "links",
           "settings": {
@@ -31,6 +38,7 @@
       },
       "block_order": [
         "newsletter",
+        "b2951a97-5eed-4b63-8ed6-377b78e70d96",
         "links",
         "text"
       ],
