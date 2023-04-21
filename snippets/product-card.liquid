@@ -167,12 +167,14 @@ Supported variables
       <div class="flex">
         {%- render 'price-list', product: product, text_alignment: text_alignment -%}
         <div class="flex-column">
-        <p class="price-list">RRP: {{ product.metafields.custom.retail_price }}</p>
-        {% if product.available %}
-          <p class="in-stock">In Stock</p>
-        {% else %}
-          <p class="out-of-stock">Out of Stock</p>
-        {% endif %}
+          {% if product.metafields.custom.retail_price != blank %}
+            <p class="price-list">RRP: {{ product.metafields.custom.retail_price }}</p>
+          {% endif %}
+          {% if product.available %}
+            <p class="in-stock">In Stock</p>
+          {% else %}
+            <p class="out-of-stock">Out of Stock</p>
+          {% endif %}
         </div>
       </div>
     </div>
