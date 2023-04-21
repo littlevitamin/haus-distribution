@@ -506,6 +506,48 @@
         "product_card_background": "",
         "product_card_text_color": ""
       }
+    },
+    "0daee94c-7c94-4b2a-8e23-e6d05600f74b": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "template--16674772058354__0daee94c-7c94-4b2a-8e23-e6d05600f74b-1682077428b7ee4188-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-03-29_at_16.14_1_d128cc56-73fa-493d-9e15-f2c5010272da.png",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "What We Do",
+            "content": "<p>We know our brands from stem to stern and can help with everything from brand management, importing, logistics and customer service.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "2ee3a6ae-1ea2-4423-8fa2-3d07eb13118f": {
+          "type": "item",
+          "settings": {
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Image with text",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16674772058354__0daee94c-7c94-4b2a-8e23-e6d05600f74b-1682077428b7ee4188-0",
+        "2ee3a6ae-1ea2-4423-8fa2-3d07eb13118f"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "top",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
     }
   },
   "order": [
@@ -518,6 +560,7 @@
     "f97036d1-abc4-4f4d-9d58-c8d6806c3717",
     "958fd2ba-605f-48ae-b321-13924898af81",
     "6d07f598-35e8-4886-a458-85778b7d6b59",
-    "f0206c56-488d-41a9-bab8-bcb27fec4a82"
+    "f0206c56-488d-41a9-bab8-bcb27fec4a82",
+    "0daee94c-7c94-4b2a-8e23-e6d05600f74b"
   ]
 }
