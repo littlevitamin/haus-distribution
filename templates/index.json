@@ -128,7 +128,7 @@
     "3e3d8d39-3146-4d21-92db-a3e9f8bc5567": {
       "type": "featured-collection",
       "settings": {
-        "collection": "little-dutch",
+        "collection": "new-items",
         "products": [
           "120525-little-dutch-paint-book",
           "120526-little-dutch-craft-apron-sailors-bay",
@@ -142,8 +142,8 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 5,
         "subheading": "",
-        "title": "New In & Back In Stock",
-        "content": "<p>This is some copy about the new in & Back in stock product collection<\/p>",
+        "title": "New In",
+        "content": "",
         "link_url": "",
         "link_text": "View all",
         "background": "",
