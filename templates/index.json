@@ -347,6 +347,33 @@
         "overlay_opacity": 30
       }
     },
+    "958fd2ba-605f-48ae-b321-13924898af81": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "toys",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Toys",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "f0206c56-488d-41a9-bab8-bcb27fec4a82": {
       "type": "featured-collection",
       "settings": {
@@ -383,6 +410,7 @@
     "image-with-text-overlay",
     "collection-list",
     "f97036d1-abc4-4f4d-9d58-c8d6806c3717",
+    "958fd2ba-605f-48ae-b321-13924898af81",
     "f0206c56-488d-41a9-bab8-bcb27fec4a82"
   ]
 }
