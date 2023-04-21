@@ -9977,7 +9977,7 @@ split-lines {
 
 @media (min-width: 990px) and (max-width: 1400px) {
   .pointer-coarse\:hidden .button {
-    padding: unset;
+    padding: 12px 24px;
   }
 }
 
