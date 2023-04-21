@@ -58,10 +58,10 @@
            {%- render 'surface', class: 'logo-list__item', background: section.settings.logo_item_background, background_fallback: 'bg-secondary' -%}
           {%- endcapture -%}
 
-          {%- if block.settings.link != blank -%}
-            <a href="{{ block.settings.link }}" {{ item_attribute }} {{ block.shopify_attributes }}>
+          {%- if block.settings.brand_name != blank -%}
+            <p class="brand-name">
               {{- block_content -}}
-            </a>
+            </p>
           {%- else -%}
             <div {{ item_attribute }} {{ block.shopify_attributes }}>
               {{- block_content -}}
@@ -193,9 +193,9 @@
           "default": 120
         },
         {
-          "type": "url",
-          "id": "link",
-          "label": "Link"
+          "type": "text",
+          "id": "brand_name",
+          "label": "Brand Name"
         }
       ]
     }

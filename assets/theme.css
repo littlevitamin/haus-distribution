@@ -9988,7 +9988,7 @@ split-lines {
   padding-bottom: 8px;
 }
 
-.in-stock {
+.in-stock, .brand-name {
   font-family: 'Gilroy-Regular', sans-serif;
   font-style: normal;
   font-weight: 400;
