@@ -10012,5 +10012,5 @@ split-lines {
 }
 
 .brand-name-block > img {  
-  --logo-list-image-max-width: unset;
+  --logo-list-image-max-width: unset!important;
 }
