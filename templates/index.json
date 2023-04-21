@@ -182,6 +182,47 @@
         "product_card_text_color": ""
       }
     },
+    "image-with-text-overlay": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "1664424230c4756b0e-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "1664424230c4756b0e-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Shop the room",
+            "heading_tag": "h1"
+          }
+        },
+        "1664424230c4756b0e-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1664424230c4756b0e-0",
+        "1664424230c4756b0e-1",
+        "1664424230c4756b0e-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Frame.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
@@ -265,47 +306,6 @@
         "heading_gradient": ""
       }
     },
-    "image-with-text-overlay": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "1664424230c4756b0e-0": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "1664424230c4756b0e-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Shop the room",
-            "heading_tag": "h1"
-          }
-        },
-        "1664424230c4756b0e-2": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1664424230c4756b0e-0",
-        "1664424230c4756b0e-1",
-        "1664424230c4756b0e-2"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/Frame.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
     "f97036d1-abc4-4f4d-9d58-c8d6806c3717": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -353,8 +353,8 @@
     "5f812be6-aa51-42f1-9240-6cb6aebdc369",
     "3e3d8d39-3146-4d21-92db-a3e9f8bc5567",
     "159b1d2e-65ee-4a87-a76f-f13a627b3da1",
-    "collection-list",
     "image-with-text-overlay",
+    "collection-list",
     "f97036d1-abc4-4f4d-9d58-c8d6806c3717"
   ]
 }
