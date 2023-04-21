@@ -40,15 +40,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: inherit;
 }
 
-.h1 {
-  font-family: 'Gilroy-Regular', sans-serif!important;
-  font-style: normal!important;
-  font-weight: 600!important;
-  font-size: 54px!important;
-  line-height: 66px!important;
-  letter-spacing: -1.2px!important;
-}
-
 a {
   color: inherit;
   -webkit-text-decoration: inherit;
@@ -10033,4 +10024,13 @@ split-lines {
 
 .brand-name-block > a > img {  
   --logo-list-image-max-width: unset!important;
+}
+
+.h1 {
+  font-family: 'Gilroy-Regular', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 66px;
+  letter-spacing: -1.2px;
 }
