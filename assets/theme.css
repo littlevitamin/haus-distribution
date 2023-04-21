@@ -5502,6 +5502,10 @@ split-lines {
   background-repeat: no-repeat;
 }
 
+.footer .container {
+  color: white;
+}
+
 .footer__wrapper {
   gap: var(--footer-part-gap);
   display: grid;
