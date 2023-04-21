@@ -48,7 +48,7 @@
               {%- capture sizes -%}{{ block.settings.logo_width }}px{%- endcapture -%}
               {%- capture widths -%}{{ block.settings.logo_width }}, {{ block.settings.logo_width | times: 2 | at_most: block.settings.logo.width }}{%- endcapture -%}
               {%- capture max_width -%}--logo-list-image-max-width: {{ block.settings.logo_width }}px{%- endcapture -%}
-              {{- block.settings.logo | image_tag: loading: 'lazy', class: 'logo-list__image' -}}
+              {{- block.settings.logo | image_url | image_tag: loading: 'lazy', class: 'logo-list__image' -}}
             {%- else -%}
               {{- 'image' | placeholder_svg_tag: 'logo-list__image' -}}
             {%- endif -%}
