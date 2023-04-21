@@ -10005,3 +10005,8 @@ split-lines {
   line-height: 26px;
   color: #E21D13;
 }
+
+.brand-name {
+  font-weight: 600;
+  text-align: center;
+}
