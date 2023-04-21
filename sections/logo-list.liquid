@@ -59,10 +59,12 @@
           {%- endcapture -%}
 
           {%- if block.settings.brand_name != blank -%}
-            {{- block_content -}}
-            <p class="brand-name">
-              {{ block.settings.brand_name }}
-            </p>
+            <div class="brand-name-block">
+              {{- block_content -}}
+              <p class="brand-name">
+                {{ block.settings.brand_name }}
+              </p>
+            </div>
           {%- else -%}
             <div {{ item_attribute }} {{ block.shopify_attributes }}>
               {{- block_content -}}
