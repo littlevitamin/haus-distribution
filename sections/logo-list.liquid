@@ -60,7 +60,7 @@
 
           {%- if block.settings.brand_name != blank -%}
             <div class="brand-name-block">
-              <a href="{{ block.settings.link }}" {{ item_attribute }} {{ block.shopify_attributes }}>
+              <a href="{{ block.settings.link }}" {{ item_attribute }} {{ block.shopify_attributes }} style="padding: 0;">
                 {{- block_content -}}
               </a>
               <p class="brand-name">
