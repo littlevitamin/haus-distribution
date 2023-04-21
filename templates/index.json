@@ -62,91 +62,66 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
-    "image-link-blocks": {
-      "type": "image-link-blocks",
-      "disabled": true,
+    "5f812be6-aa51-42f1-9240-6cb6aebdc369": {
+      "type": "logo-list",
       "blocks": {
-        "1664424046b00c932c-0": {
-          "type": "item",
+        "template--16674772058354__5f812be6-aa51-42f1-9240-6cb6aebdc369-1682066499456772f8-0": {
+          "type": "logo",
           "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "logo_width": 120,
+            "link": ""
           }
         },
-        "1664424046b00c932c-1": {
-          "type": "item",
+        "template--16674772058354__5f812be6-aa51-42f1-9240-6cb6aebdc369-1682066499456772f8-1": {
+          "type": "logo",
           "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "logo_width": 120,
+            "link": ""
           }
         },
-        "1664424046b00c932c-2": {
-          "type": "item",
+        "template--16674772058354__5f812be6-aa51-42f1-9240-6cb6aebdc369-1682066499456772f8-2": {
+          "type": "logo",
           "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "logo_width": 120,
+            "link": ""
           }
         },
-        "1664424046b00c932c-3": {
-          "type": "item",
+        "template--16674772058354__5f812be6-aa51-42f1-9240-6cb6aebdc369-1682066499456772f8-3": {
+          "type": "logo",
           "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "logo_width": 120,
+            "link": ""
           }
         },
-        "e4a0ef18-1856-4ddd-83d8-871a60d7acac": {
-          "type": "item",
+        "template--16674772058354__5f812be6-aa51-42f1-9240-6cb6aebdc369-1682066499456772f8-4": {
+          "type": "logo",
           "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "logo_width": 120,
+            "link": ""
           }
         }
       },
       "block_order": [
-        "1664424046b00c932c-0",
-        "1664424046b00c932c-1",
-        "1664424046b00c932c-2",
-        "1664424046b00c932c-3",
-        "e4a0ef18-1856-4ddd-83d8-871a60d7acac"
+        "template--16674772058354__5f812be6-aa51-42f1-9240-6cb6aebdc369-1682066499456772f8-0",
+        "template--16674772058354__5f812be6-aa51-42f1-9240-6cb6aebdc369-1682066499456772f8-1",
+        "template--16674772058354__5f812be6-aa51-42f1-9240-6cb6aebdc369-1682066499456772f8-2",
+        "template--16674772058354__5f812be6-aa51-42f1-9240-6cb6aebdc369-1682066499456772f8-3",
+        "template--16674772058354__5f812be6-aa51-42f1-9240-6cb6aebdc369-1682066499456772f8-4"
       ],
       "settings": {
         "full_width": true,
-        "block_size": "medium",
-        "subheading": "",
-        "title": "",
+        "stack_mobile": true,
+        "title": "Logo list",
         "content": "",
-        "link_url": "",
-        "link_text": "",
+        "text_alignment": "start",
+        "items_per_row": 5,
         "background": "",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
-        "heading_gradient": ""
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
       }
     },
     "3e3d8d39-3146-4d21-92db-a3e9f8bc5567": {
@@ -596,7 +571,7 @@
   },
   "order": [
     "slideshow",
-    "image-link-blocks",
+    "5f812be6-aa51-42f1-9240-6cb6aebdc369",
     "3e3d8d39-3146-4d21-92db-a3e9f8bc5567",
     "scrolling-text",
     "e00c1c80-a1dc-4c90-87cb-2b4d1b988352",
