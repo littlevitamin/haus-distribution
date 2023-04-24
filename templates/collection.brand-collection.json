@@ -20,6 +20,47 @@
         "overlay_opacity": 30
       }
     },
+    "42bfea90-5888-4821-af63-4b03b8a51f1d": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--16674772254962__42bfea90-5888-4821-af63-4b03b8a51f1d-16823411868599d717-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--16674772254962__42bfea90-5888-4821-af63-4b03b8a51f1d-16823411868599d717-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Living Room",
+            "heading_tag": "h1"
+          }
+        },
+        "template--16674772254962__42bfea90-5888-4821-af63-4b03b8a51f1d-16823411868599d717-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>There is some descriptive content for Shop by Room collection. There is some descriptive content for Shop by Room collection.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16674772254962__42bfea90-5888-4821-af63-4b03b8a51f1d-16823411868599d717-0",
+        "template--16674772254962__42bfea90-5888-4821-af63-4b03b8a51f1d-16823411868599d717-1",
+        "template--16674772254962__42bfea90-5888-4821-af63-4b03b8a51f1d-16823411868599d717-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/48263474846_cf782144ff_h_1296x_76d1bedf-93f8-4cf8-9579-933911d5eb43_webp.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "main": {
       "type": "main-collection",
       "settings": {
@@ -39,6 +80,7 @@
   },
   "order": [
     "banner",
+    "42bfea90-5888-4821-af63-4b03b8a51f1d",
     "main"
   ]
 }
