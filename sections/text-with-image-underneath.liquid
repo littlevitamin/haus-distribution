@@ -38,7 +38,7 @@
 
               {%- when 'richtext' -%}
                 {%- if block.settings.content != blank -%}
-                  <div {{ block.shopify_attributes }}>
+                  <div class="text-paragraph" {{ block.shopify_attributes }}>
                     {{- block.settings.content -}}
                   </div>
                 {%- endif -%}
@@ -88,7 +88,7 @@
     padding-bottom: 21px;
   }
 
-  .prose {
+  .text-paragraph {
     font-family: 'Gilroy-Regular', sans-serif;
     font-style: normal;
     font-weight: 300;
