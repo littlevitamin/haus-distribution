@@ -19,21 +19,7 @@
 <div {% render 'section-properties' %} {% if section.settings.allow_transparent_header %}allow-transparent-header{% endif %}>
   {%- capture class -%}content-over-media content-over-media--{{ section.settings.image_size }} {% if section.settings.full_width %}full-bleed{% else %}shadow-block rounded-lg{% endif %}{%- endcapture -%}
 
-  <image-banner reveal-on-scroll="true" {% if section.settings.enable_parallax %}parallax="0.3"{% endif %} {% render 'surface', class: class, text_color: section.settings.text_color %}>
-    {%- if section.settings.image != blank -%}
-      {%- capture image_class -%}{% if section.settings.mobile_image != blank %}hidden sm:block{% endif %}{%- endcapture -%}
-      {%- capture sizes -%}{% if section.settings.full_width %}100vw{% else %}(max-width: 740px) calc(100vw - 40px), (max-width: 999px) calc(100vw - 64px), min({{ settings.page_width }}px, 100vw - 96px){% endif %}{%- endcapture -%}
-
-      {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200', class: image_class -}}
-
-      {%- if section.settings.mobile_image != blank -%}
-        {{- section.settings.mobile_image | image_url: width: section.settings.mobile_image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600', class: 'sm:hidden' -}}
-      {%- endif -%}
-    {%- else -%}
-      {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder' | replace: '<svg', '<svg preserveAspectRatio="xMinYMin slice"' }}
-    {%- endif -%}
-
-    {%- if section.blocks.size > 0 -%}
+      {%- if section.blocks.size > 0 -%}
       <div class="{{ section.settings.mobile_text_position }} {{ section.settings.desktop_text_position }}">
         <div class="prose">
           {%- for block in section.blocks -%}
@@ -72,6 +58,20 @@
           {%- endfor -%}
         </div>
       </div>
+    {%- endif -%}
+
+  <image-banner reveal-on-scroll="true" {% if section.settings.enable_parallax %}parallax="0.3"{% endif %} {% render 'surface', class: class, text_color: section.settings.text_color %}>
+    {%- if section.settings.image != blank -%}
+      {%- capture image_class -%}{% if section.settings.mobile_image != blank %}hidden sm:block{% endif %}{%- endcapture -%}
+      {%- capture sizes -%}{% if section.settings.full_width %}100vw{% else %}(max-width: 740px) calc(100vw - 40px), (max-width: 999px) calc(100vw - 64px), min({{ settings.page_width }}px, 100vw - 96px){% endif %}{%- endcapture -%}
+
+      {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200', class: image_class -}}
+
+      {%- if section.settings.mobile_image != blank -%}
+        {{- section.settings.mobile_image | image_url: width: section.settings.mobile_image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600', class: 'sm:hidden' -}}
+      {%- endif -%}
+    {%- else -%}
+      {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder' | replace: '<svg', '<svg preserveAspectRatio="xMinYMin slice"' }}
     {%- endif -%}
   </image-banner>
 </div>
