@@ -22,6 +22,7 @@
     },
     "548c5b9b-0520-4de2-9bb0-aac43d056e82": {
       "type": "text-with-image-underneath",
+      "disabled": true,
       "blocks": {
         "template--16674772254962__548c5b9b-0520-4de2-9bb0-aac43d056e82-16823418622d7f9f28-0": {
           "type": "subheading",
