@@ -20,33 +20,33 @@
         "overlay_opacity": 30
       }
     },
-    "42bfea90-5888-4821-af63-4b03b8a51f1d": {
-      "type": "image-with-text-overlay",
+    "548c5b9b-0520-4de2-9bb0-aac43d056e82": {
+      "type": "text-with-image-underneath",
       "blocks": {
-        "template--16674772254962__42bfea90-5888-4821-af63-4b03b8a51f1d-16823411868599d717-0": {
+        "template--16674772254962__548c5b9b-0520-4de2-9bb0-aac43d056e82-16823418622d7f9f28-0": {
           "type": "subheading",
           "settings": {
             "text": ""
           }
         },
-        "template--16674772254962__42bfea90-5888-4821-af63-4b03b8a51f1d-16823411868599d717-1": {
+        "template--16674772254962__548c5b9b-0520-4de2-9bb0-aac43d056e82-16823418622d7f9f28-1": {
           "type": "heading",
           "settings": {
             "text": "Living Room",
             "heading_tag": "h1"
           }
         },
-        "template--16674772254962__42bfea90-5888-4821-af63-4b03b8a51f1d-16823411868599d717-2": {
+        "template--16674772254962__548c5b9b-0520-4de2-9bb0-aac43d056e82-16823418622d7f9f28-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>There is some descriptive content for Shop by Room collection. There is some descriptive content for Shop by Room collection.<\/p>"
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
           }
         }
       },
       "block_order": [
-        "template--16674772254962__42bfea90-5888-4821-af63-4b03b8a51f1d-16823411868599d717-0",
-        "template--16674772254962__42bfea90-5888-4821-af63-4b03b8a51f1d-16823411868599d717-1",
-        "template--16674772254962__42bfea90-5888-4821-af63-4b03b8a51f1d-16823411868599d717-2"
+        "template--16674772254962__548c5b9b-0520-4de2-9bb0-aac43d056e82-16823418622d7f9f28-0",
+        "template--16674772254962__548c5b9b-0520-4de2-9bb0-aac43d056e82-16823418622d7f9f28-1",
+        "template--16674772254962__548c5b9b-0520-4de2-9bb0-aac43d056e82-16823418622d7f9f28-2"
       ],
       "settings": {
         "full_width": true,
@@ -54,6 +54,7 @@
         "enable_parallax": false,
         "image_size": "auto",
         "image": "shopify:\/\/shop_images\/48263474846_cf782144ff_h_1296x_76d1bedf-93f8-4cf8-9579-933911d5eb43_webp.png",
+        "mobile_image": "shopify:\/\/shop_images\/48263474846_cf782144ff_h_1296x_76d1bedf-93f8-4cf8-9579-933911d5eb43_webp.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -80,7 +81,7 @@
   },
   "order": [
     "banner",
-    "42bfea90-5888-4821-af63-4b03b8a51f1d",
+    "548c5b9b-0520-4de2-9bb0-aac43d056e82",
     "main"
   ]
 }
