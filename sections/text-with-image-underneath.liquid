@@ -21,7 +21,7 @@
 
       {%- if section.blocks.size > 0 -%}
       <div class="{{ section.settings.mobile_text_position }} {{ section.settings.desktop_text_position }}">
-        <div class="prose">
+        <div class="prose text-block">
           {%- for block in section.blocks -%}
             {%- case block.type -%}
               {%- when 'subheading' -%}
@@ -88,6 +88,13 @@
     padding-bottom: 21px;
   }
 
+  .text-block {
+    max-width: 813px;
+    padding-top: 57px;
+    padding-bottom: 64px;
+    margin: 0 auto;
+  }
+
   .text-paragraph {
     font-family: 'Gilroy-Regular', sans-serif;
     font-style: normal;
@@ -95,10 +102,6 @@
     font-size: 14px;
     line-height: 26px;
     color: #1D2F50;
-    max-width: 813px;
-    padding-top: 57px;
-    padding-bottom: 64px;
-    margin: 0 auto;
   }
 </style>
 
