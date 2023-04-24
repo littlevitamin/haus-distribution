@@ -14,6 +14,33 @@
       margin-block-start: calc(-1 * var(--header-height) * var(--section-is-first));
     {%- endif -%}
   }
+
+    .text-subheading {
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 80px;
+    letter-spacing: -1.6px;
+    color: #1D2F50;
+    padding-bottom: 21px;
+  }
+
+  .text-block {
+    max-width: 813px;
+    padding-top: 57px;
+    padding-bottom: 64px;
+    margin: 0 auto;
+  }
+
+  .text-paragraph {
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+    color: #1D2F50;
+  }
 </style>
 
 <div {% render 'section-properties' %} {% if section.settings.allow_transparent_header %}allow-transparent-header{% endif %}>
@@ -75,35 +102,6 @@
     {%- endif -%}
   </image-banner>
 </div>
-
-<style>
-  .text-subheading {
-    font-family: 'Gilroy-Regular', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 72px;
-    line-height: 80px;
-    letter-spacing: -1.6px;
-    color: #1D2F50;
-    padding-bottom: 21px;
-  }
-
-  .text-block {
-    max-width: 813px;
-    padding-top: 57px;
-    padding-bottom: 64px;
-    margin: 0 auto;
-  }
-
-  .text-paragraph {
-    font-family: 'Gilroy-Regular', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 26px;
-    color: #1D2F50;
-  }
-</style>
 
 {% schema %}
 {
