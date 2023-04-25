@@ -10059,7 +10059,7 @@ split-lines {
 }
 
 <!-- Cart page styling --!>
-.cart-header > h1 {
+.cart-title {
   font-family: 'Gilroy-Regular', sans-serif;
   font-style: normal;
   font-weight: 600;
