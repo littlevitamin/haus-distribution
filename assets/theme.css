@@ -9971,7 +9971,8 @@ split-lines {
   border-radius: 5px;
 }
 
-.pointer-coarse\:hidden .button > div, .button > a {
+.pointer-coarse\:hidden .button > div,
+#shopify-section-template--16674772058354__f97036d1-abc4-4f4d-9d58-c8d6806c3717 > div > image-banner > div > div > a {
   font-family: 'Gilroy-Regular', sans-serif;
   font-style: normal;
   font-weight: 300;
