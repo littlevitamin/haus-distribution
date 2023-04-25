@@ -10072,3 +10072,7 @@ split-lines {
 .cart-form > button {
   background: #1D2F50;
 }
+
+.shipping-estimator__form > button {
+  background: #F4A6A2;
+}
