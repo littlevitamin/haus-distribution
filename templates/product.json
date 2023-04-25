@@ -138,7 +138,7 @@
             "product": "",
             "value_1": "<p>Yes<\/p>",
             "value_2": "<p>Yes<\/p>",
-            "value_3": "<p>No<\/p>",
+            "value_3": "<p>{{ block.settings.product.metafields.custom.retail_price.value }} <\/p>",
             "value_4": "<p>No<\/p>",
             "value_5": "<p>Yes<\/p>",
             "value_6": "<p>No<\/p>",
