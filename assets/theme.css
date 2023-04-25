@@ -10069,10 +10069,12 @@ split-lines {
   letter-spacing: -0.8px;
 }
 
-.cart-form > button {
+.cart-form > button,
+.buy-buttons--compact > button {
   background: #1D2F50;
 }
 
-.shipping-estimator__form > button {
+.shipping-estimator__form > button,
+.buy-buttons--compact .button--secondary {
   background: #F4A6A2;
 }
