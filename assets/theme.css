@@ -10020,7 +10020,7 @@ split-lines {
 .in-stock, 
 .brand-name,
 .shipping-notification {
-  font-family: 'Gilroy-Regular', sans-serif;
+  font-family: 'Gilroy-Regular', sans-serif!important;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
