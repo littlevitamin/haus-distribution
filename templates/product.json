@@ -142,7 +142,7 @@
             "value_4": "<p>{{ block.settings.product.metafields.custom.dimensions | metafield_tag }} <\/p>",
             "value_5": "<p>{{ block.settings.product.metafields.custom.weight | metafield_tag }} <\/p>",
             "value_6": "<p>{{ block.settings.product.metafields.custom.coo.value }} <\/p>",
-            "value_7": "<p>Yes<\/p>",
+            "value_7": "<p>{{ block.settings.product.metafields.custom.materials | metafield_tag }} <\/p>",
             "value_8": "<p>{{ block.settings.product.metafields.custom.age.value }} <\/p>",
             "value_9": "",
             "value_10": "",
