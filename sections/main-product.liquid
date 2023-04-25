@@ -124,8 +124,10 @@ quick buy information in a template, that will be extracted in JS, but ensure it
           {%- render 'variant-picker', product: product, form_id: product_form_id, update_url: false, hide_sold_out_variants: block.settings.hide_sold_out_variants, hide_size_chart: true, force_dropdown_as_block: true, block: block -%}
 
         {%- when 'buy_buttons' -%}
-          {%- render 'buy-buttons', product: product, form_id: product_form_id, show_payment_button: block.settings.show_payment_button, button_size: 'lg' -%}
-      {%- endcase -%}
+          <div class="main-product-buy-button">
+            {%- render 'buy-buttons', product: product, form_id: product_form_id, show_payment_button: block.settings.show_payment_button, button_size: 'lg' -%}
+          </div>
+        {%- endcase -%}
     {%- endfor -%}
   </div>
 </template>
