@@ -10070,7 +10070,8 @@ split-lines {
 }
 
 .cart-form > button,
-.buy-buttons--compact > button {
+.buy-buttons--compact > button,
+.main-product-buy-button > button {
   background: #1D2F50;
 }
 
