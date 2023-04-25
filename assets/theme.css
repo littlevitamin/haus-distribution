@@ -10057,3 +10057,13 @@ split-lines {
   line-height: 66px;
   letter-spacing: -1.2px;
 }
+
+<!-- Cart page styling --!>
+.cart-header .h2 {
+  font-family: 'Gilroy-Regular', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 44px;
+  letter-spacing: -0.8px;
+}
