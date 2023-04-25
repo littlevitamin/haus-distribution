@@ -48,6 +48,14 @@ CSS
     line-height: 53px;
     letter-spacing: -0.96px!important;
   }
+
+  .text-chart > p {
+    font-family: 'Gilroy-Regular', sans-serif!important;
+    font-style: normal!important;
+    font-weight: 300!important;
+    font-size: 14px;
+    line-height: 26px;
+  }
 </style>
 
 {%- comment -%}
@@ -70,9 +78,11 @@ LIQUID
               {%- render 'styled-text', content: section.settings.title, text_color: section.settings.heading_color, gradient: section.settings.heading_gradient -%}
             </h2>
           {%- endif -%}
-
-          {{- section.settings.content -}}
-
+      
+          <div class="text-chart">
+            {{- section.settings.content -}}
+          </div>
+      
           {%- if section.settings.button_text != blank -%}
             {%- render 'button', size: 'lg', href: section.settings.button_url, content: section.settings.button_text, background: section.settings.button_background, text_color: section.settings.button_text_color -%}
           {%- endif -%}
