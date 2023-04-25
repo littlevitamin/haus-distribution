@@ -10079,7 +10079,7 @@ split-lines {
   background: #F4A6A2;
 }
 
-.horizontal-product__cta > form {
+.horizontal-product__cta .shopify-product-form {
   display: flex;
   flex-direction: column-reverse;
 }
