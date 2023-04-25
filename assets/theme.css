@@ -10085,6 +10085,10 @@ split-lines {
   background: #F4A6A2;
 }
 
+.buy-buttons--compact .button--secondary {
+  color: white;
+}
+
 .horizontal-product__cta .shopify-product-form {
   display: flex;
   flex-direction: column-reverse;
