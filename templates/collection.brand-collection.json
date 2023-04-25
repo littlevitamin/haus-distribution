@@ -78,7 +78,8 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/Screenshot_2023-03-29_at_16.43_1.png",
-            "image_rotation_degrees": -2,
+            "image_rotation_degrees": 0,
+            "logo": "shopify:\/\/shop_images\/a_3.png",
             "subheading": "",
             "title": "Little Dutch",
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
