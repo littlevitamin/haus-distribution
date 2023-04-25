@@ -9971,7 +9971,7 @@ split-lines {
   border-radius: 5px;
 }
 
-.pointer-coarse\:hidden .button > div {
+.pointer-coarse\:hidden .button > div, .button > a {
   font-family: 'Gilroy-Regular', sans-serif;
   font-style: normal;
   font-weight: 300;
