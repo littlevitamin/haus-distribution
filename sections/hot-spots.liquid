@@ -78,7 +78,7 @@
         <div class="{{ section.settings.desktop_text_position }} hidden md:block">
           <div class="prose">
             {%- if section.settings.title != blank -%}
-              <h2 class="h2">{{ section.settings.title | escape }}</h2>
+              <h1 class="h1">{{ section.settings.title | escape }}</h1>
             {%- endif -%}
 
             {{- section.settings.content -}}
