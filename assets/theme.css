@@ -10078,3 +10078,8 @@ split-lines {
 .buy-buttons--compact .button--secondary {
   background: #F4A6A2;
 }
+
+.horizontal-product__cta > form {
+  display: flex;
+  flex-direction: column-reverse;
+}
