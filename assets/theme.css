@@ -9962,7 +9962,7 @@ split-lines {
   flex-direction: row;
 }
 
-.pointer-coarse\:hidden .button {
+.pointer-coarse\:hidden .button, .button {
   margin-left: 13px;
   padding: 11px 47px;
   background: #1D2F50;
