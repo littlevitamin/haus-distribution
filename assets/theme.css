@@ -10017,7 +10017,9 @@ split-lines {
   padding-bottom: 8px;
 }
 
-.in-stock, .brand-name {
+.in-stock, 
+.brand-name,
+.shipping-notification {
   font-family: 'Gilroy-Regular', sans-serif;
   font-style: normal;
   font-weight: 400;
