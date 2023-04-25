@@ -10068,3 +10068,7 @@ split-lines {
   line-height: 44px;
   letter-spacing: -0.8px;
 }
+
+.cart-form > button {
+  background: #1D2F50;
+}
