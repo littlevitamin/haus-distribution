@@ -165,6 +165,73 @@
         "product_card_text_color": ""
       }
     },
+    "e749a51b-463d-48d1-9ed4-273c34f498b2": {
+      "type": "hot-spots",
+      "blocks": {
+        "template--16674772058354__e749a51b-463d-48d1-9ed4-273c34f498b2-16824104323842fba1-0": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 24,
+            "vertical_position": 70,
+            "horizontal_position_mobile": 24,
+            "vertical_position_mobile": 70,
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.<\/p>"
+          }
+        },
+        "template--16674772058354__e749a51b-463d-48d1-9ed4-273c34f498b2-16824104323842fba1-1": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 62,
+            "vertical_position": 14,
+            "horizontal_position_mobile": 62,
+            "vertical_position_mobile": 14,
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.<\/p>"
+          }
+        },
+        "template--16674772058354__e749a51b-463d-48d1-9ed4-273c34f498b2-16824104323842fba1-2": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 83,
+            "vertical_position": 75,
+            "horizontal_position_mobile": 83,
+            "vertical_position_mobile": 75,
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16674772058354__e749a51b-463d-48d1-9ed4-273c34f498b2-16824104323842fba1-0",
+        "template--16674772058354__e749a51b-463d-48d1-9ed4-273c34f498b2-16824104323842fba1-1",
+        "template--16674772058354__e749a51b-463d-48d1-9ed4-273c34f498b2-16824104323842fba1-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "title": "Shop the room",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "desktop_text_position": "place-self-center text-center",
+        "image_background": "",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
+      }
+    },
     "image-with-text-overlay": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -295,12 +362,24 @@
           "settings": {
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
           }
+        },
+        "c291f013-a6b6-4ad6-b5d7-d32658358f66": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "size": "lg",
+            "text": "Shop All Toys",
+            "url": "shopify:\/\/collections\/toys",
+            "background": "",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
         "template--16674772058354__f97036d1-abc4-4f4d-9d58-c8d6806c3717-1682073974e95cab2d-0",
         "template--16674772058354__f97036d1-abc4-4f4d-9d58-c8d6806c3717-1682073974e95cab2d-1",
-        "template--16674772058354__f97036d1-abc4-4f4d-9d58-c8d6806c3717-1682073974e95cab2d-2"
+        "template--16674772058354__f97036d1-abc4-4f4d-9d58-c8d6806c3717-1682073974e95cab2d-2",
+        "c291f013-a6b6-4ad6-b5d7-d32658358f66"
       ],
       "settings": {
         "full_width": true,
@@ -525,6 +604,7 @@
     "5f812be6-aa51-42f1-9240-6cb6aebdc369",
     "3e3d8d39-3146-4d21-92db-a3e9f8bc5567",
     "159b1d2e-65ee-4a87-a76f-f13a627b3da1",
+    "e749a51b-463d-48d1-9ed4-273c34f498b2",
     "image-with-text-overlay",
     "collection-list",
     "f97036d1-abc4-4f4d-9d58-c8d6806c3717",
