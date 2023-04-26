@@ -10089,6 +10089,7 @@ split-lines {
   font-size: 14px;
   line-height: 26px;
   border-radius: 5px;
+  box-shadow: none;
 }
 
 .shipping-estimator__form > button,
