@@ -10080,7 +10080,7 @@ split-lines {
   display: none;
 }
 
-image-banner > div > div > a {
+#shopify-section-template--16674772058354__f97036d1-abc4-4f4d-9d58-c8d6806c3717 > div > image-banner > div > div > a {
   background: #1D2F50;
   color: white;
   font-family: 'Gilroy-Regular', sans-serif;
@@ -10088,6 +10088,7 @@ image-banner > div > div > a {
   font-weight: 300;
   font-size: 14px;
   line-height: 26px;
+  border-radius: 5px;
 }
 
 .shipping-estimator__form > button,
