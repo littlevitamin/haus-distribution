@@ -530,22 +530,10 @@
             "button_url": "",
             "button_text": ""
           }
-        },
-        "2ee3a6ae-1ea2-4423-8fa2-3d07eb13118f": {
-          "type": "item",
-          "settings": {
-            "image_rotation_degrees": 0,
-            "subheading": "",
-            "title": "Image with text",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "button_url": "",
-            "button_text": ""
-          }
         }
       },
       "block_order": [
-        "template--16674772058354__0daee94c-7c94-4b2a-8e23-e6d05600f74b-1682077428b7ee4188-0",
-        "2ee3a6ae-1ea2-4423-8fa2-3d07eb13118f"
+        "template--16674772058354__0daee94c-7c94-4b2a-8e23-e6d05600f74b-1682077428b7ee4188-0"
       ],
       "settings": {
         "full_width": true,
