@@ -24,7 +24,7 @@
 
                 {% if isFit %}
                     <div>
-                        <div class="text-13 md:text-16 font-600">Length</div>
+                        <div class="text-13 md:text-16 font-600">Color:</div>
                         <div>
                             {% assign fits = fits | append: ',' | append: fitCurrent %}
                             {%- assign fits = fits | remove_first: ',' | split: ',' -%}
