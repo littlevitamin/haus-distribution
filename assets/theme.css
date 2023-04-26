@@ -10072,7 +10072,8 @@ split-lines {
 .cart-form > button,
 .buy-buttons--compact > button,
 #product-form-7899131478258-template--16674771992818__main > buy-buttons > button,
-.buy-buttons--multiple > button {
+.buy-buttons--multiple > button,
+.button--secondary {
   background: #1D2F50;
   color: white;
 }
