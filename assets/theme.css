@@ -10081,7 +10081,8 @@ split-lines {
 }
 
 .shipping-estimator__form > button,
-.buy-buttons--compact .button--secondary {
+.buy-buttons--compact .button--secondary,
+.cart-drawer__note-inner .button {
   background: #F4A6A2;
 }
 
