@@ -10,10 +10,8 @@
                     {% assign productTitle = product.title | split: '>' | first %}
                     {%- assign fitCurrent = product.title | split: '>' | last -%}
     
-                    {% for findProduct in collections.all.products %}
-                      
+                    {% for findProduct in collections.all.products %}                    
                         {% if findProduct.title contains '>' %}
-                          <h1>hi</h1>
                             {% assign findProductTitle = findProduct.title | split: '>' | first%}
                             {% if findProductTitle contains productTitle and  product.title != findProduct.title %}
                             {%- assign fit = findProduct.title | split: '>' | last -%}
@@ -26,7 +24,6 @@
                 {% endif %}
 
                 {% if isFit %}
-                  <h1>Hi</h1>
                     <div>
                         <div class="text-13 md:text-16 font-600">Color:</div>
                         <div>
