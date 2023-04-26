@@ -1,0 +1,53 @@
+            {%- comment -%}
+            FIT LOGIC
+            {%- endcomment -%}
+            {%- assign isFit = false -%}
+            {%- assign fits = '' -%}
+            {%- assign fitsHandles = '' -%}
+            {%- assign fitCurrent = '' -%}
+            {% if product.title contains '-' %}
+                    {% assign productTitle = product.title | split: '-' | first %}
+                    {%- assign fitCurrent = product.title | split: '-' | last -%}
+    
+                    {% for findProduct in collections.all.products %}
+                        {% if findProduct.title contains '-' %}
+                            {% assign findProductTitle = findProduct.title | split: '-' | first%}
+                            {% if findProductTitle contains productTitle and  product.title != findProduct.title %}
+                            {%- assign fit = findProduct.title | split: '-' | last -%}
+                            {%- assign fits = fits | append: ',' | append: fit -%}
+                            {%- assign fitsHandles = fitsHandles | append: ',' | append: findProduct.handle -%}
+                            {%- assign isFit = true -%}
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+
+                {% if isFit %}
+                    <div>
+                        <div class="text-13 md:text-16 font-600">Length</div>
+                        <div>
+                            {% assign fits = fits | append: ',' | append: fitCurrent %}
+                            {%- assign fits = fits | remove_first: ',' | split: ',' -%}
+                            {%- assign fits = fits | sort -%}
+                            {%- assign fitsHandles = fitsHandles | append: ',' | append: product.handle -%}
+                            {%- assign fitsHandles = fitsHandles | remove_first: ',' | split: ',' -%}
+                            {%- assign fitsHandles = fitsHandles | sort -%}
+                            <div class="flex m-w-80 space-x-3 mt-4">
+          
+                                {% for item in fits %}
+                                    {% if item == fitCurrent %}
+                                    <div class="group relative border rounded-full py-3 px-4 flex items-center justify-center font-400 hover:bg-gray-50 focus:outline-none sm:flex-1 shadow-sm cursor-pointer border-decisive bg-decisive text-white max-w-[125px]">
+                                        {{fitCurrent}}
+                                    </div>
+
+                                    {% else %}
+                                    <a href="/products/{{fitsHandles[forloop.index0]}}" class="group relative border rounded-full py-3 px-4 flex items-center justify-center font-400 hover:bg-gray-50 focus:outline-none sm:flex-1 shadow-sm cursor-pointer border-decisive max-w-[125px]">{{item}}</a>
+                                    {% endif %}
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}
+            {%- comment -%}
+                FIT LOGIC
+            {%- endcomment -%}
