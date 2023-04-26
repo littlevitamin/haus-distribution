@@ -21,8 +21,8 @@
         {%- if request.page_type == 'product' -%}
           {% assign current_variant = product.selected_or_first_available_variant %}
           <h1 class="product-info__title {{ block.settings.heading_tag }}" {{ block.shopify_attributes }}>{{ product.title }}</h1>
-          <span class="variant-sku text-xs link-faded">SKU:</span>
-          <span class="variant-sku text-xs link-faded">{{ current_variant.sku }}</span>
+          <span class="variant-sku link-faded">SKU:</span>
+          <span class="variant-sku link-faded">{{ current_variant.sku }}</span>
         {%- else -%}
           <h2 class="product-info__title {{ block.settings.heading_tag }}" {{ block.shopify_attributes }}>
             <a href="{{ product.url }}">{{ product.title }} </a>
