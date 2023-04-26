@@ -10105,6 +10105,10 @@ split-lines {
   color: white;
 }
 
+.color-swatch {
+  border-radius: 50%;
+}
+
 .horizontal-product__cta .shopify-product-form {
   display: flex;
   flex-direction: column-reverse;
