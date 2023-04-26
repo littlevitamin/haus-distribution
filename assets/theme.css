@@ -10116,6 +10116,10 @@ split-lines {
   border-radius: 50%;
 }
 
+.current-item-box-shadow {
+  box-shadow: 0 0 0 2px rgb(var(--text-color));
+}
+
 .horizontal-product__cta .shopify-product-form {
   display: flex;
   flex-direction: column-reverse;
