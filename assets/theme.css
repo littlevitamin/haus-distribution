@@ -10080,6 +10080,16 @@ split-lines {
   display: none;
 }
 
+image-banner > div > div > a {
+  background: #1D2F50;
+  color: white;
+  font-family: 'Gilroy-Regular', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 26px;
+}
+
 .shipping-estimator__form > button,
 .buy-buttons--compact .button--secondary,
 .cart-drawer__note-inner .button {
