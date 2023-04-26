@@ -33,16 +33,16 @@
                             {%- assign fitsHandles = fitsHandles | append: ',' | append: product.handle -%}
                             {%- assign fitsHandles = fitsHandles | remove_first: ',' | split: ',' -%}
                             {%- assign fitsHandles = fitsHandles | sort -%}
-                            <div class="flex m-w-80 space-x-3 mt-4">
+                            <div class="flex">
           
                                 {% for item in fits %}
                                     {% if item == fitCurrent %}
-                                    <div class="block-swatch">
+                                    <div class="block-swatch gap-2">
                                         {{fitCurrent}}
                                     </div>
 
                                     {% else %}
-                                    <a href="/products/{{fitsHandles[forloop.index0]}}" class="block-swatch">{{item}}</a>
+                                    <a href="/products/{{fitsHandles[forloop.index0]}}" class="block-swatch gap-2">{{item}}</a>
                                     {% endif %}
                                 {% endfor %}
                             </div>
