@@ -37,12 +37,12 @@
           
                                 {% for item in fits %}
                                     {% if item == fitCurrent %}
-                                    <div class="group relative border rounded-full py-3 px-4 flex items-center justify-center font-400 hover:bg-gray-50 focus:outline-none sm:flex-1 shadow-sm cursor-pointer border-decisive bg-decisive text-white max-w-[125px]">
+                                    <div class="block-swatch">
                                         {{fitCurrent}}
                                     </div>
 
                                     {% else %}
-                                    <a href="/products/{{fitsHandles[forloop.index0]}}" class="group relative border rounded-full py-3 px-4 flex items-center justify-center font-400 hover:bg-gray-50 focus:outline-none sm:flex-1 shadow-sm cursor-pointer border-decisive max-w-[125px]">{{item}}</a>
+                                    <a href="/products/{{fitsHandles[forloop.index0]}}" class="block-swatch">{{item}}</a>
                                     {% endif %}
                                 {% endfor %}
                             </div>
