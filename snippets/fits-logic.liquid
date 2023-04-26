@@ -5,12 +5,12 @@
             {%- assign fits = '' -%}
             {%- assign fitsHandles = '' -%}
             {%- assign fitCurrent = '' -%}
-            {% if product.title contains '-' %}
+            {% if product.title contains 'Pure' %}
                     {% assign productTitle = product.title | split: '-' | first %}
                     {%- assign fitCurrent = product.title | split: '-' | last -%}
     
                     {% for findProduct in collections.all.products %}
-                        {% if findProduct.title contains '-' %}
+                        {% if findProduct.title contains 'Pure' %}
                             {% assign findProductTitle = findProduct.title | split: '-' | first%}
                             {% if findProductTitle contains productTitle and  product.title != findProduct.title %}
                             {%- assign fit = findProduct.title | split: '-' | last -%}
