@@ -103,7 +103,9 @@
 
       {%- when 'variant_picker' -%}
         <div class="product-info__variant-picker" {{ block.shopify_attributes }}>
+          <div>
           {%- render 'fits-logic' -%}
+          </div>
           {%- render 'variant-picker', product: product, form_id: product_form_id, update_url: update_url, hide_sold_out_variants: block.settings.hide_sold_out_variants, block: block -%}
         </div>
 
