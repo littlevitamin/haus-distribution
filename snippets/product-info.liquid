@@ -19,10 +19,10 @@
 
       {%- when 'title' -%}
         {%- if request.page_type == 'product' -%}
-          <h1 class="product-info__title {{ block.settings.heading_tag }}" {{ block.shopify_attributes }}>{{ product.title }}</h1>
+          <h1 class="product-info__title {{ block.settings.heading_tag }}" {{ block.shopify_attributes }}>{{ product.title }} {{ product.variants.option.option1.value }}</h1>
         {%- else -%}
           <h2 class="product-info__title {{ block.settings.heading_tag }}" {{ block.shopify_attributes }}>
-            <a href="{{ product.url }}">{{ product.title }} {{ product.variants.option.option1.value }}</a>
+            <a href="{{ product.url }}">{{ product.title }} </a>
           </h2>
         {%- endif -%}
 
