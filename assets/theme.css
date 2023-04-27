@@ -10080,7 +10080,7 @@ split-lines {
 .buy-buttons--compact > button,
 #product-form-7899131478258-template--16674771992818__main > buy-buttons > button,
 .buy-buttons--multiple > button,
-.product-quick-add__variant > button {
+.product-quick-add > div > buy-buttons > button {
   background: #1D2F50;
   color: white;
 }
@@ -10089,7 +10089,7 @@ split-lines {
   grid-template-columns: none;
 }
 
-#shopify-section-template--16674772058354__f97036d1-abc4-4f4d-9d58-c8d6806c3717 > div > image-banner > div > div > a {
+image-banner > div > div > a {
   background: #1D2F50;
   color: white;
   font-family: 'Gilroy-Regular', sans-serif;
