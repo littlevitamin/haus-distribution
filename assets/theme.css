@@ -10124,7 +10124,3 @@ image-banner > div > div > a {
   display: flex;
   flex-direction: column-reverse;
 }
-
-.is-filled > div > h1 > a > img {
-  content: url('https://cdn.shopify.com/s/files/1/0549/1156/6066/files/Haus_Logo_FullColour_RGB.png?v=1682582707');
-}
