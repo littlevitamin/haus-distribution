@@ -10107,7 +10107,7 @@ multiple-images-with-text-content-list > div > div > p.h1 {
   color: white;
 }
 
-.buy-buttons {
+.product-info .buy-buttons {
   grid-template-columns: none;
 }
 
