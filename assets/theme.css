@@ -10191,3 +10191,6 @@ multiple-images-with-text-content-list > div > div > p:nth-child(2),
   background-repeat: no-repeat;
 }
 
+#cart-drawer > div > form > a {
+  width: 50%;
+}
