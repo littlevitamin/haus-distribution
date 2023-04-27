@@ -10180,14 +10180,14 @@ multiple-images-with-text-content-list > div > div > p:nth-child(2),
   display: none;
 }
 
-#shopify-section-template--16674772058354__958fd2ba-605f-48ae-b321-13924898af81 {
-  background-image: url('https://cdn.shopify.com/s/files/1/0549/1156/6066/files/Path_50.png?v=1682596908');
-  background-repeat: no-repeat;
-}
-
-#shopify-section-template--16683644616946__159b1d2e-65ee-4a87-a76f-f13a627b3da1 {
+#shopify-section-template--16674772058354__159b1d2e-65ee-4a87-a76f-f13a627b3da1 {
   background-image: url('https://cdn.shopify.com/s/files/1/0549/1156/6066/files/Path_50_1.png?v=1682598158');
   background-repeat: no-repeat;
   background-position: bottom left;
+}
+
+#shopify-section-template--16674772058354__958fd2ba-605f-48ae-b321-13924898af81 {
+  background-image: url('https://cdn.shopify.com/s/files/1/0549/1156/6066/files/Path_50.png?v=1682596908');
+  background-repeat: no-repeat;
 }
 
