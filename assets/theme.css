@@ -10190,7 +10190,3 @@ multiple-images-with-text-content-list > div > div > p:nth-child(2),
   background-image: url('https://cdn.shopify.com/s/files/1/0549/1156/6066/files/Path_50.png?v=1682596908');
   background-repeat: no-repeat;
 }
-
-#cart-drawer > div > .buy-buttons {
-  grid-template-columns: 2;
-}
