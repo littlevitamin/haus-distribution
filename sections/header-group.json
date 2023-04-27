@@ -60,7 +60,7 @@
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": true,
-        "logo": "shopify:\/\/shop_images\/Haus_Logo_Inverted_RGB.png",
+        "logo": "shopify:\/\/shop_images\/Haus_Logo_FullColour_RGB.png",
         "logo_max_width": 140,
         "logo_mobile_max_width": 80,
         "menu": "main-menu",
@@ -75,6 +75,7 @@
         "show_country_flag": false,
         "show_country_name": false,
         "transparent_header_text_color": "#ffffff",
+        "transparent_logo": "shopify:\/\/shop_images\/Haus_Logo_Inverted_RGB.png",
         "reduce_padding": true,
         "background_opacity": 100,
         "background_blur_radius": 0
