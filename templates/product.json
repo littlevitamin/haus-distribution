@@ -19,6 +19,11 @@
           "settings": {
           }
         },
+        "a21878a7-9dfe-4c10-84b2-96196edb690d": {
+          "type": "sku",
+          "settings": {
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -83,6 +88,7 @@
         "vendor",
         "title",
         "badges",
+        "a21878a7-9dfe-4c10-84b2-96196edb690d",
         "price",
         "fda2d7f6-bad6-4a99-b777-29dc75d33eef",
         "rating",
