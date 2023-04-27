@@ -146,7 +146,7 @@
 
         ],
         "full_width": true,
-        "stack_products": true,
+        "stack_products": false,
         "show_progress_bar": false,
         "products_count": 6,
         "products_per_row_mobile": "2",
@@ -359,6 +359,9 @@
     },
     "958fd2ba-605f-48ae-b321-13924898af81": {
       "type": "featured-collection",
+      "custom_css": [
+
+      ],
       "settings": {
         "collection": "toys",
         "products": [
