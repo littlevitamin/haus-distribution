@@ -9767,7 +9767,7 @@ multiple-images-with-text-content-list > div > div > p.h1 {
   line-height: 1.6;
 }
 
-.heading, .h0, .h1, .h2, .h3, .h4, .h5, .h6, a, span, p, .prose :is(h1, h2, h3, h4, h5, h6) {
+.heading, .h0, .h1, .h2, .h3, .h4, .h5, .h6, .prose :is(h1, h2, h3, h4, h5, h6) {
   font-weight: var(--heading-font-weight);
   font-style: var(--heading-font-style);
   letter-spacing: var(--heading-letter-spacing);
