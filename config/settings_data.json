@@ -21,6 +21,7 @@
     "product_card_text_color": "#1d2f50",
     "product_rating_color": "#f18534",
     "product_on_sale_accent": "#f4a6a2",
+    "product_sold_out_badge_background": "{{ shop.brand.colors.primary[0].background }}",
     "product_primary_badge_background": "#f4a6a2",
     "heading_font": "din_next_n7",
     "heading_font_size": "large",
