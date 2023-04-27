@@ -239,9 +239,10 @@
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "drawin-kids",
+            "image": "shopify:\/\/shop_images\/pseudo_1.png",
             "subheading": "",
-            "title": "",
+            "title": "Drawin' Table",
             "url": "",
             "heading_tag": "h2",
             "text_position": "place-self-center text-center",
@@ -253,7 +254,8 @@
         "collection-2": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "ball-pits-balls",
+            "image": "shopify:\/\/shop_images\/pseudo_2.png",
             "subheading": "",
             "title": "",
             "url": "",
@@ -267,9 +269,10 @@
         "collection-3": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "oyoy",
+            "image": "shopify:\/\/shop_images\/pseudo_3.png",
             "subheading": "",
-            "title": "",
+            "title": "OYOY Living",
             "url": "",
             "heading_tag": "h2",
             "text_position": "place-self-center text-center",
