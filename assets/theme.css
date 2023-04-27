@@ -10147,7 +10147,8 @@ split-lines {
 .content-over-media > div.place-self-center.text-center.hidden.md\:block > div > p,
 .section-header.md\:hidden > div > p,
 image-banner > div > div > div > p,
-multiple-images-with-text-content-list > div > div > p:nth-child(2) {
+multiple-images-with-text-content-list > div > div > p:nth-child(2),
+.reversed-link {
   font-weight: 400;
 }
 
