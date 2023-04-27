@@ -2065,6 +2065,14 @@ scroll-carousel {
   }
 }
 
+.header__main-nav > div > nav > ul > li > details > summary {
+  font-family: 'Gilroy-Regular', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 26px;
+}
+
 .section-stack {
   gap: var(--section-stack-spacing-block, 0px) var(--section-stack-spacing-inline, 0px);
   grid-auto-columns: minmax(0, 1fr);
@@ -9758,13 +9766,16 @@ split-lines {
   line-height: 1.6;
 }
 
-.heading, .h0, .h1, .h2, .h3, .h4, .h5, .h6, .prose :is(h1, h2, h3, h4, h5, h6) {
-  font-family: var(--heading-font-family);
+.heading, .h0, .h1, .h2, .h3, .h4, .h5, .h6, a, span, p, .prose :is(h1, h2, h3, h4, h5, h6) {
   font-weight: var(--heading-font-weight);
   font-style: var(--heading-font-style);
   letter-spacing: var(--heading-letter-spacing);
   text-transform: var(--heading-text-transform);
   overflow-wrap: anywhere;
+}
+
+.heading, .h0, .h1, .h2, .h3, .h4, .h5, .h6, a, span, p, .prose :is(h1, h2, h3, h4, h5, h6) {
+  font-family: 'Gilroy-Regular', sans-serif;
 }
 
 .h0 {
@@ -9990,6 +10001,10 @@ split-lines {
     width: 80%;
     margin: 0 auto;
   }
+
+  .product-card {
+    margin: 40px 0;
+  }
 }
 
 @media (min-width: 500px) and (max-width: 600px) {
@@ -10089,7 +10104,7 @@ split-lines {
   grid-template-columns: none;
 }
 
-image-banner > div > div > a {
+.shopify-section--image-with-text-overlay > div > image-banner > div > div > a {
   background: #1D2F50;
   color: white;
   font-family: 'Gilroy-Regular', sans-serif;
@@ -10123,4 +10138,36 @@ image-banner > div > div > a {
 .horizontal-product__cta .shopify-product-form {
   display: flex;
   flex-direction: column-reverse;
+}
+
+.footer__block--menu > ul > li > a,
+.footer__block--text > div > p,
+.footer__copyright,
+.product-info__accordion > div > div > p,
+.content-over-media > div.place-self-center.text-center.hidden.md\:block > div > p,
+.section-header.md\:hidden > div > p,
+image-banner > div > div > div > p,
+multiple-images-with-text-content-list > div > div > p:nth-child(2) {
+  font-weight: 400;
+}
+
+.product-info__price, .product-info__inventory {
+  display: inline-block;
+}
+
+.product-info__inventory {
+  float: right;
+}
+
+.product-info__inventory > variant-inventory > span {
+  font-family: 'Gilroy-Regular', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 26px;
+  color: #F18534;
+}
+
+.product-info__inventory > variant-inventory > span > svg {
+  display: none;
 }
