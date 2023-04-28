@@ -47,6 +47,7 @@ Supported variables
 {%- endif -%}
 
 <product-card handle="{{ product.handle | escape }}" {% if reveal %}reveal-js{% endif %} {% render 'surface', class: card_class, background: card_background, text_color: card_text_color %}>
+  <div class="product-card-margin">
   {%- comment -%}
   --------------------------------------------------------------------------------------------------------------------
   PRODUCT BADGES
@@ -175,6 +176,7 @@ Supported variables
           {% else %}
             <p class="out-of-stock">Out of Stock</p>
           {% endif %}
+          
         </div>
       </div>
     </div>
@@ -257,4 +259,5 @@ Supported variables
         </div>
       {%- endform -%}
   {% endif %}
+  </div>
 </product-card>
