@@ -10231,3 +10231,8 @@ multiple-images-with-text-content-list > div > div > p:nth-child(2),
     flex-direction: column;
   }
 }
+
+
+.menu-font-size {
+  font-size: 14px;
+}
