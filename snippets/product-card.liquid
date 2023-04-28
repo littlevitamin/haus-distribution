@@ -177,6 +177,7 @@ Supported variables
             <p class="out-of-stock">Out of Stock</p>
           {% endif %}
            -->
+        {% assign block.settings.low_inventory_threshold = 50 %}
         <div class="product-info__inventory {{ block.shopify_attributes }}">
           {%- render 'inventory', product: product, low_threshold: block.settings.low_inventory_threshold, form_id: product_form_id -%}
         </div>
