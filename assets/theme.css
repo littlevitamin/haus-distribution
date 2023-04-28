@@ -10203,3 +10203,8 @@ multiple-images-with-text-content-list > div > div > p:nth-child(2),
 .product-card-margin {
   margin: 0 10px;
 }
+
+.logo-list__item {
+  border: 1px solid #1D2F50;
+  border-radius: 12px;
+}
