@@ -372,7 +372,7 @@
         "full_width": true,
         "stack_products": true,
         "show_progress_bar": false,
-        "enable_parallax": true,
+        "enable_parallax": false,
         "products_count": 4,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
