@@ -10227,3 +10227,7 @@ multiple-images-with-text-content-list > div > div > p:nth-child(2),
     flex-direction: column;
   }
 }
+
+.product-card__aside {
+  display: none;
+}
