@@ -31,8 +31,7 @@
     }
   }
 </style>
-<image-banner reveal-on-scroll="true" {% if section.settings.enable_parallax %}parallax="0.3"{% endif %}>
-{%- capture default_size -%}{% if section.settings.enable_parallax %}130vw{% else %}100vw{% endif %}{%- endcapture -%}
+
 <div {% render 'section-properties' %}>
   <div class="section-stack">
     {%- assign link_url = section.settings.link_url | default: section.settings.collection.url -%}
@@ -77,7 +76,7 @@
     </div>
   </div>
 </div>
-</image-banner>
+
 {% schema %}
 {
   "name": "Featured collection",
@@ -115,12 +114,6 @@
       "type": "checkbox",
       "id": "show_progress_bar",
       "label": "Show carousel progress bar",
-      "default": false
-    },    
-    {
-      "type": "checkbox",
-      "id": "enable_parallax",
-      "label": "Enable parallax effect",
       "default": false
     },
     {
