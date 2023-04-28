@@ -10204,7 +10204,7 @@ multiple-images-with-text-content-list > div > div > p:nth-child(2),
   margin: 0 10px;
 }
 
-.logo-list__item {
+.logo-list__item > img {
   border: 1px solid #1D2F50;
   border-radius: 12px;
 }
