@@ -10217,6 +10217,6 @@ multiple-images-with-text-content-list > div > div > p:nth-child(2),
     min-height: 72px;
   }
   .cart-buttons-flex > input {
-    max-width: 40px;
+    max-width: 40px!important;
   }
 }
