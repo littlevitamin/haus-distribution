@@ -5526,6 +5526,10 @@ multiple-images-with-text-content-list > div > div > p.h1 {
   color: #1D2F50;
 }
 
+#footer-newsletter .hover-colors:hover {
+  background: white;
+}
+
 .footer .form-control {
   border: 1px solid white;
   border-radius: 5px;
