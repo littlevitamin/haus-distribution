@@ -10183,6 +10183,7 @@ multiple-images-with-text-content-list > div > div > p:nth-child(2),
   background-image: url('https://cdn.shopify.com/s/files/1/0549/1156/6066/files/Path_50_1.png?v=1682598158');
   background-repeat: no-repeat;
   background-position: bottom left;
+  padding-top: 48px;
 }
 
 #shopify-section-template--16674772058354__958fd2ba-605f-48ae-b321-13924898af81 {
@@ -10202,6 +10203,8 @@ multiple-images-with-text-content-list > div > div > p:nth-child(2),
   border: 2px solid #1D2F50;
   border-radius: 12px;
 }
+
+/* Product card responsive alignment */
 
 @media screen and (min-width: 1300px) {
   .product-card__info .flex {
