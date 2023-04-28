@@ -23,7 +23,6 @@
     },
     "548c5b9b-0520-4de2-9bb0-aac43d056e82": {
       "type": "text-with-image-underneath",
-      "disabled": true,
       "blocks": {
         "template--16674772254962__548c5b9b-0520-4de2-9bb0-aac43d056e82-16823418622d7f9f28-0": {
           "type": "subheading",
@@ -56,38 +55,6 @@
         "overlay_opacity": 30
       }
     },
-    "d331545f-1070-400d-a16a-56d1233af0e4": {
-      "type": "left-text-right-image",
-      "disabled": true,
-      "blocks": {
-        "template--16674772254962__d331545f-1070-400d-a16a-56d1233af0e4-1682408158007c2242-0": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-03-29_at_16.43_1.png",
-            "image_rotation_degrees": 0,
-            "logo": "shopify:\/\/shop_images\/a_3.png",
-            "subheading": "",
-            "title": "Little Dutch",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16674772254962__d331545f-1070-400d-a16a-56d1233af0e4-1682408158007c2242-0"
-      ],
-      "settings": {
-        "full_width": true,
-        "images_layout": "stacked",
-        "collage_images_alignment": "middle",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
     "main": {
       "type": "main-collection",
       "settings": {
@@ -108,7 +75,6 @@
   "order": [
     "banner",
     "548c5b9b-0520-4de2-9bb0-aac43d056e82",
-    "d331545f-1070-400d-a16a-56d1233af0e4",
     "main"
   ]
 }
