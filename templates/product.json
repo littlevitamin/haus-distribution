@@ -33,7 +33,7 @@
         "fda2d7f6-bad6-4a99-b777-29dc75d33eef": {
           "type": "inventory",
           "settings": {
-            "low_inventory_threshold": 100
+            "low_inventory_threshold": 50
           }
         },
         "rating": {
