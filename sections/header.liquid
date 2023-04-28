@@ -160,7 +160,7 @@ the underlying logic of the menu.
                                   {%- else -%}
                                     <details class="relative" is="dropdown-disclosure" trigger="{{ section.settings.menu_open_trigger | escape }}">
                                       <summary class="dropdown-menu__item group" {% if sub_link.url != '#' %}data-url="{{ sub_link.url | escape }}"{% endif %}>
-                                        <span><span class="reversed-link">{{- sub_link.title -}}</span></span>
+                                        <span><span class="reversed-link menu-font-size">{{- sub_link.title -}}</span></span>
                                         {%- render 'icon' with 'chevron-right' -%}
                                       </summary>
 
