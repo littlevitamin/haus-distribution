@@ -34,7 +34,7 @@
     <ul class="mega-menu__nav" role="list">
       {%- for sub_link in link.links -%}
         <li class="v-stack gap-4 justify-items-start">
-          <a {% if sub_link.url != '#' %}href="{{ sub_link.url }}"{% endif %} class="{% if mega_menu_block.settings.submenu_style == 'bold_heading' %}h5{% endif %} bold" {% if sub_link.current %}aria-current="page"{% endif %}>
+          <a {% if sub_link.url != '#' %}href="{{ sub_link.url }}"{% endif %} class="{% if mega_menu_block.settings.submenu_style == 'bold_heading' %}text-with-icon bold link-faded-reverse{% endif %}" {% if sub_link.current %}aria-current="page"{% endif %}>
             <span {% if sub_link.url != '#' %}class="{% if mega_menu_block.settings.submenu_style == 'bold_text' %}link-faded{% else %}reversed-link hover:show{% endif %}"{% endif %}>
               {{- sub_link.title -}}
             </span>
