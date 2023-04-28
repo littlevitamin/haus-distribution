@@ -52,6 +52,15 @@ CSS
     display: flex;
     flex-direction: row-reverse;
   }
+
+  @media screen and (max-width: 990px) {
+    .text-left-image-right {
+      flex-direction: column;
+    }
+    .multiple-images-with-text-content-list > div > img {
+      display: none;
+    }
+  }
 </style>
 
 {%- comment -%}
