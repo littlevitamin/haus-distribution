@@ -142,7 +142,7 @@ Supported variables
         </div>
       {%- else -%}
         {% assign current_variant = product.selected_or_first_available_variant %}
-        <div style="width: 100%;">
+        <div class="card-flex-column" style="width: 100%;">
           {%- render 'vendor' with product.vendor, class: 'text-xs' -%}
           <div style="float: right;">
             <span class="variant-sku text-xs link-faded">SKU:</span>
