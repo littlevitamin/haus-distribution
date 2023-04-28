@@ -171,7 +171,7 @@ Supported variables
             <p class="price-list text-subdued">RRP: £{{ product.metafields.custom.retail_price }}</p>
           {% endif %}
           {% if product.available %}
-            <p class="in-stock">In Stock</p>
+            <p class="in-stock">{{ product.inventory.in_stock}} Items In Stock</p>
           {% else %}
             <p class="out-of-stock">Out of Stock</p>
           {% endif %}
