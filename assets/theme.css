@@ -10175,7 +10175,8 @@ multiple-images-with-text-content-list > div > div > p:nth-child(2),
   color: #F18534;
 }
 
-.product-info__inventory > variant-inventory > span > svg {
+.product-info__inventory > variant-inventory > span > svg,
+.product-card__aside {
   display: none;
 }
 
@@ -10229,8 +10230,4 @@ multiple-images-with-text-content-list > div > div > p:nth-child(2),
     display: flex;
     flex-direction: column;
   }
-}
-
-.product-card__aside {
-  display: none;
 }
