@@ -10222,4 +10222,8 @@ multiple-images-with-text-content-list > div > div > p:nth-child(2),
   .cart-buttons-flex > input {
     max-width: 50px!important;
   }
+  .card-flex-column {
+    display: flex;
+    flex-direction: column;
+  }
 }
