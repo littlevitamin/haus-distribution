@@ -10040,6 +10040,8 @@ multiple-images-with-text-content-list > div > div > p.h1 {
 .flex-start {
   display: flex;
   justify-content: flex-start;
+  padding-bottom: 8px;
+  padding-top: 14px;
 }
 
 .in-stock, 
