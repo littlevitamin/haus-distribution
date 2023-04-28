@@ -10211,3 +10211,12 @@ multiple-images-with-text-content-list > div > div > p:nth-child(2),
     min-height: 48px;
   }
 }
+
+@media (min-width: 990px) and (max-width: 1300px) {
+  .product-card__title {
+    min-height: 72px;
+  }
+  .cart-buttons-flex > input {
+    max-width: 40px;
+  }
+}
