@@ -33,8 +33,7 @@
 </style>
 
 <div {% render 'section-properties' %}>
-  <div class="section-stack" reveal-on-scroll="true" {% if section.settings.enable_parallax %}parallax="0.3"{% endif %}>
-    {%- capture default_size -%}{% if section.settings.enable_parallax %}130vw{% else %}100vw{% endif %}{%- endcapture -%}
+  <div class="section-stack">
     {%- assign link_url = section.settings.link_url | default: section.settings.collection.url -%}
     {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, heading_color: section.settings.heading_color, heading_gradient: section.settings.heading_gradient, content: section.settings.content, link_text: section.settings.link_text, link_url: link_url -%}
 
@@ -116,12 +115,6 @@
       "id": "show_progress_bar",
       "label": "Show carousel progress bar",
       "default": false
-    },    
-    {
-      "type": "checkbox",
-      "id": "enable_parallax",
-      "label": "Enable parallax effect",
-      "default": true
     },
     {
       "type": "range",
