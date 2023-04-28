@@ -41,7 +41,7 @@
           </a>
 
           {%- if sub_link.levels > 0 -%}
-            <ul class="v-stack gap-2 justify-items-start" role="list">
+            <ul class="v-stack gap-2 justify-items-start menu-font-size" role="list">
               {%- for sub_sub_link in sub_link.links -%}
                 <li>
                   <a href="{{ sub_sub_link.url }}" class="{% if mega_menu_block.settings.submenu_style == 'bold_text' %}h5{% else %}link-faded{% endif %}">
