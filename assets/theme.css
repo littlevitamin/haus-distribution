@@ -10192,6 +10192,10 @@ multiple-images-with-text-content-list > div > div > p:nth-child(2),
   background-repeat: no-repeat;
 }
 
+.product-card {
+  border-radius: 6px;
+}
+
 .product-card-margin {
   margin: 0 20px;
 }
