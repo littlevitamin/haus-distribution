@@ -9739,7 +9739,7 @@ multiple-images-with-text-content-list > div > div > p.h1 {
 }
 
 .bold {
-  font-weight: bold;
+  font-weight: bold!important;
 }
 
 .text-xxs {
