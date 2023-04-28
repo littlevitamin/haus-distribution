@@ -10204,3 +10204,12 @@ multiple-images-with-text-content-list > div > div > p:nth-child(2),
   border: 2px solid #1D2F50;
   border-radius: 12px;
 }
+
+@media screen and (min-width: 1300px) {
+  .product-card__info .flex {
+    min-height: 74px;
+  }
+  .product-card__title {
+    min-height: 48px;
+  }
+}
