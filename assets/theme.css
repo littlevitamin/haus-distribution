@@ -10035,15 +10035,11 @@ multiple-images-with-text-content-list > div > div > p.h1 {
 .flex {
   display: flex;
   justify-content: space-between;
-  padding-top: 14px;
-  padding-bottom: 8px;
 }
 
 .flex-start {
   display: flex;
   justify-content: flex-start;
-  padding-top: 14px;
-  padding-bottom: 8px;
 }
 
 .in-stock, 
