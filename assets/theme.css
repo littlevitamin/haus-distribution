@@ -10213,6 +10213,9 @@ multiple-images-with-text-content-list > div > div > p:nth-child(2),
 }
 
 @media (min-width: 990px) and (max-width: 1300px) {
+  .product-card__info .flex {
+    min-height: 50px;
+  }
   .product-card__title {
     min-height: 72px;
   }
