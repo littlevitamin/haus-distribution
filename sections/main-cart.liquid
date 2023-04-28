@@ -167,10 +167,12 @@
                   {%- when 'checkout_button' -%}
                     {%- assign checkout_button = 'cart.general.checkout' | t -%}
                     <p style="float: none; text-align: left; clear: both; margin: 10px 0;">
+                       <a href="/pages/terms-and-conditions" target="__blank">
                       <input style="float:none; vertical-align: middle;" type="checkbox" id="agree" />
                       <label style="display:inline; float:none" for="agree">
-                        <a href="/pages/terms-and-conditions" target="__blank">I agree with the terms and conditions</a>.
+                       I agree with the terms and conditions.
                       </label>
+                       </a>
                     </p>
                     {%- render 'button', type: 'submit', icon: 'picto-lock', content: checkout_button, size: 'xl', name: 'checkout', stretch: true, block: block -%}
                 {%- endcase -%}
