@@ -2,6 +2,7 @@
   "sections": {
     "banner": {
       "type": "collection-banner",
+      "disabled": true,
       "settings": {
         "full_width": false,
         "allow_transparent_header": false,
@@ -9,15 +10,82 @@
         "show_collection_title": true,
         "show_collection_description": true,
         "show_collection_image": true,
-        "collection_title_size": "h0",
-        "image_size": "auto",
+        "collection_title_size": "h1",
+        "image_size": "sm",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
-        "featured_product": "125209-little-dutch-kids-sunglasses-sailors-bay-round",
+        "featured_product": "",
         "featured_product_heading": "Featured product",
         "text_color": "#ffffff",
         "overlay_color": "#1d2f50",
         "overlay_opacity": 30
+      }
+    },
+    "548c5b9b-0520-4de2-9bb0-aac43d056e82": {
+      "type": "text-with-image-underneath",
+      "disabled": true,
+      "blocks": {
+        "template--16674772254962__548c5b9b-0520-4de2-9bb0-aac43d056e82-16823418622d7f9f28-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Living Room"
+          }
+        },
+        "template--16674772254962__548c5b9b-0520-4de2-9bb0-aac43d056e82-16823418622d7f9f28-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16674772254962__548c5b9b-0520-4de2-9bb0-aac43d056e82-16823418622d7f9f28-0",
+        "template--16674772254962__548c5b9b-0520-4de2-9bb0-aac43d056e82-16823418622d7f9f28-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/48263474846_cf782144ff_h_1296x_76d1bedf-93f8-4cf8-9579-933911d5eb43_webp.png",
+        "mobile_image": "shopify:\/\/shop_images\/48263474846_cf782144ff_h_1296x_76d1bedf-93f8-4cf8-9579-933911d5eb43_webp.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "d331545f-1070-400d-a16a-56d1233af0e4": {
+      "type": "left-text-right-image",
+      "disabled": true,
+      "blocks": {
+        "template--16674772254962__d331545f-1070-400d-a16a-56d1233af0e4-1682408158007c2242-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-03-29_at_16.43_1.png",
+            "image_rotation_degrees": 0,
+            "logo": "shopify:\/\/shop_images\/a_3.png",
+            "subheading": "",
+            "title": "Little Dutch",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16674772254962__d331545f-1070-400d-a16a-56d1233af0e4-1682408158007c2242-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
       }
     },
     "main": {
@@ -39,6 +107,8 @@
   },
   "order": [
     "banner",
+    "548c5b9b-0520-4de2-9bb0-aac43d056e82",
+    "d331545f-1070-400d-a16a-56d1233af0e4",
     "main"
   ]
 }
