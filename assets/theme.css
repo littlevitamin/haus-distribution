@@ -10239,6 +10239,10 @@ multiple-images-with-text-content-list > div > div > p:nth-child(2),
   .in-stock, .out-of-stock {
     min-height: 36px;
   }
+  .card-flex-column {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 
 .menu-font-size {
