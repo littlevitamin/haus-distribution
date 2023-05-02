@@ -9986,7 +9986,7 @@ multiple-images-with-text-content-list > div > div > p.h1 {
 
 .pointer-coarse\:hidden .button:hover,
 .shopify-section--image-with-text-overlay>div>image-banner>div>div>a:hover,
-#cart-drawer > button {
+#cart-drawer > div > form > button:hover {
   background: transparent;
   color: #1D2F50;
   border: 2px solid #1D2F50;
