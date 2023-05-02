@@ -9993,7 +9993,7 @@ multiple-images-with-text-content-list > div > div > p.h1 {
 .shopify-section--image-with-text-overlay>div>image-banner>div>div>a:hover,
 #cart-drawer > div > form > button:hover,
 .product-info .button--secondary:hover {
-  background: transparent;
+  background: white;
   color: #1D2F50;
   border: 2px solid #1D2F50;
 }
