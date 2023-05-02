@@ -9984,6 +9984,10 @@ multiple-images-with-text-content-list > div > div > p.h1 {
   width: -webkit-fill-available;
 }
 
+#cart-drawer > div > form > button {
+  border: 2px solid #1D2F50;
+}
+
 .pointer-coarse\:hidden .button:hover,
 .shopify-section--image-with-text-overlay>div>image-banner>div>div>a:hover,
 #cart-drawer > div > form > button:hover {
