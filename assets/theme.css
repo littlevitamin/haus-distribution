@@ -9984,7 +9984,8 @@ multiple-images-with-text-content-list > div > div > p.h1 {
   width: -webkit-fill-available;
 }
 
-.pointer-coarse\:hidden .button:hover {
+.pointer-coarse\:hidden .button:hover,
+.shopify-section--image-with-text-overlay>div>image-banner>div>div>a:hover {
   background: white;
   color: #1D2F50;
   border: 2px solid #1D2F50;
