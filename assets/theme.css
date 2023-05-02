@@ -10122,6 +10122,7 @@ multiple-images-with-text-content-list > div > div > p.h1 {
   border-radius: 5px;
   box-shadow: none;
   padding: 11px 47px;
+  border: 2px solid #1D2F50;
 }
 
 .shipping-estimator__form > button,
