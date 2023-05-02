@@ -10255,3 +10255,13 @@ multiple-images-with-text-content-list > div > div > p:nth-child(2),
 .menu-font-size {
   font-size: 14px;
 }
+
+/* Product info backorder styles */
+
+.product-info__buy-buttons {
+  margin: 0;  
+}
+
+.product-info__buy-buttons > form {
+  max-height: 65px;
+}
