@@ -10224,6 +10224,11 @@ multiple-images-with-text-content-list > div > div > p:nth-child(2),
   }
 }
 
+@media screen and (max-width: 990px) {
+  .product-card__title {
+    min-height: 48px;
+  }
+}
 
 .menu-font-size {
   font-size: 14px;
