@@ -21,38 +21,34 @@
         "overlay_opacity": 30
       }
     },
-    "548c5b9b-0520-4de2-9bb0-aac43d056e82": {
-      "type": "text-with-image-underneath",
+    "1c0ffae4-fcf7-4da8-b4ec-733c7a60eeb5": {
+      "type": "left-text-right-image",
       "blocks": {
-        "template--16674772254962__548c5b9b-0520-4de2-9bb0-aac43d056e82-16823418622d7f9f28-0": {
-          "type": "subheading",
+        "template--16689055432946__1c0ffae4-fcf7-4da8-b4ec-733c7a60eeb5-1683026908b245925e-0": {
+          "type": "item",
           "settings": {
-            "text": "OYOY"
-          }
-        },
-        "template--16674772254962__548c5b9b-0520-4de2-9bb0-aac43d056e82-16823418622d7f9f28-2": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "image": "shopify:\/\/shop_images\/pseudo_3.png",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "OYOY",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "button_url": "",
+            "button_text": ""
           }
         }
       },
       "block_order": [
-        "template--16674772254962__548c5b9b-0520-4de2-9bb0-aac43d056e82-16823418622d7f9f28-0",
-        "template--16674772254962__548c5b9b-0520-4de2-9bb0-aac43d056e82-16823418622d7f9f28-2"
+        "template--16689055432946__1c0ffae4-fcf7-4da8-b4ec-733c7a60eeb5-1683026908b245925e-0"
       ],
       "settings": {
         "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/48263474846_cf782144ff_h_1296x_76d1bedf-93f8-4cf8-9579-933911d5eb43_webp.png",
-        "mobile_image": "shopify:\/\/shop_images\/48263474846_cf782144ff_h_1296x_76d1bedf-93f8-4cf8-9579-933911d5eb43_webp.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
       }
     },
     "main": {
@@ -74,7 +70,7 @@
   },
   "order": [
     "banner",
-    "548c5b9b-0520-4de2-9bb0-aac43d056e82",
+    "1c0ffae4-fcf7-4da8-b4ec-733c7a60eeb5",
     "main"
   ]
 }
