@@ -247,10 +247,10 @@ Supported variables
       {%- form 'product', product, is: 'product-form' -%}
         <div>
         <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
-        {% comment %}<div class="pointer-fine:hidden">
+        <div class="pointer-fine:hidden">
           <input type="text" name="quantity" min="1" value="1">
             {%- render 'button', type: 'submit', content: "Buy Now", value: 'product_form_id' -%}
-        </div> {% endcomment %}
+        </div>
           <div class="pointer-coarse:hidden cart-buttons-flex">
             <input type="number" id="quantity" name="quantity" min="1" value="1" style="max-width: 30%; text-align: center">
             {%- render 'button', type: 'submit', content: "Buy Now", value: 'product_form_id' -%}
