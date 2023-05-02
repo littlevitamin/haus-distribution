@@ -47,11 +47,6 @@
           "settings": {
           }
         },
-        "separator": {
-          "type": "separator",
-          "settings": {
-          }
-        },
         "description": {
           "type": "description",
           "settings": {
@@ -99,7 +94,6 @@
         "fda2d7f6-bad6-4a99-b777-29dc75d33eef",
         "rating",
         "payment_terms",
-        "separator",
         "description",
         "variant_picker",
         "quantity_selector",
