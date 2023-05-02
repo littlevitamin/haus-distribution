@@ -73,12 +73,6 @@
           "settings": {
           }
         },
-        "a552ec1f-ac8c-4039-bc94-28adc33ea107": {
-          "type": "shopify:\/\/apps\/virtual-inventory-assistant\/blocks\/app-block\/bb5d39a7-1a52-44bc-9d6a-93a2f8a651ba",
-          "settings": {
-            "shipmentInfoText": "Shipment starts on"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -87,6 +81,12 @@
             "atc_button_text_color": "",
             "payment_button_background": "",
             "payment_button_text_color": ""
+          }
+        },
+        "a552ec1f-ac8c-4039-bc94-28adc33ea107": {
+          "type": "shopify:\/\/apps\/virtual-inventory-assistant\/blocks\/app-block\/bb5d39a7-1a52-44bc-9d6a-93a2f8a651ba",
+          "settings": {
+            "shipmentInfoText": "Shipment starts on"
           }
         }
       },
@@ -103,8 +103,8 @@
         "description",
         "variant_picker",
         "quantity_selector",
-        "a552ec1f-ac8c-4039-bc94-28adc33ea107",
-        "buy_buttons"
+        "buy_buttons",
+        "a552ec1f-ac8c-4039-bc94-28adc33ea107"
       ],
       "settings": {
         "full_width": true,
