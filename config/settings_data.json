@@ -46,7 +46,21 @@
     "checkout_button_color": "#1a1a1a",
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "13725594251442436114": {
+        "type": "shopify:\/\/apps\/virtual-inventory-assistant\/blocks\/app-embed\/bb5d39a7-1a52-44bc-9d6a-93a2f8a651ba",
+        "disabled": false,
+        "settings": {
+          "addToCartButtonSelector": "form[action*='\/cart\/add'] button[type='submit']",
+          "formSelector": "form[action*='\/cart\/add']",
+          "hiddenElements": ".shopify-payment-button",
+          "preOrderText": "Pre Order",
+          "preOrderButtonBackgroundColor": "",
+          "preOrderButtonTextColor": ""
+        }
+      }
+    }
   },
   "presets": {
     "Sound": {
