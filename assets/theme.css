@@ -9972,15 +9972,16 @@ multiple-images-with-text-content-list > div > div > p.h1 {
 .cart-buttons-flex {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .pointer-coarse\:hidden .button {
   margin-left: 13px;
-  padding: 11px 47px;
   background: #1D2F50;
 /* Navy */
   border: 1px solid #1D2F50;
   border-radius: 5px;
+  width: -webkit-fill-available;
 }
 
 .pointer-coarse\:hidden .button > div {
@@ -10005,12 +10006,6 @@ multiple-images-with-text-content-list > div > div > p.h1 {
 
   .product-card {
     margin: 40px 0;
-  }
-}
-
-@media (min-width: 500px) and (max-width: 600px) {
-  .pointer-coarse\:hidden > input {
-    max-width: 50px!important;
   }
 }
 
