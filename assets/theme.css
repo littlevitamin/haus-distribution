@@ -9985,7 +9985,7 @@ multiple-images-with-text-content-list > div > div > p.h1 {
 }
 
 #cart-drawer > div > form > button,
-.button--secondary {
+.product-info .button--secondary {
   border: 2px solid #1D2F50;
 }
 
