@@ -10218,9 +10218,6 @@ multiple-images-with-text-content-list > div > div > p:nth-child(2),
   .product-card__title {
     min-height: 72px;
   }
-  .cart-buttons-flex > input {
-    max-width: 50px!important;
-  }
   .card-flex-column {
     display: flex;
     flex-direction: column;
