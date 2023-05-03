@@ -111,7 +111,7 @@
     "3e3d8d39-3146-4d21-92db-a3e9f8bc5567": {
       "type": "featured-collection",
       "settings": {
-        "collection": "new-items",
+        "collection": "new-in",
         "products": [
           "120525-little-dutch-paint-book",
           "120526-little-dutch-craft-apron-sailors-bay",
@@ -121,7 +121,6 @@
         "full_width": true,
         "stack_products": true,
         "show_progress_bar": false,
-        "enable_parallax": false,
         "products_count": 15,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 5,
@@ -149,7 +148,6 @@
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": false,
-        "enable_parallax": false,
         "products_count": 6,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 5,
@@ -372,7 +370,6 @@
         "full_width": true,
         "stack_products": true,
         "show_progress_bar": false,
-        "enable_parallax": false,
         "products_count": 4,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
@@ -507,7 +504,6 @@
         "full_width": true,
         "stack_products": true,
         "show_progress_bar": false,
-        "enable_parallax": false,
         "products_count": 4,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
