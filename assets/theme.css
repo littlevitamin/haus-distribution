@@ -9775,7 +9775,7 @@ multiple-images-with-text-content-list > div > div > p.h1 {
   overflow-wrap: anywhere;
 }
 
-.heading, .h0, .h1, .h2, .h3, .h4, .h5, .h6, a, span, p, .prose :is(h1, h2, h3, h4, h5, h6) {
+.heading, .h0, .h1, .h2, .h3, .h4, .h5, .h6, a, span, label, p, .prose :is(h1, h2, h3, h4, h5, h6) {
   font-family: 'Gilroy-Regular', sans-serif;
 }
 
