@@ -134,12 +134,15 @@ LIQUID
               {%- endif -%}
 
               {%- if block.settings.title != blank -%}
-                <p class="h1" {% if settings.heading_apparition != 'none' %}reveal-on-scroll="true"{% endif %}>
+                {% comment %}<p class="h1" {% if settings.heading_apparition != 'none' %}reveal-on-scroll="true"{% endif %}>
                   {%- render 'styled-text', content: block.settings.title, apparition_effect: true -%}
-                </p>
+                </p>{% endcomment %}
+                {{ collection.title }}
               {%- endif -%}
 
-              {{- block.settings.content -}}
+              {% comment %}{{- block.settings.content -}}{% endcomment %}
+
+              {{ collection.description }}
 
               {%- if block.settings.button_text != blank -%}
                 {%- render 'button', href: block.settings.button_url, content: block.settings.button_text, size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color -%}
