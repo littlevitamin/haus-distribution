@@ -12,6 +12,7 @@
         "show_collection_image": true,
         "collection_title_size": "h1",
         "image_size": "sm",
+        "image": "shopify:\/\/shop_images\/Hello_Hossy.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "featured_product": "",
@@ -21,15 +22,15 @@
         "overlay_opacity": 30
       }
     },
-    "1c0ffae4-fcf7-4da8-b4ec-733c7a60eeb5": {
+    "d331545f-1070-400d-a16a-56d1233af0e4": {
       "type": "left-text-right-image",
       "blocks": {
-        "template--16689055432946__1c0ffae4-fcf7-4da8-b4ec-733c7a60eeb5-1683026908b245925e-0": {
+        "template--16674772254962__d331545f-1070-400d-a16a-56d1233af0e4-1682408158007c2242-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/OYOY_Living_Design.jpg",
-            "image_rotation_degrees": -2,
-            "logo": "shopify:\/\/shop_images\/aw18-oyoy-living.webp",
+            "image": "shopify:\/\/shop_images\/Larisa_Pumpkin.jpg",
+            "image_rotation_degrees": 0,
+            "logo": "shopify:\/\/shop_images\/e75f77e957e9cb87676b3c692d4be131_1200x630_1.png",
             "subheading": "",
             "title": true,
             "description": true,
@@ -39,7 +40,7 @@
         }
       },
       "block_order": [
-        "template--16689055432946__1c0ffae4-fcf7-4da8-b4ec-733c7a60eeb5-1683026908b245925e-0"
+        "template--16674772254962__d331545f-1070-400d-a16a-56d1233af0e4-1682408158007c2242-0"
       ],
       "settings": {
         "full_width": true,
@@ -71,7 +72,7 @@
   },
   "order": [
     "banner",
-    "1c0ffae4-fcf7-4da8-b4ec-733c7a60eeb5",
+    "d331545f-1070-400d-a16a-56d1233af0e4",
     "main"
   ]
 }

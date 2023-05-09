@@ -22,53 +22,18 @@
         "overlay_opacity": 30
       }
     },
-    "548c5b9b-0520-4de2-9bb0-aac43d056e82": {
-      "type": "text-with-image-underneath",
-      "disabled": true,
-      "blocks": {
-        "template--16674772254962__548c5b9b-0520-4de2-9bb0-aac43d056e82-16823418622d7f9f28-0": {
-          "type": "subheading",
-          "settings": {
-            "text": "Living Room"
-          }
-        },
-        "template--16674772254962__548c5b9b-0520-4de2-9bb0-aac43d056e82-16823418622d7f9f28-2": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16674772254962__548c5b9b-0520-4de2-9bb0-aac43d056e82-16823418622d7f9f28-0",
-        "template--16674772254962__548c5b9b-0520-4de2-9bb0-aac43d056e82-16823418622d7f9f28-2"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/48263474846_cf782144ff_h_1296x_76d1bedf-93f8-4cf8-9579-933911d5eb43_webp.png",
-        "mobile_image": "shopify:\/\/shop_images\/48263474846_cf782144ff_h_1296x_76d1bedf-93f8-4cf8-9579-933911d5eb43_webp.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
     "d331545f-1070-400d-a16a-56d1233af0e4": {
       "type": "left-text-right-image",
       "blocks": {
         "template--16674772254962__d331545f-1070-400d-a16a-56d1233af0e4-1682408158007c2242-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Hello_Hossy.jpg",
+            "image": "shopify:\/\/shop_images\/Drawin_Kids.jpg",
             "image_rotation_degrees": 0,
-            "logo": "shopify:\/\/shop_images\/Hello-Hossy-3_1.png",
+            "logo": "shopify:\/\/shop_images\/4_374.png",
             "subheading": "",
-            "title": "Hello Hossy",
-            "content": "<p>Hello Hossy is a French apparel brand with two missions: to make kids smile and to make them proud of what they are wearing. To achieve this, Hello Hossy design new, iconic, characterful caps, bags and beanies. Hello Hossy is a family business, whose story started in 2018.<\/p>",
+            "title": true,
+            "description": true,
             "button_url": "",
             "button_text": ""
           }
@@ -107,7 +72,6 @@
   },
   "order": [
     "banner",
-    "548c5b9b-0520-4de2-9bb0-aac43d056e82",
     "d331545f-1070-400d-a16a-56d1233af0e4",
     "main"
   ]
