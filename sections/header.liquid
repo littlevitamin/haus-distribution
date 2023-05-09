@@ -96,6 +96,10 @@ the underlying logic of the menu.
             {%- render 'icon' with 'search' -%}
           </a>
 
+          <a href="#swym-wishlist" class="swym-wishlist">
+            <i aria-hidden="true" focusable="false" role="presentation" class="fa fa-heart"></i>
+          </a>
+
           {%- if section.settings.layout != 'drawer' and section.settings.menu.links.size > 0 -%}
             <nav class="header__link-list {% if section.settings.layout == 'logo_left_navigation_center' %}justify-center{% endif %} wrap" role="navigation">
               <ul class="contents" role="list">
