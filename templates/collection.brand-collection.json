@@ -2,6 +2,7 @@
   "sections": {
     "banner": {
       "type": "collection-banner",
+      "disabled": true,
       "settings": {
         "full_width": false,
         "allow_transparent_header": false,
@@ -58,17 +59,16 @@
     },
     "d331545f-1070-400d-a16a-56d1233af0e4": {
       "type": "left-text-right-image",
-      "disabled": true,
       "blocks": {
         "template--16674772254962__d331545f-1070-400d-a16a-56d1233af0e4-1682408158007c2242-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-03-29_at_16.43_1.png",
+            "image": "shopify:\/\/shop_images\/Hello_Hossy.jpg",
             "image_rotation_degrees": 0,
-            "logo": "shopify:\/\/shop_images\/a_3.png",
+            "logo": "shopify:\/\/shop_images\/Hello-Hossy-3_1.png",
             "subheading": "",
-            "title": "Little Dutch",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "title": "Hello Hossy",
+            "content": "<p>Hello Hossy is a French apparel brand with two missions: to make kids smile and to make them proud of what they are wearing. To achieve this, Hello Hossy design new, iconic, characterful caps, bags and beanies. Hello Hossy is a family business, whose story started in 2018.<\/p>",
             "button_url": "",
             "button_text": ""
           }
