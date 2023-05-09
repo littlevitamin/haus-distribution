@@ -91,10 +91,6 @@ the underlying logic of the menu.
             {%- render 'icon' with 'hamburger' -%}
           </button>
 
-          <a href="#swym-wishlist" class="swym-wishlist">
-            <i aria-hidden="true" focusable="false" role="presentation" class="icon icon-swym-wishlist"></i>
-          </a>
-
           <a href="{{ routes.search_url }}" class="tap-area sm:hidden" aria-controls="search-drawer">
             <span class="sr-only">{{ 'header.general.open_search' | t }}</span>
             {%- render 'icon' with 'search' -%}
@@ -260,6 +256,10 @@ the underlying logic of the menu.
           <a href="{{ routes.search_url }}" class="hidden tap-area sm:block" aria-controls="search-drawer">
             <span class="sr-only">{{ 'header.general.open_search' | t }}</span>
             {%- render 'icon' with 'search' -%}
+          </a>
+
+          <a href="#swym-wishlist" class="swym-wishlist">
+            <i aria-hidden="true" focusable="false" role="presentation" class="icon icon-swym-wishlist"></i>
           </a>
           
           {%- if shop.customer_accounts_enabled -%}
