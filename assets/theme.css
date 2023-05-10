@@ -10252,7 +10252,10 @@ multiple-images-with-text-content-list > div > div > p:nth-child(2),
   }
 }
 
-.menu-font-size {
+.menu-font-size, 
+.accordion__content > div > div > label,
+.accordion > summary > div > span,
+#facet-form > div > div > label {
   font-size: 14px;
 }
 
