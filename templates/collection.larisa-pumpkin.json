@@ -34,8 +34,12 @@
             "subheading": "",
             "title": true,
             "description": true,
-            "button_url": "",
-            "button_text": ""
+            "button_url_1": "https:\/\/www.dropbox.com\/work\/Lizzie%20Carroll\/Haus%20B2B%20%7C%20Brand%20Folders\/Larisa%20%2B%20Pumpkin\/Product%20information",
+            "button_text_1": "Product Data & Pricing",
+            "button_url_2": "https:\/\/www.dropbox.com\/work\/Lizzie%20Carroll\/Haus%20B2B%20%7C%20Brand%20Folders\/Larisa%20%2B%20Pumpkin\/Images",
+            "button_text_2": "Imagery",
+            "button_url_3": "https:\/\/www.dropbox.com\/work\/Lizzie%20Carroll\/Haus%20B2B%20%7C%20Brand%20Folders\/Larisa%20%2B%20Pumpkin\/About%20the%20brand",
+            "button_text_3": "Catalogues"
           }
         }
       },

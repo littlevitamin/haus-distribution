@@ -34,8 +34,12 @@
             "subheading": "",
             "title": true,
             "description": true,
-            "button_url": "",
-            "button_text": ""
+            "button_url_1": "https:\/\/www.dropbox.com\/work\/Lizzie%20Carroll\/Drawin'%20Table\/Brand%20Story",
+            "button_text_1": "Brand Story",
+            "button_url_2": "https:\/\/www.dropbox.com\/work\/Lizzie%20Carroll\/Drawin'%20Table\/Product%20Data",
+            "button_text_2": "Product Data",
+            "button_url_3": "https:\/\/www.dropbox.com\/work\/Lizzie%20Carroll\/Drawin'%20Table\/Imagery",
+            "button_text_3": "Imagery"
           }
         }
       },
