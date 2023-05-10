@@ -176,7 +176,7 @@
                     <!-- Shopify cart page -- include PO numbers on your invoices. Used by Sufio for Shopify (sufio.com/shopify). -->
                     <div class="po-number">
                         <label for="po_number">PO Number</label>
-                        <input type="text" name="attributes[Invoice PO Number]" id="po_number" value="{{ cart.attributes['Invoice PO Number'] }}" />
+                        <input type="text" class="po-input" name="attributes[Invoice PO Number]" id="po_number" value="{{ cart.attributes['Invoice PO Number'] }}" />
                     </div>
                   
                     {%- render 'button', type: 'submit', icon: 'picto-lock', content: checkout_button, size: 'xl', name: 'checkout', stretch: true, block: block -%}
