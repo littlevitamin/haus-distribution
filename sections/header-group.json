@@ -48,7 +48,7 @@
             "product": "",
             "product_card_background": "",
             "product_card_text_color": "",
-            "promo_content_layout": "grid",
+            "promo_content_layout": "collage",
             "stretch_promo": false,
             "drawer_link_image": "hide"
           }
