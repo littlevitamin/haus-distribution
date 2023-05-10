@@ -48,8 +48,8 @@
             "product": "",
             "product_card_background": "",
             "product_card_text_color": "",
-            "promo_content_layout": "collage",
-            "stretch_promo": false,
+            "promo_content_layout": "grid",
+            "stretch_promo": true,
             "drawer_link_image": "hide"
           }
         }
