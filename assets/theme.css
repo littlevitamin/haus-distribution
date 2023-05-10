@@ -10290,3 +10290,9 @@ display: inline;
 .swym-ready i.icon-swym-wishlist:after {
 content: '\f004';
 }
+
+/* Navigation image increased */
+
+.navigation-promo--grid {
+  width: 360px;
+}
