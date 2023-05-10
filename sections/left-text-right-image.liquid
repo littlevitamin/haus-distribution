@@ -149,12 +149,12 @@ LIQUID
                 {{ collection.description }}
               {%- endif -%}
 
-              {%- if block.settings.button_text != blank -%}
+              {%- if block.settings.button_text_1 != blank -%}
                 <div class="brand-collection-button">
-                  <a href="{{ block.settings.button_url }}">
+                  <a href="{{ block.settings.button_url_1 }}">
                     <img src="https://cdn.shopify.com/s/files/1/0549/1156/6066/files/icon-download.png?v=1683719930"/>
                   </a>
-                  {%- render 'button', href: block.settings.button_url, content: block.settings.button_text, size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color -%}
+                  {%- render 'button', href: block.settings.button_url_1, content: block.settings.button_text_1, size: 'xl', background: white, text_color: #1D2F50 -%}
                 </div>
               {%- endif -%}
             </div>
@@ -317,12 +317,32 @@ LIQUID
         },
         {
           "type": "url",
-          "id": "button_url",
+          "id": "button_url_1",
           "label": "Button URL"
         },
         {
           "type": "text",
-          "id": "button_text",
+          "id": "button_text_1",
+          "label": "Button text"
+        },
+        {
+          "type": "url",
+          "id": "button_url_2",
+          "label": "Button URL"
+        },
+        {
+          "type": "text",
+          "id": "button_text_2",
+          "label": "Button text"
+        },
+        {
+          "type": "url",
+          "id": "button_url_3",
+          "label": "Button URL"
+        },
+        {
+          "type": "text",
+          "id": "button_text_3",
           "label": "Button text"
         }
       ]
