@@ -9999,8 +9999,7 @@ multiple-images-with-text-content-list > div > div > p.h1 {
   border: 2px solid #1D2F50;
 }
 
-.pointer-coarse\:hidden .button > div,
-.shopify-section--image-with-text-overlay > div > image-banner > div > div > a {
+.pointer-coarse\:hidden .button > div {
   font-family: 'Gilroy-Regular', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -10125,7 +10124,7 @@ multiple-images-with-text-content-list > div > div > p.h1 {
   color: white;
   font-family: 'Gilroy-Regular', sans-serif;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 700;
   font-size: 14px;
   line-height: 26px;
   border-radius: 5px;
