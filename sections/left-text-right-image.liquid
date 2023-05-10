@@ -75,6 +75,14 @@ CSS
     }
   }
 
+  .brand-collection-button > button {
+    margin: 0;
+    padding: 0;
+    background: white;
+    color: #1D2F50;
+    text-decoration: underline;
+  }
+
   #shopify-section-template--16674771828978__d331545f-1070-400d-a16a-56d1233af0e4 > div > multiple-images-with-text > div > multiple-images-with-text-content-list > div > div > p.h1,
   #shopify-section-template--16689055432946__1c0ffae4-fcf7-4da8-b4ec-733c7a60eeb5 > div > multiple-images-with-text > div > multiple-images-with-text-content-list > div > div > p.h1,
   #shopify-section-template--16693395292402__d331545f-1070-400d-a16a-56d1233af0e4 > div > multiple-images-with-text > div > multiple-images-with-text-content-list > div > div > p,
@@ -151,27 +159,18 @@ LIQUID
 
               {%- if block.settings.button_text_1 != blank -%}
                 <div class="brand-collection-button">
-                  <a href="{{ block.settings.button_url_1 }}">
-                    <img src="https://cdn.shopify.com/s/files/1/0549/1156/6066/files/icon-download.png?v=1683719930"/>
-                  </a>
                   {%- render 'button', href: block.settings.button_url_1, content: block.settings.button_text_1, size: 'xl' -%}
                 </div>
               {%- endif -%}
 
               {%- if block.settings.button_text_2 != blank -%}
                 <div class="brand-collection-button">
-                  <a href="{{ block.settings.button_url_2 }}">
-                    <img src="https://cdn.shopify.com/s/files/1/0549/1156/6066/files/icon-download.png?v=1683719930"/>
-                  </a>
                   {%- render 'button', href: block.settings.button_url_2, content: block.settings.button_text_2, size: 'xl' -%}
                 </div>
               {%- endif -%}
 
               {%- if block.settings.button_text_3 != blank -%}
                 <div class="brand-collection-button">
-                  <a href="{{ block.settings.button_url_3 }}">
-                    <img src="https://cdn.shopify.com/s/files/1/0549/1156/6066/files/icon-download.png?v=1683719930"/>
-                  </a>
                   {%- render 'button', href: block.settings.button_url_3, content: block.settings.button_text_3, size: 'xl' -%}
                 </div>
               {%- endif -%}
