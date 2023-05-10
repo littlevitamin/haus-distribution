@@ -33,8 +33,8 @@
             "subheading": "",
             "title": true,
             "description": true,
-            "button_url": "",
-            "button_text": ""
+            "button_url": "shopify:\/\/collections\/accessories",
+            "button_text": "123"
           }
         }
       },
