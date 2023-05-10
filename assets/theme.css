@@ -2065,7 +2065,8 @@ scroll-carousel {
   }
 }
 
-.header__main-nav > div > nav > ul > li > details > summary {
+.header__main-nav > div > nav > ul > li > details > summary,
+.header__main-nav > div > nav > ul > li > a {
   font-family: 'Gilroy-Regular', sans-serif;
   font-style: normal;
   font-weight: 600;
