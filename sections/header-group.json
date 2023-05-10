@@ -49,7 +49,7 @@
             "product_card_background": "",
             "product_card_text_color": "",
             "promo_content_layout": "grid",
-            "stretch_promo": true,
+            "stretch_promo": false,
             "drawer_link_image": "hide"
           }
         }
