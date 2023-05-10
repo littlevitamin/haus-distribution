@@ -2406,7 +2406,8 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   }
 }
 
-.quantity-input {
+.quantity-input, 
+.po-input {
   width: 44px;
   border-radius: var(--rounded-input);
   text-align: center;
@@ -2418,6 +2419,10 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   outline: none;
   padding-block-start: var(--spacing-1);
   padding-block-end: var(--spacing-1);
+}
+
+.po-input {
+  width: unset;
 }
 
 @media screen and (min-width: 700px) {
