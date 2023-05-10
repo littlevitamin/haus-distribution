@@ -75,6 +75,10 @@ CSS
     }
   }
 
+  .brand-collection-button {
+    display: flex;
+  }
+
   .brand-collection-button .button {
     margin: 0;
     padding: 0;
@@ -176,12 +180,18 @@ LIQUID
 
               {%- if block.settings.button_text_2 != blank -%}
                 <div class="brand-collection-button">
+                  <a class="brand-collection-url-icon" href="{{ block.settings.button_url_2 }}">
+                    <img src="https://cdn.shopify.com/s/files/1/0549/1156/6066/files/icon-download.svg?v=1683720996"/>
+                  </a>
                   {%- render 'button', href: block.settings.button_url_2, content: block.settings.button_text_2, size: 'xl' -%}
                 </div>
               {%- endif -%}
 
               {%- if block.settings.button_text_3 != blank -%}
                 <div class="brand-collection-button">
+                  <a class="brand-collection-url-icon" href="{{ block.settings.button_url_3 }}">
+                    <img src="https://cdn.shopify.com/s/files/1/0549/1156/6066/files/icon-download.svg?v=1683720996"/>
+                  </a>
                   {%- render 'button', href: block.settings.button_url_3, content: block.settings.button_text_3, size: 'xl' -%}
                 </div>
               {%- endif -%}
