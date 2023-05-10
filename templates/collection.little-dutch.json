@@ -31,10 +31,14 @@
             "image_rotation_degrees": 0,
             "logo": "shopify:\/\/shop_images\/a_3.png",
             "subheading": "",
-            "title": "Little Dutch",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "button_url": "",
-            "button_text": ""
+            "title": true,
+            "description": true,
+            "button_url_1": "https:\/\/www.dropbox.com\/work\/Lizzie%20Carroll\/Haus%20B2B%20%7C%20Brand%20Folders\/Little%20Dutch\/Product%20information",
+            "button_text_1": "Product Data",
+            "button_url_2": "https:\/\/www.dropbox.com\/work\/Lizzie%20Carroll\/Haus%20B2B%20%7C%20Brand%20Folders\/Little%20Dutch\/Images",
+            "button_text_2": "Imagery",
+            "button_url_3": "https:\/\/www.dropbox.com\/work\/Lizzie%20Carroll\/Haus%20B2B%20%7C%20Brand%20Folders\/Little%20Dutch\/About%20the%20brand",
+            "button_text_3": "Brand Book & Catalogues"
           }
         }
       },
