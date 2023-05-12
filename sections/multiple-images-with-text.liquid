@@ -99,7 +99,7 @@ LIQUID
             {{- block.settings.logo | image_url: width: 69 | image_tag: loading: 'lazy' -}}
           {%- endif -%}
           {%- if block.settings.subheading != blank or block.settings.title != blank or block.settings.content != blank -%}
-            <div class="prose {% if outputted_text_count == 0 %}is-selected{% else %}reveal-invisible{% endif %}" {% if block.settings.image != blank %}image-id="image-{{ block.id }}"{% endif %} {{ block.shopify_attributes }} style="padding-top: 41px;">
+            <div class="prose" {% if block.settings.image != blank %}image-id="image-{{ block.id }}"{% endif %} {{ block.shopify_attributes }} style="padding-top: 41px;">
               {%- if block.settings.subheading != blank -%}
                 <p class="bold">{{ block.settings.subheading | escape }}</p>
               {%- endif -%}
