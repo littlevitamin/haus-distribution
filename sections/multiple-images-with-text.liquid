@@ -109,7 +109,9 @@ LIQUID
               {{- block.settings.content -}}
 
               {%- if block.settings.button_text != blank -%}
-                {%- render 'button', href: block.settings.button_url, content: block.settings.button_text, size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color -%}
+                <a href="{{ block.settings.button_url }} target="_blank">
+                  {%- render 'button', href: block.settings.button_url, content: block.settings.button_text, size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color -%}
+                </a>
               {%- endif -%}
             </div>
 
