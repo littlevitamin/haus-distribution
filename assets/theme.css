@@ -8904,8 +8904,8 @@ multiple-images-with-text-content-list > div > div > p.h1 {
 }
 
 .reveal-invisible-text {
-  opacity: 0;
-  visibility: visible;
+  opacity: 1;
+  visibility: hidden;
 }
 
 @media (prefers-reduced-motion: no-preference) {
