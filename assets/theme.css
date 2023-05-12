@@ -10006,7 +10006,8 @@ split-lines {
 .pointer-coarse\:hidden .button:hover,
 .shopify-section--image-with-text-overlay > div > image-banner > div > div > a:hover,
 #cart-drawer > div > form > button:hover,
-.product-info .button--secondary:hover {
+.product-info .button--secondary:hover,
+.multiple-images-with-text__content-list .button:hover {
   background: white;
   color: #1D2F50;
   border: 2px solid #1D2F50;
