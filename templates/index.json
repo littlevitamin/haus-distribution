@@ -534,12 +534,25 @@
             "title": "What We Do",
             "content": "<p>We know our brands from stem to stern and can help with everything from brand management, importing, logistics and customer service.<\/p>",
             "button_url": "",
-            "button_text": ""
+            "button_text": "Learn More"
+          }
+        },
+        "b464b2cc-9be9-490f-9577-88d38ce3c078": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-03-29_at_16.14_1_d128cc56-73fa-493d-9e15-f2c5010272da.png",
+            "image_rotation_degrees": 0,
+            "subheading": "Our brands",
+            "title": "Our brands",
+            "content": "<p>We love design, it’s our passion. We love pieces that enhance lives and are simple, practical and stylish. We are an extension of the brands we work with.<\/p>",
+            "button_url": "https:\/\/www.hausdistribution.com\/brands\/",
+            "button_text": "Learn More"
           }
         }
       },
       "block_order": [
-        "template--16674772058354__0daee94c-7c94-4b2a-8e23-e6d05600f74b-1682077428b7ee4188-0"
+        "template--16674772058354__0daee94c-7c94-4b2a-8e23-e6d05600f74b-1682077428b7ee4188-0",
+        "b464b2cc-9be9-490f-9577-88d38ce3c078"
       ],
       "settings": {
         "full_width": true,
