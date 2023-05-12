@@ -9987,7 +9987,6 @@ split-lines {
 
 .pointer-coarse\:hidden .button,
 .multiple-images-with-text__content-list .button {
-  margin-left: 13px;
   background: #1D2F50;
 /* Navy */
   border: 2px solid #1D2F50;
@@ -9996,6 +9995,7 @@ split-lines {
 
 .pointer-coarse\:hidden .button {
   width: -webkit-fill-available;  
+  margin-left: 13px;
 }
 
 #cart-drawer > div > form > button,
