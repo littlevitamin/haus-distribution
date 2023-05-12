@@ -8903,6 +8903,11 @@ multiple-images-with-text-content-list > div > div > p.h1 {
   visibility: hidden;
 }
 
+.reveal-invisible-text {
+  opacity: 1;
+  visibility: visible;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .js [reveal-js], .js [reveal-on-scroll="true"] {
     opacity: 0;
