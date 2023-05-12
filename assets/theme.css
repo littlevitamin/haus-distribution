@@ -9992,7 +9992,10 @@ split-lines {
 /* Navy */
   border: 2px solid #1D2F50;
   border-radius: 5px;
-  width: -webkit-fill-available;
+}
+
+.pointer-coarse\:hidden .button {
+  width: -webkit-fill-available;  
 }
 
 #cart-drawer > div > form > button,
