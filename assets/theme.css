@@ -5527,6 +5527,10 @@ split-lines {
   color: #F4A6A2;
 }
 
+.multiple-images-paragraph {
+  margin-block-end: var(--spacing-8);
+}
+
 .footer .circle-chevron {
   background-color: #F4A6A2;
   color: #1D2F50;
