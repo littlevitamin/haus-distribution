@@ -529,7 +529,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Screenshot_2023-03-29_at_16.14_1_d128cc56-73fa-493d-9e15-f2c5010272da.png",
             "image_rotation_degrees": 0,
-            "logo": "shopify:\/\/shop_images\/Haus_Distribution_Icon_a737dd37-7a43-4384-839f-a8af42ac08a6.jpg",
             "subheading": "",
             "title": "What We Do",
             "content": "<p>We know our brands from stem to stern and can help with everything from brand management, importing, logistics and customer service.<\/p>",
@@ -542,7 +541,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Screenshot_2023-03-29_at_16.14_1_d128cc56-73fa-493d-9e15-f2c5010272da.png",
             "image_rotation_degrees": 0,
-            "logo": "shopify:\/\/shop_images\/Haus_Distribution_Icon_a737dd37-7a43-4384-839f-a8af42ac08a6.jpg",
             "subheading": "",
             "title": "Our brands",
             "content": "<p>We love design, it’s our passion. We love pieces that enhance lives and are simple, practical and stylish. We are an extension of the brands we work with.<\/p>",
@@ -555,12 +553,11 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Screenshot_2023-03-29_at_16.14_1_d128cc56-73fa-493d-9e15-f2c5010272da.png",
             "image_rotation_degrees": 0,
-            "logo": "shopify:\/\/shop_images\/Haus_Distribution_Icon_a737dd37-7a43-4384-839f-a8af42ac08a6.jpg",
             "subheading": "",
             "title": "Meet the team",
             "content": "<p>Haus was formed when our founder and design enthusiast, Lizzie, had a vision to bring stylishly simple products that stand out from the crowd to the UK.<\/p><p>Our name comes from a Germanic word meaning house. Your house is the container of your dreams, memories, and life experiences. It shapes you as much as you shape it. And that’s our enduring goal – to make homes and people look and feel good by distributing extraordinary pieces that celebrate everyday life.<\/p>",
-            "button_url": "",
-            "button_text": ""
+            "button_url": "https:\/\/www.hausdistribution.com\/who-we-are\/",
+            "button_text": "Learn More"
           }
         }
       },
