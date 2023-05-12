@@ -7022,7 +7022,7 @@ split-lines {
 }
 
 .multiple-images-with-text__content-list {
-  place-items: end start;
+  place-items: center;
 }
 
 .multiple-images-with-text__image-list[layout="stacked"] {
