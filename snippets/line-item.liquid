@@ -43,7 +43,7 @@ Supported variables
       <p class="text-sm text-subdued">{{ line_item.variant.title }}</p>
     {%- endunless -%}{% endcomment %}
 
-    {% if current_variant.inventory_quantity < 0 %}
+    {% if current_variant.inventory_quantity > 0 %}
       <p class="text-sm text-subdued">Pre Order</p>
     {% endif %}
 
