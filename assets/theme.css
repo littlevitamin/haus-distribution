@@ -10157,20 +10157,6 @@ split-lines {
   background: #F4A6A2;
 }
 
-#cart-drawer > div.v-stack.gap-4.sm\:gap-6 > form > a {
-  display: none;
-}
-
-#cart-drawer > div.v-stack.gap-4.sm\:gap-6 > form > a:after {
-  content: "Review your order";
-  color: white;
-  background: #F4A6A2;
-}
-
-.buy-buttons--compact .button--secondary {
-  color: white;
-}
-
 .color-swatch {
   border-radius: 50%;
 }
