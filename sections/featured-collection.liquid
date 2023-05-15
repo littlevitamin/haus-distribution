@@ -31,10 +31,8 @@
     }
   }
 </style>
+
 <div {% render 'section-properties' %}>
-  {% if section.settings.parallax_image %}
-   <div class="parallax-bg"></div>
-  {% endif %}
   <div class="section-stack">
     {%- assign link_url = section.settings.link_url | default: section.settings.collection.url -%}
     {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, heading_color: section.settings.heading_color, heading_gradient: section.settings.heading_gradient, content: section.settings.content, link_text: section.settings.link_text, link_url: link_url -%}
@@ -99,12 +97,6 @@
       "id": "products",
       "label": "Products",
       "info": "Replaces collection when selected."
-    },
-    {
-      "type": "checkbox",
-      "id": "parallax_image",
-      "label": "Enable background parallax image",
-      "default": false
     },
     {
       "type": "checkbox",
