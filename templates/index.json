@@ -8,14 +8,14 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Haus_OYOY_07-2048x1365.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Haus_OYOY_07-2048x1365.jpg",
-            "content_max_width": 780,
+            "content_max_width": 700,
             "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "Latest collection just dropped",
+            "title": "Summer garden furniture",
             "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
+            "button_text": "View new collection",
+            "button_link": "shopify:\/\/collections\/accessories",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
@@ -118,7 +118,6 @@
           "120563-little-dutch-craft-apron-flowers-butterflies",
           "125100-little-dutch-beach-towel-sailors-bay"
         ],
-        "parallax_image": false,
         "full_width": true,
         "stack_products": true,
         "show_progress_bar": false,
@@ -146,7 +145,6 @@
         "products": [
 
         ],
-        "parallax_image": false,
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": false,
@@ -369,7 +367,6 @@
         "products": [
 
         ],
-        "parallax_image": true,
         "full_width": true,
         "stack_products": true,
         "show_progress_bar": false,
@@ -504,7 +501,6 @@
         "products": [
 
         ],
-        "parallax_image": false,
         "full_width": true,
         "stack_products": true,
         "show_progress_bar": false,
