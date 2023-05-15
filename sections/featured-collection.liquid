@@ -31,7 +31,9 @@
     }
   }
 </style>
-
+{% if parallax_image %}
+   <div class="parallax-bg"></div>
+{% endif %}
 <div {% render 'section-properties' %}>
   <div class="section-stack">
     {%- assign link_url = section.settings.link_url | default: section.settings.collection.url -%}
@@ -97,6 +99,12 @@
       "id": "products",
       "label": "Products",
       "info": "Replaces collection when selected."
+    },
+    {
+      "type": "checkbox",
+      "id": "parallax_image",
+      "label": "Enable background parallax image",
+      "default": false
     },
     {
       "type": "checkbox",
