@@ -4236,7 +4236,7 @@ export {
   waitForEvent
 };
 
-  $(document).ready(function() {
+ {% comment %}  $(document).ready(function() {
     $('body').on('click', '[name="checkout"], [name="goto_pp"], [name="goto_gc"]', function() {
       if ($('#agree').is(':checked')) {
         $(this).submit();
@@ -4246,4 +4246,4 @@ export {
         return false;
       }
     });
-  });
+  }); {% endcomment %}
