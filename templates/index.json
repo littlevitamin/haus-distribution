@@ -118,6 +118,7 @@
           "120563-little-dutch-craft-apron-flowers-butterflies",
           "125100-little-dutch-beach-towel-sailors-bay"
         ],
+        "parallax_image": false,
         "full_width": true,
         "stack_products": true,
         "show_progress_bar": false,
@@ -145,6 +146,7 @@
         "products": [
 
         ],
+        "parallax_image": false,
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": false,
@@ -367,6 +369,7 @@
         "products": [
 
         ],
+        "parallax_image": true,
         "full_width": true,
         "stack_products": true,
         "show_progress_bar": false,
@@ -501,6 +504,7 @@
         "products": [
 
         ],
+        "parallax_image": false,
         "full_width": true,
         "stack_products": true,
         "show_progress_bar": false,
