@@ -143,13 +143,15 @@
             </div>
           </cart-note-dialog>
         {%- endif -%}
-
+          <!-- Uncomment to enable cart drawer T&C checkbox --!>
+          <!--         
           <p style="float: none; clear: both; margin: 10px 0;">
             <input style="float:none; vertical-align: middle;" type="checkbox" id="agree">
             <label style="display:inline; float:none" for="agree">
               I agree with the <a href="/pages/terms-and-conditions" target="_blank">terms and conditions</a>.
             </label>
           </p>
+          -->
 
       </div>
 
@@ -169,22 +171,6 @@
     </div>
   {%- endif -%}
 </cart-drawer>
-
-<script>
-  <script>
-    $(document).ready(function() {
-    $('body').on('click', '[name="checkout"], [name="goto_pp"], [name="goto_gc"]', function() {
-      if ($('#agree').is(':checked')) {
-        $(this).submit();
-      }
-      else {
-        alert("You must agree with the terms and conditions of sales to check out.");
-        return false;
-      }
-    });
-  });
-</script>
-</script>
 
 {% schema %}
 {
