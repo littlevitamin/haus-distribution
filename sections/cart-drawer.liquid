@@ -41,9 +41,6 @@
         <div class="cart-drawer__line-items">
           {%- for line_item in cart.items -%}
             {%- render 'line-item', line_item: line_item, show_desktop_quantity: true -%}
-            {% if current_variant.inventory_quantity < 0 %}
-              <p class="in-stock">Pre Order</p>
-            {% endif %}
           {%- endfor -%}
         </div>
 
