@@ -171,8 +171,10 @@ Supported variables
           {% if product.metafields.custom.retail_price != blank %}
             <p class="price-list text-subdued text-xs link-faded">RRP: £{{ product.metafields.custom.retail_price }}</p>
           {% endif %}
-          {% if product.available %}
+          {% if product.available and current_variant.inventory_quantity > 0 %}
             <p class="in-stock">{{ current_variant.inventory_quantity }} In Stock</p>
+          {% elsif current_variant.inventory_quantity < 0 %}
+            <p class="in-stock">Pre Order</p>
           {% else %}
             <p class="out-of-stock">Out of Stock</p>
           {% endif %}
