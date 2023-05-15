@@ -38,10 +38,6 @@ Supported variables
 
       {%- render 'price-list', line_item: line_item -%}
     </div>
-
-    {% if product.available %}
-      <p class="text-sm text-subdued">Pre Order</p>
-    {% endif %}
     
     {% comment %}{%- unless line_item.product.has_only_default_variant or line_item.gift_card -%}
       <p class="text-sm text-subdued">{{ line_item.variant.title }}</p>
