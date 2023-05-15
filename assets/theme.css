@@ -10311,6 +10311,6 @@ content: '\f004';
   width: 360px;
 }
 
-.feature-chart__product {
+.feature-chart__product, .swym-btn-container {
   display: none;
 }
