@@ -44,7 +44,7 @@ Supported variables
     {%- endunless -%}{% endcomment %}
 
     {% if current_variant.inventory_quantity < 0 %}
-      <p class="in-stock">Pre Order</p>
+      <p class="text-sm text-subdued">Pre Order</p>
     {% endif %}
 
     {%- if line_item.selling_plan_allocation -%}
