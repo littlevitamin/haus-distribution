@@ -10310,3 +10310,7 @@ content: '\f004';
 .navigation-promo--grid {
   width: 360px;
 }
+
+.feature-chart__product {
+  display: none;
+}
