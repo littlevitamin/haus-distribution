@@ -40,7 +40,7 @@ Supported variables
     </div>
 
     {% if line_item.variant.inventory_quantity < 0 %}
-      <p class="text-sm text-subdued">Pre Order</p>
+      <p class="text-sm text-subdued">This product is on Pre Order</p>
     {% endif %}
     
     {% comment %}{%- unless line_item.product.has_only_default_variant or line_item.gift_card -%}
