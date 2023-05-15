@@ -1,5 +1,4 @@
 {%- render 'section-spacing-collapsing' -%}
-<script src={{ "ajaxinate.min.js" }} defer></script>
 
 <style>
   {%- assign section_background = section.settings.background | default: settings.background -%}
@@ -77,13 +76,6 @@
     </div>
   </div>
 </div>
-
-<script>
-  const endlessCollection = new Ajaxinate({
-    container: '.product-list',
-    pagination: '.infinite_next',
-  });
-</script>
 
 {% schema %}
 {
