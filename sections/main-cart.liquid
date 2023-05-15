@@ -174,7 +174,7 @@
                     </div>
               
                     <p style="float: none; text-align: left; clear: both; margin: 10px 0;">
-                        <input style="float:none; vertical-align: middle;" type="checkbox" id="agree_1" />
+                        <input style="float:none; vertical-align: middle;" type="checkbox" id="agree" />
                         <label style="display:inline; float:none" for="agree">
                          I agree with the <a href="/pages/terms-and-conditions" target="__blank">terms and conditions.</a>
                         </label>
@@ -202,20 +202,6 @@
     </div>
   {%- endif -%}
 </div>
-
-<script>
-    $(document).ready(function() {
-    $('body').on('click', '[name="checkout"], [name="goto_pp"], [name="goto_gc"]', function() {
-      if ($('#agree_1').is(':checked')) {
-        $(this).submit();
-      }
-      else {
-        alert("You must agree with the terms and conditions of sales to check out.");
-        return false;
-      }
-    });
-  });
-</script>
 
 {% schema %}
 {
