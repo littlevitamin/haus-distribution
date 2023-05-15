@@ -35,7 +35,7 @@ Supported variables
     {%- if paginate.next.is_link -%}
       {%- assign next_page = paginate.current_page | plus: 1 -%}
 
-      <a class="pagination__item group infinite_next" {% if facet %}is="facet-link"{% endif %} rel="next" aria-label="{{ 'general.accessibility.go_to_page' | t: index: next_page }}" href="{{ paginate.next.url }}{{ hash }}">
+      <a class="pagination__item group" {% if facet %}is="facet-link"{% endif %} rel="next" aria-label="{{ 'general.accessibility.go_to_page' | t: index: next_page }}" href="{{ paginate.next.url }}{{ hash }}">
         <span class="animated-arrow"></span>
       </a>
     {%- else -%}
