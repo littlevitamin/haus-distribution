@@ -1,4 +1,4 @@
-{% layout none %}{% paginate collection.products by 50 %}{
+{% layout none %}{% paginate collection.products by 20 %}{
 "next_url": "{{ paginate.next.url }}",
 "default_sort": "{{ collection.sort_by | default: collection.default_sort_by }}",
 "sort_options":[{%- for option in collection.sort_options -%}{
