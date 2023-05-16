@@ -10101,6 +10101,13 @@ split-lines {
   color: #F18534;
 }
 
+.pre-order-pill {
+  border-radius: 10px;
+  background: grey;
+  padding: 0 10px;
+  color: white;
+}
+
 .brand-name {
   font-weight: 600;
   text-align: center;
