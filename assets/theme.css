@@ -10337,6 +10337,10 @@ content: '\f004';
   border-block-start-width: 0px;
 }
 
-.pagination {
+.pagination__item {
   display: none;
+}
+
+.pagination>* {
+  color: white!important;
 }
