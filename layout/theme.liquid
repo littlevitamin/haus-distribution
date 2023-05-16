@@ -55,6 +55,10 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     {{ content_for_header }}
 
     {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
+
+    {% if template contains 'collection' %}
+      <script src="{{ 'https://cdn.shopify.com/s/files/1/0382/4185/files/ajaxinate.js?937' }}" defer></script>
+    {% endif %}
   
  {% render 'giftship' %} 
 </head>
