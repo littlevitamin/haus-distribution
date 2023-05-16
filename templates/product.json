@@ -149,7 +149,7 @@
         "template--16668369158386__75dfd346-72a5-44bf-9d17-94810ce672ec-167950286957f08b28-1": {
           "type": "values",
           "settings": {
-            "product": "ld4976-little-dutch-backpack-vintage-little-flowers",
+            "product": "{{ product }}",
             "value_1": "<p>{{ block.settings.product.metafields.custom.ean.value }}<\/p>",
             "value_2": "<p>{{ block.settings.product.metafields.custom.wsp.value }}<\/p>",
             "value_3": "<p>{{ block.settings.product.metafields.custom.retail_price.value }}<\/p>",
