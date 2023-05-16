@@ -39,7 +39,7 @@ Supported variables
       {%- render 'price-list', line_item: line_item -%}
     </div>
 
-    {% if line_item.variant.inventory_quantity < 0 %}
+    {% if line_item.variant.inventory_quantity <= 0 %}
       <p class="text-sm text-subdued">Pre Order</p>
     {% endif %}
     
