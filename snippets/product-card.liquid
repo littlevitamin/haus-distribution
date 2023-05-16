@@ -174,7 +174,7 @@ Supported variables
           {% if product.available and current_variant.inventory_quantity > 0 %}
             <p class="in-stock">{{ current_variant.inventory_quantity }} In Stock</p>
           {% elsif current_variant.inventory_quantity < 0 %}
-            <p class="in-stock">Pre Order</p>
+            <p class="pre-order">Pre Order</p>
           {% else %}
             <p class="out-of-stock">Out of Stock</p>
           {% endif %}

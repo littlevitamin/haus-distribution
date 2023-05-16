@@ -10092,6 +10092,15 @@ split-lines {
   color: #E21D13;
 }
 
+.pre-order {
+  font-family: 'Gilroy-Regular', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #F18534;
+}
+
 .brand-name {
   font-weight: 600;
   text-align: center;
