@@ -94,6 +94,15 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     </main>
   
 {% include 'swymSnippet' %}
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var endlessScroll = new Ajaxinate({
+      container: '#Huratips-Loop',
+      pagination: '#Huratips-Pagination'
+    });
+  });
+</script>
     
 </body>
 </html>
