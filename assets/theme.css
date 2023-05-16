@@ -10341,7 +10341,10 @@ content: '\f004';
   display: none;
 }
 
+.pagination {
+  border: 0;
+}
+
 .pagination >* {
   color: white!important;
-  border: 0;
 }
