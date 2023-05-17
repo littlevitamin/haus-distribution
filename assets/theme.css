@@ -10352,7 +10352,7 @@ content: '\f004';
 }
 
 .parallax {
-  height: 100%; /* Adjust the height as needed */
+  height: 500px; /* Adjust the height as needed */
   overflow: hidden;
   position: relative;
 }
