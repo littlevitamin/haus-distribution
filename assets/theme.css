@@ -10355,6 +10355,7 @@ content: '\f004';
   height: 100%; /* Adjust the height as needed */
   overflow: hidden;
   position: relative;
+  perspective: 1000px;
 }
 
 .parallax-bg {
