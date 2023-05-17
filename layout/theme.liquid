@@ -107,12 +107,12 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
 
 <script>
   window.addEventListener("scroll", function() {
-    var parallaxBg = document.querySelector(".parallax-bg");
+    var parallaxBg = document.querySelector(".parallax-bg:before");
     var scrollTop = window.pageYOffset;
     var parallaxOffset = scrollTop * 0.5; // Adjust the speed of the parallax effect as needed
   
     parallaxBg.style.transform = "translateY(" + parallaxOffset + "px)";
-  });  
+  });
 </script>
 
 </body>
