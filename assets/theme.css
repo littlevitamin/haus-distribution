@@ -10362,10 +10362,10 @@ content: '\f004';
 .parallax-content {
   height: 100%;
   width: 100%;
-  background-image: url('path/to/your/image.jpg'); /* Replace with your image path */
-  background-position: center;
+  background-image: url('https://cdn.shopify.com/s/files/1/0549/1156/6066/files/Path_50_1.png?v=1682598158');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: bottom left;
+  padding-top: 48px;
   transform-style: preserve-3d;
 }
 
