@@ -10232,6 +10232,7 @@ multiple-images-with-text-content-list > div > div > p:nth-child(2),
 #shopify-section-template--16674772058354__958fd2ba-605f-48ae-b321-13924898af81 {
   background-image: url('https://cdn.shopify.com/s/files/1/0549/1156/6066/files/Path_50.png?v=1682596908');
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .product-card {
   border-radius: 6px;
