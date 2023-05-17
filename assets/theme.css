@@ -10221,12 +10221,12 @@ multiple-images-with-text-content-list > div > div > p:nth-child(2),
   display: none;
 }
 
-/* #shopify-section-template--16674772058354__159b1d2e-65ee-4a87-a76f-f13a627b3da1 {
+#shopify-section-template--16674772058354__159b1d2e-65ee-4a87-a76f-f13a627b3da1 {
   background-image: url('https://cdn.shopify.com/s/files/1/0549/1156/6066/files/Path_50_1.png?v=1682598158');
   background-repeat: no-repeat;
   background-position: bottom left;
   padding-top: 48px;
-} */
+}
 
 #shopify-section-template--16674772058354__958fd2ba-605f-48ae-b321-13924898af81 {
   background-image: url('https://cdn.shopify.com/s/files/1/0549/1156/6066/files/Path_50.png?v=1682596908');
@@ -10349,30 +10349,4 @@ content: '\f004';
 
 .pagination >* {
   color: white!important;
-}
-
-.parallax {
-  height: 100%; /* Adjust the height as needed */
-  overflow: hidden;
-  position: relative;
-}
-
-.parallax-bg {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('https://cdn.shopify.com/s/files/1/0549/1156/6066/files/Path_50_1.png?v=1682598158');
-  background-repeat: no-repeat;
-  background-position: bottom left;
-  transform: translateZ(-1px) scale(2);
-  z-index: -1;
-}
-
-.parallax-content {
-  position: relative;
-  z-index: 1;
-  /* Additional styling for the content */
 }
