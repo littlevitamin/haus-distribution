@@ -10364,6 +10364,16 @@ content: '\f004';
   left: 0;
   width: 100%;
   height: 100%;
+  z-index: -1;
+}
+
+.parallax-bg:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   background-image: url('https://cdn.shopify.com/s/files/1/0549/1156/6066/files/Path_50_1.png?v=1682598158');
   background-repeat: no-repeat;
   background-position: bottom left;
