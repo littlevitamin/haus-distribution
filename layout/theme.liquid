@@ -106,13 +106,27 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
 </script>
 
 <script>
-  var parallaxBg = document.querySelector(".parallax-bg");
-  window.addEventListener("scroll", function() {
-    var scrollTop = window.pageYOffset;
-    var parallaxOffset = scrollTop * 0.5; // Adjust the speed of the parallax effect as needed
-  
-    parallaxBg.style.transform = "translateY(" + parallaxOffset + "px)";
+var parallaxBg = document.querySelector(".parallax-bg");
+var parallaxSection = document.querySelector(".parallax");
+
+var observer = new IntersectionObserver(function(entries) {
+  entries.forEach(function(entry) {
+    if (entry.isIntersecting) {
+      window.addEventListener("scroll", parallaxScroll);
+    } else {
+      window.removeEventListener("scroll", parallaxScroll);
+    }
   });
+});
+
+observer.observe(parallaxSection);
+
+function parallaxScroll() {
+  var scrollTop = window.pageYOffset;
+  var parallaxOffset = scrollTop * 0.5; // Adjust the speed of the parallax effect as needed
+
+  parallaxBg.style.transform = "translateY(" + parallaxOffset + "px)";
+}
 </script>
 
 </body>
