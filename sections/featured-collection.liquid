@@ -33,6 +33,9 @@
 </style>
 
 <div class="{% if section.settings.enable_parallax %}parallax{% endif %}" style="padding: 48px">
+  {% if section.settings.enable_parallax %}
+    <div class="parallax-bg"></div>
+  {% endif %}  
     <div class="{% if section.settings.enable_parallax %}parallax-content{% endif %}" {% render 'section-properties' %}>
       <div class="section-stack">
         {%- assign link_url = section.settings.link_url | default: section.settings.collection.url -%}
