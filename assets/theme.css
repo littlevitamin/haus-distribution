@@ -10357,7 +10357,7 @@ content: '\f004';
   position: relative;
 }
 
-.parallax::before {
+.parallax-bg {
   content: "";
   position: absolute;
   top: 0;
@@ -10367,7 +10367,7 @@ content: '\f004';
   background-image: url('https://cdn.shopify.com/s/files/1/0549/1156/6066/files/Path_50_1.png?v=1682598158');
   background-repeat: no-repeat;
   background-position: bottom left;
-  transform: translateY(var(--parallax-offset, 0)) translateZ(-1px) scale(2);
+  transform: translateZ(-1px) scale(2);
   z-index: -1;
 }
 
