@@ -32,6 +32,10 @@
   }
 </style>
 
+<div style="padding: 48px">
+  {% if section.settings.enable_parallax %}
+    <div class="parallax-bg"></div>
+  {% endif %}  
     <div {% render 'section-properties' %}>
       <div class="section-stack">
         {%- assign link_url = section.settings.link_url | default: section.settings.collection.url -%}
@@ -76,6 +80,7 @@
         </div>
       </div>
     </div>
+</div>
 
 {% schema %}
 {
@@ -114,6 +119,12 @@
       "type": "checkbox",
       "id": "show_progress_bar",
       "label": "Show carousel progress bar",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_parallax",
+      "label": "Enable parallax effect on background",
       "default": false
     },
     {
