@@ -10222,27 +10222,11 @@ multiple-images-with-text-content-list > div > div > p:nth-child(2),
 }
 
 #shopify-section-template--16674772058354__159b1d2e-65ee-4a87-a76f-f13a627b3da1 {
-  position: relative;
-  overflow: hidden;
-}
-
-.parallax-bg {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
   background-image: url('https://cdn.shopify.com/s/files/1/0549/1156/6066/files/Path_50_1.png?v=1682598158');
   background-repeat: no-repeat;
   background-position: bottom left;
   background-attachment: fixed;
-  animation: parallaxScroll 30s infinite linear;
-}
-
-@keyframes parallaxScroll {
-  0% { transform: translate(0, 0); }
-  100% { transform: translate(0, -50%); } /* Adjust the amount of translation as needed */
+  padding-top: 48px;
 }
 
 #shopify-section-template--16674772058354__958fd2ba-605f-48ae-b321-13924898af81 {
