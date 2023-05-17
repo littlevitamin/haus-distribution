@@ -10357,7 +10357,7 @@ content: '\f004';
   position: relative;
 }
 
-.parallax::before {
+.parallax:before {
   content: "";
   position: absolute;
   top: 0;
