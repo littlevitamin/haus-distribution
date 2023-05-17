@@ -10354,7 +10354,7 @@ content: '\f004';
 /* Styling the parallax image effect */
 
 .parallax {
-  height: 400px; /* Adjust the height as needed */
+  height: 100%; /* Adjust the height as needed */
   overflow: hidden;
   perspective: 1000px; /* Adjust the perspective depth as needed */
 }
