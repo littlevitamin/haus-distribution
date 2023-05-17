@@ -31,7 +31,6 @@
     }
   }
 </style>
-<div class="parallax">
   <div class="{% if section.settings.enable_parallax %}parallax-content{% endif %}" {% render 'section-properties' %}>
     <div class="section-stack">
       {%- assign link_url = section.settings.link_url | default: section.settings.collection.url -%}
@@ -76,7 +75,7 @@
       </div>
     </div>
   </div>
-</div>
+
 {% schema %}
 {
   "name": "Featured collection",
