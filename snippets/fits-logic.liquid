@@ -5,13 +5,13 @@
             {%- assign fits = '' -%}
             {%- assign fitsHandles = '' -%}
             {%- assign fitCurrent = '' -%}
-            {% if product.title contains '-' %}
+            {% if product.title contains ' - ' %}
       
                     {% assign productTitle = product.title | split: '-' | first %}
                     {%- assign fitCurrent = product.title | split: '-' | last -%}
     
                     {% for findProduct in collections.all.products %}                    
-                        {% if findProduct.title contains '-' %}
+                        {% if findProduct.title contains ' - ' %}
                             {% assign findProductTitle = findProduct.title | split: '-' | first%}
                             {% if findProductTitle contains productTitle and  product.title != findProduct.title %}
                             {%- assign fit = findProduct.title | split: '-' | last -%}
@@ -25,7 +25,7 @@
 
                 {% if isFit %}
                     <div>
-                        <div class="text-13 md:text-16 font-600">Color:</div>
+                        <div class="text-13 md:text-16 font-600">Colour:</div>
                         <div>
                             {% assign fits = fits | append: ',' | append: fitCurrent %}
                             {%- assign fits = fits | remove_first: ',' | split: ',' -%}
@@ -42,7 +42,7 @@
                                     </div>
 
                                     {% else %}
-                                    <a href="/products/{{fitsHandles[forloop.index0]}}" class="block-swatch">{{item}}</a>
+                                      <a href="/products/{{fitsHandles[forloop.index0]}}" class="block-swatch">{{item}}</a>
                                     {% endif %}
                                 {% endfor %}
                             </div>
