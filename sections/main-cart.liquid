@@ -67,8 +67,9 @@
               </tbody>
             </table>
 
-            <form>
+<form>
   {% for line_item in cart.items %}
+    <!-- Render line item content here -->
     <div>
       <label for="product-name-{{ line_item.id }}">Product Name</label>
       <input type="text" id="product-name-{{ line_item.id }}" name="product-name" value="{{ line_item.product.title }}" readonly>
@@ -89,15 +90,12 @@
       <label for="wholesale-price-{{ line_item.id }}">Wholesale Price</label>
       <input type="text" id="wholesale-price-{{ line_item.id }}" name="wholesale-price" value="{{ line_item.final_price }}" readonly>
     </div>
-    {% assign customer = line_item.customer %}
-    {% if customer %}
-      {% assign company = customer | customer_company %}
-      {% if company %}
-        <div>
-          <label for="client-name-{{ line_item.id }}">Client Name / Company Name</label>
-          <input type="text" id="client-name-{{ line_item.id }}" name="client-name" value="{{ company.name }}" readonly>
-        </div>
-      {% endif %}
+    {% assign customerCompany = cart.attributes.customer_company_name %}
+    {% if customerCompany %}
+      <div>
+        <label for="client-name-{{ line_item.id }}">Client Name / Company Name</label>
+        <input type="text" id="client-name-{{ line_item.id }}" name="client-name" value="{{ customerCompany }}" readonly>
+      </div>
     {% endif %}
     <!-- Add any additional form fields or elements as needed -->
   {% endfor %}
