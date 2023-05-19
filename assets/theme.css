@@ -10004,7 +10004,8 @@ split-lines {
 }
 
 #cart-drawer > div > form > button,
-.product-info .button--secondary {
+.product-info .button--secondary,
+.submit-button {
   border: 2px solid #1D2F50;
 }
 
@@ -10012,13 +10013,15 @@ split-lines {
 .shopify-section--image-with-text-overlay > div > image-banner > div > div > a:hover,
 #cart-drawer > div > form > button:hover,
 .product-info .button--secondary:hover,
-.multiple-images-link .button:hover {
+.multiple-images-link .button:hover,
+..submit-button:hover {
   background: white;
   color: #1D2F50;
   border: 2px solid #1D2F50;
 }
 
-.pointer-coarse\:hidden .button > div {
+.pointer-coarse\:hidden .button > div,
+.submit-button {
   font-family: 'Gilroy-Regular', sans-serif;
   font-style: normal;
   font-weight: 700;
