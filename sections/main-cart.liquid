@@ -90,11 +90,11 @@
       <label for="wholesale-price-{{ line_item.id }}">Wholesale Price</label>
       <input type="text" id="wholesale-price-{{ line_item.id }}" name="wholesale-price" value="{{ line_item.final_price }}" readonly>
     </div>
-    {% assign customerCompany = cart.attributes.customer_company_name %}
-    {% if customerCompany %}
+    {% assign customer = customer.id %}
+    {% if customer %}
       <div>
-        <label for="client-name-{{ line_item.id }}">Client Name / Company Name</label>
-        <input type="text" id="client-name-{{ line_item.id }}" name="client-name" value="{{ customerCompany }}" readonly>
+        <label for="client-name-{{ line_item.id }}">Client Name</label>
+        <input type="text" id="client-name-{{ line_item.id }}" name="client-name" value="{{ customer.id }}" readonly>
       </div>
     {% endif %}
     <!-- Add any additional form fields or elements as needed -->
