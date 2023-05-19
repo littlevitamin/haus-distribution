@@ -13,7 +13,7 @@
                     {% for findProduct in collections.all.products %}                    
                         {% if findProduct.title contains '-' %}
                             {% assign findProductTitle = findProduct.title | split: '-' | first %}
-                            {% if productTitle contains findProductTitle and product.title != findProduct.title %}
+                            {% if findProductTitle contains productTitle and product.title != findProduct.title %}
                             {%- assign fit = findProduct.title | split: '-' | last -%}
                             {%- assign fits = fits | append: ',' | append: fit -%}
                             {%- assign fitsHandles = fitsHandles | append: ',' | append: findProduct.handle -%}
