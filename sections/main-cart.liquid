@@ -88,7 +88,7 @@
     </div>
     <div>
       <label for="wholesale-price-{{ line_item.id }}">Wholesale Price</label>
-      <input type="text" id="wholesale-price-{{ line_item.id }}" name="wholesale-price" value="{{ line_item.final_price }}" readonly>
+      <input type="text" id="wholesale-price-{{ line_item.id }}" name="wholesale-price" value="{{ line_item.final_price | money_with_currency }}" readonly>
     </div>
     {% assign customer = customer.name %}
     {% if customer %}
