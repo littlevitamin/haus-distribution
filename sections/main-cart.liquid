@@ -87,11 +87,7 @@
                 </div>
                 <div>
                   <label for="wholesale-price-{{ line_item.id }}">Wholesale Price</label>
-                  <input type="text" id="wholesale-price-{{ line_item.id }}" name="wholesale-price" value="{{ line_item.properties["Wholesale Price"] }}" readonly>
-                </div>
-                <div>
-                  <label for="client-name-{{ line_item.id }}">Client Name / Company Name</label>
-                  <input type="text" id="client-name-{{ line_item.id }}" name="client-name" value="{{ line_item.properties["Client Name"] }}" readonly>
+                  <input type="text" id="wholesale-price-{{ line_item.id }}" name="wholesale-price" value="{{ line_item.final_price }}" readonly>
                 </div>
                 <!-- Add any additional form fields or elements as needed -->
               {% endfor %}
