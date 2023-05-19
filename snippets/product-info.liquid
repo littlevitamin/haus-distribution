@@ -100,9 +100,6 @@
               </div>
             </div>
           {%- endif -%}
-            <div>
-              {%- render 'fits-logic' -%}
-            </div>
         {%- endif -%}
 
 
@@ -143,6 +140,11 @@
                       <span>{{ product.metafields[metafield_namespace][metafield_key].value | escape }}</span>
                     </div>
                   </div>
+
+                            <div>
+          {%- render 'fits-logic' -%}
+          </div>
+                  
                 {%- endif -%}
 
                 <div class="variant-picker__option-values wrap gap-2">
