@@ -5,7 +5,7 @@
             {%- assign fits = '' -%}
             {%- assign fitsHandles = '' -%}
             {%- assign fitCurrent = '' -%}
-            {% if product.title contains ' - ' %}
+            {% if product.title contains '-' %}
       
                     {% assign productTitle = product.title | split: '-' | first %}
                     {%- assign fitCurrent = product.title | split: '-' | last -%}
