@@ -9990,7 +9990,8 @@ split-lines {
 }
 
 .pointer-coarse\:hidden .button,
-.multiple-images-link .button {
+.multiple-images-link .button,
+.submit-button {
   background: #1D2F50;
 /* Navy */
   border: 2px solid #1D2F50;
