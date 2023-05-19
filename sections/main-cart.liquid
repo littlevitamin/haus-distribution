@@ -67,6 +67,11 @@
               </tbody>
             </table>
 
+            {% for line_item in cart.items %}
+  <!-- Render line item content here -->
+  <p>{{ line_item.product.title }}</p>
+{% endfor %}
+
             {%- comment -%}
             ----------------------------------------------------------------------------------------------------------------
             SHIPPING ESTIMATOR
