@@ -5,7 +5,7 @@
             {%- assign fits = '' -%}
             {%- assign fitsHandles = '' -%}
             {%- assign fitCurrent = '' -%}
-            {% if product.title contains '-' %}
+            {% if product.title contains ' - ' %}
       
                     {% assign productTitle = product.title | split: '-' | first %}
                     {%- assign fitCurrent = product.title | split: '-' | last -%}
@@ -13,7 +13,7 @@
                     {% for findProduct in collections.all.products %}                    
                         {% if findProduct.title contains '-' %}
                             {% assign findProductTitle = findProduct.title | split: '-' | first%}
-                            {% if product.title contains findProductTitle and  product.title != findProductTitle %}
+                            {% if findProductTitle contains productTitle and  product.title != findProduct.title %}
                             {%- assign fit = findProduct.title | split: '-' | last -%}
                             {%- assign fits = fits | append: ',' | append: fit -%}
                             {%- assign fitsHandles = fitsHandles | append: ',' | append: findProduct.handle -%}
@@ -25,7 +25,7 @@
 
                 {% if isFit %}
                     <div>
-                        <div class="text-13 md:text-16 font-600">Colour:</div>
+                        <div class="text-13 md:text-16 font-600">Color:</div>
                         <div>
                             {% assign fits = fits | append: ',' | append: fitCurrent %}
                             {%- assign fits = fits | remove_first: ',' | split: ',' -%}
