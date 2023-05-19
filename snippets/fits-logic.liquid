@@ -10,8 +10,8 @@
                     {% assign productTitle = product.title | split: '-' | first %}
                     {%- assign fitCurrent = product.title | split: '-' | last -%}
     
-                    {% for findProduct in collections["all-products"].products %}                    
-                        {% if findProduct.title contains ' - ' %}
+                    {% for findProduct in collections.all.products %}                    
+                        {% if findProduct.title contains '-' %}
                             {% assign findProductTitle = findProduct.title | split: '-' | first%}
                             {% if findProductTitle contains productTitle and  product.title != findProduct.title %}
                             {%- assign fit = findProduct.title | split: '-' | last -%}
