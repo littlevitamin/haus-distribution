@@ -82,6 +82,7 @@
           </div>
 
           <safe-sticky class="cart-order__recap v-stack gap-6">
+            <div>{{ line_item.product.title }}</div>
             <form action="{{ routes.cart_url }}" method="POST" class="cart-form rounded">
               {%- for block in section.blocks -%}
                 {%- case block.type -%}
