@@ -90,11 +90,12 @@
       <label for="wholesale-price-{{ line_item.id }}">Wholesale Price</label>
       <input type="text" id="wholesale-price-{{ line_item.id }}" name="wholesale-price" value="{{ line_item.final_price }}" readonly>
     </div>
-    {% assign customer = customer.first_name %}
-    {% if customer %}
+    {% assign firstName = customer.first_name %}
+    {% assign lastName = customer.last_name_name %}
+    {% if firstName or lastName %}
       <div>
         <label for="client-name-{{ line_item.id }}">Client Name</label>
-        <input type="text" id="client-name-{{ line_item.id }}" name="client-name" value="{{ customer }}" readonly>
+        <input type="text" id="client-name-{{ line_item.id }}" name="client-name" value="{{ firstName }} {{ lastName }}" readonly>
       </div>
     {% endif %}
     <!-- Add any additional form fields or elements as needed -->
