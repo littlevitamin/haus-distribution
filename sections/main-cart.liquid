@@ -33,8 +33,8 @@
     $.ajax({
       url: 'https://api.apispreadsheets.com/data/xeoHpZ5xbDR0C3mo/',
       type: 'post',
-      data: JSON.stringify(payload),
-      contentType: 'application/json',
+      traditional: true,
+      data: payload,
       success: function() {
         alert("Form Data Submitted :)");
       },
