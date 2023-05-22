@@ -1,40 +1,23 @@
 <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
 <script>
   function SubForm() {
-    var lineItems = [];
+    var formDataArray = $("#myForm").serializeArray();
+    var payload = [];
 
-    // Iterate through each line item form content
-    $('.form-content').each(function() {
-      var productName = $(this).find('input[name="product-name"]').val();
-      var sku = $(this).find('input[name="sku"]').val();
-      var quantity = $(this).find('input[name="quantity"]').val();
-      var vendor = $(this).find('input[name="vendor"]').val();
-      var wholesalePrice = $(this).find('input[name="wholesale-price"]').val();
-      var clientName = $(this).find('input[name="client-name"]').val();
-
-      // Create a line item object
-      var lineItem = {
-        'product-name': productName,
-        'sku': sku,
-        'quantity': quantity,
-        'vendor': vendor,
-        'wholesale-price': wholesalePrice,
-        'client-name': clientName
+    // Iterate over the form data array and construct an object for each element
+    $.each(formDataArray, function(index, element) {
+      var formDataObject = {
+        name: element.name,
+        value: element.value
       };
-
-      // Add the line item object to the lineItems array
-      lineItems.push(lineItem);
+      payload.push(formDataObject);
     });
-
-    // Create the payload object with the lineItems array
-    var payload = {
-      'data': lineItems
-    };
 
     $.ajax({
       url: 'https://api.apispreadsheets.com/data/xeoHpZ5xbDR0C3mo/',
       type: 'post',
-      data: payload,
+      contentType: 'application/json',
+      data: JSON.stringify(payload),
       success: function() {
         alert("Form Data Submitted :)");
       },
