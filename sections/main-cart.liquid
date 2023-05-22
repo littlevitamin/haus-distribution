@@ -1,13 +1,42 @@
 <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
 <script>
   function SubForm() {
-    var formData = $("#myForm").serializeArray();
-    console.log(formData); // Log form data to the console
+    var lineItems = [];
+
+    // Iterate through each line item form content
+    $('.form-content').each(function() {
+      var productName = $(this).find('input[name="product-name"]').val();
+      var sku = $(this).find('input[name="sku"]').val();
+      var quantity = $(this).find('input[name="quantity"]').val();
+      var vendor = $(this).find('input[name="vendor"]').val();
+      var wholesalePrice = $(this).find('input[name="wholesale-price"]').val();
+      var clientName = $(this).find('input[name="client-name"]').val();
+
+      // Create a line item object
+      var lineItem = {
+        productName: productName,
+        sku: sku,
+        quantity: quantity,
+        vendor: vendor,
+        wholesalePrice: wholesalePrice,
+        clientName: clientName
+      };
+
+      // Add the line item object to the lineItems array
+      lineItems.push(lineItem);
+    });
+
+    console.log(lineItems); // Log line items to the console
+
+    // Create the payload object with the lineItems array
+    var payload = {
+      lineItems: lineItems
+    };
 
     $.ajax({
       url: 'https://api.apispreadsheets.com/data/xeoHpZ5xbDR0C3mo/',
       type: 'post',
-      data: formData,
+      data: payload,
       success: function() {
         alert("Form Data Submitted :)");
       },
