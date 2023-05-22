@@ -35,7 +35,8 @@
       ],
       "settings": {
         "show_shipping_estimator": true,
-        "show_payment_icons": true
+        "show_payment_icons": true,
+        "show_forecast": true
       }
     }
   },
