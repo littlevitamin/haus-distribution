@@ -1,17 +1,20 @@
 <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
 <script>
-  function SubForm (){
-      $.ajax({
-          url:'https://api.apispreadsheets.com/data/xeoHpZ5xbDR0C3mo/',
-          type:'post',
-          data:$("#myForm").serializeArray(),
-          success: function(){
-            alert("Form Data Submitted :)")
-          },
-          error: function(){
-            alert("There was an error :(")
-          }
-      });
+  function SubForm() {
+    var formData = $("#myForm").serializeArray();
+    console.log(formData); // Log form data to the console
+
+    $.ajax({
+      url: 'https://api.apispreadsheets.com/data/xeoHpZ5xbDR0C3mo/',
+      type: 'post',
+      data: formData,
+      success: function() {
+        alert("Form Data Submitted :)");
+      },
+      error: function() {
+        alert("There was an error :(");
+      }
+    });
   }
 </script>
 
