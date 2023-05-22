@@ -6,81 +6,75 @@
         "content_width": "80ch"
       }
     },
-    "132101c6-cecf-42f0-ba3e-fa917f425408": {
-      "type": "tabs",
-      "blocks": {
-        "template--16668369027314__132101c6-cecf-42f0-ba3e-fa917f425408-1679482327c0a02059-0": {
-          "type": "tab",
-          "settings": {
-            "title": "Tab 1",
-            "content": "<p>Use this text to share information about your brand with your customers.<\/p>",
-            "page": ""
-          }
-        },
-        "template--16668369027314__132101c6-cecf-42f0-ba3e-fa917f425408-1679482327c0a02059-1": {
-          "type": "tab",
-          "settings": {
-            "title": "Tab 2",
-            "content": "<p>Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "page": ""
-          }
-        },
-        "template--16668369027314__132101c6-cecf-42f0-ba3e-fa917f425408-1679482327c0a02059-2": {
-          "type": "tab",
-          "settings": {
-            "title": "Tab 3",
-            "content": "<p>Share information about your shipping rates, return policy or contact information.<\/p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16668369027314__132101c6-cecf-42f0-ba3e-fa917f425408-1679482327c0a02059-0",
-        "template--16668369027314__132101c6-cecf-42f0-ba3e-fa917f425408-1679482327c0a02059-1",
-        "template--16668369027314__132101c6-cecf-42f0-ba3e-fa917f425408-1679482327c0a02059-2"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_size": "medium",
-        "subheading": "Subheading",
-        "title": "Heading",
-        "first_tab_open": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
     "4388c087-a27a-42b7-9448-7954ec0cac6d": {
       "type": "faq",
       "blocks": {
         "template--16668369027314__4388c087-a27a-42b7-9448-7954ec0cac6d-167948228534eaa4ba-0": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+            "title": "1. Can I purchase all brands present on your B2B store?",
+            "content": "<p>No, you can only purchase the brands you have been approved for.<\/p>"
           }
         },
         "template--16668369027314__4388c087-a27a-42b7-9448-7954ec0cac6d-167948228534eaa4ba-1": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+            "title": "2. Do I have to agree to any Terms of Trade?",
+            "content": "<p>Please read our Terms of Trade carefully before placing your order, you can find them in the footer of our website. When placing an order you are agreeing to our Terms of Trade. If you break these Terms of Trade access to our B2B store can be revoked.<\/p>"
           }
         },
         "template--16668369027314__4388c087-a27a-42b7-9448-7954ec0cac6d-167948228534eaa4ba-2": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+            "title": "3. Do you have a minimum order?",
+            "content": "<p>There isn't a minimum order, however orders under £300.00 will incur a £10.00 delivery charge. Orders over £300.00, which is our advisory minimum order, will include free delivery.<\/p><p> <\/p>"
+          }
+        },
+        "2eeb0131-8e85-4252-9547-5c7e28928cd2": {
+          "type": "item",
+          "settings": {
+            "title": "4. Do I have to pay import tax?",
+            "content": "<p>No, the prices you see on our B2B store are the prices you pay, plus VAT. Import taxes have already been paid (excluding Republic of Ireland).<\/p>"
+          }
+        },
+        "3dc7782f-6eb2-4a21-aa39-18547a124e1e": {
+          "type": "item",
+          "settings": {
+            "title": "5. Why have I been charged Import tax?",
+            "content": ""
+          }
+        },
+        "7d3036a9-434d-466f-9f92-5bcb2718189e": {
+          "type": "item",
+          "settings": {
+            "title": "6. How long does delivery take?",
+            "content": "<p>You will receive your order within 1-2 working days. The products listed on our B2B website are dispatched from our UK warehouse.<\/p>"
+          }
+        },
+        "76a5f546-6e1b-415a-8a8b-afc72ce02993": {
+          "type": "item",
+          "settings": {
+            "title": "7. Where can I access product catalogues, images, product specifications and RRPs?",
+            "content": "<p>You can find full details for listing the products on your site or in your store in our brand toolkits. These are located at the bottom of our B2B homepage. The toolkit includes pricing, photography and brand catalogues.<\/p>"
+          }
+        },
+        "6a4fb970-938e-41bb-bd9b-2de401e0add9": {
+          "type": "item",
+          "settings": {
+            "title": "8. I can’t access my account, can you send me a new password?",
+            "content": "<p>You can reset your password by XXX<\/p>"
           }
         }
       },
       "block_order": [
         "template--16668369027314__4388c087-a27a-42b7-9448-7954ec0cac6d-167948228534eaa4ba-0",
         "template--16668369027314__4388c087-a27a-42b7-9448-7954ec0cac6d-167948228534eaa4ba-1",
-        "template--16668369027314__4388c087-a27a-42b7-9448-7954ec0cac6d-167948228534eaa4ba-2"
+        "template--16668369027314__4388c087-a27a-42b7-9448-7954ec0cac6d-167948228534eaa4ba-2",
+        "2eeb0131-8e85-4252-9547-5c7e28928cd2",
+        "3dc7782f-6eb2-4a21-aa39-18547a124e1e",
+        "7d3036a9-434d-466f-9f92-5bcb2718189e",
+        "76a5f546-6e1b-415a-8a8b-afc72ce02993",
+        "6a4fb970-938e-41bb-bd9b-2de401e0add9"
       ],
       "settings": {
         "full_width": true,
@@ -107,7 +101,6 @@
   },
   "order": [
     "main",
-    "132101c6-cecf-42f0-ba3e-fa917f425408",
     "4388c087-a27a-42b7-9448-7954ec0cac6d"
   ]
 }
