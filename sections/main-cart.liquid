@@ -1,13 +1,17 @@
+<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
 <script>
-  function SubForm() {
-    // Change the form action to the endpoint URL
-    document.getElementById('myForm').action = 'https://api.apispreadsheets.com/data/xeoHpZ5xbDR0C3mo/';
-
-    // Disable the form elements to prevent modification after submission
-    var formElements = document.getElementById('myForm').elements;
-    for (var i = 0; i < formElements.length; i++) {
-      formElements[i].readOnly = true;
-    }
+  function SubForm (){
+      $.ajax({
+          url:'https://api.apispreadsheets.com/data/xeoHpZ5xbDR0C3mo/',
+          type:'post',
+          data:$("#myForm").serializeArray(),
+          success: function(){
+            alert("Form Data Submitted :)")
+          },
+          error: function(){
+            alert("There was an error :(")
+          }
+      });
   }
 </script>
 
@@ -80,43 +84,40 @@
               </tbody>
             </table>
 
-            <form id="myForm">
-              {% for line_item in cart.items %}
-                <!-- Render line item content here -->
-                <div class="form-content">
-                  <div>
-                    <label for="product-name-{{ line_item.id }}">Product Name</label>
-                    <input type="text" id="product-name-{{ line_item.id }}" name="product-name" value="{{ line_item.product.title }}" readonly>
-                  </div>
-                  <div>
-                    <label for="sku-{{ line_item.id }}">SKU</label>
-                    <input type="text" id="sku-{{ line_item.id }}" name="sku" value="{{ line_item.variant.sku }}" readonly>
-                  </div>
-                  <div>
-                    <label for="quantity-{{ line_item.id }}">Quantity</label>
-                    <input type="number" id="quantity-{{ line_item.id }}" name="quantity" value="{{ line_item.quantity }}" readonly>
-                  </div>
-                  <div>
-                    <label for="vendor-{{ line_item.id }}">Vendor</label>
-                    <input type="text" id="vendor-{{ line_item.id }}" name="vendor" value="{{ line_item.vendor }}" readonly>
-                  </div>
-                  <div>
-                    <label for="wholesale-price-{{ line_item.id }}">Wholesale Price</label>
-                    <input type="text" id="wholesale-price-{{ line_item.id }}" name="wholesale-price" value="{{ line_item.final_price | money_with_currency }}" readonly>
-                  </div>
-                  {% assign customer = customer.name %}
-                  {% if customer %}
-                    <div>
-                      <label for="client-name-{{ line_item.id }}">Client Name</label>
-                      <input type="text" id="client-name-{{ line_item.id }}" name="client-name" value="{{ customer }}" readonly>
-                    </div>
-                  {% endif %}
-                </div>
-                <!-- Add any additional form fields or elements as needed --!>
-              {% endfor %}
-              <button style="background-color: #1D2F50; color: white; padding: 11px 47px; border-radius: 6px; margin: 20px 0;" onclick="SubForm()">Submit a forecast</button>
-            </form>
- 
+<form id="myForm">
+  {% for line_item in cart.items %}
+    <!-- Render line item content here -->
+    <div>
+      <label for="product-name-{{ line_item.id }}">Product Name</label>
+      <input type="text" id="product-name-{{ line_item.id }}" name="product-name" value="{{ line_item.product.title }}" readonly>
+    </div>
+    <div>
+      <label for="sku-{{ line_item.id }}">SKU</label>
+      <input type="text" id="sku-{{ line_item.id }}" name="sku" value="{{ line_item.variant.sku }}" readonly>
+    </div>
+    <div>
+      <label for="quantity-{{ line_item.id }}">Quantity</label>
+      <input type="number" id="quantity-{{ line_item.id }}" name="quantity" value="{{ line_item.quantity }}" readonly>
+    </div>
+    <div>
+      <label for="vendor-{{ line_item.id }}">Vendor</label>
+      <input type="text" id="vendor-{{ line_item.id }}" name="vendor" value="{{ line_item.vendor }}" readonly>
+    </div>
+    <div>
+      <label for="wholesale-price-{{ line_item.id }}">Wholesale Price</label>
+      <input type="text" id="wholesale-price-{{ line_item.id }}" name="wholesale-price" value="{{ line_item.final_price | money_with_currency }}" readonly>
+    </div>
+    {% assign customer = customer.name %}
+    {% if customer %}
+      <div>
+        <label for="client-name-{{ line_item.id }}">Client Name</label>
+        <input type="text" id="client-name-{{ line_item.id }}" name="client-name" value="{{ customer }}" readonly>
+      </div>
+    {% endif %}
+    <!-- Add any additional form fields or elements as needed -->
+  {% endfor %}
+</form>
+  <button style="background-color: #1D2F50; color: white;" onclick="SubForm()">Submit a forecast</button>
 
             {%- comment -%}
             ----------------------------------------------------------------------------------------------------------------
