@@ -1,23 +1,10 @@
 <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
 <script>
   function SubForm() {
-    var formDataArray = $("#myForm").serializeArray();
-    var payload = [];
-
-    // Iterate over the form data array and construct an object for each element
-    $.each(formDataArray, function(index, element) {
-      var formDataObject = {
-        name: element.name,
-        value: element.value
-      };
-      payload.push(formDataObject);
-    });
-
     $.ajax({
       url: 'https://api.apispreadsheets.com/data/xeoHpZ5xbDR0C3mo/',
       type: 'post',
-      contentType: 'application/json',
-      data: JSON.stringify(payload),
+      data: $("#myForm").serializeArray(),
       success: function() {
         alert("Form Data Submitted :)");
       },
