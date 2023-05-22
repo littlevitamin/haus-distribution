@@ -1,8 +1,8 @@
 <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
 <script>
   function SubForm() {
-    var lineItems = [];
-
+    var formData = new FormData();
+    
     // Iterate through each line item form content
     $('.form-content').each(function() {
       var productName = $(this).find('input[name="product-name"]').val();
@@ -12,28 +12,21 @@
       var wholesalePrice = $(this).find('input[name="wholesale-price"]').val();
       var clientName = $(this).find('input[name="client-name"]').val();
 
-      // Create an object for the line item data
-      var lineItem = {
-        productName: productName,
-        sku: sku,
-        quantity: quantity,
-        vendor: vendor,
-        wholesalePrice: wholesalePrice,
-        clientName: clientName
-      };
-
-      // Add the line item object to the lineItems array
-      lineItems.push(lineItem);
+      // Append line item data to the FormData object
+      formData.append('productName[]', productName);
+      formData.append('sku[]', sku);
+      formData.append('quantity[]', quantity);
+      formData.append('vendor[]', vendor);
+      formData.append('wholesalePrice[]', wholesalePrice);
+      formData.append('clientName[]', clientName);
     });
-
-    var payload = {
-      lineItems: lineItems
-    };
 
     $.ajax({
       url: 'https://api.apispreadsheets.com/data/xeoHpZ5xbDR0C3mo/',
       type: 'post',
-      data: payload,
+      data: formData,
+      contentType: false,
+      processData: false,
       success: function() {
         alert("Form Data Submitted :)");
       },
