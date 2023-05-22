@@ -14,12 +14,12 @@
 
       // Create a line item object
       var lineItem = {
-        productName: productName,
-        sku: sku,
-        quantity: quantity,
-        vendor: vendor,
-        wholesalePrice: wholesalePrice,
-        clientName: clientName
+        'product-name': productName,
+        'sku': sku,
+        'quantity': quantity,
+        'vendor': vendor,
+        'wholesale-price': wholesalePrice,
+        'client-name': clientName
       };
 
       // Add the line item object to the lineItems array
@@ -28,7 +28,7 @@
 
     // Create the payload object with the lineItems array
     var payload = {
-      lineItems: lineItems
+      'data': lineItems
     };
 
     $.ajax({
