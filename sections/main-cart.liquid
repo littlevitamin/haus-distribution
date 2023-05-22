@@ -87,6 +87,7 @@
 <form id="myForm">
   {% for line_item in cart.items %}
     <!-- Render line item content here -->
+    <div class="form-content">
     <div>
       <label for="product-name-{{ line_item.id }}">Product Name</label>
       <input type="text" id="product-name-{{ line_item.id }}" name="product-name" value="{{ line_item.product.title }}" readonly>
@@ -114,6 +115,7 @@
         <input type="text" id="client-name-{{ line_item.id }}" name="client-name" value="{{ customer }}" readonly>
       </div>
     {% endif %}
+    </div>
     <!-- Add any additional form fields or elements as needed -->
       <button style="background-color: #1D2F50; color: white; padding: 11px 47px; border-radius: 6px; margin: 20px 0;" onclick="SubForm()">Submit a forecast</button>
   {% endfor %}
