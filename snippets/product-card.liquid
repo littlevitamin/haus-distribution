@@ -279,11 +279,13 @@ Supported variables
   </div>
 </product-card>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
 <script>
-  $(document).ready(function() {
-    $('#quantity').on('input', function() {
-      $('input[name="quantity"]').val($(this).val());
+  window.addEventListener('DOMContentLoaded', function() {
+    var quantityInput = document.getElementById('quantity');
+    var formQuantityInput = document.querySelector('input[name="quantity"]');
+    
+    quantityInput.addEventListener('input', function() {
+      formQuantityInput.value = this.value;
     });
   });
 </script>
