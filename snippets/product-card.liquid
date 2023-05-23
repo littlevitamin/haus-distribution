@@ -266,7 +266,7 @@ Supported variables
         </div>
       {%- endform -%}
   {% endif %}
-  {% comment %}
+
     <form>
     <input type="text" name="title" value="{{ product.title }}">
     <input type="text" name="sku" value="{{ current_variant.sku }}">
@@ -275,25 +275,28 @@ Supported variables
     <input type="number" name="price" value="{{ product.price }}">
     <input type="text" name="client_name" value="{{ customer.first_name }} {{ customer.last_name }}">
   </form>
-  {% endcomment %}
+
   </div>
 </product-card>
 
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    // Get the input field that contains the quantity value
-    const quantityInput = document.getElementById('quantity');
+  const quantityInput = document.getElementById('quantity');
+  const productQuantity = {{ product.quantity }};
 
-    // Add an event listener to the input field
-    quantityInput.addEventListener('input', function() {
-      // Get the value from the quantity input field
-      const quantityValue = parseInt(quantityInput.value);
+  // Update the input field value when the quantity changes
+  quantityInput.addEventListener('change', (event) => {
+    const newQuantity = parseInt(event.target.value);
+    if (!isNaN(newQuantity)) {
+      quantityInput.value = newQuantity;
+    }
+  });
 
-      // Get the corresponding product quantity input field
-      const productQuantityInput = document.querySelector('[name="quantity"]');
-
-      // Update the product quantity input field with the new value
-      productQuantityInput.value = quantityValue;
-    });
+  // Update the quantity when the input field changes
+  quantityInput.addEventListener('input', (event) => {
+    const newQuantity = parseInt(event.target.value);
+    if (!isNaN(newQuantity)) {
+      // Update the product quantity variable
+      productQuantity = newQuantity;
+    }
   });
 </script>
