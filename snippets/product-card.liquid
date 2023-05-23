@@ -265,11 +265,11 @@ Supported variables
           </div>
         </div>
       {%- endform -%}
-  {% endif %}
-   {%- form 'product', product, is: 'product-form' -%}
+      {%- form 'product', product, is: 'product-form' -%}
         <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
         {%- render 'button', type: 'submit', content: "Add to forecast", value: 'product_form_id' -%}
       {%- endform -%}
+  {% endif %}
 
 {% comment %}
     <form>
