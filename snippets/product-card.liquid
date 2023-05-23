@@ -265,6 +265,7 @@ Supported variables
           </div>
         </div>
       {%- endform -%}
+    {%- render 'button', type: 'submit', content: "Add to forecast", value: 'product_form_id' -%}
   {% endif %}
 {% comment %}
     <form>
@@ -276,6 +277,7 @@ Supported variables
     <input type="text" name="client_name" value="{{ customer.first_name }} {{ customer.last_name }}">
   </form>
 {% endcomment %}
+  
   </div>
 </product-card>
 
