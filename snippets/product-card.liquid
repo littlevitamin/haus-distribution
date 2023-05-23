@@ -263,10 +263,12 @@ Supported variables
               {%- render 'button', type: 'submit', content: "Pre Order", value: 'product_form_id' -%}
             {% endif %}
           </div>
-          {%- render 'button', type: 'submit', content: "Add to forecast", value: 'product_form_id' -%}
         </div>
       {%- endform -%}
   {% endif %}
+  {%- form 'product', product, is: 'product-form' -%}
+              {%- render 'button', type: 'submit', content: "Add to forecast", value: 'product_form_id' -%}
+      {%- endform -%}
 {% comment %}
     <form>
     <input type="text" name="title" value="{{ product.title }}">
