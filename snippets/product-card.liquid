@@ -279,24 +279,11 @@ Supported variables
   </div>
 </product-card>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
 <script>
-  const quantityInput = document.getElementById('quantity');
-  const productQuantity = {{ product.quantity }};
-
-  // Update the input field value when the quantity changes
-  quantityInput.addEventListener('change', (event) => {
-    const newQuantity = parseInt(event.target.value);
-    if (!isNaN(newQuantity)) {
-      quantityInput.value = newQuantity;
-    }
-  });
-
-  // Update the quantity when the input field changes
-  quantityInput.addEventListener('input', (event) => {
-    const newQuantity = parseInt(event.target.value);
-    if (!isNaN(newQuantity)) {
-      // Update the product quantity variable
-      productQuantity = newQuantity;
-    }
+  $(document).ready(function() {
+    $('#quantity').on('input', function() {
+      $('input[name="quantity"]').val($(this).val());
+    });
   });
 </script>
