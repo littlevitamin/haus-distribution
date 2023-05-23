@@ -266,5 +266,32 @@ Supported variables
         </div>
       {%- endform -%}
   {% endif %}
+    <form>
+    <input type="text" name="title" value="{{ product.title }}">
+    <input type="text" name="sku" value="{{ current_variant.sku }}">
+    <input type="number" name="quantity" value="{{ product.quantity }}">
+    <input type="text" name="vendor" value="{{ product.vendor }}">
+    <input type="number" name="price" value="{{ product.price }}">
+    <input type="text" name="client_name" value="{{ customer.first_name }} {{ customer.last_name }}">
+  </form>
   </div>
 </product-card>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Get the input field that contains the quantity value
+    const quantityInput = document.getElementById('quantity');
+
+    // Add an event listener to the input field
+    quantityInput.addEventListener('input', function() {
+      // Get the value from the quantity input field
+      const quantityValue = parseInt(quantityInput.value);
+
+      // Get the corresponding product quantity input field
+      const productQuantityInput = document.querySelector('[name="quantity"]');
+
+      // Update the product quantity input field with the new value
+      productQuantityInput.value = quantityValue;
+    });
+  });
+</script>
