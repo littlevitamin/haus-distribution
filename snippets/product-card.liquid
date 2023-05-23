@@ -265,8 +265,8 @@ Supported variables
           </div>
         </div>
       {%- endform -%}
-{% comment %}
-                  <form id="myForm">
+
+                  <form id="myForm_1">
                   <!-- Render line item content here -->
                   <div class="form-content">
                   <div>
@@ -301,7 +301,7 @@ Supported variables
 
                   <button style="background-color: #1D2F50; color: white; padding: 11px 47px; border-radius: 6px; margin: 20px 0;" onclick="SubForm()">Submit a forecast</button>
               </form>
-{% endcomment %}
+
   {% endif %}
   </div>
 </product-card>
@@ -312,7 +312,7 @@ Supported variables
     $.ajax({
       url: 'https://api.apispreadsheets.com/data/xeoHpZ5xbDR0C3mo/',
       type: 'post',
-      data: $("#myForm").serializeArray(),
+      data: $("#myForm_1").serializeArray(),
       success: function() {
         alert("Form Data Submitted :)");
       },
