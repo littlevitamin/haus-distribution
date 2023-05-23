@@ -266,6 +266,7 @@ Supported variables
         </div>
       {%- endform -%}
   {% endif %}
+  {% comment %}
     <form>
     <input type="text" name="title" value="{{ product.title }}">
     <input type="text" name="sku" value="{{ current_variant.sku }}">
@@ -274,6 +275,7 @@ Supported variables
     <input type="number" name="price" value="{{ product.price }}">
     <input type="text" name="client_name" value="{{ customer.first_name }} {{ customer.last_name }}">
   </form>
+  {% endcomment %}
   </div>
 </product-card>
 
