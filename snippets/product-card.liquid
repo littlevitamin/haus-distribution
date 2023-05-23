@@ -270,30 +270,30 @@ Supported variables
                   <!-- Render line item content here -->
                   <div class="form-content">
                   <div>
-                    <label for="product-name-{{ line_item.id }}">Product Name</label>
-                    <input type="text" id="product-name-{{ line_item.id }}" name="product-name" value="{{ product.title }}" readonly>
+                    <label for="product-name-{{ product.id }}">Product Name</label>
+                    <input type="text" id="product-name-{{ product.id }}" name="product-name" value="{{ product.title }}" readonly>
                   </div>
                   <div>
-                    <label for="sku-{{ line_item.id }}">SKU</label>
-                    <input type="text" id="sku-{{ line_item.id }}" name="sku" value="{{ current_variant.sku }}" readonly>
+                    <label for="sku-{{ product.id }}">SKU</label>
+                    <input type="text" id="sku-{{ product.id }}" name="sku" value="{{ current_variant.sku }}" readonly>
                   </div>
                   <div>
-                    <label for="quantity-{{ line_item.id }}">Quantity</label>
-                    <input type="number" id="quantity-{{ line_item.id }}" name="quantity" value="{{ line_item.quantity }}" readonly>
+                    <label for="quantity-{{ product.id }}">Quantity</label>
+                    <input type="number" id="quantity-{{ product.id }}" name="quantity" value="{{ line_item.quantity }}" readonly>
                   </div>
                   <div>
-                    <label for="vendor-{{ line_item.id }}">Vendor</label>
-                    <input type="text" id="vendor-{{ line_item.id }}" name="vendor" value="{{ product.vendor }}" readonly>
+                    <label for="vendor-{{ product.id }}">Vendor</label>
+                    <input type="text" id="vendor-{{ product.id }}" name="vendor" value="{{ product.vendor }}" readonly>
                   </div>
                   <div>
-                    <label for="wholesale-price-{{ line_item.id }}">Wholesale Price</label>
-                    <input type="text" id="wholesale-price-{{ line_item.id }}" name="wholesale-price" value="{{ product.price | money_with_currency }}" readonly>
+                    <label for="wholesale-price-{{ product.id }}">Wholesale Price</label>
+                    <input type="text" id="wholesale-price-{{ product.id }}" name="wholesale-price" value="{{ product.price | money_with_currency }}" readonly>
                   </div>
                   {% assign customer = customer.name %}
                   {% if customer %}
                     <div>
-                      <label for="client-name-{{ line_item.id }}">Client Name</label>
-                      <input type="text" id="client-name-{{ line_item.id }}" name="client-name" value="{{ customer }}" readonly>
+                      <label for="client-name-{{ product.id }}">Client Name</label>
+                      <input type="text" id="client-name-{{ product.id }}" name="client-name" value="{{ customer }}" readonly>
                     </div>
                   {% endif %}
                   </div>
