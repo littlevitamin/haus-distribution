@@ -266,7 +266,7 @@ Supported variables
         </div>
       {%- endform -%}
   {% endif %}
-
+{% comment %}
     <form>
     <input type="text" name="title" value="{{ product.title }}">
     <input type="text" name="sku" value="{{ current_variant.sku }}">
@@ -275,20 +275,7 @@ Supported variables
     <input type="number" name="price" value="{{ product.price }}">
     <input type="text" name="client_name" value="{{ customer.first_name }} {{ customer.last_name }}">
   </form>
-
+{% endcomment %}
   </div>
 </product-card>
 
-<script>
-  const quantityInput = document.getElementById('quantity');
-const displayQuantityInput = document.getElementById('displayQuantity');
-
-// Add an input event listener to the quantity input
-quantityInput.addEventListener('input', function() {
-  // Get the new quantity value
-  const newQuantity = quantityInput.value;
-
-  // Update the value of the displayQuantity input in the destination form
-  displayQuantityInput.value = newQuantity;
-});
-</script>
