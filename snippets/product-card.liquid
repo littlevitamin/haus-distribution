@@ -265,6 +265,7 @@ Supported variables
           </div>
         </div>
       {%- endform -%}
+    {% comment %}
                   <form id="myForm">
                 {% for line_item in cart.items %}
                   <!-- Render line item content here -->
@@ -301,6 +302,7 @@ Supported variables
                 {% endfor %}
                   <button style="background-color: #1D2F50; color: white; padding: 11px 47px; border-radius: 6px; margin: 20px 0;" onclick="SubForm()">Submit a forecast</button>
               </form>
+    {% endcomment %}
   {% endif %}
   </div>
 </product-card>
