@@ -268,7 +268,7 @@ Supported variables
   {% endif %}
     <form>
     <input type="text" name="title" value="{{ product.title }}">
-    <input type="text" name="sku" value="{{ product.sku }}">
+    <input type="text" name="sku" value="{{ current_variant.sku }}">
     <input type="number" name="quantity" value="{{ product.quantity }}">
     <input type="text" name="vendor" value="{{ product.vendor }}">
     <input type="number" name="price" value="{{ product.price }}">
