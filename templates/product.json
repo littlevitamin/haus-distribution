@@ -153,7 +153,7 @@
             "value_1": "<p>{{ block.settings.product.metafields.custom.ean.value }}<\/p>",
             "value_2": "<p>{{ block.settings.product.metafields.custom.wsp.value }}<\/p>",
             "value_3": "<p>{{ block.settings.product.metafields.custom.retail_price.value }}<\/p>",
-            "value_4": "<p>{{ block.settings.product.metafields.custom.dimensions | metafield_tag }}<\/p>",
+            "value_4": "<p>{{ block.settings.product.metafields.custom.dimension.value }}<\/p>",
             "value_5": "<p>{{ block.settings.product.metafields.custom.weight | metafield_tag }}<\/p>",
             "value_6": "<p>{{ block.settings.product.metafields.custom.coo.value }}<\/p>",
             "value_7": "<p>{{ block.settings.product.metafields.custom.materials.value }}<\/p>",
