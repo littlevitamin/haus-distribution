@@ -10074,7 +10074,8 @@ split-lines {
 
 .in-stock, 
 .brand-name,
-.shipping-notification {
+.shipping-notification,
+.accordion__content {
   font-family: 'Gilroy-Regular', sans-serif!important;
   font-style: normal;
   font-weight: 400;
