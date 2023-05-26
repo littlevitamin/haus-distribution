@@ -10170,9 +10170,12 @@ split-lines {
 
 .shipping-estimator__form > button,
 #cart-drawer > div.v-stack.gap-4.sm\:gap-6 > form > a,
-.cart-drawer__note-inner .button,
-.widget-background-panel {
+.cart-drawer__note-inner .button {
   background: #F4A6A2;
+}
+
+.widget-background-panel {
+  background-color: #F4A6A2!important;  
 }
 
 .color-swatch {
