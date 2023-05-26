@@ -10170,7 +10170,8 @@ split-lines {
 
 .shipping-estimator__form > button,
 #cart-drawer > div.v-stack.gap-4.sm\:gap-6 > form > a,
-.cart-drawer__note-inner .button {
+.cart-drawer__note-inner .button,
+.widget-background-panel {
   background: #F4A6A2;
 }
 
