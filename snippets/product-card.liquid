@@ -172,7 +172,7 @@ Supported variables
             <p class="price-list text-subdued text-xs link-faded">RRP: £{{ product.metafields.custom.retail_price }}</p>
           {% endif %}
           {% if product.available and current_variant.inventory_quantity > 100 %}
-            <p class="in-stock">More than 100 in stock</p>
+            <p class="in-stock">Over 100 in stock</p>
           {% elsif product.available and current_variant.inventory_quantity <= 100 and current_variant.inventory_quantity > 0 %}
             <p class="in-stock">{{ current_variant.inventory_quantity }} In Stock</p>
           {% elsif current_variant.inventory_quantity <= 0 and product.available %}
