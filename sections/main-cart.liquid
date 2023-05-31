@@ -113,7 +113,7 @@
                   {% if customer %}
                     <div>
                       <label for="client-name-{{ line_item.id }}">Client Name</label>
-                      <input type="text" id="client-name-{{ line_item.id }}" name="client-name" value="{{ customer }}" readonly>
+                      <input type="text" id="client-name-{{ line_item.id }}" name="client-name" value="{{ customer.name }}" readonly>
                     </div>
                   {% endif %}
                   </div>
