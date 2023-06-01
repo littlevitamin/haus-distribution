@@ -282,8 +282,8 @@
         "template--16674772058354__e749a51b-463d-48d1-9ed4-273c34f498b2-16824104323842fba1-2"
       ],
       "settings": {
-        "full_width": true,
-        "image": "shopify:\/\/shop_images\/48263474846_cf782144ff_h_1296x_76d1bedf-93f8-4cf8-9579-933911d5eb43_webp.png",
+        "full_width": false,
+        "image": "shopify:\/\/shop_images\/OYOY-L300291-Quilted_Aya-L10238-Moto_L300486-L300486-Striped-L10176-Kasa-Putki-nuku.jpg",
         "title": "Shop the room",
         "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
         "button_text": "",
@@ -394,7 +394,7 @@
         "b96037d5-2489-4729-b07e-b410cf0857f6": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-03-29_at_13.21_1.png",
+            "image": "shopify:\/\/shop_images\/Untitled_design_11.png",
             "title": "Clothing",
             "heading_tag": "h4",
             "link_url": "shopify:\/\/collections\/clothing",
