@@ -165,6 +165,77 @@
         "product_card_text_color": ""
       }
     },
+    "collection-list": {
+      "type": "collection-list",
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "drawin-table",
+            "image": "shopify:\/\/shop_images\/Untitled_design_5.png",
+            "subheading": "",
+            "title": "Mini",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "ball-pits-balls",
+            "image": "shopify:\/\/shop_images\/Untitled_design_6.png",
+            "subheading": "",
+            "title": "Outdoor",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "oyoy",
+            "image": "shopify:\/\/shop_images\/Untitled_design_8.png",
+            "subheading": "",
+            "title": "Gifting",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection-1",
+        "collection-2",
+        "collection-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_collections": false,
+        "collections_per_row": 3,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "Shop OYOY",
+        "content": "",
+        "link_url": "shopify:\/\/collections\/furniture-1",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "e749a51b-463d-48d1-9ed4-273c34f498b2": {
       "type": "hot-spots",
       "blocks": {
@@ -233,130 +304,6 @@
         "hot_spot_content_blur_radius": 3
       }
     },
-    "collection-list": {
-      "type": "collection-list",
-      "blocks": {
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "drawin-table",
-            "image": "shopify:\/\/shop_images\/Untitled_design_5.png",
-            "subheading": "",
-            "title": "OYOY Mini",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "ball-pits-balls",
-            "image": "shopify:\/\/shop_images\/pseudo_2.png",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "oyoy",
-            "image": "shopify:\/\/shop_images\/pseudo_3.png",
-            "subheading": "",
-            "title": "OYOY Living",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        }
-      },
-      "block_order": [
-        "collection-1",
-        "collection-2",
-        "collection-3"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_collections": false,
-        "collections_per_row": 3,
-        "show_progress_bar": false,
-        "subheading": "",
-        "title": "Shop OYOY",
-        "content": "",
-        "link_url": "shopify:\/\/collections\/furniture-1",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
-    "f97036d1-abc4-4f4d-9d58-c8d6806c3717": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "template--16674772058354__f97036d1-abc4-4f4d-9d58-c8d6806c3717-1682073974e95cab2d-0": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "template--16674772058354__f97036d1-abc4-4f4d-9d58-c8d6806c3717-1682073974e95cab2d-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Toys",
-            "heading_tag": "h1"
-          }
-        },
-        "template--16674772058354__f97036d1-abc4-4f4d-9d58-c8d6806c3717-1682073974e95cab2d-2": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "c291f013-a6b6-4ad6-b5d7-d32658358f66": {
-          "type": "button",
-          "settings": {
-            "style": "outline",
-            "size": "lg",
-            "text": "Shop All Toys",
-            "url": "shopify:\/\/collections\/toys",
-            "background": "",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16674772058354__f97036d1-abc4-4f4d-9d58-c8d6806c3717-1682073974e95cab2d-0",
-        "template--16674772058354__f97036d1-abc4-4f4d-9d58-c8d6806c3717-1682073974e95cab2d-1",
-        "template--16674772058354__f97036d1-abc4-4f4d-9d58-c8d6806c3717-1682073974e95cab2d-2",
-        "c291f013-a6b6-4ad6-b5d7-d32658358f66"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/pseudo.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
     "958fd2ba-605f-48ae-b321-13924898af81": {
       "type": "featured-collection",
       "custom_css": [
@@ -385,6 +332,60 @@
         "heading_gradient": "",
         "product_card_background": "",
         "product_card_text_color": ""
+      }
+    },
+    "f97036d1-abc4-4f4d-9d58-c8d6806c3717": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--16674772058354__f97036d1-abc4-4f4d-9d58-c8d6806c3717-1682073974e95cab2d-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Meet the Family"
+          }
+        },
+        "template--16674772058354__f97036d1-abc4-4f4d-9d58-c8d6806c3717-1682073974e95cab2d-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Little Dutch Dolls",
+            "heading_tag": "h1"
+          }
+        },
+        "template--16674772058354__f97036d1-abc4-4f4d-9d58-c8d6806c3717-1682073974e95cab2d-2": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "c291f013-a6b6-4ad6-b5d7-d32658358f66": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "size": "lg",
+            "text": "Shop",
+            "url": "shopify:\/\/collections\/toys",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16674772058354__f97036d1-abc4-4f4d-9d58-c8d6806c3717-1682073974e95cab2d-0",
+        "template--16674772058354__f97036d1-abc4-4f4d-9d58-c8d6806c3717-1682073974e95cab2d-1",
+        "template--16674772058354__f97036d1-abc4-4f4d-9d58-c8d6806c3717-1682073974e95cab2d-2",
+        "c291f013-a6b6-4ad6-b5d7-d32658358f66"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/pseudo.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     },
     "6d07f598-35e8-4886-a458-85778b7d6b59": {
@@ -438,7 +439,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Screenshot_2023-03-29_at_13.26_1.png",
-            "title": "Little Dutch | Summer Essentials",
+            "title": "Newborn Essentials",
             "heading_tag": "h4",
             "link_url": "shopify:\/\/collections\/little-dutch",
             "link_text": "",
@@ -596,10 +597,10 @@
     "5f812be6-aa51-42f1-9240-6cb6aebdc369",
     "3e3d8d39-3146-4d21-92db-a3e9f8bc5567",
     "159b1d2e-65ee-4a87-a76f-f13a627b3da1",
-    "e749a51b-463d-48d1-9ed4-273c34f498b2",
     "collection-list",
-    "f97036d1-abc4-4f4d-9d58-c8d6806c3717",
+    "e749a51b-463d-48d1-9ed4-273c34f498b2",
     "958fd2ba-605f-48ae-b321-13924898af81",
+    "f97036d1-abc4-4f4d-9d58-c8d6806c3717",
     "6d07f598-35e8-4886-a458-85778b7d6b59",
     "f0206c56-488d-41a9-bab8-bcb27fec4a82",
     "0daee94c-7c94-4b2a-8e23-e6d05600f74b"
