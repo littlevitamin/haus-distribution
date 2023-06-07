@@ -10357,6 +10357,17 @@ content: '\f004';
 }
 */
 
+.load-more_wrap{
+ margin-top: 60px; 
+ text-align: center;
+}
+.load-more_wrap img{
+ max-width: 25px;
+}
+ul.pagination{
+ display: none !important;
+}
+
 .product-card > div > form:last-child > button {
   width: 100%;
   padding: 3px;
