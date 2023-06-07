@@ -132,8 +132,8 @@
                 {%- render 'active-facets', results: collection -%}
               </div>
 
-              <reveal-items selector=".product-list > *">
-                <product-list id="Huratips-Loop" class="product-list" role="region" aria-live="polite">
+              <reveal-items id="Huratips-Loop" selector=".product-list > *">
+                <product-list class="product-list" role="region" aria-live="polite">
                   {%- for product in collection.products -%}
                     {%- for block in section.blocks -%}
                       {%- if forloop.parentloop.index != block.settings.position -%}
