@@ -95,5 +95,15 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
   
 {% include 'swymSnippet' %}
 
+<!-- Infinite scroll script -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var endlessScroll = new Ajaxinate({
+      container: '#Huratips-Loop',
+      pagination: '#Huratips-Pagination'
+    });
+  });
+</script>
+
 </body>
 </html>
