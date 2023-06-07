@@ -17,7 +17,7 @@ Supported variables
 {%- endcomment -%}
 
 {%- if paginate.pages > 1 -%}
-  <nav class="{{ class }} pagination" role="navigation" aria-label="{{ 'general.accessibility.pagination' | t }}">
+  <nav id="Huratips-Pagination" class="{{ class }} pagination" role="navigation" aria-label="{{ 'general.accessibility.pagination' | t }}">
     {%- if paginate.previous.is_link -%}
       {%- assign previous_page = paginate.current_page | minus: 1 -%}
 
