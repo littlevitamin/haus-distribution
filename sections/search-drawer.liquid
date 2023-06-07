@@ -1,5 +1,5 @@
 <search-drawer {% if request.design_mode %}handle-section-events{% endif %} class="search-drawer {% if section.settings.full_width %}search-drawer--full{% endif %} drawer drawer--lg" id="search-drawer">
-<!--   <form action="{{ routes.search_url }}" method="get" class="v-stack gap-5 sm:gap-8" role="search">
+  <form action="{{ routes.search_url }}" method="get" class="v-stack gap-5 sm:gap-8" role="search">
     <div class="search-input">
       <input type="search" name="q" placeholder="{{ 'search.general.search_placeholder' | t }}" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="{{ 'search.general.title' | t | escape }}">
       <button type="reset" class="text-subdued">{{ 'search.general.clear' | t }}</button>
@@ -212,27 +212,7 @@
         {%- endif -%}
       </div>
     </predictive-search>
-  </form> -->
-
-  {%- capture search_form -%}
-  <form class="main-search-form" action="{{ routes.search_url }}" method="get" role="search">
-    <input type="hidden" name="type" value="product">
-
-    <div class="v-stack gap-6 sm:gap-12">
-      <div class="search-input">
-        <input type="search" name="q" value="{{ search.terms | escape }}" placeholder="{{ 'search.general.search_placeholder' | t }}" autocomplete="off" autocorrect="off" spellcheck="false" aria-label="{{ 'search.general.title' | t | escape }}">
-        <button type="submit">{%- render 'icon' with 'search' -%}</button>
-      </div>
-
-      {%- unless search.results_count > 0 -%}
-        <div class="justify-self-center">
-          {%- assign button_content = 'search.general.title' | t -%}
-          {%- render 'button', type: 'submit', content: button_content, size: 'xl' -%}
-        </div>
-      {%- endunless -%}
-    </div>
   </form>
-{%- endcapture -%}
 </search-drawer>
 
 {% schema %}
