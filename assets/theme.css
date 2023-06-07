@@ -10355,6 +10355,7 @@ content: '\f004';
 .pagination >* {
   color: white!important;
 }
+*/
 
 .product-card > div > form:last-child > button {
   width: 100%;
@@ -10363,4 +10364,4 @@ content: '\f004';
   color: #1D2F50;
   background: white;
   border: 1px solid #1D2F50;
-}*/
+}
