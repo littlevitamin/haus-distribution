@@ -3962,7 +3962,7 @@ var PredictiveSearch = class extends HTMLElement {
     this.shadowRoot.appendChild(document.createRange().createContextualFragment(`<slot name="idle"></slot>`));
   }
   connectedCallback() {
-    this._searchForm = this.closest("form");
+    this._searchForm = this.closest("main-search-form");
     this._queryInput = this._searchForm.elements["q"];
     this._searchForm.addEventListener("submit", this._onFormSubmitted.bind(this));
     this._searchForm.addEventListener("reset", this._onSearchCleared.bind(this));
