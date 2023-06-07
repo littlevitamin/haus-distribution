@@ -10342,6 +10342,18 @@ content: '\f004';
   border-block-start-width: 0px;
 }
 
+.pagination__item {
+  display: none;
+}
+
+.pagination {
+  border: 0;
+}
+
+.pagination >* {
+  color: white!important;
+}
+
 .product-card > div > form:last-child > button {
   width: 100%;
   padding: 3px;
