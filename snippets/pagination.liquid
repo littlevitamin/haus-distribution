@@ -17,7 +17,7 @@ Supported variables
 {%- endcomment -%}
 
 {%- if paginate.pages > 1 -%}
-  <input type="hidden" value="{{ paginate.next.url }}" data-next-link>
+  <input type="hidden" value="{{ paginate.next }}" data-next-link>
  <input type="hidden" value="{{ paginate.pages }}" data-all-pages>
  <input type="hidden" value="{{ paginate.current_page }}" data-this-page>
  <input type="hidden" value="{{ collection.url }}" data-coll-url>
