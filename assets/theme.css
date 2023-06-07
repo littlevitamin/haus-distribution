@@ -10342,7 +10342,7 @@ content: '\f004';
   border-block-start-width: 0px;
 }
 
-/* Styling the infinite scroll
+/* Styling the infinite scroll */
 
 .pagination__item {
   display: none;
@@ -10355,18 +10355,7 @@ content: '\f004';
 .pagination >* {
   color: white!important;
 }
-*/
 
-.load-more_wrap{
- margin-top: 60px; 
- text-align: center;
-}
-.load-more_wrap img{
- max-width: 25px;
-}
-ul.pagination{
- display: none !important;
-}
 
 .product-card > div > form:last-child > button {
   width: 100%;
