@@ -132,7 +132,7 @@
                 {%- render 'active-facets', results: collection -%}
               </div>
 
-              <reveal-items id="Huratips-Loop" selector=".product-list > *">
+              <reveal-items selector=".product-list > *">
                 <product-list class="product-list" role="region" aria-live="polite">
                   {%- for product in collection.products -%}
                     {%- for block in section.blocks -%}
