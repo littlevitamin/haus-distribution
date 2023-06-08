@@ -48,8 +48,8 @@
                         {% endif %}
                     {% endfor %}
                     {% endpaginate %}
-                    {% paginate collections['little-dutch-textiles'].products by 1000 %}
-                    {% for findProduct in collections['little-dutch-textiles'].products %}                  
+                    {% paginate collections['oyoy-mini'].products by 1000 %}
+                    {% for findProduct in collections['oyoy-mini'].products %}                  
                         {% if findProduct.title contains ' - ' %}
                             {% assign findProductTitle = findProduct.title | split: ' - ' | first %}
                             {% if findProductTitle contains productTitle and  product.title != findProduct.title %}
