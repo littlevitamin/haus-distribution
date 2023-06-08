@@ -9,8 +9,8 @@
       
                     {% assign productTitle = product.title | split: ' - ' | first %}
                     {%- assign fitCurrent = product.title | split: ' - ' | last -%}
-                    {% paginate collections.all.products by 1000 %}
-                    {% for findProduct in collections.all.products %}                    
+                    {% paginate collections['little-dutch'].products by 1000 %}
+                    {% for findProduct in collections['little-dutch'].products %}                  
                         {% if findProduct.title contains ' - ' %}
                             {% assign findProductTitle = findProduct.title | split: ' - ' | first %}
                             {% if findProductTitle contains productTitle and  product.title != findProduct.title %}
