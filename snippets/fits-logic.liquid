@@ -1,6 +1,6 @@
             {%- comment -%}
             FIT LOGIC
-            {%- endcomment -%} 
+            {%- endcomment -%} {% comment %}
             {%- assign isFit = false -%}
             {%- assign fits = '' -%}
             {%- assign fitsHandles = '' -%}
@@ -34,11 +34,6 @@
                             {%- assign fitsHandles = fitsHandles | remove_first: ',' | split: ',' -%}
                             {%- assign fitsHandles = fitsHandles | sort -%}
                             <div class="flex-start gap-2">
-                        <div>{{ productTitle }}</div>
-      <div>{{ findProduct.title }}</div>
-      <div>{{ findProductTitle }}</div>
-      <div>{{ findProduct.handle }}</div>
-      <div>{{ product.handle }}</div>
           
                                 {% for item in fits %}
                                     {% if item == fitCurrent %}
@@ -53,8 +48,42 @@
                             </div>
                         </div>
                     </div>
-                {% endif %} 
+                {% endif %} {% endcomment %}
             {%- comment -%}
                 FIT LOGIC
             {%- endcomment -%} 
 
+{% assign fits = '' %}
+
+{% if product.title contains ' - ' %}
+  {% assign productTitle = product.title | split: ' - ' | first %}
+  {% assign fitCurrent = product.title | split: ' - ' | last | strip %}
+
+  {% for findProduct in collections.all.products %}
+    {% if findProduct.title contains ' - ' %}
+      {% assign findProductTitle = findProduct.title | split: ' - ' | first | strip %}
+      {% if findProductTitle == productTitle and findProduct.handle != product.handle %}
+        {% assign fit = findProduct.title | split: ' - ' | last | strip %}
+        {% assign fits = fits | append: ',' | append: fit | strip %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% if fits != '' %}
+  <div>
+    <div class="text-13 md:text-16 font-600">Colour:</div>
+    <div>
+      <div class="flex-start gap-2">
+        {% for item in fits %}
+          <a href="/products/{{ product.handle | replace: ' - ' | replace: fitCurrent, item | handleize }}" class="block-swatch">{{ item }}</a>
+        {% endfor %}
+      </div>
+        <div>{{ productTitle }}</div>
+      <div>{{ findProduct.title }}</div>
+      <div>{{ findProductTitle }}</div>
+      <div>{{ findProduct.handle }}</div>
+      <div>{{ product.handle }}</div>
+    </div>
+  </div>
+{% endif %}
