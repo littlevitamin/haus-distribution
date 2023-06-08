@@ -35,6 +35,19 @@
                         {% endif %}
                     {% endfor %}
                     {% endpaginate %}
+                    {% paginate collections['oyoy-living'].products by 1000 %}
+                    {% for findProduct in collections['oyoy-living'].products %}                  
+                        {% if findProduct.title contains ' - ' %}
+                            {% assign findProductTitle = findProduct.title | split: ' - ' | first %}
+                            {% if findProductTitle contains productTitle and  product.title != findProduct.title %}
+                            {%- assign fit = findProduct.title | split: ' - ' | last -%}
+                            {%- assign fits = fits | append: ',' | append: fit -%}
+                            {%- assign fitsHandles = fitsHandles | append: ',' | append: findProduct.handle -%}
+                            {%- assign isFit = true -%}
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+                    {% endpaginate %}
                     {% paginate collections['little-dutch-textiles'].products by 1000 %}
                     {% for findProduct in collections['little-dutch-textiles'].products %}                  
                         {% if findProduct.title contains ' - ' %}
