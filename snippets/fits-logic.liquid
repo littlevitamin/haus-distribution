@@ -9,7 +9,7 @@
       
                     {% assign productTitle = product.title | split: '-' | first %}
                     {%- assign fitCurrent = product.title | split: '-' | last -%}
-                    {% paginate collections.all.products by 10000 %}
+                    {% paginate collections.all.products by 100000 %}
                     {% for findProduct in collections.all.products %}                    
                         {% if findProduct.title contains '-' %}
                             {% assign findProductTitle = findProduct.title | split: '-' | first%}
@@ -26,7 +26,7 @@
 
                 {% if isFit %}
                     <div>
-                        <div class="text-13 md:text-16 font-600">Color:</div>
+                        <div class="text-13 md:text-16 font-600">Colour:</div>
                         <div>
                             {% assign fits = fits | append: ',' | append: fitCurrent %}
                             {%- assign fits = fits | remove_first: ',' | split: ',' -%}
