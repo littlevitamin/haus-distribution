@@ -56,14 +56,16 @@
 {% assign fits = '' %}
 
 {% if product.title contains ' - ' %}
-  {% assign productTitle = product.title | split: ' - ' | first %}
+  {% assign productTitle = product.title | split: ' - ' | first | strip %}
   {% assign fitCurrent = product.title | split: ' - ' | last | strip %}
 
   {% for findProduct in collections.all.products %}
     {% if findProduct.title contains ' - ' %}
       {% assign findProductTitle = findProduct.title | split: ' - ' | first | strip %}
+      {% assign findProductColor = findProduct.title | split: ' - ' | last | strip %}
+
       {% if findProductTitle == productTitle and findProduct.handle != product.handle %}
-        {% assign fit = findProduct.title | split: ' - ' | last | strip %}
+        {% assign fit = findProductColor %}
         {% assign fits = fits | append: ',' | append: fit | strip %}
       {% endif %}
     {% endif %}
@@ -72,18 +74,14 @@
 
 {% if fits != '' %}
   <div>
-    <div class="text-13 md:text-16 font-600">Colour:</div>
+    <div class="text-13 md:text-16 font-600">Color:</div>
     <div>
       <div class="flex-start gap-2">
         {% for item in fits %}
-          <a href="/products/{{ product.handle | replace: ' - ' | replace: fitCurrent, item | handleize }}" class="block-swatch">{{ item }}</a>
+          {% assign itemHandle = item | handleize %}
+          <a href="/products/{{ product.handle | replace: fitCurrent, itemHandle }}" class="block-swatch">{{ item }}</a>
         {% endfor %}
       </div>
-        <div>{{ productTitle }}</div>
-      <div>{{ findProduct.title }}</div>
-      <div>{{ findProductTitle }}</div>
-      <div>{{ findProduct.handle }}</div>
-      <div>{{ product.handle }}</div>
     </div>
   </div>
 {% endif %}
