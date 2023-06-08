@@ -40,9 +40,12 @@
                                     <div class="block-swatch current-item-box-shadow">
                                         {{fitCurrent}}
                                     </div>
+                                                                 <div class="block-swatch current-item-box-shadow">
+                                        {{fitCurrent}}
+                                    </div>
 
                                     {% else %}
-                                    <a href="/products/{{fitsHandles[forloop.index1]}}" class="block-swatch">{{item}}</a>
+                                    <a href="/products/{{fitsHandles[forloop.index0]}}" class="block-swatch">{{item}}</a>
                                     {% endif %}
                                 {% endfor %}
                             </div>
