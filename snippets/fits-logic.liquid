@@ -81,10 +81,15 @@
               {{ fitCurrent }}
             </div>
           {% else %}
-            {% assign fitProduct = collections.all.products | where: 'title', productTitle | where: 'title', productTitle | where: 'title', item | first %}
-            {% if fitProduct %}
-              <a href="/products/{{ fitProduct.handle }}" class="block-swatch">{{ item }}</a>
-            {% endif %}
+            {% assign fitProducts = collections.all.products | where: 'title', productTitle %}
+            {% for fitProduct in fitProducts %}
+              {% if fitProduct.title contains ' - ' %}
+                {% assign fitProductColor = fitProduct.title | split: ' - ' | last | strip %}
+                {% if fitProductColor == item %}
+                  <a href="/products/{{ fitProduct.handle }}" class="block-swatch">{{ item }}</a>
+                {% endif %}
+              {% endif %}
+            {% endfor %}
           {% endif %}
         {% endfor %}
       </div>
