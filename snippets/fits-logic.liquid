@@ -53,7 +53,7 @@
                 FIT LOGIC
             {%- endcomment -%} 
 
-{% assign fits = '' %}
+{% assign fits = '1' %}
 
 {% if product.title contains ' - ' %}
   {% assign productTitle = product.title | split: ' - ' | first %}
@@ -79,6 +79,11 @@
           <a href="/products/{{ product.handle | replace: ' - ' | replace: fitCurrent, item | handleize }}" class="block-swatch">{{ item }}</a>
         {% endfor %}
       </div>
+      <div>{{ productTitle }}</div>
+      <div>{{ findProduct.title }}</div>
+      <div>{{ findProductTitle }}</div>
+      <div>{{ findProduct.handle }}</div>
+      <div>{{ product.handle }}</div>
     </div>
   </div>
 {% endif %}
