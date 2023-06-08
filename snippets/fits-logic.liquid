@@ -32,7 +32,7 @@
                             {%- assign fits = fits | sort -%}
                             {%- assign fitsHandles = fitsHandles | append: ',' | append: product.handle -%}
                             {%- assign fitsHandles = fitsHandles | remove_first: ',' | split: ',' -%}
-                            {%- assign fitsHandles = fitsHandles | sort -%}
+                            {% comment %}{%- assign fitsHandles = fitsHandles | sort -%}{% endcomment %}
                             <div class="flex-start gap-2">
           
                                 {% for item in fits %}
