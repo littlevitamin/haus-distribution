@@ -59,17 +59,13 @@
 {% if product.title contains ' - ' %}
   {%- assign productTitle = product.title | split: ' - ' | first | strip -%}
 
+  {% paginate collections.all.products by collection.all_products_count %}
   {% for item in collections.all.products %}
     {% if item.title contains product.title %}
       <div>{{ item.title }}</div>
     {% endif %}
   {% endfor %}
-
-{% paginate collections.all.products by 1000 %}
-  {% for product in collections.all.products %}
-    <div>{{ product.title }}</div>
-  {% endfor %}
-{% endpaginate %}
+  {% endpaginate %}
 
   {% for findProduct in collections.all.products %}
     {% if findProduct.title contains productTitle and product.title != findProduct.title %}
