@@ -60,7 +60,7 @@
   {%- assign productTitle = product.title | split: ' - ' | first | strip -%}
 
   {% for item in collections.all.products %}
-    {% if productTitle contains item.title %}
+    {% if item.title contains product.title %}
       <div>{{ item.title }}</div>
     {% endif %}
   {% endfor %}
