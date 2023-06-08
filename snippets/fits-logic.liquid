@@ -32,7 +32,7 @@
                             {%- assign fits = fits | sort -%}
                             {%- assign fitsHandles = fitsHandles | append: ',' | append: product.handle -%}
                             {%- assign fitsHandles = fitsHandles | remove_first: ',' | split: ',' -%}
-                            {% comment %}{%- assign fitsHandles = fitsHandles | sort -%}{% endcomment %}
+                            {%- assign fitsHandles = fitsHandles | sort -%}
                             <div class="flex-start gap-2">
           
                                 {% for item in fits %}
@@ -51,7 +51,7 @@
                 {% endif %} 
               {% endpaginate %}
 
-              {{ fits }} {{ fitsHandles }}
+              
             {%- comment -%}
                 FIT LOGIC
             {%- endcomment -%} 
