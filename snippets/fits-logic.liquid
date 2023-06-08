@@ -60,14 +60,9 @@
   {% assign fitCurrent = product.title | split: ' - ' | last | strip %}
 
   {% for findProduct in collections.all.products %}
-    {% if findProduct.title contains ' - ' %}
-      {% assign findProductTitle = findProduct.title | split: ' - ' | first | strip %}
-      {% assign findProductColor = findProduct.title | split: ' - ' | last | strip %}
-
-      {% if findProductTitle == productTitle and findProduct.handle != product.handle %}
-        {% assign fit = findProductColor %}
-        {% assign fits = fits | append: ',' | append: fit | strip %}
-      {% endif %}
+    {% if findProduct.title contains productTitle and findProduct.title != product.title %}
+      {% assign findFit = findProduct.title | split: ' - ' | last | strip %}
+      {% assign fits = fits | append: ',' | append: findFit | strip %}
     {% endif %}
   {% endfor %}
 {% endif %}
@@ -78,8 +73,7 @@
     <div>
       <div class="flex-start gap-2">
         {% for item in fits %}
-          {% assign itemHandle = item | handleize %}
-          <a href="/products/{{ product.handle | replace: fitCurrent, itemHandle }}" class="block-swatch">{{ item }}</a>
+          <a href="/products/{{ product.handle }}" class="block-swatch">{{ item }}</a>
         {% endfor %}
       </div>
     </div>
