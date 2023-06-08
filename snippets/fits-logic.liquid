@@ -53,7 +53,7 @@
                 FIT LOGIC
             {%- endcomment -%} 
 
-            {%- assign fits = '' -%}
+{%- assign fits = '' -%}
 {%- assign fitsHandles = '' -%}
 
 {% if product.title contains ' - ' %}
@@ -73,15 +73,17 @@
     <div class="text-13 md:text-16 font-600">Color:</div>
     <div class="flex-start gap-2">
       {% for item in fits %}
-        {% if item == product.title | split: ' - ' | last | strip %}
+        {% assign currentFit = product.title | split: ' - ' | last | strip %}
+        {% if item == currentFit %}
           <div class="block-swatch current-item-box-shadow">{{ item }}</div>
         {% else %}
-          <a href="/products/{{ fitsHandles | split: ',' | pop }}" class="block-swatch">{{ item }}</a>
+          <a href="/products/{{ fitsHandles | split: ',' | last }}" class="block-swatch">{{ item }}</a>
         {% endif %}
       {% endfor %}
     </div>
   </div>
 {% endif %}
+
 
 
     <div>{{ productTitle }}</div> 
