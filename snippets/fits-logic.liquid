@@ -1,7 +1,7 @@
             {%- comment -%}
             FIT LOGIC
             {%- endcomment -%}
-                                {% paginate collections.all.products by 100000 %}
+            {% paginate collections.all.products by 100000 %}
             {%- assign isFit = false -%}
             {%- assign fits = '' -%}
             {%- assign fitsHandles = '' -%}
@@ -49,7 +49,9 @@
                         </div>
                     </div>
                 {% endif %} 
-                                    {% endpaginate %}
+              {% endpaginate %}
+
+              {{ fits }}
             {%- comment -%}
                 FIT LOGIC
             {%- endcomment -%} 
