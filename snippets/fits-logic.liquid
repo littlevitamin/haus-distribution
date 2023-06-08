@@ -1,7 +1,7 @@
             {%- comment -%}
             FIT LOGIC
-            {%- endcomment -%} {% comment %}
-            {%- assign isFit = true -%}
+            {%- endcomment -%}
+            {%- assign isFit = false -%}
             {%- assign fits = '' -%}
             {%- assign fitsHandles = '' -%}
             {%- assign fitCurrent = '' -%}
@@ -49,58 +49,10 @@
                             </div>
                         </div>
                     </div>
-                {% endif %} {% endcomment %} 
+                {% endif %} 
             {%- comment -%}
                 FIT LOGIC
             {%- endcomment -%} 
 
-            {%- assign isFit = false -%}
-{%- assign fits = '' -%}
-{%- assign fitsHandles = '' -%}
-{%- assign fitCurrent = '' -%}
+            {{ fits }} {{ findProduct }}
 
-{% if product.title contains ' - ' %}
-    {% assign productTitle = product.title | split: ' - ' | first | strip %}
-    {%- assign fitCurrent = product.title | split: ' - ' | last | strip -%}
-
-    {% paginate collections.all.products by 100000 %}
-    {% for findProduct in collections.all.products %}                    
-        {% if findProduct.title contains ' - ' %}
-            {% assign findProductTitle = findProduct.title | split: ' - ' | first | strip %}
-            {% if findProductTitle == productTitle and  product.title != findProduct.title %}
-                {%- assign fit = findProduct.title | split: ' - ' | last | strip -%}
-                {%- assign fits = fits | append: ',' | append: fit -%}
-                {%- assign fitsHandles = fitsHandles | append: ',' | append: findProduct.handle -%}
-                {%- assign isFit = true -%}
-            {% endif %}
-        {% endif %}
-    {% endfor %}
-    {% endpaginate %}
-{% endif %}
-
-{% if isFit %}
-    <div>
-        <div class="text-13 md:text-16 font-600">Colour:</div>
-        <div>
-            {% assign fits = fits | append: ',' | append: fitCurrent %}
-            {%- assign fits = fits | remove_first: ',' | split: ',' -%}
-            {%- assign fits = fits | sort -%}
-            {%- assign fitsHandles = fitsHandles | append: ',' | append: product.handle -%}
-            {%- assign fitsHandles = fitsHandles | remove_first: ',' | split: ',' -%}
-            {%- assign fitsHandles = fitsHandles | sort -%}
-            <div class="flex-start gap-2">
-                {% for item in fits %}
-                    {% if item == fitCurrent %}
-                        <div class="block-swatch current-item-box-shadow">
-                            {{fitCurrent}}
-                        </div>
-                    {% else %}
-                        <a href="/products/{{ fitsHandles[forloop.index0] }}" class="block-swatch">{{ item }}</a>
-                    {% endif %}
-                {% endfor %}
-            </div>
-        </div>
-    </div>
-{% endif %}
-
-{{ fitsHandles[forloop.index0] }}
