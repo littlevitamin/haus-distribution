@@ -50,6 +50,11 @@
                     </div>
                 {% endif %} 
               {% endpaginate %}
+              {% paginate collections.all.products by 10000 %}
+  {% for product in collections.all.products %}
+    <div>{{ product.title }}</div>
+  {% endfor %}
+{% endpaginate %}
 
               
             {%- comment -%}
