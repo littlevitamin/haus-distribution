@@ -65,6 +65,10 @@
     {% endif %}
   {% endfor %}
 
+  {% for product in collections.all.products %}
+  <div>{{ product.title }}</div>
+{% endfor %}
+
   {% for findProduct in collections.all.products %}
     {% if findProduct.title contains productTitle and product.title != findProduct.title %}
       {%- assign fit = findProduct.title | split: ' - ' | last | strip -%}
