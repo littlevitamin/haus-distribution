@@ -53,7 +53,7 @@
                 FIT LOGIC
             {%- endcomment -%} 
 
-{%- assign fits = '' -%}
+{% assign fits = '' %}
 
 {% if product.title contains ' - ' %}
   {% assign productTitle = product.title | split: ' - ' | first %}
@@ -62,7 +62,7 @@
   {% for findProduct in collections.all.products %}
     {% if findProduct.title contains ' - ' %}
       {% assign findProductTitle = findProduct.title | split: ' - ' | first | strip %}
-      {% if findProductTitle == productTitle and product.handle != findProduct.handle %}
+      {% if findProductTitle == productTitle and findProduct.handle != product.handle %}
         {% assign fit = findProduct.title | split: ' - ' | last | strip %}
         {% assign fits = fits | append: ',' | append: fit | strip %}
       {% endif %}
@@ -76,21 +76,7 @@
     <div>
       <div class="flex-start gap-2">
         {% for item in fits %}
-          {% if item == fitCurrent %}
-            <div class="block-swatch current-item-box-shadow">
-              {{ fitCurrent }}
-            </div>
-          {% else %}
-            {% assign fitProducts = collections.all.products | where: 'title', productTitle %}
-            {% for fitProduct in fitProducts %}
-              {% if fitProduct.title contains ' - ' %}
-                {% assign fitProductColor = fitProduct.title | split: ' - ' | last | strip %}
-                {% if fitProductColor == item %}
-                  <a href="/products/{{ fitProduct.handle }}" class="block-swatch">{{ item }}</a>
-                {% endif %}
-              {% endif %}
-            {% endfor %}
-          {% endif %}
+          <a href="/products/{{ product.handle | replace: ' - ' | replace: fitCurrent, item | handleize }}" class="block-swatch">{{ item }}</a>
         {% endfor %}
       </div>
     </div>
