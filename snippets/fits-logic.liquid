@@ -59,7 +59,7 @@
 {% if product.title contains ' - ' %}
   {%- assign productTitle = product.title | split: ' - ' | first | strip -%}
 
-  {% paginate collections.all.products by collection.all_products_count %}
+  {% paginate collections.all.products by 10000 %}
   {% for item in collections.all.products %}
     {% if item.title contains product.title %}
       <div>{{ item.title }}</div>
