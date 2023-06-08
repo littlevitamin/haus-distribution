@@ -1,6 +1,6 @@
             {%- comment -%}
             FIT LOGIC
-            {%- endcomment -%}{%- comment -%}
+            {%- endcomment -%}
             {%- assign isFit = false -%}
             {%- assign fits = '' -%}
             {%- assign fitsHandles = '' -%}
@@ -42,14 +42,13 @@
                                     </div>
 
                                     {% else %}
-                                    <a href="/products/{{fitsHandles[forloop.index0]}}" class="block-swatch">{{item}}</a>
+                                    <a href="/products/{{fitsHandles[forloop.index1]}}" class="block-swatch">{{item}}</a>
                                     {% endif %}
                                 {% endfor %}
                             </div>
                         </div>
                     </div>
                 {% endif %}
-                {% endcomment %}
             {%- comment -%}
                 FIT LOGIC
             {%- endcomment -%} 
