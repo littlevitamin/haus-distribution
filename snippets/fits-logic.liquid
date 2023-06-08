@@ -59,7 +59,7 @@
   {% assign productTitle = product.title | split: ' - ' | first | strip %}
   {% assign fitCurrent = product.title | split: ' - ' | last | strip %}
 
-  {% for findProduct in collections.all.products %}
+  {% for findProduct in collections.all %}
     {% if findProduct.title contains productTitle and findProduct.title != product.title %}
       {% assign findFit = findProduct.title | split: ' - ' | last | strip %}
       {% assign fits = fits | append: ',' | append: findFit | strip %}
