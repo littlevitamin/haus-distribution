@@ -10070,6 +10070,7 @@ split-lines {
   justify-content: flex-start;
   padding-bottom: 8px;
   padding-top: 14px;
+  flex-wrap: wrap;
 }
 
 .in-stock, 
