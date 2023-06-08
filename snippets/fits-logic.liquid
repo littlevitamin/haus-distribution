@@ -78,6 +78,7 @@
         {% for item in fits %}
           <a href="/products/{{ product.handle | replace: ' - ' | replace: fitCurrent, item | handleize }}" class="block-swatch">{{ item }}</a>
         {% endfor %}
+        <div>{{ item }}</div>
       </div>
     </div>
   </div>
