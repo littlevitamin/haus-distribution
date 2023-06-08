@@ -1,6 +1,7 @@
             {%- comment -%}
             FIT LOGIC
             {%- endcomment -%}
+                                {% paginate collections.all.products by 100000 %}
             {%- assign isFit = false -%}
             {%- assign fits = '' -%}
             {%- assign fitsHandles = '' -%}
@@ -9,7 +10,6 @@
       
                     {% assign productTitle = product.title | split: ' - ' | first %}
                     {%- assign fitCurrent = product.title | split: ' - ' | last -%}
-                    {% paginate collections.all.products by 100000 %}
                     {% for findProduct in collections.all.products %}                    
                         {% if findProduct.title contains ' - ' %}
                             {% assign findProductTitle = findProduct.title | split: ' - ' | first%}
@@ -21,7 +21,6 @@
                             {% endif %}
                         {% endif %}
                     {% endfor %}
-                    {% endpaginate %}
                 {% endif %}
 
                 {% if isFit %}
@@ -50,6 +49,7 @@
                         </div>
                     </div>
                 {% endif %} 
+                                    {% endpaginate %}
             {%- comment -%}
                 FIT LOGIC
             {%- endcomment -%} 
