@@ -63,6 +63,7 @@
     {% if item.title contains productTitle %}
       <div>{{ item.title }}</div>
     {% endif %}
+    {{ productTitle }}
   {% endfor %}
 
   {% for findProduct in collections.all.products %}
