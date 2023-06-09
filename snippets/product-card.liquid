@@ -305,7 +305,7 @@ Supported variables
         // Get the product ID from the data attribute
         var productId = form.getAttribute('data-product-id');
 
-        // Use the Shopify AJAX API to add the product to the cart with a quantity of 0
+        // Use the Shopify AJAX API to add the product to the cart with a quantity of 1
         fetch('/cart/add.js', {
           method: 'POST',
           headers: {
@@ -314,12 +314,12 @@ Supported variables
           },
           body: JSON.stringify({
             id: productId,
-            quantity: 0 // Set the quantity to 0
+            quantity: 1 // Set the quantity to 1
           })
         })
         .then(function(response) {
           // Redirect to the custom cart page after successful addition
-          window.location.href = '/pages/custom-cart?added_item=' + productId;
+          window.location.href = '/pages/custom-cart';
         })
         .catch(function(error) {
           console.error('Error:', error);
@@ -328,3 +328,4 @@ Supported variables
     });
   });
 </script>
+
