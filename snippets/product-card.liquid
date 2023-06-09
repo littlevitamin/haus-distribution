@@ -309,13 +309,9 @@ Supported variables
         fetch('/cart/add.js', {
           method: 'POST',
           headers: {
-            'Content-Type': 'application/json',
-            'X-Requested-With': 'XMLHttpRequest'
+            'Content-Type': 'application/x-www-form-urlencoded'
           },
-          body: JSON.stringify({
-            id: productId,
-            quantity: 1 // Set the quantity to 1
-          })
+          body: 'quantity=1&id=' + productId
         })
         .then(function(response) {
           // Check if the cart update was successful
@@ -328,7 +324,7 @@ Supported variables
         })
         .then(function(cartResponse) {
           // Redirect to the custom cart page after successful addition and cart update
-          window.location.href = '/pages/custom-cart';
+          window.location.href = '/pages/custom-cart?added_item=' + productId;
         })
         .catch(function(error) {
           console.error('Error:', error);
@@ -337,5 +333,6 @@ Supported variables
     });
   });
 </script>
+
 
 
