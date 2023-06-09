@@ -270,7 +270,7 @@ Supported variables
         {%- render 'button', type: 'submit', content: "Add to forecast", value: 'product_form_id' -%}
       {%- endform -%}
       {% else %}
-      <form action="/cart" method="post">
+      <form action="/cart/add?return_to=/pages/custom-cart" method="post">
         <input type="hidden" name="id" value="{{ product.id }}" />
         <button type="submit" class="button">Add to Forecast</button>
       </form>
