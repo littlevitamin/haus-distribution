@@ -305,7 +305,7 @@ Supported variables
         // Get the product ID from the data attribute
         var productId = form.getAttribute('data-product-id');
 
-        // Use the Shopify AJAX API to add the product to the cart with a quantity of 0
+        // Use the Shopify AJAX API to add the product to the cart
         fetch('/cart/add.js', {
           method: 'POST',
           headers: {
@@ -314,7 +314,7 @@ Supported variables
           },
           body: JSON.stringify({
             id: productId,
-            quantity: 0 // Set the quantity to 0
+            quantity: 1 // Adjust quantity if needed
           })
         })
         .then(function(response) {
