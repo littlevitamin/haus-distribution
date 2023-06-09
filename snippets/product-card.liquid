@@ -270,10 +270,9 @@ Supported variables
         {%- render 'button', type: 'submit', content: "Add to forecast", value: 'product_form_id' -%}
       {%- endform -%}
       {% else %}
-      <form action="/cart/add" method="post">
+      <form id="add-to-cart-form" action="/cart/add" method="post">
         <input type="hidden" name="id" value="{{ product.id }}">
-        <!-- Add any other necessary input fields -->
-        <button type="submit" class="button">Add to Forecast</button>
+        <button type="submit" class="button">Add to Cart</button>
       </form>
       {% endif %}
 
@@ -291,4 +290,37 @@ Supported variables
   
   </div>
 </product-card>
+
+<script>
+
+  document.addEventListener('DOMContentLoaded', function() {
+    // Get the form element
+    var form = document.getElementById('add-to-cart-form');
+
+    // Add an event listener to the form submission
+    form.addEventListener('submit', function(event) {
+      event.preventDefault(); // Prevent the default form submission
+
+      // Use the Shopify AJAX API to add the product to the cart
+      fetch('/cart/add.js', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'X-Requested-With': 'XMLHttpRequest'
+        },
+        body: JSON.stringify({
+          id: form.elements['id'].value,
+          quantity: 1 // Adjust quantity if needed
+        })
+      })
+      .then(function(response) {
+        // Redirect to the custom cart page after successful addition
+        window.location.href = '/pages/custom-cart';
+      })
+      .catch(function(error) {
+        console.error('Error:', error);
+      });
+    });
+  });
+</script>
 
