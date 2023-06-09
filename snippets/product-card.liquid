@@ -271,7 +271,7 @@ Supported variables
       {%- endform -%}
       {% else %}
       <form class="add-to-cart-form" action="/cart/add" method="post" data-product-id="{{ product.id }}">
-        <!-- Add any necessary input fields -->
+        <input type="hidden" name="id" value="{{ product.title }}">
         <button type="submit" class="button">Add to Forecast</button>
       </form>
       {% endif %}
