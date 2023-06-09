@@ -319,7 +319,7 @@ Supported variables
         })
         .then(function(response) {
           // Redirect to the custom cart page after successful addition
-          window.location.href = '/pages/custom-cart';
+          window.location.href = '/pages/custom-cart?added_item=' + productId;
         })
         .catch(function(error) {
           console.error('Error:', error);
