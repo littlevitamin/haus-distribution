@@ -270,10 +270,10 @@ Supported variables
         {%- render 'button', type: 'submit', content: "Add to forecast", value: 'product_form_id' -%}
       {%- endform -%}
       {% else %}
-      {%- form 'product', product, is: 'product-form' -%}
-        <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
-        {%- render 'button', type: 'submit', content: "Add to forecast", value: 'product_form_id' -%}
-      {%- endform -%}
+      <form class="add-to-cart-form" action="/cart/add" method="post" data-product-id="{{ product.id }}">
+        <!-- Add any necessary input fields -->
+        <button type="submit" class="button">Add to Forecast</button>
+      </form>
       {% endif %}
 
 
@@ -292,33 +292,33 @@ Supported variables
 </product-card>
 
 <script>
-  function addToForecast(productId) {
-    // Make a request to the server to retrieve the updated product content based on the productId
-    // You can use JavaScript or AJAX to make a request to the server-side code that generates the updated content
+  document.addEventListener('DOMContentLoaded', function() {
+    var forms = document.querySelectorAll('.add-to-cart-form');
 
-    // Once you receive the updated content from the server, redirect to the custom page
+    forms.forEach(function(form) {
+      form.addEventListener('submit', function(event) {
+        event.preventDefault(); 
 
-    // Example using window.location.href to redirect to the custom page:
-    $.ajax({
-      url: '/get-updated-content',
-      method: 'GET',
-      data: { productId: productId },
-      success: function(response) {
-        // Assuming the custom page URL is '/custom-page'
-        var customPageURL = '/custom-page';
+        var productId = form.getAttribute('data-product-id');
 
-        // Append the productId as a query parameter to the custom page URL
-        var redirectURL = customPageURL + '?productId=' + productId;
-
-        // Redirect to the custom page
-        window.location.href = redirectURL;
-      },
-      error: function(error) {
-        console.log(error);
-      }
+        fetch('/cart/add.js', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'X-Requested-With': 'XMLHttpRequest'
+          },
+          body: JSON.stringify({
+            id: productId,
+            quantity: 1 // Adjust quantity if needed
+          })
+        })
+        .then(function(response) {
+          window.location.href = '/pages/custom-cart?added_item=' + productId;
+        })
+        .catch(function(error) {
+          console.error('Error:', error);
+        });
+      });
     });
-  }
+  });
 </script>
-
-
-
