@@ -270,10 +270,7 @@ Supported variables
         {%- render 'button', type: 'submit', content: "Add to forecast", value: 'product_form_id' -%}
       {%- endform -%}
       {% else %}
-      <form class="add-to-cart-form" action="/cart/add" method="post" data-product-id="{{ product.id }}">
-        <!-- Add any necessary input fields -->
-        <button type="submit" class="button">Add to Forecast</button>
-      </form>
+      <button class="add-to-forecast-button" onclick="addToForecast('{{ product.id }}')">Add to forecast</button>
       {% endif %}
 
 
@@ -291,34 +288,22 @@ Supported variables
   </div>
 </product-card>
 
+{% assign product = product %}
+
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    var forms = document.querySelectorAll('.add-to-cart-form');
-
-    forms.forEach(function(form) {
-      form.addEventListener('submit', function(event) {
-        event.preventDefault();
-
-        var productId = form.getAttribute('data-product-id');
-
-        fetch('/cart/add.js', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'X-Requested-With': 'XMLHttpRequest'
-          },
-          body: JSON.stringify({
-            id: productId,
-            quantity: 1 // Adjust quantity if needed
-          })
-        })
-        .then(function(response) {
-          window.location.href = '/pages/custom-cart?added_item=' + productId;
-        })
-        .catch(function(error) {
-          console.error('Error:', error);
-        });
-      });
-    });
-  });
+  function addToForecast(productId) {
+    // Update the product value in the page.custom.json file using JavaScript or AJAX call
+    var updatedPage = {
+      sections: {
+        main: {
+          type: "main-page",
+          settings: {
+            product: productId
+          }
+        }
+      },
+      order: ["main"]
+    };
+  }
 </script>
+
