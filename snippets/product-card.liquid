@@ -292,20 +292,15 @@ Supported variables
 </product-card>
 
 <script>
-  // Wait for the page to load
   document.addEventListener('DOMContentLoaded', function() {
-    // Get all the add-to-cart forms on the page
     var forms = document.querySelectorAll('.add-to-cart-form');
 
-    // Add an event listener to each form
     forms.forEach(function(form) {
       form.addEventListener('submit', function(event) {
-        event.preventDefault(); // Prevent the default form submission
+        event.preventDefault();
 
-        // Get the product ID from the data attribute
         var productId = form.getAttribute('data-product-id');
 
-        // Use the Shopify AJAX API to add the product to the cart
         fetch('/cart/add.js', {
           method: 'POST',
           headers: {
@@ -318,7 +313,6 @@ Supported variables
           })
         })
         .then(function(response) {
-          // Redirect to the custom cart page after successful addition
           window.location.href = '/pages/custom-cart?added_item=' + productId;
         })
         .catch(function(error) {
