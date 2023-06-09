@@ -318,7 +318,16 @@ Supported variables
           })
         })
         .then(function(response) {
-          // Redirect to the custom cart page after successful addition
+          // Check if the cart update was successful
+          if (response.ok) {
+            // Fetch the updated cart data
+            return fetch('/cart.js');
+          } else {
+            throw new Error('Failed to update the cart');
+          }
+        })
+        .then(function(cartResponse) {
+          // Redirect to the custom cart page after successful addition and cart update
           window.location.href = '/pages/custom-cart';
         })
         .catch(function(error) {
@@ -328,4 +337,5 @@ Supported variables
     });
   });
 </script>
+
 
