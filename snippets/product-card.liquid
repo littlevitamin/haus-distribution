@@ -309,9 +309,17 @@ Supported variables
         fetch('/cart/add.js', {
           method: 'POST',
           headers: {
-            'Content-Type': 'application/x-www-form-urlencoded'
+            'Content-Type': 'application/json',
+            'X-Requested-With': 'XMLHttpRequest'
           },
-          body: 'quantity=1&id=' + productId
+          body: JSON.stringify({
+            items: [
+              {
+                id: productId,
+                quantity: 1
+              }
+            ]
+          })
         })
         .then(function(response) {
           // Check if the cart update was successful
@@ -333,6 +341,7 @@ Supported variables
     });
   });
 </script>
+
 
 
 
