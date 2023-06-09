@@ -270,9 +270,9 @@ Supported variables
         {%- render 'button', type: 'submit', content: "Add to forecast", value: 'product_form_id' -%}
       {%- endform -%}
       {% else %}
-      <form id="add-to-cart-form" action="/cart/add" method="post">
-        <input type="hidden" name="id" value="{{ product.id }}">
-        <button type="submit" class="button">Add to Cart</button>
+      <form class="add-to-cart-form" action="/cart/add" method="post" data-product-id="{{ product.id }}">
+        <!-- Add any necessary input fields -->
+        <button type="submit" class="button">Add to Forecast</button>
       </form>
       {% endif %}
 
@@ -292,35 +292,39 @@ Supported variables
 </product-card>
 
 <script>
-
+  // Wait for the page to load
   document.addEventListener('DOMContentLoaded', function() {
-    // Get the form element
-    var form = document.getElementById('add-to-cart-form');
+    // Get all the add-to-cart forms on the page
+    var forms = document.querySelectorAll('.add-to-cart-form');
 
-    // Add an event listener to the form submission
-    form.addEventListener('submit', function(event) {
-      event.preventDefault(); // Prevent the default form submission
+    // Add an event listener to each form
+    forms.forEach(function(form) {
+      form.addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent the default form submission
 
-      // Use the Shopify AJAX API to add the product to the cart
-      fetch('/cart/add.js', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'X-Requested-With': 'XMLHttpRequest'
-        },
-        body: JSON.stringify({
-          id: form.elements['id'].value,
-          quantity: 1 // Adjust quantity if needed
+        // Get the product ID from the data attribute
+        var productId = form.getAttribute('data-product-id');
+
+        // Use the Shopify AJAX API to add the product to the cart
+        fetch('/cart/add.js', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'X-Requested-With': 'XMLHttpRequest'
+          },
+          body: JSON.stringify({
+            id: productId,
+            quantity: 1 // Adjust quantity if needed
+          })
         })
-      })
-      .then(function(response) {
-        // Redirect to the custom cart page after successful addition
-        window.location.href = '/pages/custom-cart';
-      })
-      .catch(function(error) {
-        console.error('Error:', error);
+        .then(function(response) {
+          // Redirect to the custom cart page after successful addition
+          window.location.href = '/pages/custom-cart';
+        })
+        .catch(function(error) {
+          console.error('Error:', error);
+        });
       });
     });
   });
 </script>
-
