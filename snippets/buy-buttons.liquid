@@ -47,7 +47,7 @@ Supported variables
       <style>
         #shopify-section-{{ section.id }} .shopify-payment-button {
         {%- unless product.selected_or_first_available_variant.available -%}
-          display: none;
+          display: block;
         {%- endunless -%}
 
         {%- if payment_button_background != blank and payment_button_background != 'rgba(0,0,0,0)' -%}
