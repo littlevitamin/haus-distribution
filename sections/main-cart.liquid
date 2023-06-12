@@ -1,62 +1,64 @@
-{% comment %}<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
-<script>
-  function SubForm() {
-    $.ajax({
-      url: 'https://api.apispreadsheets.com/data/xeoHpZ5xbDR0C3mo/',
-      type: 'post',
-      data: $("#myForm").serializeArray(),
-      success: function() {
-        alert("Form Data Submitted :)");
-      },
-      error: function() {
-        alert("There was an error :(");
-      }
-    });
-  }
-</script>{% endcomment %}
+{% comment %}
+  <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+  <script>
+    function SubForm() {
+      $.ajax({
+        url: 'https://api.apispreadsheets.com/data/xeoHpZ5xbDR0C3mo/',
+        type: 'post',
+        data: $("#myForm").serializeArray(),
+        success: function() {
+          alert("Form Data Submitted :)");
+        },
+        error: function() {
+          alert("There was an error :(");
+        }
+      });
+    }
+  </script>
+{% endcomment %}
 
 <script>
   function SubForm() {
     var lineItems = [];
 
-    
-    $('.form-content').each(function() {
+    $('.form-content').each(function () {
       var productName = $(this).find('input[name="product-name"]').val();
       var sku = $(this).find('input[name="sku"]').val();
       var quantity = $(this).find('input[name="quantity"]').val();
       var vendor = $(this).find('input[name="vendor"]').val();
       var wholesalePrice = $(this).find('input[name="wholesale-price"]').val();
 
-
-      
       var lineItem = {
         'product-name': productName,
-        'sku': sku,
-        'quantity': quantity,
-        'vendor': vendor,
-        'wholesale-price': wholesalePrice
+        sku: sku,
+        quantity: quantity,
+        vendor: vendor,
+        'wholesale-price': wholesalePrice,
       };
 
-      
       lineItems.push(lineItem);
     });
 
-    
     var payload = {
-      'data': lineItems
+      data: lineItems,
     };
 
-    $.ajax({
-      url: 'https://api.apispreadsheets.com/data/xeoHpZ5xbDR0C3mo/',
-      type: 'post',
-      data: payload.data,
-      success: function() {
-        alert("Form Data Submitted :)");
+    fetch('https://api.apispreadsheets.com/data/xeoHpZ5xbDR0C3mo/', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
       },
-      error: function() {
-        alert("There was an error :(");
-      }
-    });
+      body: JSON.stringify(payload),
+    })
+      .then(function (response) {
+        if (!response.ok) throw new Error(`Error response: ${response.status} - ${response.statusText}`);
+
+        alert('Form Data Submitted :)');
+      })
+      .catch(function (error) {
+        console.error(error);
+        alert(`There was an error :( - ${error}`);
+      });
   }
 </script>
 
@@ -89,9 +91,9 @@
         <div class="cart-order">
           <div class="cart-order__summary">
             {%- comment -%}
-            ----------------------------------------------------------------------------------------------------------------
-            ORDER SUMMARY
-            ----------------------------------------------------------------------------------------------------------------
+              ----------------------------------------------------------------------------------------------------------------
+              ORDER SUMMARY
+              ----------------------------------------------------------------------------------------------------------------
             {%- endcomment -%}
             <table class="order-summary">
               <thead class="order-summary__header">
@@ -106,7 +108,9 @@
                 {%- for line_item in cart.items -%}
                   {%- assign line_max_quantity = '' -%}
 
-                  {%- if line_item.variant.inventory_management != blank and line_item.variant.inventory_policy == 'deny' -%}
+                  {%- if line_item.variant.inventory_management != blank
+                    and line_item.variant.inventory_policy == 'deny'
+                  -%}
                     {%- assign line_max_quantity = line_item.variant.inventory_quantity -%}
                   {%- endif -%}
 
@@ -115,7 +119,18 @@
 
                     <td class="hidden align-center text-center text-subdued sm:table-cell">
                       <line-item-quantity class="v-stack justify-center gap-2">
-                        <input class="quantity-input" type="text" is="quantity-input" inputmode="numeric" {% if line_max_quantity != blank %}max="{{ line_max_quantity }}"{% endif %} data-line-key="{{ line_item.key }}" aria-label="{{ 'cart.order.change_quantity' | t | escape }}" value="{{ line_item.quantity }}">
+                        <input
+                          class="quantity-input"
+                          type="text"
+                          is="quantity-input"
+                          inputmode="numeric"
+                          {% if line_max_quantity != blank %}
+                            max="{{ line_max_quantity }}"
+                          {% endif %}
+                          data-line-key="{{ line_item.key }}"
+                          aria-label="{{ 'cart.order.change_quantity' | t | escape }}"
+                          value="{{ line_item.quantity }}"
+                        >
 
                         <span class="text-xs">
                           <a href="{{ line_item.url_to_remove }}" class="link">{{ 'cart.order.remove' | t }}</a>
@@ -123,7 +138,9 @@
                       </line-item-quantity>
                     </td>
 
-                    <td class="hidden align-center text-subdued text-end sm:table-cell">{{ line_item.final_line_price | money }}</td>
+                    <td class="hidden align-center text-subdued text-end sm:table-cell">
+                      {{ line_item.final_line_price | money }}
+                    </td>
                   </tr>
                 {%- endfor -%}
               </tbody>
@@ -133,44 +150,83 @@
               <form id="myForm">
                 {% for line_item in cart.items %}
                   <div class="form-content">
-                  <div>
-                    <label for="product-name-{{ line_item.id }}">Product Name</label>
-                    <input type="text" id="product-name-{{ line_item.id }}" name="product-name" value="{{ line_item.product.title }}" readonly>
-                  </div>
-                  <div>
-                    <label for="sku-{{ line_item.id }}">SKU</label>
-                    <input type="text" id="sku-{{ line_item.id }}" name="sku" value="{{ line_item.variant.sku }}" readonly>
-                  </div>
-                  <div>
-                    <label for="quantity-{{ line_item.id }}">Quantity</label>
-                    <input type="number" id="quantity-{{ line_item.id }}" name="quantity" value="{{ line_item.quantity }}" readonly>
-                  </div>
-                  <div>
-                    <label for="vendor-{{ line_item.id }}">Vendor</label>
-                    <input type="text" id="vendor-{{ line_item.id }}" name="vendor" value="{{ line_item.vendor }}" readonly>
-                  </div>
-                  <div>
-                    <label for="wholesale-price-{{ line_item.id }}">Wholesale Price</label>
-                    <input type="text" id="wholesale-price-{{ line_item.id }}" name="wholesale-price" value="{{ line_item.final_price | money_with_currency }}" readonly>
-                  </div>
+                    <div>
+                      <label for="product-name-{{ line_item.id }}">Product Name</label>
+                      <input
+                        type="text"
+                        id="product-name-{{ line_item.id }}"
+                        name="product-name"
+                        value="{{ line_item.product.title }}"
+                        readonly
+                      >
+                    </div>
+                    <div>
+                      <label for="sku-{{ line_item.id }}">SKU</label>
+                      <input
+                        type="text"
+                        id="sku-{{ line_item.id }}"
+                        name="sku"
+                        value="{{ line_item.variant.sku }}"
+                        readonly
+                      >
+                    </div>
+                    <div>
+                      <label for="quantity-{{ line_item.id }}">Quantity</label>
+                      <input
+                        type="number"
+                        id="quantity-{{ line_item.id }}"
+                        name="quantity"
+                        value="{{ line_item.quantity }}"
+                        readonly
+                      >
+                    </div>
+                    <div>
+                      <label for="vendor-{{ line_item.id }}">Vendor</label>
+                      <input
+                        type="text"
+                        id="vendor-{{ line_item.id }}"
+                        name="vendor"
+                        value="{{ line_item.vendor }}"
+                        readonly
+                      >
+                    </div>
+                    <div>
+                      <label for="wholesale-price-{{ line_item.id }}">Wholesale Price</label>
+                      <input
+                        type="text"
+                        id="wholesale-price-{{ line_item.id }}"
+                        name="wholesale-price"
+                        value="{{ line_item.final_price | money_with_currency }}"
+                        readonly
+                      >
+                    </div>
                   </div>
                 {% endfor %}
-                  <button style="background-color: #1D2F50; color: white; padding: 11px 47px; border-radius: 6px; margin: 20px 0; font-weight: 700;" onclick="SubForm()">Submit a forecast</button>
+                <button
+                  style="background-color: #1D2F50; color: white; padding: 11px 47px; border-radius: 6px; margin: 20px 0; font-weight: 700;"
+                  onclick="SubForm()"
+                >
+                  Submit a forecast
+                </button>
               </form>
             {% endif %}
 
-
             {%- comment -%}
-            ----------------------------------------------------------------------------------------------------------------
-            SHIPPING ESTIMATOR
-            ----------------------------------------------------------------------------------------------------------------
+              ----------------------------------------------------------------------------------------------------------------
+              SHIPPING ESTIMATOR
+              ----------------------------------------------------------------------------------------------------------------
             {%- endcomment -%}
 
             {%- if section.settings.show_shipping_estimator and cart.requires_shipping -%}
               {%- assign accordion_title = 'cart.shipping_estimator.estimate_shipping' | t -%}
               {%- capture accordion_content -%}{%- render 'shipping-estimator' -%}{%- endcapture -%}
 
-              {%- render 'accordion', title: accordion_title, icon: 'picto-box', content: accordion_content, size: 'lg' -%}
+              {%- render 'accordion',
+                title: accordion_title,
+                icon: 'picto-box',
+                content: accordion_content,
+                size: 'lg'
+              -%}
             {%- endif -%}
           </div>
 
@@ -198,7 +254,8 @@
                       {% for discount_application in cart.cart_level_discount_applications %}
                         <div class="h-stack gap-4 justify-between">
                           <div class="badge">
-                            {%- render 'icon' with 'discount' -%} {{- discount_application.title -}}
+                            {%- render 'icon' with 'discount' -%}
+                            {{- discount_application.title -}}
                           </div>
 
                           <span class="text-subdued">-{{ discount_application.total_allocated_amount | money }}</span>
@@ -212,13 +269,27 @@
 
                       {%- if block.settings.show_shipping_text -%}
                         {%- if cart.taxes_included and shop.shipping_policy.body != blank -%}
-                          <span class="text-subdued text-sm">{{ 'cart.general.taxes_included_and_shipping_policy_html' | t: link: shop.shipping_policy.url }}</span>
+                          <span class="text-subdued text-sm">
+                            {{-
+                              'cart.general.taxes_included_and_shipping_policy_html'
+                              | t: link: shop.shipping_policy.url
+                            -}}
+                          </span>
                         {%- elsif cart.taxes_included -%}
-                          <span class="text-subdued text-sm">{{ 'cart.general.taxes_included_but_shipping_at_checkout' | t }}</span>
+                          <span class="text-subdued text-sm">
+                            {{- 'cart.general.taxes_included_but_shipping_at_checkout' | t -}}
+                          </span>
                         {%- elsif shop.shipping_policy.body != blank -%}
-                          <span class="text-subdued text-sm">{{ 'cart.general.taxes_and_shipping_policy_at_checkout_html' | t: link: shop.shipping_policy.url }}</span>
+                          <span class="text-subdued text-sm">
+                            {{-
+                              'cart.general.taxes_and_shipping_policy_at_checkout_html'
+                              | t: link: shop.shipping_policy.url
+                            -}}
+                          </span>
                         {%- else -%}
-                          <span class="text-subdued text-sm">{{ 'cart.general.taxes_and_shipping_at_checkout' | t }}</span>
+                          <span class="text-subdued text-sm">
+                            {{- 'cart.general.taxes_and_shipping_at_checkout' | t -}}
+                          </span>
                         {%- endif -%}
                       {%- endif -%}
                     </div>
@@ -226,7 +297,13 @@
                   {%- when 'cart_note' -%}
                     <cart-note class="cart-form__note block" {{ block.shopify_attributes }}>
                       {%- assign order_note = 'cart.general.order_note' | t -%}
-                      {%- render 'input', name: 'note', multiline: 3, label: order_note, value: cart.note, maxlength: block.settings.maxlength -%}
+                      {%- render 'input',
+                        name: 'note',
+                        multiline: 3,
+                        label: order_note,
+                        value: cart.note,
+                        maxlength: block.settings.maxlength
+                      -%}
                     </cart-note>
 
                   {%- when 'text' -%}
@@ -252,7 +329,10 @@
 
                   {%- when 'accelerated_buttons' -%}
                     {% if additional_checkout_buttons %}
-                      <div class="additional-checkout-buttons additional-checkout-buttons--vertical" {{ block.shopify_attributes }}>
+                      <div
+                        class="additional-checkout-buttons additional-checkout-buttons--vertical"
+                        {{ block.shopify_attributes }}
+                      >
                         {{- content_for_additional_checkout_buttons -}}
                       </div>
                     {% endif %}
@@ -260,20 +340,37 @@
                   {%- when 'checkout_button' -%}
                     {%- assign checkout_button = 'cart.general.checkout' | t -%}
 
-                    <!-- Shopify cart page -- include PO numbers on your invoices. Used by Sufio for Shopify (sufio.com/shopify). -->
+                    <!--
+                      Shopify cart page -- include PO numbers on your invoices. Used by Sufio for Shopify (sufio.com/shopify).
+                    -->
                     <div class="po-number">
-                        <label for="po_number">PO Number</label>
-                        <input type="text" class="po-input" name="attributes[Invoice PO Number]" id="po_number" value="{{ cart.attributes['Invoice PO Number'] }}" />
+                      <label for="po_number">PO Number</label>
+                      <input
+                        type="text"
+                        class="po-input"
+                        name="attributes[Invoice PO Number]"
+                        id="po_number"
+                        value="{{ cart.attributes['Invoice PO Number'] }}"
+                      >
                     </div>
-              
+
                     <p style="float: none; text-align: left; clear: both; margin: 10px 0;">
-                        <input style="float:none; vertical-align: middle;" type="checkbox" id="agree" />
-                        <label style="display:inline; float:none" for="agree">
-                         I agree with the <a href="/pages/terms-and-conditions" target="__blank">terms and conditions.</a>
-                        </label>
+                      <input style="float:none; vertical-align: middle;" type="checkbox" id="agree">
+                      <label style="display:inline; float:none" for="agree">
+                        I agree with the
+                        <a href="/pages/terms-and-conditions" target="__blank">terms and conditions.</a>
+                      </label>
                     </p>
-                  
-                    {%- render 'button', type: 'submit', icon: 'picto-lock', content: checkout_button, size: 'xl', name: 'checkout', stretch: true, block: block -%}
+
+                    {%- render 'button',
+                      type: 'submit',
+                      icon: 'picto-lock',
+                      content: checkout_button,
+                      size: 'xl',
+                      name: 'checkout',
+                      stretch: true,
+                      block: block
+                    -%}
                 {%- endcase -%}
               {%- endfor -%}
             </form>
