@@ -1,22 +1,3 @@
-{% comment %}
-  <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
-  <script>
-    function SubForm() {
-      $.ajax({
-        url: 'https://api.apispreadsheets.com/data/xeoHpZ5xbDR0C3mo/',
-        type: 'post',
-        data: $("#myForm").serializeArray(),
-        success: function() {
-          alert("Form Data Submitted :)");
-        },
-        error: function() {
-          alert("There was an error :(");
-        }
-      });
-    }
-  </script>
-{% endcomment %}
-
 <script>
   function SubForm() {
     var lineItems = [];
@@ -26,7 +7,9 @@
       var sku = $(this).find('input[name="sku"]').val();
       var quantity = $(this).find('input[name="quantity"]').val();
       var vendor = $(this).find('input[name="vendor"]').val();
-      var wholesalePrice = $(this).find('input[name="wholesale-price"]').val();
+      var wholesalePrice = $(this).find('input[name="wholesale-price"]').val();      
+      var clientName = $(this).find('input[name="client-name"]').val();      
+
 
       var lineItem = {
         'product-name': productName,
@@ -34,6 +17,7 @@
         quantity: quantity,
         vendor: vendor,
         'wholesale-price': wholesalePrice,
+        clientName: clientName
       };
 
       lineItems.push(lineItem);
@@ -198,6 +182,16 @@
                         id="wholesale-price-{{ line_item.id }}"
                         name="wholesale-price"
                         value="{{ line_item.final_price | money_with_currency }}"
+                        readonly
+                      >
+                    </div>
+                    <div>
+                      <label for="client-name-{{ line_item.id }}">Wholesale Price</label>
+                      <input
+                        type="text"
+                        id="client-name-{{ line_item.id }}"
+                        name="client-name"
+                        value="{{ customer.name }}"
                         readonly
                       >
                     </div>
