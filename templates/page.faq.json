@@ -68,8 +68,8 @@
         "293e47e0-b225-49cb-a5d6-916ca0f610e2": {
           "type": "item",
           "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+            "title": "Can I pre-order an item?",
+            "content": "<p>Any pre-orderable item will clearly be listed as available to pre-order. They will include an estimated delivery\/dispatch date.<\/p>"
           }
         }
       },
