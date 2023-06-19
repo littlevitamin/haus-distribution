@@ -54,8 +54,8 @@
         "6a4fb970-938e-41bb-bd9b-2de401e0add9": {
           "type": "item",
           "settings": {
-            "title": "7. I can’t access my account, can you send me a new password?",
-            "content": "<p>You can reset your password by XXX<\/p>"
+            "title": "7. Who do I contact regarding queries?",
+            "content": "<ul><li>For all queries relating to orders and deliveries, please contact <strong>customerservice@hausdistribution.com<\/strong><\/li><li>For queries regarding your account, please contact your relevant account manager or email <strong>operations@hausdistribution.com<\/strong><\/li><li>For queries relating to imagery, press and marketing, please contact <strong>marketing@hausdistribution.com<\/strong><\/li><\/ul><p><\/p>"
           }
         }
       },
