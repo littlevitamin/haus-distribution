@@ -12,7 +12,7 @@
         "template--16668369027314__4388c087-a27a-42b7-9448-7954ec0cac6d-167948228534eaa4ba-0": {
           "type": "item",
           "settings": {
-            "title": "1. Can I purchase all brands present on your B2B store?",
+            "title": "Can I purchase all brands present on your B2B store?",
             "content": "<p>You can only purchase the brand(s) you have been approved for, however if you are looking to become a stockist of another brand please contact your relevant account manager.<\/p>"
           }
         },
@@ -61,8 +61,15 @@
         "4bb102e3-6d02-4a31-82e1-dab8ee71ddbe": {
           "type": "item",
           "settings": {
-            "title": "8. How can I find out if a particular product is coming backinto stock?",
+            "title": "8. How can I find out if a particular product is coming back into stock?",
             "content": "<p>Each product has an estimated back in stock date listed by the product description. <\/p><p>Please note this will be the date in which it is expected to us, so allow for an additional few days before it is delivered to you.<\/p>"
+          }
+        },
+        "293e47e0-b225-49cb-a5d6-916ca0f610e2": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
           }
         }
       },
@@ -74,7 +81,8 @@
         "7d3036a9-434d-466f-9f92-5bcb2718189e",
         "76a5f546-6e1b-415a-8a8b-afc72ce02993",
         "6a4fb970-938e-41bb-bd9b-2de401e0add9",
-        "4bb102e3-6d02-4a31-82e1-dab8ee71ddbe"
+        "4bb102e3-6d02-4a31-82e1-dab8ee71ddbe",
+        "293e47e0-b225-49cb-a5d6-916ca0f610e2"
       ],
       "settings": {
         "full_width": true,
