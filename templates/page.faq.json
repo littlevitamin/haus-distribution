@@ -37,18 +37,11 @@
             "content": "<p>No, the prices you see on our B2B store are the prices you pay, plus VAT. Import taxes have already been paid (excluding Republic of Ireland).<\/p>"
           }
         },
-        "3dc7782f-6eb2-4a21-aa39-18547a124e1e": {
-          "type": "item",
-          "settings": {
-            "title": "5. Why have I been charged Import tax?",
-            "content": "<p>Use this text to share information about your product or shipping policies.<\/p>"
-          }
-        },
         "7d3036a9-434d-466f-9f92-5bcb2718189e": {
           "type": "item",
           "settings": {
-            "title": "6. How long does delivery take?",
-            "content": "<p>You will receive your order within 1-2 working days. The products listed on our B2B website are dispatched from our UK warehouse.<\/p>"
+            "title": "5. How long does delivery take?",
+            "content": "<p>The products listed on our B2B website are dispatched from our UK warehouse. We aim to send all in stock items within 1-3 business days. Please be aware that during peak trading, this may <\/p><p>If you are waiting on your order<\/p><p><\/p>"
           }
         },
         "76a5f546-6e1b-415a-8a8b-afc72ce02993": {
@@ -71,7 +64,6 @@
         "template--16668369027314__4388c087-a27a-42b7-9448-7954ec0cac6d-167948228534eaa4ba-1",
         "template--16668369027314__4388c087-a27a-42b7-9448-7954ec0cac6d-167948228534eaa4ba-2",
         "2eeb0131-8e85-4252-9547-5c7e28928cd2",
-        "3dc7782f-6eb2-4a21-aa39-18547a124e1e",
         "7d3036a9-434d-466f-9f92-5bcb2718189e",
         "76a5f546-6e1b-415a-8a8b-afc72ce02993",
         "6a4fb970-938e-41bb-bd9b-2de401e0add9"
