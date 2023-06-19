@@ -41,20 +41,20 @@
           "type": "item",
           "settings": {
             "title": "5. How long does delivery take?",
-            "content": "<p>The products listed on our B2B website are dispatched from our UK warehouse. We aim to send all in stock items within 1-3 business days. Please be aware that during peak trading, this may <\/p><p>If you are waiting on your order<\/p><p><\/p>"
+            "content": "<p>The products listed on our B2B website are dispatched from our UK warehouse. We aim to send all in-stock items within 1-3 business days. Please be aware that during peak trading, this may differ.<\/p><p>If you are waiting on your order that has been dispatched, please check your tracking information which will have been emailed to you.<\/p>"
           }
         },
         "76a5f546-6e1b-415a-8a8b-afc72ce02993": {
           "type": "item",
           "settings": {
-            "title": "7. Where can I access product catalogues, images, product specifications and RRPs?",
+            "title": "6. Where can I access product catalogues, images, product specifications and RRPs?",
             "content": "<p>You can find full details for listing the products on your site or in your store in our brand toolkits. These are located at the bottom of our B2B homepage. The toolkit includes pricing, photography and brand catalogues.<\/p>"
           }
         },
         "6a4fb970-938e-41bb-bd9b-2de401e0add9": {
           "type": "item",
           "settings": {
-            "title": "8. I can’t access my account, can you send me a new password?",
+            "title": "7. I can’t access my account, can you send me a new password?",
             "content": "<p>You can reset your password by XXX<\/p>"
           }
         }
