@@ -19,21 +19,21 @@
         "template--16668369027314__4388c087-a27a-42b7-9448-7954ec0cac6d-167948228534eaa4ba-1": {
           "type": "item",
           "settings": {
-            "title": "2. Do I have to agree to any Terms of Trade?",
+            "title": "Do I have to agree to any Terms of Trade?",
             "content": "<p>Upon checkout, you will be asked to agree to our Terms of Trade. These can be found at the footer of the B2B.<\/p><p>Please be aware that if you break these Terms of Trade, access to our B2B store can be revoked.<\/p>"
           }
         },
         "template--16668369027314__4388c087-a27a-42b7-9448-7954ec0cac6d-167948228534eaa4ba-2": {
           "type": "item",
           "settings": {
-            "title": "3. Do you have a minimum order?",
+            "title": "Do you have a minimum order?",
             "content": "<p>There isn't a minimum order, however orders under £300.00 will incur a £10.00 delivery charge. Orders over £300.00, which is our advisory minimum order, will include free delivery.<\/p><p> <\/p>"
           }
         },
         "2eeb0131-8e85-4252-9547-5c7e28928cd2": {
           "type": "item",
           "settings": {
-            "title": "4. Do I have to pay import tax?",
+            "title": "Do I have to pay import tax?",
             "content": "<p>No, the prices you see on our B2B store are the prices you pay, plus VAT. Import taxes have already been paid (excluding Republic of Ireland).<\/p>"
           }
         },
