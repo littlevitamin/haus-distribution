@@ -57,6 +57,13 @@
             "title": "7. Who do I contact regarding queries?",
             "content": "<ul><li>For all queries relating to orders and deliveries, please contact <strong>customerservice@hausdistribution.com<\/strong><\/li><li>For queries regarding your account, please contact your relevant account manager or email <strong>operations@hausdistribution.com<\/strong><\/li><li>For queries relating to imagery, press and marketing, please contact <strong>marketing@hausdistribution.com<\/strong><\/li><\/ul><p><\/p>"
           }
+        },
+        "4bb102e3-6d02-4a31-82e1-dab8ee71ddbe": {
+          "type": "item",
+          "settings": {
+            "title": "8. How can I find out if a particular product is coming backinto stock?",
+            "content": "<p>Each product has an estimated back in stock date listed by the product description. <\/p><p>Please note this will be the date in which it is expected to us, so allow for an additional few days before it is delivered to you.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -66,7 +73,8 @@
         "2eeb0131-8e85-4252-9547-5c7e28928cd2",
         "7d3036a9-434d-466f-9f92-5bcb2718189e",
         "76a5f546-6e1b-415a-8a8b-afc72ce02993",
-        "6a4fb970-938e-41bb-bd9b-2de401e0add9"
+        "6a4fb970-938e-41bb-bd9b-2de401e0add9",
+        "4bb102e3-6d02-4a31-82e1-dab8ee71ddbe"
       ],
       "settings": {
         "full_width": true,
