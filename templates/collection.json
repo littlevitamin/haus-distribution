@@ -11,6 +11,7 @@
         "show_collection_image": true,
         "collection_title_size": "h0",
         "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/pseudo.png",
         "mobile_image": "{{ collection.metafields.custom.mobile_image.value }}",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
