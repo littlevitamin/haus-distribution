@@ -183,7 +183,7 @@
         "collection-2": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "outdoor",
             "image": "shopify:\/\/shop_images\/Untitled_design_6.png",
             "subheading": "",
             "title": "Outdoor",
