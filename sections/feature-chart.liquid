@@ -236,6 +236,7 @@ LIQUID
                           <path d="m2 7.6 5.259 5.6L18 2" stroke="{{ section.settings.chart_true_false_color | default: section.settings.chart_text_color | default: settings.text_color }}" stroke-width="3"></path>
                         </svg>
                       {%- else -%}
+                        
                         {{- value | default: '—' -}}
                       {%- endif -%}
                     </div>
@@ -546,7 +547,8 @@ LIQUID
         {
           "type": "richtext",
           "id": "value_1",
-          "label": "Value 1"
+          "label": "Value 1",
+          "default": "<p>{{ product.first_available_variant.barcode }}</p>"
         },
         {
           "type": "richtext",
