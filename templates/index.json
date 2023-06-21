@@ -113,13 +113,10 @@
       "settings": {
         "collection": "new-in",
         "products": [
-          "120525-little-dutch-paint-book",
-          "120526-little-dutch-craft-apron-sailors-bay",
-          "120563-little-dutch-craft-apron-flowers-butterflies",
-          "125100-little-dutch-beach-towel-sailors-bay"
+
         ],
         "full_width": true,
-        "stack_products": true,
+        "stack_products": false,
         "show_progress_bar": false,
         "products_count": 15,
         "products_per_row_mobile": "2",
