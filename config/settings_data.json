@@ -42,6 +42,8 @@
     "cart_type": "drawer",
     "cart_show_free_shipping_threshold": true,
     "cart_free_shipping_threshold": 300,
+    "social_instagram": "https:\/\/www.instagram.com\/wedistributejoy\/",
+    "social_linkedin": "https:\/\/www.linkedin.com\/company\/67895650\/",
     "favicon": "shopify:\/\/shop_images\/Haus_Distribution_Icon_a737dd37-7a43-4384-839f-a8af42ac08a6.jpg",
     "checkout_accent_color": "#f0c417",
     "checkout_button_color": "#1a1a1a",
