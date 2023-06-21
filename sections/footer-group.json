@@ -27,20 +27,12 @@
             "menu": "footer",
             "show_menu_title": true
           }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "title": "About",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>"
-          }
         }
       },
       "block_order": [
         "newsletter",
         "b2951a97-5eed-4b63-8ed6-377b78e70d96",
-        "links",
-        "text"
+        "links"
       ],
       "settings": {
         "show_social_media": true,
