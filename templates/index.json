@@ -235,7 +235,6 @@
     },
     "e749a51b-463d-48d1-9ed4-273c34f498b2": {
       "type": "hot-spots",
-      "disabled": true,
       "blocks": {
         "template--16674772058354__e749a51b-463d-48d1-9ed4-273c34f498b2-16824104323842fba1-0": {
           "type": "item",
@@ -245,39 +244,52 @@
             "horizontal_position_mobile": 18,
             "vertical_position_mobile": 58,
             "icon_width": 32,
-            "title": "",
-            "content": "<p>Share useful information about your product features.<\/p>"
+            "title": "Inka Vase - Small - Ice blue",
+            "content": ""
           }
         },
         "template--16674772058354__e749a51b-463d-48d1-9ed4-273c34f498b2-16824104323842fba1-1": {
           "type": "item",
           "settings": {
-            "horizontal_position": 62,
-            "vertical_position": 14,
-            "horizontal_position_mobile": 62,
-            "vertical_position_mobile": 14,
+            "horizontal_position": 79,
+            "vertical_position": 83,
+            "horizontal_position_mobile": 33,
+            "vertical_position_mobile": 24,
             "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.<\/p>"
+            "title": "Putki Runner",
+            "content": ""
           }
         },
         "template--16674772058354__e749a51b-463d-48d1-9ed4-273c34f498b2-16824104323842fba1-2": {
           "type": "item",
           "settings": {
-            "horizontal_position": 83,
-            "vertical_position": 75,
+            "horizontal_position": 64,
+            "vertical_position": 62,
             "horizontal_position_mobile": 83,
             "vertical_position_mobile": 75,
             "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.<\/p>"
+            "title": "Striped Wall Laundry Bin",
+            "content": ""
+          }
+        },
+        "6a99a745-c98c-408d-9d6a-0f705dd32839": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 48,
+            "vertical_position": 59,
+            "horizontal_position_mobile": 30,
+            "vertical_position_mobile": 30,
+            "icon_width": 32,
+            "title": "Kasa Lamp - Offwhite",
+            "content": ""
           }
         }
       },
       "block_order": [
         "template--16674772058354__e749a51b-463d-48d1-9ed4-273c34f498b2-16824104323842fba1-0",
         "template--16674772058354__e749a51b-463d-48d1-9ed4-273c34f498b2-16824104323842fba1-1",
-        "template--16674772058354__e749a51b-463d-48d1-9ed4-273c34f498b2-16824104323842fba1-2"
+        "template--16674772058354__e749a51b-463d-48d1-9ed4-273c34f498b2-16824104323842fba1-2",
+        "6a99a745-c98c-408d-9d6a-0f705dd32839"
       ],
       "settings": {
         "full_width": false,
