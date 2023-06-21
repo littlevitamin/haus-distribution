@@ -8,9 +8,9 @@
         "newsletter": {
           "type": "newsletter",
           "settings": {
-            "image_width": 150,
+            "image_width": 120,
             "heading_size": "h3",
-            "title": "Sign up for new stories and personal offers",
+            "title": "Sign up to receive information about the latest arrivals",
             "content": ""
           }
         },
