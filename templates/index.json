@@ -183,7 +183,7 @@
         "collection-2": {
           "type": "collection",
           "settings": {
-            "collection": "ball-pits-balls",
+            "collection": "",
             "image": "shopify:\/\/shop_images\/Untitled_design_6.png",
             "subheading": "",
             "title": "Outdoor",
@@ -198,11 +198,11 @@
         "collection-3": {
           "type": "collection",
           "settings": {
-            "collection": "oyoy",
+            "collection": "gifts",
             "image": "shopify:\/\/shop_images\/Untitled_design_8.png",
             "subheading": "",
             "title": "Gifting",
-            "url": "shopify:\/\/collections\/gifts",
+            "url": "",
             "heading_tag": "h2",
             "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
