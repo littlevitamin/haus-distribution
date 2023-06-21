@@ -64,7 +64,17 @@ CSS
       max-height: 487px;
     }
   }
+
+  .feature-chart__value:nth-child(1).text-subdued > p::after {
+    content: var(--variant-barcode);
+  }
+  
 </style>
+
+<script>
+  var variantBarcode = {{variant.barcode}}; 
+  document.documentElement.style.setProperty('--variant-barcode', "'" + variantBarcode + "'");
+</script>
 
 {%- comment -%}
 ------------------------------------------------------------------------------------------------------------------------
