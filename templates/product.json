@@ -24,6 +24,13 @@
           "settings": {
           }
         },
+        "19053e04-a805-4295-a882-33ef6d9fdb8f": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "EAN: {{product.first_available_variant.barcode}}"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -90,6 +97,7 @@
         "title",
         "badges",
         "a21878a7-9dfe-4c10-84b2-96196edb690d",
+        "19053e04-a805-4295-a882-33ef6d9fdb8f",
         "price",
         "fda2d7f6-bad6-4a99-b777-29dc75d33eef",
         "rating",
