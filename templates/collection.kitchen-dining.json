@@ -59,12 +59,25 @@
             "title": "Jali Water Carafe",
             "content": "<p><a href=\"\/products\/125100-little-dutch-beach-towel-sailors-bay\" title=\"125100 Little Dutch Beach Towel Sailors Bay\">View Product<\/a><\/p>"
           }
+        },
+        "4a209b88-6828-4c9a-b75b-aedc62a0be27": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 23,
+            "vertical_position": 64,
+            "horizontal_position_mobile": 30,
+            "vertical_position_mobile": 30,
+            "icon_width": 32,
+            "title": "Kotai Table",
+            "content": "<p><a href=\"https:\/\/hausb2b.com\/products\/kotai-table-160x80-cm-dining-table-nature?_pos=10&_psq=table&_ss=e&_v=1.0\" target=\"_blank\" title=\"https:\/\/hausb2b.com\/products\/kotai-table-160x80-cm-dining-table-nature?_pos=10&_psq=table&_ss=e&_v=1.0\">View Product<\/a><\/p>"
+          }
         }
       },
       "block_order": [
         "template--16669196746994__2daa9e15-8fa8-4c7d-ab51-fb4367f91968-167948156385ba0adc-0",
         "template--16669196746994__2daa9e15-8fa8-4c7d-ab51-fb4367f91968-167948156385ba0adc-1",
-        "template--16669196746994__2daa9e15-8fa8-4c7d-ab51-fb4367f91968-167948156385ba0adc-2"
+        "template--16669196746994__2daa9e15-8fa8-4c7d-ab51-fb4367f91968-167948156385ba0adc-2",
+        "4a209b88-6828-4c9a-b75b-aedc62a0be27"
       ],
       "settings": {
         "full_width": true,
