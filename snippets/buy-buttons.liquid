@@ -31,7 +31,7 @@ Supported variables
     {%- if product.template_suffix contains 'pre-order' -%}
       {%- capture button_content -%}{{ 'product.general.pre_order_button' | t }}{%- endcapture -%}
     {%- else -%}
-      <div onclick="showAlert();">{%- capture button_content -%}{{ 'product.general.add_to_cart_button' | t }}{%- endcapture -%}</div>
+      {%- capture button_content -%}{{ 'product.general.add_to_cart_button' | t }}{%- endcapture -%}
     {%- endif -%}
   {%- else -%}
     {%- capture button_content -%}{{ 'product.general.sold_out_button' | t }}{%- endcapture -%}
@@ -62,9 +62,3 @@ Supported variables
     {%- endif -%}
   </buy-buttons>
 {%- endform -%}
-
-<script>
-  function showAlert() {
-    alert("Item added to cart!");
-  }
-</script>
