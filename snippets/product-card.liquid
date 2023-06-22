@@ -265,10 +265,12 @@ Supported variables
           </div>
         </div>
       {%- endform -%}
+      {% if section.settings.show_forecast %}
       {%- form 'product', product, is: 'product-form' -%}
         <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
         {%- render 'button', type: 'submit', content: "Add to forecast", value: 'product_form_id' -%}
       {%- endform -%}
+      {% endif %}
       {% else %}
 <!--       <form class="add-to-cart-form" action="/cart/add" method="post" data-product-id="{{ product.id }}">
         <input type="hidden" name="id" value="{{ product.title }}">
