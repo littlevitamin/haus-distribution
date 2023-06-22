@@ -24,6 +24,7 @@ Supported variables
 
 {%- assign show_rating = show_rating | default: settings.show_product_rating, allow_false: true -%}
 {%- assign show_vendor = show_vendor | default: settings.show_vendor, allow_false: true -%}
+{%- assign show_forecast = show_forecast | default: settings.show_forecast, allow_false: true -%}
 {%- assign show_quick_buy = show_quick_buy | default: settings.show_quick_buy, allow_false: true -%}
 {%- assign show_secondary_image = show_secondary_image | default: settings.show_secondary_image, allow_false: true -%}
 {%- assign text_alignment = text_alignment | default: settings.product_info_alignment -%}
@@ -265,10 +266,12 @@ Supported variables
           </div>
         </div>
       {%- endform -%}
-      {% comment %}{%- form 'product', product, is: 'product-form' -%}
-        <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
-        {%- render 'button', type: 'submit', content: "Add to forecast", value: 'product_form_id' -%}
-      {%- endform -%}{% endcomment %}
+      {% if show_forecast %}
+        {%- form 'product', product, is: 'product-form' -%}
+          <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+          {%- render 'button', type: 'submit', content: "Add to forecast", value: 'product_form_id' -%}
+        {%- endform -%}
+        {% endif %}
       {% else %}
 <!--       <form class="add-to-cart-form" action="/cart/add" method="post" data-product-id="{{ product.id }}">
         <input type="hidden" name="id" value="{{ product.title }}">
