@@ -35,7 +35,6 @@
     "color_swatch_style": "square",
     "show_vendor": true,
     "show_sold_out_badge": false,
-    "show_forecast": false,
     "discount_mode": "percentage",
     "product_color_display": "swatch",
     "product_image_aspect_ratio": "square",
