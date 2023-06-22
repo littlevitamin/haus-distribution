@@ -58,12 +58,25 @@
             "title": "Kyoto Cushion Square - Blue",
             "content": "<p><a href=\"https:\/\/hausb2b.com\/products\/kyoto-cushion-square-cushion?_pos=9&_psq=check&_ss=e&_v=1.0\" target=\"_blank\" title=\"https:\/\/hausb2b.com\/products\/kyoto-cushion-square-cushion?_pos=9&_psq=check&_ss=e&_v=1.0\">View Product<\/a><\/p>"
           }
+        },
+        "2e33dcc6-467b-41e6-a353-2590aece76a0": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 86,
+            "vertical_position": 30,
+            "horizontal_position_mobile": 30,
+            "vertical_position_mobile": 30,
+            "icon_width": 32,
+            "title": "Inka Kana Pot - Large",
+            "content": "<p><a href=\"https:\/\/hausb2b.com\/products\/pot-inka-kana-large-vase-anthracite?_pos=9&_psq=kana&_ss=e&_v=1.0\" target=\"_blank\" title=\"https:\/\/hausb2b.com\/products\/pot-inka-kana-large-vase-anthracite?_pos=9&_psq=kana&_ss=e&_v=1.0\">View Product<\/a><\/p>"
+          }
         }
       },
       "block_order": [
         "template--16669196746994__2daa9e15-8fa8-4c7d-ab51-fb4367f91968-167948156385ba0adc-0",
         "template--16669196746994__2daa9e15-8fa8-4c7d-ab51-fb4367f91968-167948156385ba0adc-1",
-        "template--16669196746994__2daa9e15-8fa8-4c7d-ab51-fb4367f91968-167948156385ba0adc-2"
+        "template--16669196746994__2daa9e15-8fa8-4c7d-ab51-fb4367f91968-167948156385ba0adc-2",
+        "2e33dcc6-467b-41e6-a353-2590aece76a0"
       ],
       "settings": {
         "full_width": true,
