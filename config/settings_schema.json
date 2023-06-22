@@ -659,6 +659,12 @@
         "default": true
       },
       {
+        "type": "checkbox",
+        "id": "show_forecast",
+        "label": "Show forecast",
+        "default": true
+      },
+      {
         "type": "select",
         "id": "discount_mode",
         "label": "Show discount as...",
