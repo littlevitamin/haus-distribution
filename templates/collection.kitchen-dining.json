@@ -23,7 +23,6 @@
     },
     "2daa9e15-8fa8-4c7d-ab51-fb4367f91968": {
       "type": "hot-spots",
-      "disabled": true,
       "blocks": {
         "template--16669196746994__2daa9e15-8fa8-4c7d-ab51-fb4367f91968-167948156385ba0adc-0": {
           "type": "item",
@@ -40,13 +39,13 @@
         "template--16669196746994__2daa9e15-8fa8-4c7d-ab51-fb4367f91968-167948156385ba0adc-1": {
           "type": "item",
           "settings": {
-            "horizontal_position": 74,
-            "vertical_position": 14,
+            "horizontal_position": 77,
+            "vertical_position": 43,
             "horizontal_position_mobile": 62,
             "vertical_position_mobile": 14,
             "icon_width": 32,
-            "title": "Really nice Lampshade",
-            "content": "<p>Share useful information about your product features.<\/p><p><a href=\"\/products\/120525-little-dutch-paint-book\" title=\"120525 - Little Dutch Paint Book\">View Product<\/a><\/p>"
+            "title": "Mizu Wine Glasses",
+            "content": "<p><a href=\"https:\/\/hausb2b.com\/products\/mizu-wine-glass-2-pcs-set-dining-ware-clear?_pos=6&_psq=mizu&_ss=e&_v=1.0\" target=\"_blank\" title=\"https:\/\/hausb2b.com\/products\/mizu-wine-glass-2-pcs-set-dining-ware-clear?_pos=6&_psq=mizu&_ss=e&_v=1.0\">View Product<\/a><\/p>"
           }
         },
         "template--16669196746994__2daa9e15-8fa8-4c7d-ab51-fb4367f91968-167948156385ba0adc-2": {
