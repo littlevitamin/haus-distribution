@@ -70,13 +70,26 @@
             "title": "Maki Lantern - Small - Black",
             "content": "<p><a href=\"https:\/\/hausb2b.com\/products\/momi-outdoor-coffee-table-furniture\" target=\"_blank\" title=\"https:\/\/hausb2b.com\/products\/momi-outdoor-coffee-table-furniture\">View Product<\/a><\/p>"
           }
+        },
+        "5faf292a-8875-4e80-9104-bd6c16b4efee": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 39,
+            "vertical_position": 30,
+            "horizontal_position_mobile": 30,
+            "vertical_position_mobile": 30,
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p><a href=\"https:\/\/hausb2b.com\/products\/awa-pot-outdoor-large-pot-terracotta\" target=\"_blank\" title=\"https:\/\/hausb2b.com\/products\/awa-pot-outdoor-large-pot-terracotta\">View Product<\/a><\/p>"
+          }
         }
       },
       "block_order": [
         "template--16669196746994__2daa9e15-8fa8-4c7d-ab51-fb4367f91968-167948156385ba0adc-0",
         "template--16669196746994__2daa9e15-8fa8-4c7d-ab51-fb4367f91968-167948156385ba0adc-1",
         "template--16669196746994__2daa9e15-8fa8-4c7d-ab51-fb4367f91968-167948156385ba0adc-2",
-        "ea9a3e42-f59c-4c56-b391-d7e685ece06f"
+        "ea9a3e42-f59c-4c56-b391-d7e685ece06f",
+        "5faf292a-8875-4e80-9104-bd6c16b4efee"
       ],
       "settings": {
         "full_width": true,
