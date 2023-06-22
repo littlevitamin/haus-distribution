@@ -22,6 +22,7 @@
     },
     "2daa9e15-8fa8-4c7d-ab51-fb4367f91968": {
       "type": "hot-spots",
+      "disabled": true,
       "blocks": {
         "template--16669196746994__2daa9e15-8fa8-4c7d-ab51-fb4367f91968-167948156385ba0adc-0": {
           "type": "item",
