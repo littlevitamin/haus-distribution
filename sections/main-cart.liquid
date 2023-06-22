@@ -47,8 +47,6 @@
   }
 </script>
 
-{%- assign show_forecast = show_forecast | default: settings.show_forecast, allow_false: true -%}
-
 <div class="container">
   {%- if cart.item_count == 0 -%}
     <div class="empty-state">
@@ -133,7 +131,7 @@
               </tbody>
             </table>
 
-            {% if show_forecast %}
+            {% if section.settings.show_forecast %}
               <form id="myForm">
                 {% for line_item in cart.items %}
                   <div class="form-content">
