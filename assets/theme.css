@@ -10351,3 +10351,8 @@ content: '\f004';
   background: white;
   border: 1px solid #1D2F50;
 }
+
+.product-info__liquid, 
+.product-info__sku {
+  margin: 1px 0!important;
+}
