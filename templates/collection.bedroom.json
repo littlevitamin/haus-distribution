@@ -22,6 +22,36 @@
     },
     "2daa9e15-8fa8-4c7d-ab51-fb4367f91968": {
       "type": "hot-spots",
+      "blocks": {
+        "0101c996-fbcc-40a9-8c7c-31540cce365a": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 28,
+            "vertical_position": 24,
+            "horizontal_position_mobile": 30,
+            "vertical_position_mobile": 30,
+            "icon_width": 32,
+            "title": "Quilted Aya Wall Rug",
+            "content": "<p><a href=\"https:\/\/hausb2b.com\/products\/quilted-aya-wall-rug-large-wall-decoration-brown?_pos=5&_psq=quilted+&_ss=e&_v=1.0\" title=\"https:\/\/hausb2b.com\/products\/quilted-aya-wall-rug-large-wall-decoration-brown?_pos=5&_psq=quilted+&_ss=e&_v=1.0\">View product<\/a><\/p>"
+          }
+        },
+        "5557516e-34ae-4087-a5e4-a06de218b662": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 30,
+            "vertical_position": 30,
+            "horizontal_position_mobile": 46,
+            "vertical_position_mobile": 43,
+            "icon_width": 32,
+            "title": "Inka Vase - Ice Blue",
+            "content": "<p><a href=\"https:\/\/hausb2b.com\/products\/inka-vase-small-vase-ice-blue?_pos=1&_psq=inka+ice+blue&_ss=e&_v=1.0\" title=\"https:\/\/hausb2b.com\/products\/inka-vase-small-vase-ice-blue?_pos=1&_psq=inka+ice+blue&_ss=e&_v=1.0\">View product<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "0101c996-fbcc-40a9-8c7c-31540cce365a",
+        "5557516e-34ae-4087-a5e4-a06de218b662"
+      ],
       "settings": {
         "full_width": true,
         "image": "shopify:\/\/shop_images\/Bedroom_017a409f-de79-452d-b459-9a04f651f0b9.jpg",
