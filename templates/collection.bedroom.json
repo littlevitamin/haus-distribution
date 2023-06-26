@@ -58,25 +58,12 @@
             "title": "Kasa Lamp - White",
             "content": "<p><a href=\"https:\/\/hausb2b.com\/products\/table-lamp-kasa-table-lamp-offwhite?_pos=8&_psq=kasa+lamp&_ss=e&_v=1.0\" title=\"https:\/\/hausb2b.com\/products\/table-lamp-kasa-table-lamp-offwhite?_pos=8&_psq=kasa+lamp&_ss=e&_v=1.0\">View product<\/a><\/p>"
           }
-        },
-        "e4ec1d73-983a-442a-8638-9a895ef15209": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 30,
-            "vertical_position": 30,
-            "horizontal_position_mobile": 74,
-            "vertical_position_mobile": 77,
-            "icon_width": 32,
-            "title": "Lina Recycled Runner",
-            "content": "<p><a href=\"https:\/\/hausb2b.com\/products\/lina-recycled-runner-rug-dusty-blue?_pos=1&_psq=lina+runner&_ss=e&_v=1.0\" title=\"https:\/\/hausb2b.com\/products\/lina-recycled-runner-rug-dusty-blue?_pos=1&_psq=lina+runner&_ss=e&_v=1.0\">View product<\/a><\/p>"
-          }
         }
       },
       "block_order": [
         "0101c996-fbcc-40a9-8c7c-31540cce365a",
         "5557516e-34ae-4087-a5e4-a06de218b662",
-        "da8658a4-d16f-42a8-99bf-000469931e56",
-        "e4ec1d73-983a-442a-8638-9a895ef15209"
+        "da8658a4-d16f-42a8-99bf-000469931e56"
       ],
       "settings": {
         "full_width": true,
