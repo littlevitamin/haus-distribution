@@ -28,8 +28,8 @@
           "settings": {
             "horizontal_position": 6,
             "vertical_position": 70,
-            "horizontal_position_mobile": 24,
-            "vertical_position_mobile": 70,
+            "horizontal_position_mobile": 9,
+            "vertical_position_mobile": 78,
             "icon_width": 32,
             "title": "Recycled Trisse Stool",
             "content": "<p><a href=\"https:\/\/hausb2b.com\/products\/recycled-trisse-stool?_pos=2&_psq=trisse&_ss=e&_v=1.0\" target=\"_blank\" title=\"https:\/\/hausb2b.com\/products\/recycled-trisse-stool?_pos=2&_psq=trisse&_ss=e&_v=1.0\">View Product<\/a><\/p>"
@@ -40,8 +40,8 @@
           "settings": {
             "horizontal_position": 60,
             "vertical_position": 20,
-            "horizontal_position_mobile": 62,
-            "vertical_position_mobile": 14,
+            "horizontal_position_mobile": 68,
+            "vertical_position_mobile": 45,
             "icon_width": 32,
             "title": "Kyoto Dot Cushion - Clay",
             "content": "<p><a href=\"https:\/\/hausb2b.com\/products\/kyoto-dot-cushion-long-cushion-sahara?_pos=9&_psq=dot&_ss=e&_v=1.0\" target=\"_blank\" title=\"https:\/\/hausb2b.com\/products\/kyoto-dot-cushion-long-cushion-sahara?_pos=9&_psq=dot&_ss=e&_v=1.0\">View Product<\/a><\/p>"
@@ -51,9 +51,9 @@
           "type": "item",
           "settings": {
             "horizontal_position": 51,
-            "vertical_position": 26,
-            "horizontal_position_mobile": 83,
-            "vertical_position_mobile": 75,
+            "vertical_position": 68,
+            "horizontal_position_mobile": 41,
+            "vertical_position_mobile": 56,
             "icon_width": 32,
             "title": "Kyoto Cushion Square - Blue",
             "content": "<p><a href=\"https:\/\/hausb2b.com\/products\/kyoto-cushion-square-cushion?_pos=9&_psq=check&_ss=e&_v=1.0\" target=\"_blank\" title=\"https:\/\/hausb2b.com\/products\/kyoto-cushion-square-cushion?_pos=9&_psq=check&_ss=e&_v=1.0\">View Product<\/a><\/p>"
@@ -64,11 +64,11 @@
           "settings": {
             "horizontal_position": 86,
             "vertical_position": 30,
-            "horizontal_position_mobile": 30,
-            "vertical_position_mobile": 30,
+            "horizontal_position_mobile": 88,
+            "vertical_position_mobile": 63,
             "icon_width": 32,
-            "title": "Inka Kana Pot - Large",
-            "content": "<p><a href=\"https:\/\/hausb2b.com\/products\/pot-inka-kana-large-vase-anthracite?_pos=9&_psq=kana&_ss=e&_v=1.0\" target=\"_blank\" title=\"https:\/\/hausb2b.com\/products\/pot-inka-kana-large-vase-anthracite?_pos=9&_psq=kana&_ss=e&_v=1.0\">View Product<\/a><\/p>"
+            "title": "Inka Kana Pot",
+            "content": "<p><a href=\"https:\/\/hausb2b.com\/products\/pot-inka-kana-large-vase-anthracite?_pos=9&_psq=inka+kana+pot&_ss=e&_v=1.0\" target=\"_blank\" title=\"https:\/\/hausb2b.com\/products\/pot-inka-kana-large-vase-anthracite?_pos=9&_psq=inka+kana+pot&_ss=e&_v=1.0\">View Product<\/a><\/p>"
           }
         }
       },
