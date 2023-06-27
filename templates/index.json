@@ -601,6 +601,33 @@
         "button_background": "",
         "button_text_color": ""
       }
+    },
+    "727a7a45-3c79-4477-9774-17aaf7e5cf11": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "pre-order-collection",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Featured collection",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
@@ -614,6 +641,7 @@
     "f97036d1-abc4-4f4d-9d58-c8d6806c3717",
     "6d07f598-35e8-4886-a458-85778b7d6b59",
     "f0206c56-488d-41a9-bab8-bcb27fec4a82",
-    "0daee94c-7c94-4b2a-8e23-e6d05600f74b"
+    "0daee94c-7c94-4b2a-8e23-e6d05600f74b",
+    "727a7a45-3c79-4477-9774-17aaf7e5cf11"
   ]
 }
