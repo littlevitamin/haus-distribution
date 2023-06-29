@@ -88,7 +88,7 @@
         "a552ec1f-ac8c-4039-bc94-28adc33ea107": {
           "type": "shopify:\/\/apps\/virtual-inventory-assistant\/blocks\/app-block\/bb5d39a7-1a52-44bc-9d6a-93a2f8a651ba",
           "settings": {
-            "shipmentInfoText": "Shipment starts on"
+            "shipmentInfoText": "Shipment starts on:"
           }
         }
       },

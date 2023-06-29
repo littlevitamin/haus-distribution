@@ -252,20 +252,25 @@ Supported variables
       {%- form 'product', product, is: 'product-form' -%}
         <div>
         <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
-        {% comment %} <div class="pointer-fine:hidden">
+        <div class="pointer-fine:hidden">
           <input type="text" name="quantity" min="1" value="1">
             {%- render 'button', type: 'submit', content: "Buy Now", value: 'product_form_id' -%}
-        </div> {% endcomment %}
+        </div>
           <div class="pointer-coarse:hidden cart-buttons-flex">
-            <input type="number" id="quantity" name="quantity" min="1" value="1" style="max-width: 30%; text-align: center">
-            {% if current_variant.inventory_quantity > 0 %}
+            {% if product.selected_or_first_available_variant.inventory_quantity > 0 %}
+              <input type="number" id="quantity" name="quantity" min="1" value="1" style="max-width: 30%; text-align: center">
               {%- render 'button', type: 'submit', content: "Buy Now", value: 'product_form_id' -%}
-            {% else %}
-              {%- render 'button', type: 'submit', content: "Pre Order", value: 'product_form_id' -%}
             {% endif %}
           </div>
         </div>
       {%- endform -%}
+            {% if product.selected_or_first_available_variant.inventory_quantity == 0 %}
+            <a href="{{ product.url }}">
+              <button class="button pre-order-collection" style="z-index: 99999!important; background: #1D2F50; border: 2px solid #1D2F50; border-radius: 5px; padding: 12px 24px; width: 100%;">
+                Pre Order
+              </button>
+            </a>  
+            {% endif %}
       {% if show_forecast %}
         {%- form 'product', product, is: 'product-form' -%}
           <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
@@ -273,55 +278,7 @@ Supported variables
         {%- endform -%}
         {% endif %}
       {% else %}
-<!--       <form class="add-to-cart-form" action="/cart/add" method="post" data-product-id="{{ product.id }}">
-        <input type="hidden" name="id" value="{{ product.title }}">
-        <button type="submit" class="button">Add to Forecast</button>
-      </form> -->
       {% endif %}
-
-
-{% comment %}
-    <form>
-    <input type="text" name="title" value="{{ product.title }}">
-    <input type="text" name="sku" value="{{ current_variant.sku }}">
-    <input type="number" id="quantity" name="quantity" min="1" value="1">
-    <input type="text" name="vendor" value="{{ product.vendor }}">
-    <input type="number" name="price" value="{{ product.price }}">
-    <input type="text" name="client_name" value="{{ customer.first_name }} {{ customer.last_name }}">
-  </form>
-{% endcomment %}
-  
-  </div>
+    </div>
 </product-card>
 
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    var forms = document.querySelectorAll('.add-to-cart-form');
-
-    forms.forEach(function(form) {
-      form.addEventListener('submit', function(event) {
-        event.preventDefault(); 
-
-        var productId = form.getAttribute('data-product-id');
-
-        fetch('/cart/add.js', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'X-Requested-With': 'XMLHttpRequest'
-          },
-          body: JSON.stringify({
-            id: productId,
-            quantity: 1 // Adjust quantity if needed
-          })
-        })
-        .then(function(response) {
-          window.location.href = '/pages/custom-cart?added_item=' + productId;
-        })
-        .catch(function(error) {
-          console.error('Error:', error);
-        });
-      });
-    });
-  });
-</script>

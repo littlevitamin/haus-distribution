@@ -10011,10 +10011,11 @@ split-lines {
 .shopify-section--image-with-text-overlay > div > image-banner > div > div > a:hover,
 #cart-drawer > div > form > button:hover,
 .product-info .button--secondary:hover,
-.multiple-images-link .button:hover {
-  background: white;
-  color: #1D2F50;
-  border: 2px solid #1D2F50;
+.multiple-images-link .button:hover,
+.pre-order-collection:hover {
+  background: white!important;
+  color: #1D2F50!important;
+  border: 2px solid #1D2F50!important;
 }
 
 .pointer-coarse\:hidden .button > div {
@@ -10183,11 +10184,11 @@ split-lines {
 .current-item-box-shadow {
   box-shadow: 0 0 0 2px rgb(var(--text-color));
 }
-
+/* 
 .horizontal-product__cta .shopify-product-form {
   display: flex;
   flex-direction: column-reverse;
-}
+} */
 
 .footer__block--menu > ul > li > a,
 .footer__block--text > div > p,

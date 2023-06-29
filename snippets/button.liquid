@@ -85,6 +85,8 @@ Supported variables
   {% if href %}href="{{ href }}"{% endif %}
   {% if external and href != blank %}target="_blank"{% endif %}
   {% if href == blank %}is="{{ is | default: 'custom-button' }}"{% endif %}
+  {% if product.selected_or_first_available_variant.inventory_quantity == 0 and cart.item_count > 0 %}data-fabrikator-tid="pre-order-button" data-pre-order-text="Pre Order"{% endif %}
+
 {%- endcapture -%}
 
 {%- capture button_content -%}

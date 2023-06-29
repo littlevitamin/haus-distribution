@@ -20,6 +20,76 @@
         "overlay_opacity": 30
       }
     },
+    "cbbe1091-e6c2-49a2-8912-da2942690574": {
+      "type": "hot-spots",
+      "disabled": true,
+      "blocks": {
+        "template--16674772222194__cbbe1091-e6c2-49a2-8912-da2942690574-1687786028e6c8e191-0": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 30,
+            "vertical_position": 37,
+            "horizontal_position_mobile": 26,
+            "vertical_position_mobile": 44,
+            "icon_width": 32,
+            "title": "Kasa Lamp - Offwhite",
+            "content": "<p><a href=\"https:\/\/hausb2b.com\/products\/table-lamp-kasa-table-lamp-offwhite?_pos=8&_psq=kasa&_ss=e&_v=1.0\" title=\"https:\/\/hausb2b.com\/products\/table-lamp-kasa-table-lamp-offwhite?_pos=8&_psq=kasa&_ss=e&_v=1.0\">View Product<\/a><\/p>"
+          }
+        },
+        "template--16674772222194__cbbe1091-e6c2-49a2-8912-da2942690574-1687786028e6c8e191-1": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 64,
+            "vertical_position": 60,
+            "horizontal_position_mobile": 60,
+            "vertical_position_mobile": 54,
+            "icon_width": 32,
+            "title": "Hoji Pencil Holder",
+            "content": "<p><a href=\"https:\/\/hausb2b.com\/products\/hoji-pencil-holder-office-nature?_pos=2&_psq=pen&_ss=e&_v=1.0\" title=\"https:\/\/hausb2b.com\/products\/hoji-pencil-holder-office-nature?_pos=2&_psq=pen&_ss=e&_v=1.0\">View Product<\/a><\/p>"
+          }
+        },
+        "template--16674772222194__cbbe1091-e6c2-49a2-8912-da2942690574-1687786028e6c8e191-2": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 39,
+            "vertical_position": 75,
+            "horizontal_position_mobile": 38,
+            "vertical_position_mobile": 73,
+            "icon_width": 32,
+            "title": "Kotai Table",
+            "content": "<p><a href=\"\/products\/kotai-table-160x80-cm-dining-table-nature\" title=\"Kotai Table  160x80 cm  Nature\">View Product<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16674772222194__cbbe1091-e6c2-49a2-8912-da2942690574-1687786028e6c8e191-0",
+        "template--16674772222194__cbbe1091-e6c2-49a2-8912-da2942690574-1687786028e6c8e191-1",
+        "template--16674772222194__cbbe1091-e6c2-49a2-8912-da2942690574-1687786028e6c8e191-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/B2B_2000_x_600_DT.png",
+        "mobile_image": "shopify:\/\/shop_images\/B2B_1300x800_Mob.png",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "desktop_text_position": "place-self-start text-start",
+        "image_background": "",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
+      }
+    },
     "main": {
       "type": "main-collection",
       "settings": {
@@ -39,6 +109,7 @@
   },
   "order": [
     "banner",
+    "cbbe1091-e6c2-49a2-8912-da2942690574",
     "main"
   ]
 }

@@ -108,61 +108,6 @@
         "logo_item_border": ""
       }
     },
-    "727a7a45-3c79-4477-9774-17aaf7e5cf11": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "collection": "back-in-stock",
-        "products": [
-
-        ],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": false,
-        "products_count": 15,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 5,
-        "subheading": "",
-        "title": "Back in Stock",
-        "content": "",
-        "link_url": "",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
-    "34965d7f-30a5-4c95-92b9-4c5331b37609": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "pre-order-collection",
-        "products": [
-
-        ],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": false,
-        "products_count": 15,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 5,
-        "subheading": "",
-        "title": "Pre-order Collection",
-        "content": "<p>Dispatch date may vary per product<\/p>",
-        "link_url": "",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
     "3e3d8d39-3146-4d21-92db-a3e9f8bc5567": {
       "type": "featured-collection",
       "settings": {
@@ -661,8 +606,6 @@
   "order": [
     "slideshow",
     "5f812be6-aa51-42f1-9240-6cb6aebdc369",
-    "727a7a45-3c79-4477-9774-17aaf7e5cf11",
-    "34965d7f-30a5-4c95-92b9-4c5331b37609",
     "3e3d8d39-3146-4d21-92db-a3e9f8bc5567",
     "159b1d2e-65ee-4a87-a76f-f13a627b3da1",
     "collection-list",
