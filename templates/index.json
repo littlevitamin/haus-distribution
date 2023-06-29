@@ -62,9 +62,8 @@
         },
         "84b2ec4d-dacc-42d8-8c7a-50499406681e": {
           "type": "logo",
-          "disabled": true,
           "settings": {
-            "logo": "shopify:\/\/shop_images\/Simply_Miffy.png",
+            "logo": "shopify:\/\/shop_images\/Simply_Miffy_Logo.png",
             "brand_name": "MIFFY",
             "link": "shopify:\/\/collections\/miffy"
           }
