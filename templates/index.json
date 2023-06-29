@@ -628,6 +628,33 @@
         "button_background": "",
         "button_text_color": ""
       }
+    },
+    "766ee528-95de-4454-a617-681a2102d03c": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "pre-order-collection",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 15,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "subheading": "",
+        "title": "Pre-Order",
+        "content": "",
+        "link_url": "shopify:\/\/collections\/pre-order-collection",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
@@ -642,6 +669,7 @@
     "f97036d1-abc4-4f4d-9d58-c8d6806c3717",
     "6d07f598-35e8-4886-a458-85778b7d6b59",
     "f0206c56-488d-41a9-bab8-bcb27fec4a82",
-    "0daee94c-7c94-4b2a-8e23-e6d05600f74b"
+    "0daee94c-7c94-4b2a-8e23-e6d05600f74b",
+    "766ee528-95de-4454-a617-681a2102d03c"
   ]
 }
