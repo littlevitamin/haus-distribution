@@ -34,7 +34,7 @@ Supported variables
     {%- if product.template_suffix contains 'pre-order' -%}
       {%- capture button_content -%}{{ 'product.general.pre_order_button' | t }}{%- endcapture -%}
     {%- else -%}
-      {%- capture button_content -%}<div onclick="showAlert()">{% if product.selected_or_first_available_variant.inventory_quantity == 0 and cart.item_count > 0 %}Pre Order{% else %}{{ 'product.general.add_to_cart_button' | t }}{% endif %}</div>{%- endcapture -%}
+      {%- capture button_content -%}<div {% if product.selected_or_first_available_variant.inventory_quantity > 0 %}onclick="showAlert()"{% endif %}>{% if product.selected_or_first_available_variant.inventory_quantity == 0 and cart.item_count > 0 %}Pre Order{% else %}{{ 'product.general.add_to_cart_button' | t }}{% endif %}</div>{%- endcapture -%}
     {%- endif -%}
   {%- else -%}
     {%- capture button_content -%}{{ 'product.general.sold_out_button' | t }}{%- endcapture -%}
