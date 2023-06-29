@@ -10358,3 +10358,7 @@ content: '\f004';
 .product-info__sku {
   margin: 1px 0!important;
 }
+
+.brand-collection-url-icon > img {
+  margin: auto;
+}
