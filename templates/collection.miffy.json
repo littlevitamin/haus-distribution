@@ -1,0 +1,81 @@
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "collection_title_size": "h1",
+        "image_size": "sm",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "",
+        "featured_product_heading": "Featured product",
+        "text_color": "#ffffff",
+        "overlay_color": "#1d2f50",
+        "overlay_opacity": 30
+      }
+    },
+    "d331545f-1070-400d-a16a-56d1233af0e4": {
+      "type": "left-text-right-image",
+      "blocks": {
+        "template--16674772254962__d331545f-1070-400d-a16a-56d1233af0e4-1682408158007c2242-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NIJN_916_-_Cuddle_25_cm_Fluffy_green_8.jpg",
+            "image_rotation_degrees": 0,
+            "logo": "shopify:\/\/shop_images\/Simply_Miffy.png",
+            "subheading": "",
+            "title": true,
+            "description": true,
+            "button_url_1": "",
+            "button_text_1": "",
+            "button_url_2": "",
+            "button_text_2": "",
+            "button_url_3": "",
+            "button_text_3": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16674772254962__d331545f-1070-400d-a16a-56d1233af0e4-1682408158007c2242-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "products_per_page": 50,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "filter_layout": "sidebar",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_color_swatch": true,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": true,
+        "open_first_filter_group": false
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "d331545f-1070-400d-a16a-56d1233af0e4",
+    "main"
+  ]
+}

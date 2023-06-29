@@ -60,6 +60,15 @@
             "link": "shopify:\/\/collections\/little-dutch"
           }
         },
+        "84b2ec4d-dacc-42d8-8c7a-50499406681e": {
+          "type": "logo",
+          "disabled": true,
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Simply_Miffy.png",
+            "brand_name": "MIFFY",
+            "link": "shopify:\/\/collections\/miffy"
+          }
+        },
         "template--16674772058354__5f812be6-aa51-42f1-9240-6cb6aebdc369-1682066499456772f8-2": {
           "type": "logo",
           "settings": {
@@ -88,6 +97,7 @@
       "block_order": [
         "template--16674772058354__5f812be6-aa51-42f1-9240-6cb6aebdc369-1682066499456772f8-0",
         "template--16674772058354__5f812be6-aa51-42f1-9240-6cb6aebdc369-1682066499456772f8-1",
+        "84b2ec4d-dacc-42d8-8c7a-50499406681e",
         "template--16674772058354__5f812be6-aa51-42f1-9240-6cb6aebdc369-1682066499456772f8-2",
         "template--16674772058354__5f812be6-aa51-42f1-9240-6cb6aebdc369-1682066499456772f8-3",
         "template--16674772058354__5f812be6-aa51-42f1-9240-6cb6aebdc369-1682066499456772f8-4"
