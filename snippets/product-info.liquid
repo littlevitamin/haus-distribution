@@ -220,7 +220,7 @@
               {% endif %}
             {%- render 'buy-buttons', product: product, form_id: product_form_id, show_payment_button: block.settings.show_payment_button, atc_button_background: block.settings.atc_button_background, atc_button_text_color: block.settings.atc_button_text_color, payment_button_background: block.settings.payment_button_background, payment_button_text_color: block.settings.payment_button_text_color -%}
           </div>
-          {% if product.selected_or_first_available_variant.inventory_quantity == 0 and cart.item_count > 0 %}
+          {% if product.selected_or_first_available_variant.inventory_quantity == 0 and cart.item_count > 0 and product.available %}
             <p>Shipment starts on {{ product.selected_or_first_available_variant.metafields.fabrikator.next_available_date | date: "%b %d, %Y" }}</p>
           {% endif %}
         {%- endif -%}
