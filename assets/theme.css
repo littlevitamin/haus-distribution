@@ -10360,7 +10360,7 @@ content: '\f004';
 }
 
 @media screen and (max-width: 990px) {
-  .pointer-fine:hidden {
+  .pointer-fine:/hidden {
     display: none!important;
   }
 }
