@@ -10358,3 +10358,9 @@ content: '\f004';
 .product-info__sku {
   margin: 1px 0!important;
 }
+
+@media screen and (max-width: 990px) {
+  .pointer-fine:hidden {
+    display: none!important;
+  }
+}
