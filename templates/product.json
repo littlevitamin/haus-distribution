@@ -28,7 +28,7 @@
           "type": "liquid",
           "disabled": true,
           "settings": {
-            "liquid": "{% for variant in product.variants %}\nEAN: {{product.selected_or_first_available_variant.barcode}}\n{% endfor %}"
+            "liquid": "{% for variant in product.variants %}\n  {% if variant.id == product.selected_or_first_available_variant.id %}\n    EAN: {{ variant.barcode }}\n  {% endif %}\n{% endfor %}"
           }
         },
         "price": {
