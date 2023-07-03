@@ -26,6 +26,7 @@
         },
         "19053e04-a805-4295-a882-33ef6d9fdb8f": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "{% for variant in product.variants %}\nEAN: {{product.selected_or_first_available_variant.barcode}}\n{% endfor %}"
           }
