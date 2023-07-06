@@ -117,33 +117,6 @@
         "logo_item_border": ""
       }
     },
-    "db438d3f-3685-4616-9f40-70ce55296dd6": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "back-in-stock",
-        "products": [
-
-        ],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": false,
-        "products_count": 15,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 5,
-        "subheading": "",
-        "title": "Back In Stock",
-        "content": "",
-        "link_url": "shopify:\/\/collections\/back-in-stock",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
     "766ee528-95de-4454-a617-681a2102d03c": {
       "type": "featured-collection",
       "settings": {
@@ -161,6 +134,33 @@
         "title": "Pre-Order",
         "content": "",
         "link_url": "shopify:\/\/collections\/pre-order-collection",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "db438d3f-3685-4616-9f40-70ce55296dd6": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "back-in-stock",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 15,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "subheading": "",
+        "title": "Back In Stock",
+        "content": "",
+        "link_url": "shopify:\/\/collections\/back-in-stock",
         "link_text": "View all",
         "background": "",
         "background_gradient": "",
@@ -669,8 +669,8 @@
   "order": [
     "slideshow",
     "5f812be6-aa51-42f1-9240-6cb6aebdc369",
-    "db438d3f-3685-4616-9f40-70ce55296dd6",
     "766ee528-95de-4454-a617-681a2102d03c",
+    "db438d3f-3685-4616-9f40-70ce55296dd6",
     "3e3d8d39-3146-4d21-92db-a3e9f8bc5567",
     "159b1d2e-65ee-4a87-a76f-f13a627b3da1",
     "collection-list",
