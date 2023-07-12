@@ -147,7 +147,7 @@
     "db438d3f-3685-4616-9f40-70ce55296dd6": {
       "type": "featured-collection",
       "settings": {
-        "collection": "back-in-stock",
+        "collection": "back-in",
         "products": [
 
         ],
@@ -160,7 +160,7 @@
         "subheading": "",
         "title": "Back In Stock",
         "content": "",
-        "link_url": "shopify:\/\/collections\/back-in-stock",
+        "link_url": "shopify:\/\/collections\/back-in",
         "link_text": "View all",
         "background": "",
         "background_gradient": "",
