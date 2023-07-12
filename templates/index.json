@@ -120,7 +120,7 @@
     "766ee528-95de-4454-a617-681a2102d03c": {
       "type": "featured-collection",
       "settings": {
-        "collection": "pre-order-collection",
+        "collection": "back-in-stock",
         "products": [
 
         ],
@@ -133,7 +133,7 @@
         "subheading": "",
         "title": "Pre-Order",
         "content": "",
-        "link_url": "shopify:\/\/collections\/pre-order-collection",
+        "link_url": "shopify:\/\/collections\/back-in-stock",
         "link_text": "View all",
         "background": "",
         "background_gradient": "",
