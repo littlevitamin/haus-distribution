@@ -148,7 +148,7 @@
       "type": "featured-collection",
       "disabled": true,
       "settings": {
-        "collection": "back-in",
+        "collection": "pre-order",
         "products": [
 
         ],
@@ -161,7 +161,7 @@
         "subheading": "",
         "title": "Pre-Order",
         "content": "",
-        "link_url": "shopify:\/\/collections\/back-in",
+        "link_url": "shopify:\/\/collections\/pre-order",
         "link_text": "View all",
         "background": "",
         "background_gradient": "",
