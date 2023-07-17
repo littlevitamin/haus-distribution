@@ -21,7 +21,7 @@
           }
         },
         "ac47f1fc-e732-49d0-a1ef-310c031539c5": {
-          "type": "shopify:\/\/apps\/virtual-inventory-assistant\/blocks\/cart-embed\/bb5d39a7-1a52-44bc-9d6a-93a2f8a651ba",
+          "type": "shopify:\/\/apps\/fabrikator-inventory-assistant\/blocks\/cart-embed\/bb5d39a7-1a52-44bc-9d6a-93a2f8a651ba",
           "settings": {
             "preOrderCartMessage": "You have pre-order product(s) on your cart."
           }
@@ -36,7 +36,7 @@
       "settings": {
         "show_shipping_estimator": true,
         "show_payment_icons": true,
-        "show_forecast": false
+        "show_forecast": true
       }
     }
   },
