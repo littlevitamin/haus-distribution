@@ -40,10 +40,27 @@
             "button_url_3": "https:\/\/www.dropbox.com\/sh\/2dt3l2ab2m71sgz\/AAAoFFzoHS0UK3LpqZ7cASzNa?dl=0",
             "button_text_3": "Brand Book & Catalogues"
           }
+        },
+        "61356ec9-5bb6-4bf6-b6ae-2a0693f83254": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": true,
+            "description": true,
+            "button_url_1": "",
+            "button_text_1": "",
+            "button_url_2": "",
+            "button_text_2": "",
+            "button_url_3": "",
+            "button_text_3": ""
+          }
         }
       },
       "block_order": [
-        "template--16674772254962__d331545f-1070-400d-a16a-56d1233af0e4-1682408158007c2242-0"
+        "template--16674772254962__d331545f-1070-400d-a16a-56d1233af0e4-1682408158007c2242-0",
+        "61356ec9-5bb6-4bf6-b6ae-2a0693f83254"
       ],
       "settings": {
         "full_width": true,
