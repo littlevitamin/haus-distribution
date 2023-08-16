@@ -6,16 +6,16 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bathsuit_ruffles-_Little_Pink_Flowers-_5.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Bathsuit_ruffles-_Little_Pink_Flowers-_5.jpg",
+            "image": "shopify:\/\/shop_images\/LD7117_-_Doll_s_house_-_Poppenhuis_2.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/LD7117_-_Doll_s_house_-_Poppenhuis_2.jpg",
             "content_max_width": 700,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
-            "subheading": "Welcome to our new B2B website",
-            "title": "Shop Summer Beachwear & Accessories",
+            "subheading": "Pre-order now",
+            "title": "New Little Dutch Dollhouses",
             "heading_tag": "h1",
             "button_text": "",
-            "button_link": "https:\/\/hausb2b.com\/collections\/swimwear",
+            "button_link": "shopify:\/\/collections\/pre-order",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
@@ -299,7 +299,6 @@
     },
     "e749a51b-463d-48d1-9ed4-273c34f498b2": {
       "type": "hot-spots",
-      "disabled": true,
       "blocks": {
         "template--16674772058354__e749a51b-463d-48d1-9ed4-273c34f498b2-16824104323842fba1-0": {
           "type": "item",
@@ -356,6 +355,7 @@
         "template--16674772058354__e749a51b-463d-48d1-9ed4-273c34f498b2-16824104323842fba1-2",
         "6a99a745-c98c-408d-9d6a-0f705dd32839"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "image": "shopify:\/\/shop_images\/OYOY-L300291-Quilted_Aya-L10238-Moto_L300486-L300486-Striped-L10176-Kasa-Putki-nuku.jpg",
