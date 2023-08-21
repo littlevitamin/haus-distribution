@@ -272,28 +272,12 @@
             "overlay_color": "#000000",
             "overlay_opacity": 30
           }
-        },
-        "c5914493-7a9f-4ee9-a294-7b38f2e82d33": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "test",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
         }
       },
       "block_order": [
         "collection-1",
         "collection-2",
-        "collection-3",
-        "c5914493-7a9f-4ee9-a294-7b38f2e82d33"
+        "collection-3"
       ],
       "settings": {
         "full_width": true,
