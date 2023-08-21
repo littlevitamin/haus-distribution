@@ -275,6 +275,7 @@
         },
         "c5914493-7a9f-4ee9-a294-7b38f2e82d33": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "test",
             "subheading": "",
