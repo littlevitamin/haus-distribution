@@ -2,11 +2,39 @@
   "type": "footer",
   "name": "Footer group",
   "sections": {
+    "b3110f68-fb5d-4a9a-896e-8c94b730b104": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "collection": "",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Featured collection",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "16877871991743a5bc": {
       "type": "apps",
       "blocks": {
         "41766ec7-ea22-4359-8faf-3124ac76a4ad": {
-          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "heading_size": 20,
             "feed_width": 100,
@@ -74,6 +102,7 @@
     }
   },
   "order": [
+    "b3110f68-fb5d-4a9a-896e-8c94b730b104",
     "16877871991743a5bc",
     "footer"
   ]

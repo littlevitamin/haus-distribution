@@ -50,6 +50,7 @@
         },
         "9c8ae8fc-56fc-4546-a08e-15b385574ea0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/OYOY-L301043-L301044-Table-L300889-L300890-L300891-L300892-L300893-Sofuto-L301054-L301055-L301056-Yuka_908004ab-132d-4a55-afa5-73f53f1c1e16.jpg",
             "mobile_image": "shopify:\/\/shop_images\/OYOY-L301043-L301044-Table-L300889-L300890-L300891-L300892-L300893-Sofuto-L301054-L301055-L301056-Yuka_908004ab-132d-4a55-afa5-73f53f1c1e16.jpg",
@@ -166,8 +167,9 @@
     },
     "dfe0e284-9a62-481c-b942-91439f1df3d6": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
-        "collection": "pre-order",
+        "collection": "oyoy-christmas-aw23",
         "products": [
 
         ],
@@ -178,7 +180,7 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 5,
         "subheading": "",
-        "title": "Pre-Order",
+        "title": "OYOY Christmas",
         "content": "",
         "link_url": "",
         "link_text": "View all",
@@ -393,13 +395,26 @@
             "title": "Kasa Lamp - Offwhite",
             "content": "<p><a href=\"https:\/\/hausb2b.com\/products\/table-lamp-kasa-table-lamp-offwhite?_pos=8&_psq=kasa&_ss=e&_v=1.0\" target=\"_blank\" title=\"https:\/\/hausb2b.com\/products\/table-lamp-kasa-table-lamp-offwhite?_pos=8&_psq=kasa&_ss=e&_v=1.0\">View Product<\/a><\/p>"
           }
+        },
+        "33a7abb5-1543-4be7-8910-3d63e67f9c95": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 30,
+            "vertical_position": 30,
+            "horizontal_position_mobile": 30,
+            "vertical_position_mobile": 30,
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.<\/p>"
+          }
         }
       },
       "block_order": [
         "template--16674772058354__e749a51b-463d-48d1-9ed4-273c34f498b2-16824104323842fba1-0",
         "template--16674772058354__e749a51b-463d-48d1-9ed4-273c34f498b2-16824104323842fba1-1",
         "template--16674772058354__e749a51b-463d-48d1-9ed4-273c34f498b2-16824104323842fba1-2",
-        "6a99a745-c98c-408d-9d6a-0f705dd32839"
+        "6a99a745-c98c-408d-9d6a-0f705dd32839",
+        "33a7abb5-1543-4be7-8910-3d63e67f9c95"
       ],
       "disabled": true,
       "settings": {
