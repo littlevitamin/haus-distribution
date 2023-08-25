@@ -27,6 +27,7 @@
         },
         "a0d9edd1-98e6-443f-94a3-9723e027bb35": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/OYOY-L300932-Cushion-M107494-Rabbit-M107495-Panda-M107408-M107409-Snackbowl-M107436-Cup-M107180-Cloud-M107416-Cup_1.jpg",
             "mobile_image": "shopify:\/\/shop_images\/OYOY-L300932-Cushion-M107494-Rabbit-M107495-Panda-M107408-M107409-Snackbowl-M107436-Cup-M107180-Cloud-M107416-Cup_1.jpg",
@@ -49,15 +50,16 @@
         },
         "9c8ae8fc-56fc-4546-a08e-15b385574ea0": {
           "type": "image",
-          "disabled": true,
           "settings": {
+            "image": "shopify:\/\/shop_images\/OYOY-L301043-L301044-Table-L300889-L300890-L300891-L300892-L300893-Sofuto-L301054-L301055-L301056-Yuka_908004ab-132d-4a55-afa5-73f53f1c1e16.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/OYOY-L301043-L301044-Table-L300889-L300890-L300891-L300892-L300893-Sofuto-L301054-L301055-L301056-Yuka_908004ab-132d-4a55-afa5-73f53f1c1e16.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide title",
-            "heading_tag": "h0",
-            "button_text": "",
+            "subheading": "New Collection",
+            "title": "OYOY Living AW23",
+            "heading_tag": "h2",
+            "button_text": "Explore",
             "button_link": "",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
