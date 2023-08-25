@@ -167,11 +167,14 @@
     },
     "dfe0e284-9a62-481c-b942-91439f1df3d6": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "collection": "oyoy-christmas-aw23",
         "products": [
-
+          "christmas-calender-candle-candle-lavender-amber-1",
+          "christmas-calender-circus-christmas-calendar-beige-brown",
+          "natale-christmas-glass-ball-christmas",
+          "christmas-topstar-christmas-ornament-brass",
+          "m107361-lion-christmas-stocking-christmas"
         ],
         "full_width": true,
         "stack_products": false,
