@@ -24,10 +24,33 @@
             "background": "",
             "background_gradient": ""
           }
+        },
+        "a0d9edd1-98e6-443f-94a3-9723e027bb35": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OYOY-L300932-Cushion-M107494-Rabbit-M107495-Panda-M107408-M107409-Snackbowl-M107436-Cup-M107180-Cloud-M107416-Cup_1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/OYOY-L300932-Cushion-M107494-Rabbit-M107495-Panda-M107408-M107409-Snackbowl-M107436-Cup-M107180-Cloud-M107416-Cup_1.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "NEW COLLECTION",
+            "title": "OYOY AW22",
+            "heading_tag": "h0",
+            "button_text": "Explore",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
         }
       },
       "block_order": [
-        "slide-1"
+        "slide-1",
+        "a0d9edd1-98e6-443f-94a3-9723e027bb35"
       ],
       "settings": {
         "full_width": true,
