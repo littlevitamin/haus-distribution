@@ -170,16 +170,17 @@
       "settings": {
         "collection": "oyoy-christmas-aw23",
         "products": [
-          "christmas-calender-candle-candle-lavender-amber-1",
-          "christmas-calender-circus-christmas-calendar-beige-brown",
+          "m107361-lion-christmas-stocking-christmas",
+          "m107360-rudolf-christmas-stocking-christmas",
           "natale-christmas-glass-ball-christmas",
-          "christmas-topstar-christmas-ornament-brass",
-          "m107361-lion-christmas-stocking-christmas"
+          "christmas-calender-circus-christmas-calendar-beige-brown",
+          "rudolf-knitted-christmas-hat-size-4-7-years-christmas",
+          "christmas-topstar-christmas-ornament-brass"
         ],
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": false,
-        "products_count": 15,
+        "products_count": 20,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 5,
         "subheading": "",
