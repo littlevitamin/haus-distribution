@@ -3,14 +3,14 @@
     "banner": {
       "type": "collection-banner",
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "allow_transparent_header": true,
         "enable_parallax": true,
         "show_collection_title": true,
         "show_collection_description": true,
         "show_collection_image": true,
-        "collection_title_size": "h0",
-        "image_size": "auto",
+        "collection_title_size": "h2",
+        "image_size": "sm",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "featured_product": "",
@@ -22,7 +22,6 @@
     },
     "cbbe1091-e6c2-49a2-8912-da2942690574": {
       "type": "hot-spots",
-      "disabled": true,
       "blocks": {
         "template--16674772222194__cbbe1091-e6c2-49a2-8912-da2942690574-1687786028e6c8e191-0": {
           "type": "item",
@@ -66,6 +65,7 @@
         "template--16674772222194__cbbe1091-e6c2-49a2-8912-da2942690574-1687786028e6c8e191-1",
         "template--16674772222194__cbbe1091-e6c2-49a2-8912-da2942690574-1687786028e6c8e191-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "image": "shopify:\/\/shop_images\/B2B_2000_x_600_DT.png",
