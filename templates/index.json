@@ -3,6 +3,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "slide-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LD_-_Winter_Collection_2023_59.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/LD_-_Winter_Collection_2023_59.jpg",
+            "content_max_width": 700,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "New Collection",
+            "title": "Christmas & Winter Clothing",
+            "heading_tag": "h1",
+            "button_text": "Explore",
+            "button_link": "shopify:\/\/collections\/christmas-clothing",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#1d2f50",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
         "a0d9edd1-98e6-443f-94a3-9723e027bb35": {
           "type": "image",
           "settings": {
@@ -46,34 +68,12 @@
             "background": "",
             "background_gradient": ""
           }
-        },
-        "slide-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/LD_-_Winter_Collection_2023_59.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/LD_-_Winter_Collection_2023_59.jpg",
-            "content_max_width": 700,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "New Collection",
-            "title": "Christmas & Winter Clothing",
-            "heading_tag": "h1",
-            "button_text": "Explore",
-            "button_link": "shopify:\/\/collections\/christmas-clothing",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#1d2f50",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
         }
       },
       "block_order": [
+        "slide-1",
         "a0d9edd1-98e6-443f-94a3-9723e027bb35",
-        "9c8ae8fc-56fc-4546-a08e-15b385574ea0",
-        "slide-1"
+        "9c8ae8fc-56fc-4546-a08e-15b385574ea0"
       ],
       "settings": {
         "full_width": true,
