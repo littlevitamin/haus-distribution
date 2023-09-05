@@ -284,7 +284,7 @@
       "type": "featured-collection",
       "disabled": true,
       "settings": {
-        "collection": "bestsellers",
+        "collection": "pre-order",
         "products": [
 
         ],
@@ -295,7 +295,7 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 5,
         "subheading": "",
-        "title": "Best Selling",
+        "title": "Pre-Order",
         "content": "",
         "link_url": "",
         "link_text": "View all",
