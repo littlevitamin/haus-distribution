@@ -7,6 +7,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_design_4.png",
+            "mobile_image": "shopify:\/\/shop_images\/The_wooden_vintage_walker_wagon_..._was_a_huge_hit_and_was_really_well_made_with_a_touch_of_fun_a_theme_that_runs_through_all_of_Little_Dutch_s_toys._Eleonore_Crompton_Deputy_Editor_J_a71f70eb-178c-480d-b96e-c26146feee15.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
