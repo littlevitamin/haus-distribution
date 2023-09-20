@@ -297,6 +297,7 @@
     },
     "dfe0e284-9a62-481c-b942-91439f1df3d6": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "oyoy-mini",
         "products": [
@@ -329,9 +330,8 @@
     },
     "3e3d8d39-3146-4d21-92db-a3e9f8bc5567": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
-        "collection": "new-in",
+        "collection": "oyoy-pre-order",
         "products": [
 
         ],
