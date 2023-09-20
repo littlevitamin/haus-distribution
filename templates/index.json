@@ -49,6 +49,7 @@
         },
         "cdad8dff-78b9-41c5-94f4-c3579243a895": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/LD7124_Wooden_Tricycle_olive_FSC_4.jpg",
             "mobile_image": "shopify:\/\/shop_images\/LD7124_Wooden_Tricycle_olive_FSC_4_0c60d0ce-5b80-4225-a6f6-70d6628c6600.jpg",
