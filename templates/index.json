@@ -13,7 +13,7 @@
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "Now available to pre-order",
             "title": "The Little Farm Collection",
-            "heading_tag": "h1",
+            "heading_tag": "h0",
             "button_text": "",
             "button_link": "shopify:\/\/collections\/pre-order",
             "text_color": "#ffffff",
