@@ -37,12 +37,13 @@
             "button_text_1": "Product Data",
             "button_url_2": "https:\/\/www.dropbox.com\/s\/wbs81aica55f0tm\/Little%20Dutch%20Photography%20Link.pdf?dl=0",
             "button_text_2": "Imagery",
-            "button_url_3": "",
-            "button_text_3": ""
+            "button_url_3": "https:\/\/www.dropbox.com\/work\/Lizzie%20Carroll\/Haus%20B2B%20%7C%20Brand%20Folders\/Little%20Dutch\/About%20the%20brand",
+            "button_text_3": "Brand Book & Catalogue"
           }
         },
         "61356ec9-5bb6-4bf6-b6ae-2a0693f83254": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image_rotation_degrees": 0,
             "subheading": "",
