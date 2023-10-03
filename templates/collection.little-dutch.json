@@ -89,6 +89,33 @@
         "button_text_color": ""
       }
     },
+    "00dd2189-a380-457f-9590-2e04724aad51": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "display-shelving-pos",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 4,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "POS & Display",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "main": {
       "type": "main-collection",
       "settings": {
@@ -109,6 +136,7 @@
   "order": [
     "banner",
     "d331545f-1070-400d-a16a-56d1233af0e4",
+    "00dd2189-a380-457f-9590-2e04724aad51",
     "main"
   ]
 }
