@@ -92,6 +92,7 @@
     },
     "00dd2189-a380-457f-9590-2e04724aad51": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "display-shelving-pos",
         "products": [
@@ -104,7 +105,7 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "subheading": "",
-        "title": "POS & Display Shelving",
+        "title": "POS & Display",
         "content": "<p>Please contact operations@hausdistribution.com to discuss POS pricing and availability.<\/p>",
         "link_url": "",
         "link_text": "View all",
