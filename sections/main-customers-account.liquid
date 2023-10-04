@@ -80,7 +80,7 @@
                           <th>{{ 'customer.order.payment_status' | t }}</th>
                           <th>{{ 'customer.order.fulfillment_status' | t }}</th>
                           <th class="text-end">{{ 'customer.order.total' | t }}</th>
-                          <th><span class="table">Invoice</span></th>
+                    
                         </tr>
                       </thead>
 
@@ -92,10 +92,7 @@
                             <td class="text-subdued">{{ order.financial_status_label }}</td>
                             <td class="text-subdued">{{ order.fulfillment_status_label }}</td>
                             <td class="text-subdued text-end">{{ order.total_net_amount | money }}</td>
-                            <td class="invoice">
-                            <a target="_blank" href="{{ shop.url }}/apps/sufio/invoice/?id={{ order.id }}&number={{ order.order_number }}">Download</a>
-                          </span>
-                        </td>
+                        
                           </tr>
                         {%- endfor -%}
                       </tbody>
