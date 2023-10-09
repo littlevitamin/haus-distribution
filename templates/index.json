@@ -271,7 +271,7 @@
       "type": "featured-collection",
       "disabled": true,
       "settings": {
-        "collection": "pre-order",
+        "collection": "oyoy-bestsellers",
         "products": [
 
         ],
@@ -297,7 +297,6 @@
     },
     "3e3d8d39-3146-4d21-92db-a3e9f8bc5567": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "collection": "oyoy-pre-order",
         "products": [
