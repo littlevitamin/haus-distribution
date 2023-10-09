@@ -209,6 +209,33 @@
         "logo_item_border": ""
       }
     },
+    "db438d3f-3685-4616-9f40-70ce55296dd6": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "back-in-stock",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 15,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "subheading": "",
+        "title": "Back In Stock",
+        "content": "",
+        "link_url": "shopify:\/\/collections\/back-in-stock",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "0ba9dbf9-426d-4276-9ee2-e8499c2d4c87": {
       "type": "featured-collection",
       "settings": {
@@ -230,33 +257,6 @@
         "title": "Christmas & Winter Clothing",
         "content": "",
         "link_url": "",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
-    "db438d3f-3685-4616-9f40-70ce55296dd6": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "back-in-stock",
-        "products": [
-
-        ],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": false,
-        "products_count": 15,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 5,
-        "subheading": "",
-        "title": "Back In Stock",
-        "content": "",
-        "link_url": "shopify:\/\/collections\/back-in-stock",
         "link_text": "View all",
         "background": "",
         "background_gradient": "",
@@ -297,6 +297,7 @@
     },
     "3e3d8d39-3146-4d21-92db-a3e9f8bc5567": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "oyoy-pre-order",
         "products": [
@@ -523,6 +524,7 @@
     },
     "958fd2ba-605f-48ae-b321-13924898af81": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -812,8 +814,8 @@
   "order": [
     "slideshow",
     "5f812be6-aa51-42f1-9240-6cb6aebdc369",
-    "0ba9dbf9-426d-4276-9ee2-e8499c2d4c87",
     "db438d3f-3685-4616-9f40-70ce55296dd6",
+    "0ba9dbf9-426d-4276-9ee2-e8499c2d4c87",
     "159b1d2e-65ee-4a87-a76f-f13a627b3da1",
     "3e3d8d39-3146-4d21-92db-a3e9f8bc5567",
     "dfe0e284-9a62-481c-b942-91439f1df3d6",
