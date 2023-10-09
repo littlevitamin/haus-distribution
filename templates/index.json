@@ -325,14 +325,9 @@
     "dfe0e284-9a62-481c-b942-91439f1df3d6": {
       "type": "featured-collection",
       "settings": {
-        "collection": "oyoy-mini",
+        "collection": "oyoy-new-in",
         "products": [
-          "bath-mat-crocodile-gustav-bathroom",
-          "m107317-banana-tufted-rug-rug",
-          "billy-dino-teether-rubber-toy",
-          "m107402-iro-beanbag-pouf",
-          "m107520-lobo-lion-cuddle-cloth-muslin",
-          "m107518-moni-muslin-garland-mini-interior"
+
         ],
         "full_width": true,
         "stack_products": false,
