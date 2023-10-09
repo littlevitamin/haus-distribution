@@ -324,7 +324,6 @@
     },
     "dfe0e284-9a62-481c-b942-91439f1df3d6": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "collection": "oyoy-mini",
         "products": [
@@ -342,7 +341,7 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 5,
         "subheading": "",
-        "title": "OYOY Mini",
+        "title": "OYOY New In",
         "content": "",
         "link_url": "",
         "link_text": "View all",
