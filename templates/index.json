@@ -3,6 +3,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "9c8ae8fc-56fc-4546-a08e-15b385574ea0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OYOY-L301043-L301044-Table-L300889-L300890-L300891-L300892-L300893-Sofuto-L301054-L301055-L301056-Yuka_908004ab-132d-4a55-afa5-73f53f1c1e16.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/OYOY-L301043-L301044-Table-L300889-L300890-L300891-L300892-L300893-Sofuto-L301054-L301055-L301056-Yuka_908004ab-132d-4a55-afa5-73f53f1c1e16.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "New Collection",
+            "title": "OYOY Living AW23",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "shopify:\/\/collections\/oyoy-living-aw23",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#1d2f50",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
         "cdad8dff-78b9-41c5-94f4-c3579243a895": {
           "type": "image",
           "settings": {
@@ -19,6 +41,28 @@
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "slide-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LD4566_-_Christmas_Evi_-_Jake_4.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/LD4566---christmas-jake---2_47910eca-2c0d-4ce3-972f-74e43d6a397c.jpg",
+            "content_max_width": 700,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "New Collection",
+            "title": "Christmas Toys",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "shopify:\/\/collections\/christmas-toys",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#1d2f50",
             "overlay_color": "#000000",
             "overlay_opacity": 30,
             "background": "",
@@ -68,58 +112,14 @@
             "background": "",
             "background_gradient": ""
           }
-        },
-        "9c8ae8fc-56fc-4546-a08e-15b385574ea0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/OYOY-L301043-L301044-Table-L300889-L300890-L300891-L300892-L300893-Sofuto-L301054-L301055-L301056-Yuka_908004ab-132d-4a55-afa5-73f53f1c1e16.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/OYOY-L301043-L301044-Table-L300889-L300890-L300891-L300892-L300893-Sofuto-L301054-L301055-L301056-Yuka_908004ab-132d-4a55-afa5-73f53f1c1e16.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "New Collection",
-            "title": "OYOY Living AW23",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "shopify:\/\/collections\/oyoy-living-aw23",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#1d2f50",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
-        "slide-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/LD4566_-_Christmas_Evi_-_Jake_4.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/LD4566---christmas-jake---2_47910eca-2c0d-4ce3-972f-74e43d6a397c.jpg",
-            "content_max_width": 700,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "New Collection",
-            "title": "Christmas Toys",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "shopify:\/\/collections\/christmas-toys",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#1d2f50",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
         }
       },
       "block_order": [
-        "cdad8dff-78b9-41c5-94f4-c3579243a895",
-        "5f4d1723-6f66-4121-bd45-d226ea3c804b",
-        "a0d9edd1-98e6-443f-94a3-9723e027bb35",
         "9c8ae8fc-56fc-4546-a08e-15b385574ea0",
-        "slide-1"
+        "cdad8dff-78b9-41c5-94f4-c3579243a895",
+        "slide-1",
+        "5f4d1723-6f66-4121-bd45-d226ea3c804b",
+        "a0d9edd1-98e6-443f-94a3-9723e027bb35"
       ],
       "settings": {
         "full_width": true,
