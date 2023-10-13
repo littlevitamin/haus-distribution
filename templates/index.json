@@ -211,6 +211,7 @@
     },
     "159b1d2e-65ee-4a87-a76f-f13a627b3da1": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "pre-order",
         "products": [
