@@ -3,6 +3,29 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "slide-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LD4564_-_Dutch_Farmer_Rosa_2.png",
+            "mobile_image": "shopify:\/\/shop_images\/LD4564_-_Dutch_Farmer_Rosa_2_01059124-4a87-4320-bac1-67fff5f7d911.png",
+            "content_max_width": 700,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "New Arrivals",
+            "title": "Little Farm Toys",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "shopify:\/\/collections\/little-farm",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#1d2f50",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
         "9c8ae8fc-56fc-4546-a08e-15b385574ea0": {
           "type": "image",
           "settings": {
@@ -47,19 +70,19 @@
             "background_gradient": ""
           }
         },
-        "slide-1": {
+        "a0d9edd1-98e6-443f-94a3-9723e027bb35": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/LD4564_-_Dutch_Farmer_Rosa_2.png",
-            "mobile_image": "shopify:\/\/shop_images\/LD4564_-_Dutch_Farmer_Rosa_2_01059124-4a87-4320-bac1-67fff5f7d911.png",
-            "content_max_width": 700,
+            "image": "shopify:\/\/shop_images\/B2B_Desktop_Homepage_Banner_1.png",
+            "mobile_image": "shopify:\/\/shop_images\/B2B_Mobile_Homepage_Banner.png",
+            "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "New Arrivals",
-            "title": "Little Farm Toys",
+            "subheading": "OYOY Mini Interior Collection",
+            "title": "Gold Winner | Best Children's Interior Brand\/Retailer",
             "heading_tag": "h0",
             "button_text": "",
-            "button_link": "shopify:\/\/collections\/little-farm",
+            "button_link": "shopify:\/\/collections\/oyoy-mini-aw23",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#1d2f50",
@@ -90,36 +113,14 @@
             "background": "",
             "background_gradient": ""
           }
-        },
-        "a0d9edd1-98e6-443f-94a3-9723e027bb35": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/B2B_Desktop_Homepage_Banner_1.png",
-            "mobile_image": "shopify:\/\/shop_images\/B2B_Mobile_Homepage_Banner.png",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "OYOY Mini Interior Collection",
-            "title": "Gold Winner | Best Children's Interior Brand\/Retailer",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "shopify:\/\/collections\/oyoy-mini-aw23",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#1d2f50",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
         }
       },
       "block_order": [
+        "slide-1",
         "9c8ae8fc-56fc-4546-a08e-15b385574ea0",
         "cdad8dff-78b9-41c5-94f4-c3579243a895",
-        "slide-1",
-        "5f4d1723-6f66-4121-bd45-d226ea3c804b",
-        "a0d9edd1-98e6-443f-94a3-9723e027bb35"
+        "a0d9edd1-98e6-443f-94a3-9723e027bb35",
+        "5f4d1723-6f66-4121-bd45-d226ea3c804b"
       ],
       "settings": {
         "full_width": true,
