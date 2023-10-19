@@ -211,6 +211,7 @@
     },
     "fc50f29b-53aa-40dd-95d5-981c1897b610": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "little-farm-newborn-naturals-textiles-collection",
         "products": [
