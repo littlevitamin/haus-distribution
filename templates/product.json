@@ -86,9 +86,10 @@
           }
         },
         "a552ec1f-ac8c-4039-bc94-28adc33ea107": {
-          "type": "shopify:\/\/apps\/virtual-inventory-assistant\/blocks\/app-block\/bb5d39a7-1a52-44bc-9d6a-93a2f8a651ba",
+          "type": "shopify:\/\/apps\/fabrikator-inventory-assistant\/blocks\/app-block\/bb5d39a7-1a52-44bc-9d6a-93a2f8a651ba",
           "settings": {
-            "shipmentInfoText": "Shipment starts on:"
+            "shipmentInfoText": "Shipment starts on:",
+            "date_format": "english"
           }
         }
       },
@@ -141,7 +142,7 @@
             "heading_7": "Materials",
             "heading_8": "Age",
             "heading_9": "Colour",
-            "heading_10": "",
+            "heading_10": "EAN{{ product.metafields.custom.ean.value }}",
             "heading_11": "",
             "heading_12": "",
             "heading_13": "",
@@ -167,7 +168,7 @@
             "value_7": "<p>{{ block.settings.product.metafields.custom.materials.value }}<\/p>",
             "value_8": "<p>{{ block.settings.product.metafields.custom.age.value }}<\/p>",
             "value_9": "<p>{{ block.settings.product.metafields.custom.colour.value }}<\/p>",
-            "value_10": "",
+            "value_10": "<p>{{ block.settings.product.metafields.custom.ean.value }}<\/p>",
             "value_11": "",
             "value_12": "",
             "value_13": "",
