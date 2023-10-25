@@ -142,7 +142,7 @@
             "heading_7": "Materials",
             "heading_8": "Age",
             "heading_9": "Colour",
-            "heading_10": "EAN{{ product.metafields.custom.ean.value }}",
+            "heading_10": "EAN",
             "heading_11": "",
             "heading_12": "",
             "heading_13": "",
