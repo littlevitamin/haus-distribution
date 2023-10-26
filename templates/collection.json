@@ -11,6 +11,8 @@
         "show_collection_image": true,
         "collection_title_size": "h2",
         "image_size": "sm",
+        "image": "shopify:\/\/shop_images\/Untitled_design_c03d6a59-c478-40b4-a5b0-5037fd5cdb2d.png",
+        "mobile_image": "shopify:\/\/shop_images\/Untitled_design_1_3948ed37-8792-4f6a-a306-042aca14f9c1.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "featured_product": "",
