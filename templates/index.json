@@ -209,6 +209,33 @@
         "logo_item_border": ""
       }
     },
+    "a663f1a4-059e-4e32-82b0-e4f2a0516bb4": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "pre-order-little-dutch",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 5,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "subheading": "",
+        "title": "Little Dutch Pre-order",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "dfe0e284-9a62-481c-b942-91439f1df3d6": {
       "type": "featured-collection",
       "settings": {
@@ -236,36 +263,9 @@
         "product_card_text_color": ""
       }
     },
-    "a663f1a4-059e-4e32-82b0-e4f2a0516bb4": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "collection": "pre-order-little-dutch",
-        "products": [
-
-        ],
-        "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_count": 5,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 5,
-        "subheading": "",
-        "title": "Little Dutch Pre-order",
-        "content": "",
-        "link_url": "",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
     "db438d3f-3685-4616-9f40-70ce55296dd6": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "back-in-stock",
         "products": [
@@ -862,8 +862,8 @@
   "order": [
     "slideshow",
     "5f812be6-aa51-42f1-9240-6cb6aebdc369",
-    "dfe0e284-9a62-481c-b942-91439f1df3d6",
     "a663f1a4-059e-4e32-82b0-e4f2a0516bb4",
+    "dfe0e284-9a62-481c-b942-91439f1df3d6",
     "db438d3f-3685-4616-9f40-70ce55296dd6",
     "fc50f29b-53aa-40dd-95d5-981c1897b610",
     "159b1d2e-65ee-4a87-a76f-f13a627b3da1",
