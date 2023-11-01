@@ -238,6 +238,7 @@
     },
     "a663f1a4-059e-4e32-82b0-e4f2a0516bb4": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "pre-order-little-dutch",
         "products": [
@@ -292,7 +293,6 @@
     },
     "db438d3f-3685-4616-9f40-70ce55296dd6": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "collection": "back-in-stock",
         "products": [
