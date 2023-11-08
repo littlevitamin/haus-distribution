@@ -27,6 +27,7 @@
         },
         "a0d9edd1-98e6-443f-94a3-9723e027bb35": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Little_Dutch_-_Newborn_Naturals_-_Baby_Bunny_31.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Little_Dutch_-_Newborn_Naturals_-_Baby_Bunny_31_bb028c14-f877-4827-8832-ed88cd6afdce.jpg",
@@ -266,6 +267,7 @@
     },
     "fc50f29b-53aa-40dd-95d5-981c1897b610": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "little-farm-newborn-naturals-textiles-collection",
         "products": [
