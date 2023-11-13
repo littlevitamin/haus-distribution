@@ -204,7 +204,7 @@
         "content": "",
         "text_alignment": "center",
         "items_per_row": 6,
-        "background": "",
+        "background": "#f4a6a2",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
