@@ -125,13 +125,13 @@
       ],
       "settings": {
         "full_width": false,
-        "allow_transparent_header": true,
+        "allow_transparent_header": false,
         "image_size": "lg",
         "controls_type": "dots",
         "transition_type": "fade_with_text",
         "autoplay": true,
         "cycle_speed": 6,
-        "background": "#f4a6a2",
+        "background": "#ffffff",
         "background_gradient": ""
       }
     },
