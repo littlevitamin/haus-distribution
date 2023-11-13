@@ -7,7 +7,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Black_Friday_Sale.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/B2B_home_page_banner_MOB_3000_x_3000px.png",
+            "mobile_image": "shopify:\/\/shop_images\/B2B_home_page_banner_MOB_3000_x_3000px_1.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
