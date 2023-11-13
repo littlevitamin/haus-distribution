@@ -59,7 +59,7 @@
       ],
       "settings": {
         "enable_sticky": true,
-        "hide_on_scroll": true,
+        "hide_on_scroll": false,
         "logo": "shopify:\/\/shop_images\/Haus_Logo_FullColour_RGB.png",
         "logo_max_width": 140,
         "logo_mobile_max_width": 80,
