@@ -73,6 +73,7 @@
         },
         "cdad8dff-78b9-41c5-94f4-c3579243a895": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/LD_-_Christmas_Collection_2023_4_a99cf8e6-739a-4c6f-a22e-b8ebabf6d561.jpg",
             "mobile_image": "shopify:\/\/shop_images\/LD_-_Christmas_Collection_2023_4_f647bea8-5a63-4169-a7b7-e3bd17d39457.jpg",
