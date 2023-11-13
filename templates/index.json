@@ -5,7 +5,6 @@
       "blocks": {
         "9c8ae8fc-56fc-4546-a08e-15b385574ea0": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Black_Friday_Sale.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Black_Friday_Sale.jpg",
