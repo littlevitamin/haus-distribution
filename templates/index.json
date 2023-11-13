@@ -5,15 +5,14 @@
       "blocks": {
         "9c8ae8fc-56fc-4546-a08e-15b385574ea0": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/B2B_Home_PAGE_banner_desktop_2800_x_1000_1.png",
+            "image": "shopify:\/\/shop_images\/Black_Friday_Sale.jpg",
             "mobile_image": "shopify:\/\/shop_images\/B2B_Home_PAGE_banner_desktop_2800_x_1000_1.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Pre-order Limited Edition Toppu now",
-            "title": "OYOY Living AW23",
+            "subheading": "",
+            "title": "",
             "heading_tag": "h0",
             "button_text": "",
             "button_link": "shopify:\/\/collections\/oyoy-pre-order",
@@ -95,6 +94,7 @@
         },
         "5f4d1723-6f66-4121-bd45-d226ea3c804b": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_design_4.png",
             "mobile_image": "shopify:\/\/shop_images\/The_wooden_vintage_walker_wagon_..._was_a_huge_hit_and_was_really_well_made_with_a_touch_of_fun_a_theme_that_runs_through_all_of_Little_Dutch_s_toys._Eleonore_Crompton_Deputy_Editor_J_a71f70eb-178c-480d-b96e-c26146feee15.png",
