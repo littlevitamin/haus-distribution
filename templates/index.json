@@ -3,6 +3,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "9c8ae8fc-56fc-4546-a08e-15b385574ea0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/B2B_Home_PAGE_banner_desktop_2800_x_1000_5.png",
+            "mobile_image": "shopify:\/\/shop_images\/B2B_home_page_banner_MOB_3000_x_3000px_3.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Up to 30% off selected lines",
+            "title": "Little Dutch Toys & Textiles Sale",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "shopify:\/\/collections\/little-dutch-toys-and-textiles-sale",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#1d2f50",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
         "a0d9edd1-98e6-443f-94a3-9723e027bb35": {
           "type": "image",
           "settings": {
@@ -68,35 +90,13 @@
             "background": "",
             "background_gradient": ""
           }
-        },
-        "9c8ae8fc-56fc-4546-a08e-15b385574ea0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/B2B_Home_PAGE_banner_desktop_2800_x_1000_2.png",
-            "mobile_image": "shopify:\/\/shop_images\/B2B_home_page_banner_MOB_3000_x_3000px_1.png",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Up to 30% off selected lines",
-            "title": "Little Dutch Toys & Textiles Sale",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "shopify:\/\/collections\/little-dutch-toys-and-textiles-sale",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#1d2f50",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
         }
       },
       "block_order": [
+        "9c8ae8fc-56fc-4546-a08e-15b385574ea0",
         "a0d9edd1-98e6-443f-94a3-9723e027bb35",
         "slide-1",
-        "5f4d1723-6f66-4121-bd45-d226ea3c804b",
-        "9c8ae8fc-56fc-4546-a08e-15b385574ea0"
+        "5f4d1723-6f66-4121-bd45-d226ea3c804b"
       ],
       "settings": {
         "full_width": false,
