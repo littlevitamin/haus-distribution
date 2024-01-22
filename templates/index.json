@@ -26,28 +26,6 @@
             "background_gradient": ""
           }
         },
-        "cdad8dff-78b9-41c5-94f4-c3579243a895": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Haus_Website_Collection_Banner_Desktop_3200_x_1600_1.png",
-            "mobile_image": "shopify:\/\/shop_images\/B2B_home_page_banner_MOB_3000_x_3000px_2.png",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Now 25% Off",
-            "title": "Winter Clothing",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "shopify:\/\/collections\/christmas-clothing",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
         "a0d9edd1-98e6-443f-94a3-9723e027bb35": {
           "type": "image",
           "settings": {
@@ -117,7 +95,6 @@
       },
       "block_order": [
         "9c8ae8fc-56fc-4546-a08e-15b385574ea0",
-        "cdad8dff-78b9-41c5-94f4-c3579243a895",
         "a0d9edd1-98e6-443f-94a3-9723e027bb35",
         "slide-1",
         "5f4d1723-6f66-4121-bd45-d226ea3c804b"
@@ -735,7 +712,6 @@
         "template--16674772058354__6d07f598-35e8-4886-a458-85778b7d6b59-16820749020d88538e-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/LD8500-MusicMobileGoose_1.jpg",
             "title": "Newborn Essentials",
             "heading_tag": "h4",
             "link_url": "shopify:\/\/collections\/newborn-essentials",
