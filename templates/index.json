@@ -115,6 +115,7 @@
       "blocks": {
         "template--16674772058354__5f812be6-aa51-42f1-9240-6cb6aebdc369-1682066499456772f8-0": {
           "type": "logo",
+          "disabled": true,
           "settings": {
             "logo": "shopify:\/\/shop_images\/aw18-oyoy-living.webp",
             "brand_name": "OYOY",
@@ -464,6 +465,7 @@
         "collection-2",
         "collection-3"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_collections": false,
