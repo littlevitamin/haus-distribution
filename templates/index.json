@@ -416,6 +416,7 @@
       "blocks": {
         "collection-1": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "oyoy-mini",
             "image": "shopify:\/\/shop_images\/Untitled_design_5.png",
@@ -431,6 +432,7 @@
         },
         "collection-2": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "outdoor",
             "image": "shopify:\/\/shop_images\/Untitled_design_6.png",
@@ -446,6 +448,7 @@
         },
         "collection-3": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "gifts",
             "image": "shopify:\/\/shop_images\/Untitled_design_8.png",
