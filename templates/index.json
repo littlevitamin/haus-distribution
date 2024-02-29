@@ -3,6 +3,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "image_aEJVzV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_30_27981a61-7671-49c9-9432-54a61b84da62.png",
+            "mobile_image": "shopify:\/\/shop_images\/Untitled_design_31_3c128b24-8de5-4a11-86d7-93042eb97004.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Now available to order",
+            "title": "New Little Dutch Baby Bunny Collection",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "shopify:\/\/collections\/baby-bunny-collection",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
         "9c8ae8fc-56fc-4546-a08e-15b385574ea0": {
           "type": "image",
           "disabled": true,
@@ -91,36 +113,14 @@
             "background": "",
             "background_gradient": ""
           }
-        },
-        "image_aEJVzV": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled_design_30_27981a61-7671-49c9-9432-54a61b84da62.png",
-            "mobile_image": "shopify:\/\/shop_images\/Untitled_design_31_3c128b24-8de5-4a11-86d7-93042eb97004.png",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Now available to order",
-            "title": "New Little Dutch Baby Bunny Collection",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "shopify:\/\/collections\/baby-bunny-collection",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
         }
       },
       "block_order": [
+        "image_aEJVzV",
         "9c8ae8fc-56fc-4546-a08e-15b385574ea0",
         "a0d9edd1-98e6-443f-94a3-9723e027bb35",
         "slide-1",
-        "5f4d1723-6f66-4121-bd45-d226ea3c804b",
-        "image_aEJVzV"
+        "5f4d1723-6f66-4121-bd45-d226ea3c804b"
       ],
       "settings": {
         "full_width": false,
