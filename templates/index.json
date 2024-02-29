@@ -5,6 +5,7 @@
       "blocks": {
         "image_aEJVzV": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_design_30_27981a61-7671-49c9-9432-54a61b84da62.png",
             "mobile_image": "shopify:\/\/shop_images\/Untitled_design_31_3c128b24-8de5-4a11-86d7-93042eb97004.png",
