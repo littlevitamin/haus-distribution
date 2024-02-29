@@ -214,6 +214,7 @@
     },
     "db438d3f-3685-4616-9f40-70ce55296dd6": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "pre-order",
         "products": [
@@ -267,90 +268,6 @@
         "product_card_text_color": ""
       }
     },
-    "fc50f29b-53aa-40dd-95d5-981c1897b610": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "collection": "christmas-clothing",
-        "products": [
-
-        ],
-        "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_count": 5,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 5,
-        "subheading": "",
-        "title": "SALE - Christmas & Winter Clothing",
-        "content": "",
-        "link_url": "shopify:\/\/collections\/christmas-clothing",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
-    "3e3d8d39-3146-4d21-92db-a3e9f8bc5567": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "collection": "gifting-collection",
-        "products": [
-
-        ],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": false,
-        "products_count": 15,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 5,
-        "subheading": "",
-        "title": "Gifting Collection",
-        "content": "",
-        "link_url": "shopify:\/\/collections\/gifting-collection",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
-    "dfe0e284-9a62-481c-b942-91439f1df3d6": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "collection": "oyoy-pre-order",
-        "products": [
-
-        ],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": false,
-        "products_count": 20,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 5,
-        "subheading": "",
-        "title": "Pre-order OYOY",
-        "content": "",
-        "link_url": "",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
     "159b1d2e-65ee-4a87-a76f-f13a627b3da1": {
       "type": "featured-collection",
       "settings": {
@@ -366,38 +283,6 @@
         "products_per_row_desktop": 5,
         "subheading": "",
         "title": "Little Farm",
-        "content": "",
-        "link_url": "",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
-    "0ba9dbf9-426d-4276-9ee2-e8499c2d4c87": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "collection": "christmas-clothing",
-        "products": [
-          "teddy-one-piece-suit-baby-bunny-sand-50-56",
-          "knitted-christmass-dress-long-sleeves-ruffles-50-56",
-          "bodysuit-my-first-christmas-50-56",
-          "christmas-pyjamas-50-56",
-          "knitted-cardigan-wrap-brown-50-56"
-        ],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": false,
-        "products_count": 20,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 5,
-        "subheading": "",
-        "title": "Christmas & Winter Clothing",
         "content": "",
         "link_url": "",
         "link_text": "View all",
@@ -902,11 +787,7 @@
     "5f812be6-aa51-42f1-9240-6cb6aebdc369",
     "db438d3f-3685-4616-9f40-70ce55296dd6",
     "a663f1a4-059e-4e32-82b0-e4f2a0516bb4",
-    "fc50f29b-53aa-40dd-95d5-981c1897b610",
-    "3e3d8d39-3146-4d21-92db-a3e9f8bc5567",
-    "dfe0e284-9a62-481c-b942-91439f1df3d6",
     "159b1d2e-65ee-4a87-a76f-f13a627b3da1",
-    "0ba9dbf9-426d-4276-9ee2-e8499c2d4c87",
     "f0206c56-488d-41a9-bab8-bcb27fec4a82",
     "collection-list",
     "e749a51b-463d-48d1-9ed4-273c34f498b2",
