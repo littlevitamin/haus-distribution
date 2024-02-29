@@ -5,15 +5,14 @@
       "blocks": {
         "image_aEJVzV": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled_design_30_27981a61-7671-49c9-9432-54a61b84da62.png",
-            "mobile_image": "shopify:\/\/shop_images\/Untitled_design_31_3c128b24-8de5-4a11-86d7-93042eb97004.png",
+            "image": "shopify:\/\/shop_images\/Untitled_design_33.png",
+            "mobile_image": "shopify:\/\/shop_images\/Untitled_design_34.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Now available to order",
-            "title": "New Little Dutch Baby Bunny Collection",
+            "subheading": "Little Dutch Toy Collection",
+            "title": "New Baby Bunny Collection",
             "heading_tag": "h0",
             "button_text": "",
             "button_link": "shopify:\/\/collections\/baby-bunny-collection",
