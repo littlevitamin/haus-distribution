@@ -5,7 +5,6 @@
       "blocks": {
         "image_aEJVzV": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_design_33.png",
             "mobile_image": "shopify:\/\/shop_images\/Untitled_design_34.png",
@@ -214,7 +213,6 @@
     },
     "f04dac1b-fb88-4afb-85cb-f49bfd6fdeef": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "collection": "baby-bunny-collection",
         "products": [
