@@ -25,6 +25,50 @@
             "background_gradient": ""
           }
         },
+        "5f4d1723-6f66-4121-bd45-d226ea3c804b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/the_baby_shower_giftnewborn_keepsake_category_1.png",
+            "mobile_image": "shopify:\/\/shop_images\/Haus_Website_Banner_Mobile_1300x1500_1.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Little Dutch X Miffy",
+            "title": "Silver Winner | Baby Shower Gift \/ Newborn Keepsake Category",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "shopify:\/\/products\/nijn779-little-dutch-x-miffy-vintage-flowers-giftset",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "9c8ae8fc-56fc-4546-a08e-15b385574ea0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/B2B_Home_PAGE_banner_desktop_2800_x_1000_8.png",
+            "mobile_image": "shopify:\/\/shop_images\/Haus_Website_Banner_Mobile_1300x1500_7130b8ad-4aa8-48f6-ba0a-4e1a6da22120.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "We've moved",
+            "title": "The new home of OYOY Living",
+            "heading_tag": "h0",
+            "button_text": "Shop the new B2B",
+            "button_link": "https:\/\/oyoyb2b.myshopify.com\/",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#1d2f50",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
         "a0d9edd1-98e6-443f-94a3-9723e027bb35": {
           "type": "image",
           "settings": {
@@ -68,58 +112,14 @@
             "background": "",
             "background_gradient": ""
           }
-        },
-        "5f4d1723-6f66-4121-bd45-d226ea3c804b": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/the_baby_shower_giftnewborn_keepsake_category.png",
-            "mobile_image": "shopify:\/\/shop_images\/Haus_Website_Banner_Mobile_1300x1500_1.png",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Little Dutch X Miffy",
-            "title": "Silver Winner | Baby Shower Gift \/ Newborn Keepsake Category",
-            "heading_tag": "h1",
-            "button_text": "",
-            "button_link": "shopify:\/\/products\/nijn779-little-dutch-x-miffy-vintage-flowers-giftset",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
-        "9c8ae8fc-56fc-4546-a08e-15b385574ea0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/B2B_Home_PAGE_banner_desktop_2800_x_1000_8.png",
-            "mobile_image": "shopify:\/\/shop_images\/Haus_Website_Banner_Mobile_1300x1500_7130b8ad-4aa8-48f6-ba0a-4e1a6da22120.png",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "We've moved",
-            "title": "The new home of OYOY Living",
-            "heading_tag": "h0",
-            "button_text": "Shop the new B2B",
-            "button_link": "https:\/\/oyoyb2b.myshopify.com\/",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#1d2f50",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
         }
       },
       "block_order": [
         "image_aEJVzV",
-        "a0d9edd1-98e6-443f-94a3-9723e027bb35",
-        "slide-1",
         "5f4d1723-6f66-4121-bd45-d226ea3c804b",
-        "9c8ae8fc-56fc-4546-a08e-15b385574ea0"
+        "9c8ae8fc-56fc-4546-a08e-15b385574ea0",
+        "a0d9edd1-98e6-443f-94a3-9723e027bb35",
+        "slide-1"
       ],
       "settings": {
         "full_width": false,
