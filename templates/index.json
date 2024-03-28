@@ -25,6 +25,29 @@
             "background_gradient": ""
           }
         },
+        "a0d9edd1-98e6-443f-94a3-9723e027bb35": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Little_Dutch_-_Newborn_Naturals_-_Baby_Bunny_31.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Little_Dutch_-_Newborn_Naturals_-_Baby_Bunny_31_bb028c14-f877-4827-8832-ed88cd6afdce.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Now available to pre-order",
+            "title": "New Little Farm & Newborn Naturals Textiles",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "shopify:\/\/collections\/little-farm-newborn-naturals-textiles-collection",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#1d2f50",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
         "image_aEJVzV": {
           "type": "image",
           "settings": {
@@ -90,36 +113,14 @@
             "background": "",
             "background_gradient": ""
           }
-        },
-        "a0d9edd1-98e6-443f-94a3-9723e027bb35": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Little_Dutch_-_Newborn_Naturals_-_Baby_Bunny_31.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Little_Dutch_-_Newborn_Naturals_-_Baby_Bunny_31_bb028c14-f877-4827-8832-ed88cd6afdce.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Now available to pre-order",
-            "title": "New Little Farm & Newborn Naturals Textiles",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "shopify:\/\/collections\/little-farm-newborn-naturals-textiles-collection",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#1d2f50",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
         }
       },
       "block_order": [
         "slide-1",
+        "a0d9edd1-98e6-443f-94a3-9723e027bb35",
         "image_aEJVzV",
         "5f4d1723-6f66-4121-bd45-d226ea3c804b",
-        "9c8ae8fc-56fc-4546-a08e-15b385574ea0",
-        "a0d9edd1-98e6-443f-94a3-9723e027bb35"
+        "9c8ae8fc-56fc-4546-a08e-15b385574ea0"
       ],
       "settings": {
         "full_width": false,
@@ -131,33 +132,6 @@
         "cycle_speed": 6,
         "background": "#ffffff",
         "background_gradient": ""
-      }
-    },
-    "db438d3f-3685-4616-9f40-70ce55296dd6": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "pre-order",
-        "products": [
-
-        ],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": false,
-        "products_count": 5,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 5,
-        "subheading": "",
-        "title": "Little Dutch Pre-order",
-        "content": "",
-        "link_url": "shopify:\/\/collections\/pre-order",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
       }
     },
     "5f812be6-aa51-42f1-9240-6cb6aebdc369": {
@@ -255,6 +229,33 @@
         "title": "Back in Stock",
         "content": "",
         "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "db438d3f-3685-4616-9f40-70ce55296dd6": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "pre-order",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 5,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "subheading": "",
+        "title": "Little Dutch Pre-order",
+        "content": "",
+        "link_url": "shopify:\/\/collections\/pre-order",
         "link_text": "View all",
         "background": "",
         "background_gradient": "",
@@ -780,9 +781,9 @@
   },
   "order": [
     "slideshow",
-    "db438d3f-3685-4616-9f40-70ce55296dd6",
     "5f812be6-aa51-42f1-9240-6cb6aebdc369",
     "a663f1a4-059e-4e32-82b0-e4f2a0516bb4",
+    "db438d3f-3685-4616-9f40-70ce55296dd6",
     "159b1d2e-65ee-4a87-a76f-f13a627b3da1",
     "f04dac1b-fb88-4afb-85cb-f49bfd6fdeef",
     "f0206c56-488d-41a9-bab8-bcb27fec4a82",
