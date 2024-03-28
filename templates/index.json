@@ -319,6 +319,33 @@
         "product_card_text_color": ""
       }
     },
+    "featured_collection_PnJX3J": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "new-in",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Summer Collection Newness",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "f0206c56-488d-41a9-bab8-bcb27fec4a82": {
       "type": "featured-collection",
       "settings": {
@@ -785,6 +812,7 @@
     "db438d3f-3685-4616-9f40-70ce55296dd6",
     "159b1d2e-65ee-4a87-a76f-f13a627b3da1",
     "f04dac1b-fb88-4afb-85cb-f49bfd6fdeef",
+    "featured_collection_PnJX3J",
     "f0206c56-488d-41a9-bab8-bcb27fec4a82",
     "collection-list",
     "e749a51b-463d-48d1-9ed4-273c34f498b2",
