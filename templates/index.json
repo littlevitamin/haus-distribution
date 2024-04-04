@@ -277,7 +277,7 @@
         "stack_products": true,
         "show_progress_bar": false,
         "products_count": 5,
-        "products_per_row_mobile": "2",
+        "products_per_row_mobile": "1",
         "products_per_row_desktop": 3,
         "subheading": "",
         "title": "Summer Collection Newness",
