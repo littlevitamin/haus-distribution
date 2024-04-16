@@ -242,7 +242,7 @@
     "db438d3f-3685-4616-9f40-70ce55296dd6": {
       "type": "featured-collection",
       "settings": {
-        "collection": "pre-order",
+        "collection": "pre-order-collection",
         "products": [
 
         ],
@@ -253,7 +253,7 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 5,
         "subheading": "",
-        "title": "Little Dutch Back in Stock",
+        "title": "Little Dutch Pre-Order",
         "content": "",
         "link_url": "shopify:\/\/collections\/pre-order-collection",
         "link_text": "View all",
