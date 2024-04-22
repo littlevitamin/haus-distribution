@@ -5,18 +5,17 @@
       "blocks": {
         "slide-1": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled_design_92.png",
-            "mobile_image": "shopify:\/\/shop_images\/Untitled_design_92.png",
+            "image": "shopify:\/\/shop_images\/Untitled_design_-_2024-04-22T121559.189.png",
+            "mobile_image": "shopify:\/\/shop_images\/Untitled_design_-_2024-04-22T121723.248.png",
             "content_max_width": 560,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Click for DIY Easter egg cup design",
-            "title": "Happy Easter!",
+            "subheading": "Little Dutch Toy Collection",
+            "title": "Outdoor Summer Adventures",
             "heading_tag": "h0",
             "button_text": "",
-            "button_link": "https:\/\/www.little-dutch.com\/content\/images\/uploaded\/Little-Dutch-eierdopje-kleurplaat-Pasen-DIY.pdf",
+            "button_link": "shopify:\/\/collections\/bikes-scooters",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#1d2f50",
