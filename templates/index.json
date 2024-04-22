@@ -213,7 +213,6 @@
     },
     "a663f1a4-059e-4e32-82b0-e4f2a0516bb4": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "collection": "back-in-stock-little-dutch",
         "products": [
@@ -241,6 +240,7 @@
     },
     "db438d3f-3685-4616-9f40-70ce55296dd6": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "pre-order-collection",
         "products": [
@@ -424,12 +424,27 @@
             "overlay_color": "#000000",
             "overlay_opacity": 30
           }
+        },
+        "collection_j4LkQh": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
         }
       },
       "block_order": [
         "collection-1",
         "collection-2",
-        "collection-3"
+        "collection-3",
+        "collection_j4LkQh"
       ],
       "disabled": true,
       "settings": {
