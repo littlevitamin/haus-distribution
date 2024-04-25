@@ -295,7 +295,7 @@
     "159b1d2e-65ee-4a87-a76f-f13a627b3da1": {
       "type": "featured-collection",
       "settings": {
-        "collection": "mepal-collection",
+        "collection": "swimwear",
         "products": [
 
         ],
@@ -306,9 +306,9 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 5,
         "subheading": "",
-        "title": "Mepal Collection",
+        "title": "Swimwear",
         "content": "",
-        "link_url": "shopify:\/\/collections\/mepal-collection",
+        "link_url": "shopify:\/\/collections\/swimwear",
         "link_text": "View all",
         "background": "",
         "background_gradient": "",
