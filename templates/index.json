@@ -28,16 +28,16 @@
         "a0d9edd1-98e6-443f-94a3-9723e027bb35": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled_design_95_2c54946c-c76d-44d2-a5f0-baf79dbcaeb9.png",
-            "mobile_image": "shopify:\/\/shop_images\/Untitled_design_96_23b9c5b2-1af2-4d1e-b683-7bae698f25b1.png",
+            "image": "shopify:\/\/shop_images\/the_baby_shower_giftnewborn_keepsake_category_6.png",
+            "mobile_image": "shopify:\/\/shop_images\/Untitled_design_-_2024-04-26T103558.710.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Now available to pre-order",
-            "title": "New Wooden Birthday Cake FSC",
+            "subheading": "Get ready for summer",
+            "title": "New swimwear and beach accessories",
             "heading_tag": "h0",
             "button_text": "",
-            "button_link": "shopify:\/\/products\/wooden-birthday-cake-fsc-pink",
+            "button_link": "shopify:\/\/collections\/swimwear",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#1d2f50",
@@ -49,6 +49,7 @@
         },
         "image_aEJVzV": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_design_97_c0fd6404-c61f-48ed-b2d2-9578017ec8d3.png",
             "mobile_image": "shopify:\/\/shop_images\/Untitled_design_98.png",
