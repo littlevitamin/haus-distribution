@@ -321,6 +321,7 @@
     },
     "featured_collection_PnJX3J": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "new-in",
         "products": [
