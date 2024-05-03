@@ -12,7 +12,7 @@
         "show_collection_image": true,
         "collection_title_size": "h1",
         "image_size": "sm",
-        "image": "shopify:\/\/shop_images\/Hello_Hossy.jpg",
+        "image": "shopify:\/\/shop_images\/Untitled_design_-_2024-05-03T134503.891.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "featured_product": "",
@@ -24,7 +24,6 @@
     },
     "548c5b9b-0520-4de2-9bb0-aac43d056e82": {
       "type": "text-with-image-underneath",
-      "disabled": true,
       "blocks": {
         "template--16674772254962__548c5b9b-0520-4de2-9bb0-aac43d056e82-16823418622d7f9f28-0": {
           "type": "subheading",
@@ -43,6 +42,7 @@
         "template--16674772254962__548c5b9b-0520-4de2-9bb0-aac43d056e82-16823418622d7f9f28-0",
         "template--16674772254962__548c5b9b-0520-4de2-9bb0-aac43d056e82-16823418622d7f9f28-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
