@@ -373,6 +373,33 @@
         "product_card_text_color": ""
       }
     },
+    "featured_collection_FzJh6T": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "flowers-butterflies",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 5,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 5,
+        "subheading": "",
+        "title": "Flowers & Butterflies",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
@@ -829,6 +856,7 @@
     "db438d3f-3685-4616-9f40-70ce55296dd6",
     "featured_collection_PnJX3J",
     "f0206c56-488d-41a9-bab8-bcb27fec4a82",
+    "featured_collection_FzJh6T",
     "collection-list",
     "e749a51b-463d-48d1-9ed4-273c34f498b2",
     "958fd2ba-605f-48ae-b321-13924898af81",
