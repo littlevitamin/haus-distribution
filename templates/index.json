@@ -293,9 +293,8 @@
     },
     "featured_collection_FzJh6T": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
-        "collection": "flowers-butterflies",
+        "collection": "sailors-bay",
         "products": [
 
         ],
@@ -306,7 +305,7 @@
         "products_per_row_mobile": "1",
         "products_per_row_desktop": 5,
         "subheading": "",
-        "title": "Flowers & Butterflies",
+        "title": "Sailors Bay",
         "content": "",
         "link_url": "",
         "link_text": "View all",
