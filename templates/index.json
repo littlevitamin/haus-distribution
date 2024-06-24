@@ -14,9 +14,10 @@
       "blocks": {
         "a0d9edd1-98e6-443f-94a3-9723e027bb35": {
           "type": "image",
+          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled_design_-_2024-06-11T140424.945.png",
-            "mobile_image": "shopify:\/\/shop_images\/Untitled_design_-_2024-06-11T140157.688.png",
+            "image": "shopify:\/\/shop_images\/Untitled_design_-_2024-06-24T115626.635.png",
+            "mobile_image": "shopify:\/\/shop_images\/Untitled_design_-_2024-06-24T115735.097.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
