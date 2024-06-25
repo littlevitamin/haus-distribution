@@ -14,7 +14,6 @@
       "blocks": {
         "a0d9edd1-98e6-443f-94a3-9723e027bb35": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_design_-_2024-06-24T115626.635.png",
             "mobile_image": "shopify:\/\/shop_images\/Untitled_design_-_2024-06-24T115735.097.png",
@@ -223,7 +222,6 @@
     },
     "a663f1a4-059e-4e32-82b0-e4f2a0516bb4": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "collection": "back-in-stock",
         "products": [
