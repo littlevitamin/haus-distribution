@@ -249,9 +249,8 @@
     },
     "db438d3f-3685-4616-9f40-70ce55296dd6": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
-        "collection": "pre-order-collection",
+        "collection": "summer-essentials",
         "products": [
 
         ],
