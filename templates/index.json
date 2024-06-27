@@ -34,6 +34,28 @@
             "background_gradient": ""
           }
         },
+        "5f4d1723-6f66-4121-bd45-d226ea3c804b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_-_2024-06-27T115633.947.png",
+            "mobile_image": "shopify:\/\/shop_images\/Haus_Website_Banner_Mobile_1300x1500_3.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Little Dutch",
+            "title": "Summer Beach Essentials",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "shopify:\/\/collections\/pre-order-collection",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
         "slide-1": {
           "type": "image",
           "disabled": true,
@@ -79,28 +101,6 @@
             "background_gradient": ""
           }
         },
-        "5f4d1723-6f66-4121-bd45-d226ea3c804b": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled_design_-_2024-06-27T115633.947.png",
-            "mobile_image": "shopify:\/\/shop_images\/Haus_Website_Banner_Mobile_1300x1500_3.png",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Little Dutch",
-            "title": "Summer Beach Essentials",
-            "heading_tag": "h1",
-            "button_text": "",
-            "button_link": "shopify:\/\/collections\/pre-order-collection",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
         "9c8ae8fc-56fc-4546-a08e-15b385574ea0": {
           "type": "image",
           "settings": {
@@ -126,9 +126,9 @@
       },
       "block_order": [
         "a0d9edd1-98e6-443f-94a3-9723e027bb35",
+        "5f4d1723-6f66-4121-bd45-d226ea3c804b",
         "slide-1",
         "image_aEJVzV",
-        "5f4d1723-6f66-4121-bd45-d226ea3c804b",
         "9c8ae8fc-56fc-4546-a08e-15b385574ea0"
       ],
       "settings": {
