@@ -12,28 +12,6 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "5f4d1723-6f66-4121-bd45-d226ea3c804b": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled_design_-_2024-06-27T120420.250_9d71a57d-41bb-4a0c-b40a-81f9bc13601b.png",
-            "mobile_image": "shopify:\/\/shop_images\/Haus_Website_Banner_Mobile_1300x1500_3.png",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Little Dutch",
-            "title": "Summer Essentials",
-            "heading_tag": "h1",
-            "button_text": "",
-            "button_link": "shopify:\/\/collections\/summer-essentials",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
         "a0d9edd1-98e6-443f-94a3-9723e027bb35": {
           "type": "image",
           "settings": {
@@ -50,6 +28,28 @@
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#1d2f50",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "5f4d1723-6f66-4121-bd45-d226ea3c804b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_-_2024-06-27T120420.250_9d71a57d-41bb-4a0c-b40a-81f9bc13601b.png",
+            "mobile_image": "shopify:\/\/shop_images\/Haus_Website_Banner_Mobile_1300x1500_3.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Little Dutch",
+            "title": "Summer Essentials",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "shopify:\/\/collections\/summer-essentials",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 30,
             "background": "",
@@ -125,8 +125,8 @@
         }
       },
       "block_order": [
-        "5f4d1723-6f66-4121-bd45-d226ea3c804b",
         "a0d9edd1-98e6-443f-94a3-9723e027bb35",
+        "5f4d1723-6f66-4121-bd45-d226ea3c804b",
         "slide-1",
         "image_aEJVzV",
         "9c8ae8fc-56fc-4546-a08e-15b385574ea0"
