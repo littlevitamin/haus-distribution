@@ -220,33 +220,6 @@
         "logo_item_border": ""
       }
     },
-    "featured_collection_PnJX3J": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "summer-essentials",
-        "products": [
-
-        ],
-        "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_count": 5,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 5,
-        "subheading": "",
-        "title": "Summer Essentials",
-        "content": "",
-        "link_url": "",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
     "a663f1a4-059e-4e32-82b0-e4f2a0516bb4": {
       "type": "featured-collection",
       "settings": {
@@ -262,6 +235,33 @@
         "products_per_row_desktop": 5,
         "subheading": "",
         "title": "Back-in-Stock",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "featured_collection_PnJX3J": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "summer-essentials",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 5,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 5,
+        "subheading": "",
+        "title": "Summer Essentials",
         "content": "",
         "link_url": "",
         "link_text": "View all",
@@ -863,8 +863,8 @@
   "order": [
     "slideshow",
     "5f812be6-aa51-42f1-9240-6cb6aebdc369",
-    "featured_collection_PnJX3J",
     "a663f1a4-059e-4e32-82b0-e4f2a0516bb4",
+    "featured_collection_PnJX3J",
     "db438d3f-3685-4616-9f40-70ce55296dd6",
     "159b1d2e-65ee-4a87-a76f-f13a627b3da1",
     "featured_collection_FzJh6T",
