@@ -34,6 +34,29 @@
             "background_gradient": ""
           }
         },
+        "slide-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_-_2024-07-09T105801.888.png",
+            "mobile_image": "shopify:\/\/shop_images\/h_1.png",
+            "content_max_width": 560,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Little Dutch",
+            "title": "Back-to-School Essentials",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "shopify:\/\/collections\/back-to-school",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#1d2f50",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
         "5f4d1723-6f66-4121-bd45-d226ea3c804b": {
           "type": "image",
           "settings": {
@@ -50,28 +73,6 @@
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
-        "slide-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled_design_-_2024-07-09T105801.888.png",
-            "mobile_image": "shopify:\/\/shop_images\/h_1.png",
-            "content_max_width": 560,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Little Dutch",
-            "title": "Back-to-School Essentials",
-            "heading_tag": "h1",
-            "button_text": "",
-            "button_link": "shopify:\/\/collections\/back-to-school",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#1d2f50",
             "overlay_color": "#000000",
             "overlay_opacity": 30,
             "background": "",
@@ -125,8 +126,8 @@
       },
       "block_order": [
         "a0d9edd1-98e6-443f-94a3-9723e027bb35",
-        "5f4d1723-6f66-4121-bd45-d226ea3c804b",
         "slide-1",
+        "5f4d1723-6f66-4121-bd45-d226ea3c804b",
         "image_aEJVzV",
         "9c8ae8fc-56fc-4546-a08e-15b385574ea0"
       ],
