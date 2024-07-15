@@ -220,8 +220,36 @@
         "logo_item_border": ""
       }
     },
+    "f04dac1b-fb88-4afb-85cb-f49bfd6fdeef": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "pre-order",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 5,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "subheading": "",
+        "title": "Pre-Order Newness & Favourites",
+        "content": "",
+        "link_url": "shopify:\/\/collections\/pre-order",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "a663f1a4-059e-4e32-82b0-e4f2a0516bb4": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "back-in-stock",
         "products": [
@@ -348,34 +376,6 @@
         "title": "Sailors Bay",
         "content": "",
         "link_url": "",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
-    "f04dac1b-fb88-4afb-85cb-f49bfd6fdeef": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "collection": "little-farm-summer-clothing",
-        "products": [
-
-        ],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": false,
-        "products_count": 5,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 5,
-        "subheading": "",
-        "title": "Little Farm Summer Clothing",
-        "content": "",
-        "link_url": "shopify:\/\/collections\/little-farm-summer-clothing",
         "link_text": "View all",
         "background": "",
         "background_gradient": "",
@@ -863,12 +863,12 @@
   "order": [
     "slideshow",
     "5f812be6-aa51-42f1-9240-6cb6aebdc369",
+    "f04dac1b-fb88-4afb-85cb-f49bfd6fdeef",
     "a663f1a4-059e-4e32-82b0-e4f2a0516bb4",
     "featured_collection_PnJX3J",
     "db438d3f-3685-4616-9f40-70ce55296dd6",
     "159b1d2e-65ee-4a87-a76f-f13a627b3da1",
     "featured_collection_FzJh6T",
-    "f04dac1b-fb88-4afb-85cb-f49bfd6fdeef",
     "f0206c56-488d-41a9-bab8-bcb27fec4a82",
     "collection-list",
     "e749a51b-463d-48d1-9ed4-273c34f498b2",
