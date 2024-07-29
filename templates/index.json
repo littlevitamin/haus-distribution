@@ -36,6 +36,7 @@
         },
         "a0d9edd1-98e6-443f-94a3-9723e027bb35": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_design_-_2024-07-23T144846.305.png",
             "mobile_image": "shopify:\/\/shop_images\/Untitled_design_-_2024-07-23T145351.829.png",
@@ -221,6 +222,7 @@
     },
     "f04dac1b-fb88-4afb-85cb-f49bfd6fdeef": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "pre-order",
         "products": [
