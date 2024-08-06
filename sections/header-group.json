@@ -17,13 +17,21 @@
         "message": {
           "type": "message",
           "settings": {
+            "text": "Minimum Order £300. Free Shipping on orders over £500",
+            "url": ""
+          }
+        },
+        "message_mfKbqF": {
+          "type": "message",
+          "settings": {
             "text": "Minimum Order £300",
             "url": ""
           }
         }
       },
       "block_order": [
-        "message"
+        "message",
+        "message_mfKbqF"
       ],
       "settings": {
         "enable_sticky": true,
