@@ -17,7 +17,7 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "Free Delivery on Orders £300 & Over",
+            "text": "Minimum Order £300",
             "url": ""
           }
         }
