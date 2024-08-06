@@ -14,6 +14,7 @@
       "blocks": {
         "5f4d1723-6f66-4121-bd45-d226ea3c804b": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Haus_Web_Homepage_banner_2.png",
             "mobile_image": "shopify:\/\/shop_images\/Haus_Banner_Mobile_1.png",
