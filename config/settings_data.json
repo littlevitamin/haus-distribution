@@ -46,7 +46,7 @@
     "show_sold_out_badge": true,
     "show_discount": true,
     "show_forecast": false,
-    "discount_mode": "saving",
+    "discount_mode": "percentage",
     "product_color_display": "swatch",
     "product_image_aspect_ratio": "square",
     "product_info_alignment": "start",
@@ -72,13 +72,6 @@
           "preOrderText": "Pre Order",
           "preOrderButtonBackgroundColor": "",
           "preOrderButtonTextColor": ""
-        }
-      },
-      "5149645339031002760": {
-        "type": "shopify:\/\/apps\/order-limits-minmaxify\/blocks\/app-embed-block\/3acfba32-89f3-4377-ae20-cbb9abc48475",
-        "disabled": false,
-        "settings": {
-          "async": false
         }
       }
     }
