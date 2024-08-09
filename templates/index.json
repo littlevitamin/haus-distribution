@@ -34,6 +34,28 @@
             "background_gradient": ""
           }
         },
+        "image_aEJVzV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_-_2024-08-09T113547.625.png",
+            "mobile_image": "shopify:\/\/shop_images\/Untitled_design_-_2024-08-09T113853.733.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Little Dutch",
+            "title": "New Arrivals & Pre-Order",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "shopify:\/\/collections\/pre-order",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
         "a0d9edd1-98e6-443f-94a3-9723e027bb35": {
           "type": "image",
           "settings": {
@@ -50,28 +72,6 @@
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#1d2f50",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
-        "image_aEJVzV": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled_design_-_2024-07-18T131351.778.png",
-            "mobile_image": "shopify:\/\/shop_images\/Untitled_design_-_2024-07-18T131641.628.png",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Little Dutch",
-            "title": "New Arrivals & Back-in-Stock",
-            "heading_tag": "h1",
-            "button_text": "",
-            "button_link": "shopify:\/\/collections\/back-in-stock",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 30,
             "background": "",
@@ -125,8 +125,8 @@
       },
       "block_order": [
         "5f4d1723-6f66-4121-bd45-d226ea3c804b",
-        "a0d9edd1-98e6-443f-94a3-9723e027bb35",
         "image_aEJVzV",
+        "a0d9edd1-98e6-443f-94a3-9723e027bb35",
         "slide-1",
         "9c8ae8fc-56fc-4546-a08e-15b385574ea0"
       ],
