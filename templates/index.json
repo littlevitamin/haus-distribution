@@ -844,6 +844,7 @@
         "23755b8e-5d01-4e26-9717-96cb30d50d4f",
         "69224aa7-7719-47fd-a370-393c2682635e"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "images_layout": "stacked",
